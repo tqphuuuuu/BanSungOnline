@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\bansungonlineplayercontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h",
+            "d:\\unreal projects\\bansungonline\\source\\bansungonline\\bansungonlineplayercontroller.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\bansungonlineplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

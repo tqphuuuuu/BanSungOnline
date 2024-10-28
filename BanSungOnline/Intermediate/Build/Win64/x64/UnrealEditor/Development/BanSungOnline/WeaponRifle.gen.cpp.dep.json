@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponrifle.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h",
+            "d:\\unreal projects\\bansungonline\\source\\bansungonline\\weapon\\weaponrifle.h",
+            "d:\\unreal projects\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponrifle.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
