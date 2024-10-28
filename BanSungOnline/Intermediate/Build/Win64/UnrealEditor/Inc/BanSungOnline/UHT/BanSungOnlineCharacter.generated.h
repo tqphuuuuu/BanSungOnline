@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BANSUNGONLINE_BanSungOnlineCharacter_generated_h
 
-#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABanSungOnlineCharacter(); \
 	friend struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ABanSungOnlineCharacter)
 
 
-#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABanSungOnlineCharacter(ABanSungOnlineCharacter&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~ABanSungOnlineCharacter();
 
 
-#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_9_PROLOG
-#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_GENERATED_BODY \
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_9_PROLOG
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class ABanSungOnlineCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h
+#define CURRENT_FILE_ID FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -11,6 +11,7 @@
     <None Include="..\..\Source\BanSungOnlineEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -58,6 +59,42 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\BanSungOnline\BanSungOnlinePlayerController.h">
       <Filter>Source\BanSungOnline</Filter>
+    </ClInclude>
+    <Filter Include="Source\BanSungOnline\Projectitle">
+      <UniqueIdentifier>{48DA855F-9AD2-3EBA-99EB-90C6E3839828}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.cpp">
+      <Filter>Source\BanSungOnline\Projectitle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.h">
+      <Filter>Source\BanSungOnline\Projectitle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.cpp">
+      <Filter>Source\BanSungOnline\Projectitle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.h">
+      <Filter>Source\BanSungOnline\Projectitle</Filter>
+    </ClInclude>
+    <Filter Include="Source\BanSungOnline\Weapon">
+      <UniqueIdentifier>{4A489085-B748-3085-A4A0-754D4808EF7B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BanSungOnline\Weapon\Weapon.cpp">
+      <Filter>Source\BanSungOnline\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Weapon\Weapon.h">
+      <Filter>Source\BanSungOnline\Weapon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponPistol.cpp">
+      <Filter>Source\BanSungOnline\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Weapon\WeaponPistol.h">
+      <Filter>Source\BanSungOnline\Weapon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponRifle.cpp">
+      <Filter>Source\BanSungOnline\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Weapon\WeaponRifle.h">
+      <Filter>Source\BanSungOnline\Weapon</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

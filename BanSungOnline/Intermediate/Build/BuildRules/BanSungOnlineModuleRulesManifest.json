@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal Projects\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
-		"D:\\Unreal Projects\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
-		"D:\\Unreal Projects\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs"
+		"C:\\Users\\TQPhuuuuu\\Desktop\\GameOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
+		"C:\\Users\\TQPhuuuuu\\Desktop\\GameOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
+		"C:\\Users\\TQPhuuuuu\\Desktop\\GameOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs"
 	],
-	"EngineVersion": "5.4.2"
+	"EngineVersion": "5.4.4"
 }

@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Projectitle/BP_Projectitle_Pistol.uasset",
+				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
+				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
+				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Weapon/BP_WeaponPistol.uasset",
+				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Weapon/BP_WeaponRifle.uasset",
 				"D:/Unreal Projects/BanSungOnline/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"D:/Unreal Projects/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
 				"D:/Unreal Projects/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
