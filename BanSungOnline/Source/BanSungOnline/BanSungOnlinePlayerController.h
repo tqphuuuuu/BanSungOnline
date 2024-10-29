@@ -49,13 +49,13 @@ public:
     UInputAction* MoveAction;
 
 	// Tạo key board
-	/*
+
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
 	UInputAction* Key_BoardPisol;
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
 	UInputAction* Key_BoardRifle;
 
-	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
+	/*UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
 	UInputAction* keyBoardReloadAmmo;*/
 
 	UFUNCTION(Server, Unreliable)
@@ -82,10 +82,10 @@ protected:
 	void OnTouchTriggered();
 	void OnTouchReleased();
 	void OnMouseButtonReleased();
-	void OnMoveAction(const FInputActionValue& Value);/*
+	void OnMoveAction(const FInputActionValue& Value);
 	void OnKeyBoard_Pistol(const FInputActionValue& Value);
 	void OnKeyBoard_Rifle(const FInputActionValue& Value);
-	void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);*/
+	//void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);
 
 	bool ShootOneByOne;
 	bool bCanFireRifle = true;

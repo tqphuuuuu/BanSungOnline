@@ -13,6 +13,8 @@
 #include "Engine/LocalPlayer.h"
 #include "Kismet/GameplayStatics.h"
 #include "Weapon/Weapon.h"
+#include "Weapon/WeaponPistol.h"
+#include "Weapon/WeaponRifle.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -89,6 +91,10 @@ void ABanSungOnlinePlayerController::SetupInputComponent()
 
 		// Move W S A D
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnMoveAction);
+
+		
+		EnhancedInputComponent->BindAction(Key_BoardPisol, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnKeyBoard_Pistol);
+		EnhancedInputComponent->BindAction(Key_BoardRifle, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnKeyBoard_Rifle);
 		
 	}
 	else
@@ -153,7 +159,6 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		{
 			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
 			{
-				UKismetSystemLibrary::PrintString(this,"hehe1");
 				WeaponFiring(SelectedWeapon);
 				bCanFireRifle = false;
 				GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this](){bCanFireRifle = true;}, 0.25f, false);
@@ -163,7 +168,6 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		{
 			if (!ShootOneByOne)
 			{
-				UKismetSystemLibrary::PrintString(this,"hehe2");
 				WeaponFiring(SelectedWeapon);
 				ShootOneByOne = true;
 			}
@@ -224,4 +228,56 @@ void ABanSungOnlinePlayerController::OnMoveAction(const FInputActionValue& Value
 		GetPawn()->AddMovementInput(ForwardDirection, MovementVector.Y);
 		GetPawn()->AddMovementInput(RightDirection, MovementVector.X);
 	}
+}
+
+void ABanSungOnlinePlayerController::OnKeyBoard_Pistol(const FInputActionValue& Value)
+{
+	// Log để kiểm tra xem phím bàn phím có được nhấn hay không
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetCharacter());
+	
+	if (MyCharacter)
+	{
+		MyCharacter->ShowWeapon(0);
+		/*ShowWBCountBullet.Broadcast();*/
+		MyCharacter->Cur_weapon = 0;
+		auto Weapon_Array = MyCharacter->Weapons;
+		for (auto i:Weapon_Array)
+		{
+			if (Cast<AWeaponPistol>(i))
+			{
+				MyCharacter->CurrentWeapon = i;
+				break;
+			}
+		}
+		
+	}
+		
+}
+
+void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& Value)
+{
+	// Log để kiểm tra xem phím bàn phím có được nhấn hay không
+
+
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetCharacter());
+	
+	
+
+	if (MyCharacter)
+	{
+		MyCharacter->ShowWeapon(1);
+		/*ShowWBCountBullet.Broadcast();*/
+		MyCharacter->Cur_weapon = 1;
+		auto Weapon_Array = MyCharacter->Weapons;
+		for (auto i:Weapon_Array)
+		{
+			if (Cast<AWeaponRifle>(i))
+			{
+				MyCharacter->CurrentWeapon = i;
+				break;
+			}
+		}
+		
+	}
+		
 }

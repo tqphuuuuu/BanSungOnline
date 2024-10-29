@@ -114,9 +114,9 @@ void ABanSungOnlineCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
 			int WeapontCout = Weapons.Num();
 			//UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Số lượng vũ khí trong mảng: %d"), WeapontCout), true, true, FLinearColor::Green, 2.0f);
 	
-			/*
+			
 			Weapon->SetActorHiddenInGame(true);
-			PrintAllWeaponsInArray();*/
+			PrintAllWeaponsInArray();
 		}
 	}
 }
@@ -137,13 +137,13 @@ void ABanSungOnlineCharacter::PrintAllWeaponsInArray()
 		{
 			// In ra tên của vũ khí
 			FString WeaponName = Weapon->GetName();
-			//  UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Vũ khí: %s"), *WeaponName), true, true, FLinearColor::Yellow, 2.0f);
+			UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Vũ khí: %s"), *WeaponName), true, true, FLinearColor::Yellow, 2.0f);
 		}
 	}
 
 	// In ra số lượng vũ khí trong mảng
 	int WeaponCount = Weapons.Num();
-	// UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Tổng số vũ khí trong mảng: %d"), WeaponCount), true, true, FLinearColor::Blue, 2.0f);
+	UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Tổng số vũ khí trong mảng: %d"), WeaponCount), true, true, FLinearColor::Blue, 2.0f);
 }
 ///	Hàm Show Vũ khí
 void ABanSungOnlineCharacter::ShowWeapon(int32 Type)

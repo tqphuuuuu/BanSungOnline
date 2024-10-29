@@ -45,6 +45,10 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Weapon");
 	AWeapon* CurrentWeapon;
 
+	// Biến hiện UI
+	UPROPERTY(BlueprintReadOnly)
+	int Cur_weapon = 0;
+
 private:
 	/** Top down camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
