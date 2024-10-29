@@ -9,10 +9,15 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AWeapon;
 #ifdef BANSUNGONLINE_BanSungOnlineCharacter_generated_h
 #error "BanSungOnlineCharacter.generated.h already included, missing '#pragma once' in BanSungOnlineCharacter.h"
 #endif
 #define BANSUNGONLINE_BanSungOnlineCharacter_generated_h
+
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execIsWeaponVisible);
+
 
 #define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -20,7 +25,13 @@ private: \
 	friend struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics; \
 public: \
 	DECLARE_CLASS(ABanSungOnlineCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BanSungOnline"), NO_API) \
-	DECLARE_SERIALIZER(ABanSungOnlineCharacter)
+	DECLARE_SERIALIZER(ABanSungOnlineCharacter) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		Mouse=NETFIELD_REP_START, \
+		NETFIELD_REP_END=Mouse	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_ENHANCED_CONSTRUCTORS \
@@ -39,6 +50,7 @@ public: \
 #define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \

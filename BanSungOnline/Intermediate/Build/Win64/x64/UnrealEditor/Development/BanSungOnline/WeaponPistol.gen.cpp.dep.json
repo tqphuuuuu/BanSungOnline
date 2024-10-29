@@ -7,6 +7,10 @@
         "Includes": [
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h",
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weaponpistol.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weapon.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle.generated.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h",
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponpistol.generated.h"
         ],
         "ImportedModules": [],

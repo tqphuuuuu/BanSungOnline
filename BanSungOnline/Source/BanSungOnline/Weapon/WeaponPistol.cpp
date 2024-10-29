@@ -9,6 +9,12 @@ AWeaponPistol::AWeaponPistol()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	
+	Damage = 10.0f;
+    Ammo= 45;
+    CurrentAmmo = 15;
+    MaxAmmo = 15;
+    Type = 0;
 }
 
 // Called when the game starts or when spawned

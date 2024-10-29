@@ -283,9 +283,11 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.h"/>
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.cpp" />
     <ClCompile Include="..\..\Source\BanSungOnline\Weapon\Weapon.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.h" />
     <ClInclude Include="..\..\Source\BanSungOnline\Weapon\Weapon.h"/>
     <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponPistol.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

@@ -9,6 +9,9 @@
 // Sets default values
 AProjectitle::AProjectitle()
 {
+	bReplicates = true;
+	
+
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
@@ -34,3 +37,9 @@ void AProjectitle::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+void AProjectitle::ProjectitleFly(FVector& JerryPosition)
+{
+	FVector  Temp = (JerryPosition - GetActorLocation());
+	Temp.Normalize();
+	Velocity = Temp * SpeedAmmo;
+}

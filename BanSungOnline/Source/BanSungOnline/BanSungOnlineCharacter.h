@@ -13,7 +13,11 @@ class ABanSungOnlineCharacter : public ACharacter
 
 public:
 	ABanSungOnlineCharacter();
+	
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override; 
+	TArray<class AWeapon*> Weapons;
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
 
@@ -21,6 +25,25 @@ public:
 	FORCEINLINE class UCameraComponent* GetTopDownCameraComponent() const { return TopDownCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+	void AddWeapon(AWeapon* NewWeapon);  // Hàm thêm vũ khí
+
+	UPROPERTY(Replicated)
+	FVector Mouse;
+
+	void InitializeWeaponClasses();
+
+	void PrintAllWeaponsInArray();
+
+	void ShowWeapon(int32 Type);
+	TSubclassOf<AWeapon> GetCurrentWeaponClass();
+
+	//Kiểm tra hiển thị của súng
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	bool IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass);
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Weapon");
+	AWeapon* CurrentWeapon;
 
 private:
 	/** Top down camera */

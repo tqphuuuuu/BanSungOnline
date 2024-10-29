@@ -7,7 +7,20 @@
         "Includes": [
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h",
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weapon.h",
-            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h"
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle.generated.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle_pistol.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle_pistol.generated.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle_rifle.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle_rifle.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

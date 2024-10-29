@@ -21,6 +21,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Coli")
 	class USphereComponent* SphereComponent;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
+	float SpeedAmmo;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gun Properties")
+	float Damage;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -28,4 +34,9 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void ProjectitleFly(FVector& JerryPosition);
+	FVector Velocity = {0.f,0.f,0.f};
+	
+
 };

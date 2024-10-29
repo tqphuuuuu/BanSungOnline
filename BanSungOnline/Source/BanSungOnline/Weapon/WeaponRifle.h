@@ -3,11 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Weapon.h"
 #include "GameFramework/Actor.h"
 #include "WeaponRifle.generated.h"
 
 UCLASS()
-class BANSUNGONLINE_API AWeaponRifle : public AActor
+class BANSUNGONLINE_API AWeaponRifle : public AWeapon
 {
 	GENERATED_BODY()
 

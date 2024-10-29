@@ -9,6 +9,10 @@
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\bansungonlineplayercontroller.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weapon.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle.generated.h",
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h",
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\bansungonlineplayercontroller.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\aimodule\\classes\\blueprint\\aiblueprinthelperlibrary.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiblueprinthelperlibrary.generated.h",
@@ -112,7 +116,16 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\playermappablekeyslot.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\playermappablekeyslot.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h"
+            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

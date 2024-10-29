@@ -11,11 +11,14 @@
 #include "InputActionValue.h"
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
+#include "Kismet/GameplayStatics.h"
+#include "Weapon/Weapon.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
 ABanSungOnlinePlayerController::ABanSungOnlinePlayerController()
 {
+	bReplicates = true;
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Default;
 	CachedDestination = FVector::ZeroVector;
@@ -36,6 +39,35 @@ void ABanSungOnlinePlayerController::BeginPlay()
 	}
 }
 
+void ABanSungOnlinePlayerController::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+
+	if (!HasAuthority())
+	{
+		FHitResult HitResult;
+		GetHitResultUnderCursorByChannel(ETraceTypeQuery::TraceTypeQuery1, false, HitResult);
+		FVector MouseLocation = HitResult.Location;
+
+		// Gọi Server_Test từ client và truyền MouseLocation vào
+		Server_Test(MouseLocation);
+	}
+	
+}
+void ABanSungOnlinePlayerController::Server_Test_Implementation(FVector MouseLocation)
+{
+	ABanSungOnlineCharacter* CharacterPlayer = Cast<ABanSungOnlineCharacter>(GetPawn());
+	if(IsValid(CharacterPlayer))
+	{
+		CharacterPlayer->Mouse = MouseLocation;
+	}
+}
+
+void ABanSungOnlinePlayerController::WeaponFiring_Implementation(AWeapon* Weapon)
+{
+	Weapon->Fire(DirectionMouse);
+}
+
 void ABanSungOnlinePlayerController::SetupInputComponent()
 {
 	// set up gameplay key bindings
@@ -51,21 +83,13 @@ void ABanSungOnlinePlayerController::SetupInputComponent()
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent))
 	{
 		// Setup mouse input events
-        		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnSetDestinationTriggered);
-        		//EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &ABanSungOFFLINE_CPlusPlayerController::OnMouseReleased);
-        
-        		/*
-        		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &ATestPlayerController::OnShooting);
-        
-        
-        		InputComponent->BindAction("Mouse Click", IE_Released, this, &ATestPlayerController::OnMouseButtonReleased);
-        		*/
-        	
-        
-        
-        		// Move W S A D
-        		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnMoveAction);
+		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnSetDestinationTriggered);
+		InputComponent->BindAction("Mouse Click", IE_Released, this, &ABanSungOnlinePlayerController::OnMouseButtonReleased);
+		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &ABanSungOnlinePlayerController::OnShooting);
 
+		// Move W S A D
+		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnMoveAction);
+		
 	}
 	else
 	{
@@ -76,6 +100,13 @@ void ABanSungOnlinePlayerController::SetupInputComponent()
 void ABanSungOnlinePlayerController::OnInputStarted()
 {
 	StopMovement();
+}
+
+void ABanSungOnlinePlayerController::OnMouseButtonReleased()
+{
+	// Code xử lý khi nút chuột được thả
+	bIsShooting = false;
+	UKismetSystemLibrary::PrintString(this,"hehsehcsc");
 }
 
 // Triggered every frame when the input is held down
@@ -102,14 +133,53 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		CachedDestination = Hit.Location;
 	}
 	
-	// Move towards mouse pointer or touch
-	APawn* ControlledPawn = GetPawn();
-	if (ControlledPawn != nullptr)
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
+
+	if (!MyCharacter) return;
+
+	AWeapon* SelectedWeapon = nullptr;
+	for (AWeapon* Weapon : MyCharacter->Weapons)
 	{
-		FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
-		ControlledPawn->AddMovementInput(WorldDirection, 1.0, false);
+		if (Weapon && MyCharacter->IsWeaponVisible(Weapon->GetClass()))
+		{
+			SelectedWeapon = Weapon;
+			break;
+		}
+	}
+
+	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1)
+	{
+		if (SelectedWeapon->Type == 1 && !isReloading)  // Rifle
+		{
+			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
+			{
+				UKismetSystemLibrary::PrintString(this,"hehe1");
+				WeaponFiring(SelectedWeapon);
+				bCanFireRifle = false;
+				GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this](){bCanFireRifle = true;}, 0.25f, false);
+			}
+		}
+		else if (SelectedWeapon->Type == 0 && !isReloading )  // Pistol
+		{
+			if (!ShootOneByOne)
+			{
+				UKismetSystemLibrary::PrintString(this,"hehe2");
+				WeaponFiring(SelectedWeapon);
+				ShootOneByOne = true;
+			}
+		}
+	}
+	else
+	{
+		FireShooting = false;
 	}
 }
+
+void ABanSungOnlinePlayerController::OnShooting()
+{
+	ShootOneByOne = false;
+}
+
 
 void ABanSungOnlinePlayerController::OnSetDestinationReleased()
 {
@@ -120,7 +190,6 @@ void ABanSungOnlinePlayerController::OnSetDestinationReleased()
 		UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, CachedDestination);
 		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, FXCursor, CachedDestination, FRotator::ZeroRotator, FVector(1.f, 1.f, 1.f), true, true, ENCPoolMethod::None, true);
 	}
-
 	FollowTime = 0.f;
 }
 

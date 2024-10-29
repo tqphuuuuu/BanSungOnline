@@ -12,6 +12,8 @@ void EmptyLinkFunctionForGeneratedCodeBanSungOnlinePlayerController() {}
 // Begin Cross Module References
 BANSUNGONLINE_API UClass* Z_Construct_UClass_ABanSungOnlinePlayerController();
 BANSUNGONLINE_API UClass* Z_Construct_UClass_ABanSungOnlinePlayerController_NoRegister();
+BANSUNGONLINE_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
@@ -19,9 +21,119 @@ NIAGARA_API UClass* Z_Construct_UClass_UNiagaraSystem_NoRegister();
 UPackage* Z_Construct_UPackage__Script_BanSungOnline();
 // End Cross Module References
 
+// Begin Class ABanSungOnlinePlayerController Function Server_Test
+struct BanSungOnlinePlayerController_eventServer_Test_Parms
+{
+	FVector MouseLocation;
+};
+static FName NAME_ABanSungOnlinePlayerController_Server_Test = FName(TEXT("Server_Test"));
+void ABanSungOnlinePlayerController::Server_Test(FVector MouseLocation)
+{
+	BanSungOnlinePlayerController_eventServer_Test_Parms Parms;
+	Parms.MouseLocation=MouseLocation;
+	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_Server_Test),&Parms);
+}
+struct Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/*\n\x09UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess=\"true\"))\n\x09UInputAction* Key_BoardPisol;\n\x09UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess=\"true\"))\n\x09UInputAction* Key_BoardRifle;\n\n\x09UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess=\"true\"))\n\x09UInputAction* keyBoardReloadAmmo;*/" },
+#endif
+		{ "ModuleRelativePath", "BanSungOnlinePlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess=\"true\"))\nUInputAction* Key_BoardPisol;\nUPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess=\"true\"))\nUInputAction* Key_BoardRifle;\n\nUPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess=\"true\"))\nUInputAction* keyBoardReloadAmmo;" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_MouseLocation;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::NewProp_MouseLocation = { "MouseLocation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BanSungOnlinePlayerController_eventServer_Test_Parms, MouseLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::NewProp_MouseLocation,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlinePlayerController, nullptr, "Server_Test", nullptr, nullptr, Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::PropPointers), sizeof(BanSungOnlinePlayerController_eventServer_Test_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00A20C40, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::Function_MetaDataParams) };
+static_assert(sizeof(BanSungOnlinePlayerController_eventServer_Test_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABanSungOnlinePlayerController::execServer_Test)
+{
+	P_GET_STRUCT(FVector,Z_Param_MouseLocation);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->Server_Test_Implementation(Z_Param_MouseLocation);
+	P_NATIVE_END;
+}
+// End Class ABanSungOnlinePlayerController Function Server_Test
+
+// Begin Class ABanSungOnlinePlayerController Function WeaponFiring
+struct BanSungOnlinePlayerController_eventWeaponFiring_Parms
+{
+	AWeapon* Weapon;
+};
+static FName NAME_ABanSungOnlinePlayerController_WeaponFiring = FName(TEXT("WeaponFiring"));
+void ABanSungOnlinePlayerController::WeaponFiring(AWeapon* Weapon)
+{
+	BanSungOnlinePlayerController_eventWeaponFiring_Parms Parms;
+	Parms.Weapon=Weapon;
+	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_WeaponFiring),&Parms);
+}
+struct Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BanSungOnlinePlayerController.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Weapon;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::NewProp_Weapon = { "Weapon", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BanSungOnlinePlayerController_eventWeaponFiring_Parms, Weapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::NewProp_Weapon,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlinePlayerController, nullptr, "WeaponFiring", nullptr, nullptr, Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::PropPointers), sizeof(BanSungOnlinePlayerController_eventWeaponFiring_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00220C40, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::Function_MetaDataParams) };
+static_assert(sizeof(BanSungOnlinePlayerController_eventWeaponFiring_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABanSungOnlinePlayerController::execWeaponFiring)
+{
+	P_GET_OBJECT(AWeapon,Z_Param_Weapon);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->WeaponFiring_Implementation(Z_Param_Weapon);
+	P_NATIVE_END;
+}
+// End Class ABanSungOnlinePlayerController Function WeaponFiring
+
 // Begin Class ABanSungOnlinePlayerController
 void ABanSungOnlinePlayerController::StaticRegisterNativesABanSungOnlinePlayerController()
 {
+	UClass* Class = ABanSungOnlinePlayerController::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "Server_Test", &ABanSungOnlinePlayerController::execServer_Test },
+		{ "WeaponFiring", &ABanSungOnlinePlayerController::execWeaponFiring },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ABanSungOnlinePlayerController);
 UClass* Z_Construct_UClass_ABanSungOnlinePlayerController_NoRegister()
@@ -109,6 +221,11 @@ struct Z_Construct_UClass_ABanSungOnlinePlayerController_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test, "Server_Test" }, // 1886102052
+		{ &Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring, "WeaponFiring" }, // 359679898
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABanSungOnlinePlayerController>::IsAbstract,
 	};
@@ -139,11 +256,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ABanSungOnlinePlayerCon
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::PropPointers),
 	0,
 	0x008002A4u,
@@ -169,10 +286,10 @@ ABanSungOnlinePlayerController::~ABanSungOnlinePlayerController() {}
 struct Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlinePlayerController, ABanSungOnlinePlayerController::StaticClass, TEXT("ABanSungOnlinePlayerController"), &Z_Registration_Info_UClass_ABanSungOnlinePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlinePlayerController), 3613761040U) },
+		{ Z_Construct_UClass_ABanSungOnlinePlayerController, ABanSungOnlinePlayerController::StaticClass, TEXT("ABanSungOnlinePlayerController"), &Z_Registration_Info_UClass_ABanSungOnlinePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlinePlayerController), 4086782183U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_1683020603(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_23074567(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

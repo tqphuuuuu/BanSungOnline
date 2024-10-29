@@ -10,9 +10,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWeaponPistol() {}
 
 // Begin Cross Module References
+BANSUNGONLINE_API UClass* Z_Construct_UClass_AWeapon();
 BANSUNGONLINE_API UClass* Z_Construct_UClass_AWeaponPistol();
 BANSUNGONLINE_API UClass* Z_Construct_UClass_AWeaponPistol_NoRegister();
-ENGINE_API UClass* Z_Construct_UClass_AActor();
 UPackage* Z_Construct_UPackage__Script_BanSungOnline();
 // End Cross Module References
 
@@ -40,7 +40,7 @@ struct Z_Construct_UClass_AWeaponPistol_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 UObject* (*const Z_Construct_UClass_AWeaponPistol_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_AActor,
+	(UObject* (*)())Z_Construct_UClass_AWeapon,
 	(UObject* (*)())Z_Construct_UPackage__Script_BanSungOnline,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AWeaponPistol_Statics::DependentSingletons) < 16);
@@ -79,10 +79,10 @@ AWeaponPistol::~AWeaponPistol() {}
 struct Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWeaponPistol, AWeaponPistol::StaticClass, TEXT("AWeaponPistol"), &Z_Registration_Info_UClass_AWeaponPistol, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponPistol), 198143042U) },
+		{ Z_Construct_UClass_AWeaponPistol, AWeaponPistol::StaticClass, TEXT("AWeaponPistol"), &Z_Registration_Info_UClass_AWeaponPistol, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponPistol), 684873771U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_871738036(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_4088096050(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

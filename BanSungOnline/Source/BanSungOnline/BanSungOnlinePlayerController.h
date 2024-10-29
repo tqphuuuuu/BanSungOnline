@@ -6,6 +6,7 @@
 #include "Templates/SubclassOf.h"
 #include "GameFramework/PlayerController.h"
 #include "InputActionValue.h"
+#include "Weapon/Weapon.h"
 #include "BanSungOnlinePlayerController.generated.h"
 
 /** Forward declaration to improve compiling times */
@@ -47,6 +48,22 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
     UInputAction* MoveAction;
 
+	// Tạo key board
+	/*
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
+	UInputAction* Key_BoardPisol;
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
+	UInputAction* Key_BoardRifle;
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
+	UInputAction* keyBoardReloadAmmo;*/
+
+	UFUNCTION(Server, Unreliable)
+	void Server_Test(FVector MouseLocation);
+
+	UFUNCTION(Server,Unreliable)
+	void WeaponFiring(AWeapon* Weapon);
+	
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
@@ -56,13 +73,29 @@ protected:
 	// To add mapping context
 	virtual void BeginPlay();
 
+	virtual void Tick(float DeltaSeconds);
+
 	/** Input handlers for SetDestination action. */
 	void OnInputStarted();
 	void OnSetDestinationTriggered();
 	void OnSetDestinationReleased();
 	void OnTouchTriggered();
 	void OnTouchReleased();
-	void OnMoveAction(const FInputActionValue& Value);
+	void OnMouseButtonReleased();
+	void OnMoveAction(const FInputActionValue& Value);/*
+	void OnKeyBoard_Pistol(const FInputActionValue& Value);
+	void OnKeyBoard_Rifle(const FInputActionValue& Value);
+	void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);*/
+
+	bool ShootOneByOne;
+	bool bCanFireRifle = true;
+	bool isReloading = false;
+	bool FireShooting = false;
+	FVector DirectionMouse;
+	FTimerHandle RifleFireTimerHandle;
+	bool bIsShooting = false;
+	void OnShooting ();
+
 	
 
 private:
