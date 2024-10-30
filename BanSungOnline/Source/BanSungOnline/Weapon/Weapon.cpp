@@ -68,28 +68,17 @@ void AWeapon::Fire(FVector JerryPosition)
 	{
 		// Thực hiện bắn đạn Pistol
 		FTransform x = GunMesh->GetSocketTransform("Socket_Point");
-		//UKismetSystemLibrary::PrintString(this, x.GetLocation().ToString());
-
 		AProjectitle_Pistol* Jerry = GetWorld()->SpawnActor<AProjectitle_Pistol>(ProjectitlesClass, x);
-		FVector Temp = (JerryPosition - GetActorLocation());
-		Temp.Normalize();
-		Jerry->Velocity = Temp * SpeedAmmo;
 		Jerry->ProjectitleFly(JerryPosition);
-		CurrentAmmo --;
-		UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Current Ammo: %d"), static_cast<int32>(CurrentAmmo)), true, true, FLinearColor::Yellow, 2.0f);
-
-		
 	}
 	else
 	{
 		if (Type == 1)
 		{
+
 			FTransform x = GunMesh->GetSocketTransform("Socket_Point");
 			AProjectitle_Rifle* Jerry = GetWorld()->SpawnActor<AProjectitle_Rifle>(ProjectitlesClass, x);
 			Jerry->ProjectitleFly(JerryPosition);
-			CurrentAmmo --;
-			UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Current Ammo: %d"), static_cast<int32>(CurrentAmmo)), true, true, FLinearColor::Yellow, 2.0f);
-
 		}
 	}
 	CurrentAmmo--;

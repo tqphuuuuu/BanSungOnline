@@ -7,6 +7,7 @@
 
 #include "BanSungOnline/BanSungOnlineCharacter.h"
 #include "Components/SphereComponent.h"
+#include "Net/UnrealNetwork.h"
 
 
 // Sets default values
@@ -38,23 +39,18 @@ void AProjectitle::BeginPlay()
 void AProjectitle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	Velocity.Z=0.f;
 	SetActorLocation(GetActorLocation() + Velocity);
-	
-	TArray<AActor*> FoundActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABanSungOnlineCharacter::StaticClass(), FoundActors);
-	/*if ((FoundActors[0]->GetActorLocation() - GetActorLocation()).SquaredLength() > 1000000007)
-	{
+	FVector Temp = {1000.f, 1810.f, 92.f};
+	if ((GetActorLocation() - Temp).SquaredLength() > 1000000)
 		Destroy();
-	}*/
 }
 
 void AProjectitle::ProjectitleFly(FVector& JerryPosition)
 {
-	FVector  Temp = (JerryPosition - GetActorLocation());
+	FVector Temp = (JerryPosition - GetActorLocation());
 	Temp.Normalize();
 	Velocity = Temp * SpeedAmmo;
+	UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(SpeedAmmo));
 }
 
 // Hàm được gọi khi viên đạn va chạm với một đối tượng khác
@@ -76,4 +72,10 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 
 	// Nếu muốn viên đạn bị phá hủy sau khi va chạm với bất kỳ đối tượng nào
 	// Destroy();*/
+}
+
+void AProjectitle::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(AProjectitle, Velocity);
 }

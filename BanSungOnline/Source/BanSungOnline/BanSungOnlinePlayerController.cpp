@@ -239,7 +239,7 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Pistol(const FInputActionValue& 
 	{
 		MyCharacter->ShowWeapon(0);
 		/*ShowWBCountBullet.Broadcast();*/
-		MyCharacter->Cur_weapon = 0;
+		//MyCharacter->Cur_weapon = 0;
 		auto Weapon_Array = MyCharacter->Weapons;
 		for (auto i:Weapon_Array)
 		{
@@ -267,7 +267,7 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& V
 	{
 		MyCharacter->ShowWeapon(1);
 		/*ShowWBCountBullet.Broadcast();*/
-		MyCharacter->Cur_weapon = 1;
+		//MyCharacter->Cur_weapon = 1;
 		auto Weapon_Array = MyCharacter->Weapons;
 		for (auto i:Weapon_Array)
 		{

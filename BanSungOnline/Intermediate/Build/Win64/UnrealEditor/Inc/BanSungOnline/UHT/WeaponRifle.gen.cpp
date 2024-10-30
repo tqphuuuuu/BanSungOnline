@@ -76,14 +76,14 @@ AWeaponRifle::~AWeaponRifle() {}
 // End Class AWeaponRifle
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWeaponRifle, AWeaponRifle::StaticClass, TEXT("AWeaponRifle"), &Z_Registration_Info_UClass_AWeaponRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponRifle), 3704710121U) },
+		{ Z_Construct_UClass_AWeaponRifle, AWeaponRifle::StaticClass, TEXT("AWeaponRifle"), &Z_Registration_Info_UClass_AWeaponRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponRifle), 1307495277U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_628348240(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_4225096177(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponRifle_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

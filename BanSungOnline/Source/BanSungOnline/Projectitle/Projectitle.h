@@ -36,10 +36,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void ProjectitleFly(FVector& JerryPosition);
+
+	UPROPERTY(Replicated)
 	FVector Velocity = {0.f,0.f,0.f};
 	
 	UFUNCTION()
 	void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 		int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-	
+
+	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 };

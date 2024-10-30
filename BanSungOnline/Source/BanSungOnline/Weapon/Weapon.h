@@ -35,6 +35,7 @@ public:
 	float MaxAmmo;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
 	float CurrentAmmo;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
 	float SpeedAmmo;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
