@@ -7,6 +7,7 @@
 #include "BanSungOnline/Projectitle/Projectitle_Rifle.h"
 #include "Components/SphereComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 AWeapon::AWeapon()
@@ -28,6 +29,7 @@ AWeapon::AWeapon()
 void AWeapon::BeginPlay()
 {
 	Super::BeginPlay();
+	
 	
 }
 
@@ -84,3 +86,7 @@ void AWeapon::Fire(FVector JerryPosition)
 	CurrentAmmo--;
 }
 
+void AWeapon::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+}

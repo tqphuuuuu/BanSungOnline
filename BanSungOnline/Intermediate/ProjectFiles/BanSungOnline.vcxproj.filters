@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\BanSungOnline.sln.DotSettings.user" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -73,6 +74,12 @@
       <Filter>Source\BanSungOnline\Projectitle</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.h">
+      <Filter>Source\BanSungOnline\Projectitle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.cpp">
+      <Filter>Source\BanSungOnline\Projectitle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.h">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
     </ClInclude>
     <Filter Include="Source\BanSungOnline\Weapon">

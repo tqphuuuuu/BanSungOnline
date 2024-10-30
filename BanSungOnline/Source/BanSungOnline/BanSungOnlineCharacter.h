@@ -31,6 +31,8 @@ public:
 	UPROPERTY(Replicated)
 	FVector Mouse;
 
+	UPROPERTY(Replicated)
+	bool HiddenWeapon = false;
 	void InitializeWeaponClasses();
 
 	void PrintAllWeaponsInArray();

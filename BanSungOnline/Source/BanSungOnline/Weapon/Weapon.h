@@ -54,5 +54,6 @@ public:
 	void ReLoadAmmo();
 
 	virtual void Fire(FVector JerryPosition);
+	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 
 };

@@ -112,6 +112,9 @@ struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics
 		{ "ToolTip", "H\xc3\xa0m th\xc3\xaam v\xc5\xa9 kh\xc3\xad" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HiddenWeapon_MetaData[] = {
+		{ "ModuleRelativePath", "BanSungOnlineCharacter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurrentWeapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "ModuleRelativePath", "BanSungOnlineCharacter.h" },
@@ -152,6 +155,8 @@ struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_Mouse;
+	static void NewProp_HiddenWeapon_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_HiddenWeapon;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Cur_weapon;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TopDownCameraComponent;
@@ -168,12 +173,18 @@ struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_Mouse = { "Mouse", nullptr, (EPropertyFlags)0x0010000000000020, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, Mouse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Mouse_MetaData), NewProp_Mouse_MetaData) };
+void Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_HiddenWeapon_SetBit(void* Obj)
+{
+	((ABanSungOnlineCharacter*)Obj)->HiddenWeapon = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_HiddenWeapon = { "HiddenWeapon", nullptr, (EPropertyFlags)0x0010000000000020, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ABanSungOnlineCharacter), &Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_HiddenWeapon_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HiddenWeapon_MetaData), NewProp_HiddenWeapon_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_CurrentWeapon = { "CurrentWeapon", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, CurrentWeapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentWeapon_MetaData), NewProp_CurrentWeapon_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_Cur_weapon = { "Cur_weapon", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, Cur_weapon), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Cur_weapon_MetaData), NewProp_Cur_weapon_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TopDownCameraComponent_MetaData), NewProp_TopDownCameraComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraBoom_MetaData), NewProp_CameraBoom_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABanSungOnlineCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_Mouse,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_HiddenWeapon,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_CurrentWeapon,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_Cur_weapon,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_TopDownCameraComponent,
@@ -215,8 +226,10 @@ template<> BANSUNGONLINE_API UClass* StaticClass<ABanSungOnlineCharacter>()
 void ABanSungOnlineCharacter::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
 {
 	static const FName Name_Mouse(TEXT("Mouse"));
+	static const FName Name_HiddenWeapon(TEXT("HiddenWeapon"));
 	const bool bIsValid = true
-		&& Name_Mouse == ClassReps[(int32)ENetFields_Private::Mouse].Property->GetFName();
+		&& Name_Mouse == ClassReps[(int32)ENetFields_Private::Mouse].Property->GetFName()
+		&& Name_HiddenWeapon == ClassReps[(int32)ENetFields_Private::HiddenWeapon].Property->GetFName();
 	checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ABanSungOnlineCharacter"));
 }
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABanSungOnlineCharacter);
@@ -224,14 +237,14 @@ ABanSungOnlineCharacter::~ABanSungOnlineCharacter() {}
 // End Class ABanSungOnlineCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 182394595U) },
+		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 3054779001U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_2974647379(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_1207056049(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -64,6 +64,7 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlineCharacter, Mouse);
+	DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
 	// Thêm các thuộc tính cần sao chép ở đây
 }
 
@@ -116,6 +117,10 @@ void ABanSungOnlineCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
 	
 			
 			Weapon->SetActorHiddenInGame(true);
+			if(Weapon && Weapon->IsHidden())
+			{
+				HiddenWeapon = true ;
+			}
 			PrintAllWeaponsInArray();
 		}
 	}
@@ -169,12 +174,13 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 			if (Type == 0)
 			{
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
+				HiddenWeapon = false ;
 
 				//UKismetSystemLibrary::PrintString(this, TEXT("Pistol được hiển thị."), true, true, FLinearColor::Green, 2.0f);
 			}
 			else if (Type == 1)
 			{
-
+				HiddenWeapon = false ;
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
 
 				//	UKismetSystemLibrary::PrintString(this, TEXT("Rifle được hiển thị."), true, true, FLinearColor::Blue, 2.0f);
@@ -215,4 +221,3 @@ bool ABanSungOnlineCharacter::IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass)
 	// Nếu không tìm thấy vũ khí nào phù hợp, trả về false
 	return false;
 }
-
