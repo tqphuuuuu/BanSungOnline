@@ -15,24 +15,30 @@ class AWeapon;
 #endif
 #define BANSUNGONLINE_BanSungOnlinePlayerController_generated_h
 
-#define FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void WeaponFiring_Implementation(AWeapon* Weapon); \
+#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void WeaponFiring_Implementation(AWeapon* Weapon, FVector MouseLocation); \
 	virtual void Server_Test_Implementation(FVector MouseLocation); \
 	DECLARE_FUNCTION(execWeaponFiring); \
 	DECLARE_FUNCTION(execServer_Test);
 
 
-#define FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_CALLBACK_WRAPPERS
-#define FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_INCLASS_NO_PURE_DECLS \
+#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_CALLBACK_WRAPPERS
+#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABanSungOnlinePlayerController(); \
 	friend struct Z_Construct_UClass_ABanSungOnlinePlayerController_Statics; \
 public: \
 	DECLARE_CLASS(ABanSungOnlinePlayerController, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/BanSungOnline"), NO_API) \
-	DECLARE_SERIALIZER(ABanSungOnlinePlayerController)
+	DECLARE_SERIALIZER(ABanSungOnlinePlayerController) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		CachedDestination=NETFIELD_REP_START, \
+		NETFIELD_REP_END=CachedDestination	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_ENHANCED_CONSTRUCTORS \
+#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABanSungOnlinePlayerController(ABanSungOnlinePlayerController&&); \
@@ -44,14 +50,14 @@ public: \
 	NO_API virtual ~ABanSungOnlinePlayerController();
 
 
-#define FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_19_PROLOG
-#define FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_GENERATED_BODY \
+#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_19_PROLOG
+#define FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_CALLBACK_WRAPPERS \
-	FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_INCLASS_NO_PURE_DECLS \
-	FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_ENHANCED_CONSTRUCTORS \
+	FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_CALLBACK_WRAPPERS \
+	FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_INCLASS_NO_PURE_DECLS \
+	FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -59,7 +65,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class ABanSungOnlinePlayerController>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h
+#define CURRENT_FILE_ID FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

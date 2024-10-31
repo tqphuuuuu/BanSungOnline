@@ -62,7 +62,7 @@ public:
 	void Server_Test(FVector MouseLocation);
 
 	UFUNCTION(Server,Unreliable)
-	void WeaponFiring(AWeapon* Weapon);
+	void WeaponFiring(AWeapon* Weapon, FVector MouseLocation);
 	
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
@@ -91,14 +91,17 @@ protected:
 	bool bCanFireRifle = true;
 	bool isReloading = false;
 	bool FireShooting = false;
-	FVector DirectionMouse;
+	
+	
+	
 	FTimerHandle RifleFireTimerHandle;
 	bool bIsShooting = false;
 	void OnShooting ();
 
-	
+	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 
 private:
+	UPROPERTY(Replicated)
 	FVector CachedDestination;
 
 	bool bIsTouch; // Is it a touch device

@@ -76,14 +76,14 @@ AWeaponPistol::~AWeaponPistol() {}
 // End Class AWeaponPistol
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics
+struct Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWeaponPistol, AWeaponPistol::StaticClass, TEXT("AWeaponPistol"), &Z_Registration_Info_UClass_AWeaponPistol, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponPistol), 2353035388U) },
+		{ Z_Construct_UClass_AWeaponPistol, AWeaponPistol::StaticClass, TEXT("AWeaponPistol"), &Z_Registration_Info_UClass_AWeaponPistol, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponPistol), 1635142785U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_542978797(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_QPHu_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_3773206657(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_Weapon_WeaponPistol_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

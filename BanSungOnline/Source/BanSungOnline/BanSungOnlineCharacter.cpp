@@ -64,7 +64,7 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlineCharacter, Mouse);
-	DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
+	//DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
 	// Thêm các thuộc tính cần sao chép ở đây
 }
 
@@ -96,32 +96,19 @@ void ABanSungOnlineCharacter::AddWeapon(AWeapon* NewWeapon)
 void ABanSungOnlineCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	Super::NotifyActorBeginOverlap(OtherActor); // Gọi phương thức lớp cơ sở
-	//UKismetSystemLibrary::PrintString(this, OtherActor->GetName(), true, true, FLinearColor::Yellow, 2.0f);
 
 	// Kiểm tra nếu đối tượng va chạm là Pistol hoặc Rifle thông qua AWeapon
-	if (OtherActor)
+	if (Cast<AWeapon>(OtherActor))
 	{
 		AWeapon* Weapon = Cast<AWeapon>(OtherActor);  // Kiểm tra nếu OtherActor là loại AWeapon
-		//	UKismetSystemLibrary::PrintString(this, Weapon->GetName(), true, true, FLinearColor::Red, 2.0f);
-
-		if (Weapon)
+		if (IsValid(Weapon) && !Weapon->IsAttached)
 		{
-			
+			Weapon->IsAttached = true;
 			Weapons.Add(Weapon);  // Thêm Pistol vào mảng
-
-			//UKismetSystemLibrary::PrintString(this, TEXT("Pistol được thêm vào mảng."), true, true, FLinearColor::Green, 2.0f);
 			Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, TEXT("Socket_Weapon"));
-
-			int WeapontCout = Weapons.Num();
-			//UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Số lượng vũ khí trong mảng: %d"), WeapontCout), true, true, FLinearColor::Green, 2.0f);
-	
-			
-			Weapon->SetActorHiddenInGame(true);
-			if(Weapon && Weapon->IsHidden())
-			{
-				HiddenWeapon = true ;
-			}
-			PrintAllWeaponsInArray();
+			Weapon->IsAttached = true;
+			/*Weapon->SetActorHiddenInGame(true);
+			PrintAllWeaponsInArray();*/
 		}
 	}
 }
@@ -130,34 +117,26 @@ void ABanSungOnlineCharacter::PrintAllWeaponsInArray()
 {
 	if (Weapons.Num() == 0)
 	{
-		//  UKismetSystemLibrary::PrintString(this, TEXT("Không có vũ khí nào trong mảng."), true, true, FLinearColor::Red, 2.0f);
 		return;
 	}
-
-	// UKismetSystemLibrary::PrintString(this, TEXT("Các vũ khí trong mảng:"), true, true, FLinearColor::Green, 2.0f);
-    
-	for (AWeapon* Weapon : Weapons) // Duyệt qua từng phần tử trong mảng Weapons
+	for (AWeapon* Weapon : Weapons) 
 	{
-		if (Weapon) // Kiểm tra xem vũ khí không phải là nullptr
+		if (Weapon)
 		{
-			// In ra tên của vũ khí
-			FString WeaponName = Weapon->GetName();
-			UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Vũ khí: %s"), *WeaponName), true, true, FLinearColor::Yellow, 2.0f);
+			bool bIsHidden = Weapon->IsHidden();
 		}
 	}
-
-	// In ra số lượng vũ khí trong mảng
 	int WeaponCount = Weapons.Num();
-	UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Tổng số vũ khí trong mảng: %d"), WeaponCount), true, true, FLinearColor::Blue, 2.0f);
+
 }
 ///	Hàm Show Vũ khí
 void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 {
 	if (Weapons.Num() == 0)
 	{
-		UKismetSystemLibrary::PrintString(this, TEXT("Không có vũ khí nào trong mảng."), true, true, FLinearColor::Red, 2.0f);
 		return;
 	}
+	/*
 	// Ẩn tất cả vũ khí trước khi hiển thị vũ khí mới
 	for (AWeapon* Weapon : Weapons)
 	{
@@ -165,7 +144,7 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 		{
 			Weapon->SetActorHiddenInGame(true);  // Ẩn vũ khí
 		}
-	}
+	}*/
 	// Hiển thị vũ khí theo Type
 	for (AWeapon* Weapon : Weapons)
 	{
@@ -173,24 +152,18 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 		{
 			if (Type == 0)
 			{
+				
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
-				HiddenWeapon = false ;
-
-				//UKismetSystemLibrary::PrintString(this, TEXT("Pistol được hiển thị."), true, true, FLinearColor::Green, 2.0f);
+				
 			}
 			else if (Type == 1)
 			{
-				HiddenWeapon = false ;
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
 
-				//	UKismetSystemLibrary::PrintString(this, TEXT("Rifle được hiển thị."), true, true, FLinearColor::Blue, 2.0f);
 			}
 			return;  // Thoát vòng lặp sau khi tìm thấy và hiển thị vũ khí
 		}
 	}
-
-
-	UKismetSystemLibrary::PrintString(this, TEXT("Không tìm thấy vũ khí phù hợp."), true, true, FLinearColor::Red, 2.0f);
 }
 
 TSubclassOf<AWeapon> ABanSungOnlineCharacter::GetCurrentWeaponClass()

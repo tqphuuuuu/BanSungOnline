@@ -12,6 +12,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
 #include "Kismet/GameplayStatics.h"
+#include "Net/UnrealNetwork.h"
 #include "Weapon/Weapon.h"
 #include "Weapon/WeaponPistol.h"
 #include "Weapon/WeaponRifle.h"
@@ -65,9 +66,10 @@ void ABanSungOnlinePlayerController::Server_Test_Implementation(FVector MouseLoc
 	}
 }
 
-void ABanSungOnlinePlayerController::WeaponFiring_Implementation(AWeapon* Weapon)
+void ABanSungOnlinePlayerController::WeaponFiring_Implementation(AWeapon* Weapon,  FVector MouseLocation)
 {
-	Weapon->Fire(DirectionMouse);
+	Weapon->Fire(MouseLocation);
+	UKismetSystemLibrary::PrintString(this, MouseLocation.ToString());
 }
 
 void ABanSungOnlinePlayerController::SetupInputComponent()
@@ -112,7 +114,6 @@ void ABanSungOnlinePlayerController::OnMouseButtonReleased()
 {
 	// Code xử lý khi nút chuột được thả
 	bIsShooting = false;
-	UKismetSystemLibrary::PrintString(this,"hehsehcsc");
 }
 
 // Triggered every frame when the input is held down
@@ -159,7 +160,7 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		{
 			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
 			{
-				WeaponFiring(SelectedWeapon);
+				WeaponFiring(SelectedWeapon, CachedDestination);
 				bCanFireRifle = false;
 				GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this](){bCanFireRifle = true;}, 0.25f, false);
 			}
@@ -168,7 +169,7 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		{
 			if (!ShootOneByOne)
 			{
-				WeaponFiring(SelectedWeapon);
+				WeaponFiring(SelectedWeapon, CachedDestination);
 				ShootOneByOne = true;
 			}
 		}
@@ -182,6 +183,12 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 void ABanSungOnlinePlayerController::OnShooting()
 {
 	ShootOneByOne = false;
+}
+
+void ABanSungOnlinePlayerController::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(ABanSungOnlinePlayerController, CachedDestination);
 }
 
 
@@ -261,8 +268,6 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& V
 
 	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetCharacter());
 	
-	
-
 	if (MyCharacter)
 	{
 		MyCharacter->ShowWeapon(1);

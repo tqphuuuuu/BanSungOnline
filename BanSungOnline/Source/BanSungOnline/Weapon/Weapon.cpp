@@ -23,14 +23,14 @@ AWeapon::AWeapon()
 	
 	GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Gun_Pistol"));
 	GunMesh->SetupAttachment(SphereComponent);
+
+	IsAttached = false;
 }
 
 // Called when the game starts or when spawned
 void AWeapon::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	
 }
 
 // Called every frame
@@ -65,10 +65,8 @@ void AWeapon::ReLoadAmmo()
 
 void AWeapon::Fire(FVector JerryPosition)
 {
-	// Kiểm tra Type để quyết định loại đạn cần bắn
-	if (Type == 0  )  // Type 0 là Pistol
+	if (Type == 0  )
 	{
-		// Thực hiện bắn đạn Pistol
 		FTransform x = GunMesh->GetSocketTransform("Socket_Point");
 		AProjectitle_Pistol* Jerry = GetWorld()->SpawnActor<AProjectitle_Pistol>(ProjectitlesClass, x);
 		Jerry->ProjectitleFly(JerryPosition);
@@ -77,7 +75,6 @@ void AWeapon::Fire(FVector JerryPosition)
 	{
 		if (Type == 1)
 		{
-
 			FTransform x = GunMesh->GetSocketTransform("Socket_Point");
 			AProjectitle_Rifle* Jerry = GetWorld()->SpawnActor<AProjectitle_Rifle>(ProjectitlesClass, x);
 			Jerry->ProjectitleFly(JerryPosition);
@@ -89,4 +86,5 @@ void AWeapon::Fire(FVector JerryPosition)
 void AWeapon::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(AWeapon,IsAttached);
 }

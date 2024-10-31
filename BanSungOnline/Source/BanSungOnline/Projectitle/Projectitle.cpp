@@ -50,7 +50,7 @@ void AProjectitle::ProjectitleFly(FVector& JerryPosition)
 	FVector Temp = (JerryPosition - GetActorLocation());
 	Temp.Normalize();
 	Velocity = Temp * SpeedAmmo;
-	UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(SpeedAmmo));
+	Velocity.Z = 0.0f;
 }
 
 // Hàm được gọi khi viên đạn va chạm với một đối tượng khác

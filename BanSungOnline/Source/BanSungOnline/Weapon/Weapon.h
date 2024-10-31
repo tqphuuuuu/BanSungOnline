@@ -25,6 +25,9 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectitle> ProjectitlesClass;
 
+	UPROPERTY(Replicated)
+	bool IsAttached = false;
+
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gun Properties")
 	float Damage;
