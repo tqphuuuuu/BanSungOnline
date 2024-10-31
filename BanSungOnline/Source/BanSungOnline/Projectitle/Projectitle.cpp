@@ -6,6 +6,7 @@
 #include <Kismet/GameplayStatics.h>
 
 #include "BanSungOnline/BanSungOnlineCharacter.h"
+#include "BanSungOnline/Enemy/Enemy.h"
 #include "Components/SphereComponent.h"
 #include "Net/UnrealNetwork.h"
 
@@ -25,7 +26,8 @@ AProjectitle::AProjectitle()
     	
     Projectiles = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Gun_Pistol"));
     Projectiles->SetupAttachment(SphereComponent);
-    //SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AProjectitle::OnOverlap);
+
+	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AProjectitle::OnOverlap);
 }
 
 // Called when the game starts or when spawned
@@ -57,12 +59,13 @@ void AProjectitle::ProjectitleFly(FVector& JerryPosition)
 void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	/*// Kiểm tra nếu đối tượng va chạm là kẻ địch (Enermy)
+
+	// Kiểm tra nếu đối tượng va chạm là kẻ địch (Enermy)
 	AEnemy* Enermy = Cast<AEnemy>(OtherActor);
 	if (IsValid(Enermy))
 	{
 		// Giảm máu của kẻ địch khi viên đạn va chạm
-		Enermy->Health -= Damage;
+		Enermy->Health -= Damage; 
 
 		UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Enermy->Health));
 		// Optional: Phá hủy viên đạn sau khi va chạm
@@ -71,7 +74,7 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 	}
 
 	// Nếu muốn viên đạn bị phá hủy sau khi va chạm với bất kỳ đối tượng nào
-	// Destroy();*/
+	// Destroy();
 }
 
 void AProjectitle::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const

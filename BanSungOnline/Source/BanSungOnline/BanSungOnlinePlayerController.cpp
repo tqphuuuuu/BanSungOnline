@@ -69,7 +69,6 @@ void ABanSungOnlinePlayerController::Server_Test_Implementation(FVector MouseLoc
 void ABanSungOnlinePlayerController::WeaponFiring_Implementation(AWeapon* Weapon,  FVector MouseLocation)
 {
 	Weapon->Fire(MouseLocation);
-	UKismetSystemLibrary::PrintString(this, MouseLocation.ToString());
 }
 
 void ABanSungOnlinePlayerController::SetupInputComponent()
