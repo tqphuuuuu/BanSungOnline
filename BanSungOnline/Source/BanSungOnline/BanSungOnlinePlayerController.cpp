@@ -26,6 +26,9 @@ ABanSungOnlinePlayerController::ABanSungOnlinePlayerController()
 	DefaultMouseCursor = EMouseCursor::Default;
 	CachedDestination = FVector::ZeroVector;
 	FollowTime = 0.f;
+
+	Health = 40 ;
+	MaxHealth = 40 ;
 }
 
 void ABanSungOnlinePlayerController::BeginPlay()
@@ -188,6 +191,8 @@ void ABanSungOnlinePlayerController::GetLifetimeReplicatedProps(TArray<class FLi
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlinePlayerController, CachedDestination);
+	DOREPLIFETIME(ABanSungOnlinePlayerController, Health);
+
 }
 
 

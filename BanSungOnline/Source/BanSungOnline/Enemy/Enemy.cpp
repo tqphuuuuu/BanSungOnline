@@ -3,6 +3,8 @@
 
 #include "Enemy.h"
 
+#include "BanSungOnline/BanSungOnlineCharacter.h"
+#include "BanSungOnline/BanSungOnlinePlayerController.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Net/UnrealNetwork.h"
 
@@ -55,6 +57,49 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AEnemy,Health);
+}
+
+void AEnemy::AttackCharacter()
+{
+	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
+	FVector End = GetMesh()->GetSocketLocation(FName("B"));
+
+	TArray<AActor*> IgnoreActors;
+	IgnoreActors.Add(this); 
+
+	FHitResult HitResult;
+	bool bHit = UKismetSystemLibrary::LineTraceSingle(GetWorld(),Start,End,
+		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn),  // Thử với kênh Pawn
+		false,
+		IgnoreActors,
+		EDrawDebugTrace::None,
+		HitResult,
+		true);
+	
+	if (bHit)
+	{
+		// Kiểm tra đối tượng bị hit có phải là nhân vật không
+		ACharacter* PlayerCharacter = Cast<ACharacter>(HitResult.GetActor());
+		if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
+		{
+			ABanSungOnlinePlayerController* PlayerController = Cast<ABanSungOnlinePlayerController>(PlayerCharacter->GetController());
+			if (PlayerController)
+			{
+				if (Health >=0 )
+				{
+					if (Timer >= 100)
+					{
+						Timer = 0;
+						PlayerController->Health -=Damage;
+						//PlayerController->ShowHealth.Broadcast();
+					}
+				}
+				
+			}
+
+		}
+		
+	}
 }
 
 void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)

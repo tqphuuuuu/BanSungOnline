@@ -63,6 +63,12 @@ public:
 
 	UFUNCTION(Server,Unreliable)
 	void WeaponFiring(AWeapon* Weapon, FVector MouseLocation);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health" , Replicated)
+	float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Max Health")
+	float MaxHealth;
 	
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */

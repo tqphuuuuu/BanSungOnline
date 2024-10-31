@@ -234,6 +234,14 @@ struct Z_Construct_UClass_ABanSungOnlinePlayerController_Statics
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "BanSungOnlinePlayerController.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "BanSungOnlinePlayerController.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[] = {
+		{ "Category", "Max Health" },
+		{ "ModuleRelativePath", "BanSungOnlinePlayerController.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CachedDestination_MetaData[] = {
 		{ "ModuleRelativePath", "BanSungOnlinePlayerController.h" },
 	};
@@ -246,6 +254,8 @@ struct Z_Construct_UClass_ABanSungOnlinePlayerController_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Key_BoardPisol;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Key_BoardRifle;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_CachedDestination;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
@@ -267,6 +277,8 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnline
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlinePlayerController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_Key_BoardPisol = { "Key_BoardPisol", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlinePlayerController, Key_BoardPisol), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Key_BoardPisol_MetaData), NewProp_Key_BoardPisol_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_Key_BoardRifle = { "Key_BoardRifle", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlinePlayerController, Key_BoardRifle), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Key_BoardRifle_MetaData), NewProp_Key_BoardRifle_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000035, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlinePlayerController, Health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Health_MetaData), NewProp_Health_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlinePlayerController, MaxHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxHealth_MetaData), NewProp_MaxHealth_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_CachedDestination = { "CachedDestination", nullptr, (EPropertyFlags)0x0040000000000020, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlinePlayerController, CachedDestination), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CachedDestination_MetaData), NewProp_CachedDestination_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_ShortPressThreshold,
@@ -277,6 +289,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABanSungO
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_Key_BoardPisol,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_Key_BoardRifle,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_Health,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_MaxHealth,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::NewProp_CachedDestination,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ABanSungOnlinePlayerController_Statics::PropPointers) < 2048);
@@ -314,8 +328,10 @@ template<> BANSUNGONLINE_API UClass* StaticClass<ABanSungOnlinePlayerController>
 }
 void ABanSungOnlinePlayerController::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
 {
+	static const FName Name_Health(TEXT("Health"));
 	static const FName Name_CachedDestination(TEXT("CachedDestination"));
 	const bool bIsValid = true
+		&& Name_Health == ClassReps[(int32)ENetFields_Private::Health].Property->GetFName()
 		&& Name_CachedDestination == ClassReps[(int32)ENetFields_Private::CachedDestination].Property->GetFName();
 	checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ABanSungOnlinePlayerController"));
 }
@@ -327,10 +343,10 @@ ABanSungOnlinePlayerController::~ABanSungOnlinePlayerController() {}
 struct Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlinePlayerController, ABanSungOnlinePlayerController::StaticClass, TEXT("ABanSungOnlinePlayerController"), &Z_Registration_Info_UClass_ABanSungOnlinePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlinePlayerController), 106847289U) },
+		{ Z_Construct_UClass_ABanSungOnlinePlayerController, ABanSungOnlinePlayerController::StaticClass, TEXT("ABanSungOnlinePlayerController"), &Z_Registration_Info_UClass_ABanSungOnlinePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlinePlayerController), 3469265264U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_1834952117(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_1630191235(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
