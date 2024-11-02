@@ -11,7 +11,10 @@
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle.h",
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle.generated.h",
             "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h",
-            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponpistol.generated.h"
+            "c:\\users\\tqphuuuuu\\desktop\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponpistol.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

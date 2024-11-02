@@ -27,8 +27,9 @@ ABanSungOnlinePlayerController::ABanSungOnlinePlayerController()
 	CachedDestination = FVector::ZeroVector;
 	FollowTime = 0.f;
 
-	Health = 40 ;
-	MaxHealth = 40 ;
+	/*
+	Health = 40.0f ;
+	MaxHealth = 40.0f ;*/
 }
 
 void ABanSungOnlinePlayerController::BeginPlay()
@@ -58,6 +59,7 @@ void ABanSungOnlinePlayerController::Tick(float DeltaSeconds)
 		// Gọi Server_Test từ client và truyền MouseLocation vào
 		Server_Test(MouseLocation);
 	}
+
 	
 }
 void ABanSungOnlinePlayerController::Server_Test_Implementation(FVector MouseLocation)
@@ -195,7 +197,6 @@ void ABanSungOnlinePlayerController::GetLifetimeReplicatedProps(TArray<class FLi
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlinePlayerController, CachedDestination);
-	DOREPLIFETIME(ABanSungOnlinePlayerController, Health);
 
 }
 

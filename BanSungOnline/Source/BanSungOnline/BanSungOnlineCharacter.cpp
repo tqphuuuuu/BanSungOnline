@@ -50,7 +50,7 @@ ABanSungOnlineCharacter::ABanSungOnlineCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
 
-	Health = 40.0f;
+	Health = 20.0f;
 	MaxHealth = 40.0f;
 }
 
@@ -68,7 +68,6 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlineCharacter, Mouse);
 	//DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
-	// Thêm các thuộc tính cần sao chép ở đây
 }
 
 /// Kiểm tra xem có phải là vũ khí cần nhặt không

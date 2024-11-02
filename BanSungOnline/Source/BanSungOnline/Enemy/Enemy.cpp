@@ -82,7 +82,7 @@ void AEnemy::AttackCharacter()
 		ACharacter* PlayerCharacter = Cast<ACharacter>(HitResult.GetActor());
 		if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
 		{
-			ABanSungOnlinePlayerController* PlayerController = Cast<ABanSungOnlinePlayerController>(PlayerCharacter->GetController());
+			ABanSungOnlineCharacter* PlayerController = Cast<ABanSungOnlineCharacter>(PlayerCharacter->GetController());
 			if (PlayerController)
 			{
 				if (Health >=0 )

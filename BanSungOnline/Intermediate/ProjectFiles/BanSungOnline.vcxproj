@@ -282,6 +282,7 @@
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.cpp" />
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.cpp" />
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.cpp" />
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.cpp" />
     <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -291,6 +292,7 @@
     <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.h" />
     <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.h" />
     <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.h" />
+    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.h" />
     <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.h"/>
     <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

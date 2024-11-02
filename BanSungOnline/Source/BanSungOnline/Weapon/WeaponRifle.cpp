@@ -3,6 +3,8 @@
 
 #include "WeaponRifle.h"
 
+#include "Kismet/KismetSystemLibrary.h"
+
 
 // Sets default values
 AWeaponRifle::AWeaponRifle()
@@ -28,5 +30,6 @@ void AWeaponRifle::BeginPlay()
 void AWeaponRifle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 }
 

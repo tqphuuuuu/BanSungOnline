@@ -32,7 +32,8 @@ public: \
 		Mouse=NETFIELD_REP_START, \
 		HiddenWeapon, \
 		Health, \
-		NETFIELD_REP_END=Health	}; \
+		MaxHealth, \
+		NETFIELD_REP_END=MaxHealth	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 

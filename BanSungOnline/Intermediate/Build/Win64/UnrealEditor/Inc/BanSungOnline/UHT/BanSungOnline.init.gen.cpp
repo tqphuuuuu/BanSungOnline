@@ -21,13 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeBanSungOnline_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x2C8FD81C,
-				0x12391919,
+				0xD0C88A60,
+				0xB338AFED,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_BanSungOnline.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_BanSungOnline.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BanSungOnline(Z_Construct_UPackage__Script_BanSungOnline, TEXT("/Script/BanSungOnline"), Z_Registration_Info_UPackage__Script_BanSungOnline, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2C8FD81C, 0x12391919));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BanSungOnline(Z_Construct_UPackage__Script_BanSungOnline, TEXT("/Script/BanSungOnline"), Z_Registration_Info_UPackage__Script_BanSungOnline, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD0C88A60, 0xB338AFED));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

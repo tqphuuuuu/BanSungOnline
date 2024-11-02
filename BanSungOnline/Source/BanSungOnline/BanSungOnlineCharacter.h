@@ -55,7 +55,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", Replicated)
     float Health;
     
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxHealth")
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxHealth",Replicated)
     float MaxHealth;
 
 private:
