@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BANSUNGONLINE_Weapon_generated_h
 
-#define FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
 	friend struct Z_Construct_UClass_AWeapon_Statics; \
@@ -25,11 +25,13 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		IsAttached=NETFIELD_REP_START, \
-		NETFIELD_REP_END=IsAttached	}; \
+		Ammo, \
+		CurrentAmmo, \
+		NETFIELD_REP_END=CurrentAmmo	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AWeapon(AWeapon&&); \
@@ -41,12 +43,12 @@ public: \
 	NO_API virtual ~AWeapon();
 
 
-#define FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_10_PROLOG
-#define FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_GENERATED_BODY \
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_10_PROLOG
+#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
-	FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -54,7 +56,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class AWeapon>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h
+#define CURRENT_FILE_ID FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

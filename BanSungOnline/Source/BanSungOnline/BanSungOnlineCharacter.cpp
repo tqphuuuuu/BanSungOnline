@@ -49,6 +49,9 @@ ABanSungOnlineCharacter::ABanSungOnlineCharacter()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+
+	Health = 40.0f;
+	MaxHealth = 40.0f;
 }
 
 void ABanSungOnlineCharacter::Tick(float DeltaSeconds)

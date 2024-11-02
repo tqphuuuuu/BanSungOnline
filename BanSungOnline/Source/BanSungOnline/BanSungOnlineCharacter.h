@@ -51,6 +51,13 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	int Cur_weapon = 0;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", Replicated)
+    float Health;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxHealth")
+    float MaxHealth;
+
 private:
 	/** Top down camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))

@@ -42,16 +42,17 @@ void AProjectitle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SetActorLocation(GetActorLocation() + Velocity);
+	
 	FVector Temp = {1000.f, 1810.f, 92.f};
-	if ((GetActorLocation() - Temp).SquaredLength() > 1000000)
-		Destroy();
+	/*if ((GetActorLocation() - Temp).SquaredLength() > 1000000)
+		Destroy();*/
 }
 
 void AProjectitle::ProjectitleFly(FVector& JerryPosition)
 {
-	FVector Temp = (JerryPosition - GetActorLocation());
-	Temp.Normalize();
-	Velocity = Temp * SpeedAmmo;
+	// FVector Temp = (JerryPosition - GetActorLocation());
+	JerryPosition.Normalize();
+	Velocity = JerryPosition * SpeedAmmo;
 	Velocity.Z = 0.0f;
 }
 
@@ -59,22 +60,22 @@ void AProjectitle::ProjectitleFly(FVector& JerryPosition)
 void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-
 	// Kiểm tra nếu đối tượng va chạm là kẻ địch (Enermy)
-	AEnemy* Enermy = Cast<AEnemy>(OtherActor);
-	if (IsValid(Enermy))
+	AEnemy* Enemy = Cast<AEnemy>(OtherActor);
+	if (IsValid(Enemy))
 	{
 		// Giảm máu của kẻ địch khi viên đạn va chạm
-		Enermy->Health -= Damage; 
+		Enemy->Health -= Damage;
+		if (Enemy->Health <= 0)
+		{
+			Enemy->Destroy();
+		}
 
-		UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Enermy->Health));
+		UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Enemy->Health));
 		// Optional: Phá hủy viên đạn sau khi va chạm
-		if (Velocity.SquaredLength() > 0.1f)
-			Destroy();
+		/*if (Velocity.SquaredLength() > 0.1f)
+			Destroy();*/
 	}
-
-	// Nếu muốn viên đạn bị phá hủy sau khi va chạm với bất kỳ đối tượng nào
-	// Destroy();
 }
 
 void AProjectitle::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const

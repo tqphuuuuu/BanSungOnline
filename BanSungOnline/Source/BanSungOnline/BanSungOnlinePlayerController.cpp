@@ -162,7 +162,9 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		{
 			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
 			{
-				WeaponFiring(SelectedWeapon, CachedDestination);
+				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
+				FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
+				WeaponFiring(SelectedWeapon, Temp);
 				bCanFireRifle = false;
 				GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this](){bCanFireRifle = true;}, 0.25f, false);
 			}
@@ -171,7 +173,9 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		{
 			if (!ShootOneByOne)
 			{
-				WeaponFiring(SelectedWeapon, CachedDestination);
+				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
+				FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
+				WeaponFiring(SelectedWeapon, Temp);
 				ShootOneByOne = true;
 			}
 		}

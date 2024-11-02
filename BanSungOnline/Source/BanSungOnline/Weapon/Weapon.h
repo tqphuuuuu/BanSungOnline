@@ -29,19 +29,19 @@ public:
 	bool IsAttached = false;
 
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gun Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage")
 	float Damage;
 	//Ammo
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Ammo",Replicated)
 	float Ammo;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Max Ammo")
 	float MaxAmmo;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "CurrentAmmo",Replicated)
 	float CurrentAmmo;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "SpeedAmmo")
 	float SpeedAmmo;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Gun Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Type")
 	int Type;
 
 	
