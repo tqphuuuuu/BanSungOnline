@@ -14,6 +14,9 @@ class UNiagaraSystem;
 class UInputMappingContext;
 class UInputAction;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDisplayWBBulletCount);
+
+
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS()
@@ -70,6 +73,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Max Health", Replicated)
 	float MaxHealth;*/
+
+	UPROPERTY(BlueprintAssignable)
+	FDisplayWBBulletCount ShowWBCountBullet;
 
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */

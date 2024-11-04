@@ -66,12 +66,11 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 	{
 		// Giảm máu của kẻ địch khi viên đạn va chạm
 		Enemy->Health -= Damage;
-		if (Enemy->Health <= 0)
+		/*if (Enemy->Health <= 0)
 		{
 			Enemy->Destroy();
-		}
-
-		UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Enemy->Health));
+		}*/
+		
 		// Optional: Phá hủy viên đạn sau khi va chạm
 		/*if (Velocity.SquaredLength() > 0.1f)
 			Destroy();*/

@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "BanSungOnlineCharacter.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FShowHealth);
+
+
 UCLASS(Blueprintable)
 class ABanSungOnlineCharacter : public ACharacter
 {
@@ -57,6 +60,9 @@ public:
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxHealth",Replicated)
     float MaxHealth;
+
+	UPROPERTY(BlueprintAssignable)
+	FShowHealth ShowHealth;
 
 private:
 	/** Top down camera */

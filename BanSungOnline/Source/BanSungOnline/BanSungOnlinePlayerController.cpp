@@ -49,7 +49,7 @@ void ABanSungOnlinePlayerController::BeginPlay()
 void ABanSungOnlinePlayerController::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-
+	
 	if (!HasAuthority())
 	{
 		FHitResult HitResult;
@@ -254,7 +254,7 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Pistol(const FInputActionValue& 
 	if (MyCharacter)
 	{
 		MyCharacter->ShowWeapon(0);
-		/*ShowWBCountBullet.Broadcast();*/
+		ShowWBCountBullet.Broadcast();
 		//MyCharacter->Cur_weapon = 0;
 		auto Weapon_Array = MyCharacter->Weapons;
 		for (auto i:Weapon_Array)
@@ -280,7 +280,7 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& V
 	if (MyCharacter)
 	{
 		MyCharacter->ShowWeapon(1);
-		/*ShowWBCountBullet.Broadcast();*/
+		ShowWBCountBullet.Broadcast();
 		//MyCharacter->Cur_weapon = 1;
 		auto Weapon_Array = MyCharacter->Weapons;
 		for (auto i:Weapon_Array)

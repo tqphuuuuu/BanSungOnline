@@ -69,5 +69,16 @@ public:
 	virtual void AttackCharacter();
 	int32 Timer = 0;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Animation")
+	UAnimationAsset* DeathAnimation;
+	void PlayDeathAnimation();
+	void CheckHealth();
+	void OnDeathComplete();
+	bool bIsDead = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
+	class UAnimSequence* AttackAnimation;
+
+
 
 };

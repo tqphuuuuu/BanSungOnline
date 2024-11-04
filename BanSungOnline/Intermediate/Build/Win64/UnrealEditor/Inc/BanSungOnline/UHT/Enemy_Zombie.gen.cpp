@@ -80,10 +80,10 @@ AEnemy_Zombie::~AEnemy_Zombie() {}
 struct Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy_Zombie, AEnemy_Zombie::StaticClass, TEXT("AEnemy_Zombie"), &Z_Registration_Info_UClass_AEnemy_Zombie, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_Zombie), 1776967927U) },
+		{ Z_Construct_UClass_AEnemy_Zombie, AEnemy_Zombie::StaticClass, TEXT("AEnemy_Zombie"), &Z_Registration_Info_UClass_AEnemy_Zombie, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_Zombie), 3727602460U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_1058336581(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_2419641122(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

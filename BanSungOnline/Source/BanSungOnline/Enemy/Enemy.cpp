@@ -29,7 +29,7 @@ AEnemy::AEnemy()
     
     	
     	
-	//SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::OnOverlap);
+	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::OnOverlap);
 	
 }
 
@@ -44,6 +44,13 @@ void AEnemy::BeginPlay()
 void AEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (Health <= 0)
+	{
+		CheckHealth();
+
+	}
+	Timer++;
+	AttackCharacter();
 	//UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Health));
 }
 
@@ -69,10 +76,10 @@ void AEnemy::AttackCharacter()
 
 	FHitResult HitResult;
 	bool bHit = UKismetSystemLibrary::LineTraceSingle(GetWorld(),Start,End,
-		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn),  // Thử với kênh Pawn
+		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn), 
 		false,
 		IgnoreActors,
-		EDrawDebugTrace::None,
+		EDrawDebugTrace::ForDuration,
 		HitResult,
 		true);
 	
@@ -82,16 +89,20 @@ void AEnemy::AttackCharacter()
 		ACharacter* PlayerCharacter = Cast<ACharacter>(HitResult.GetActor());
 		if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
 		{
-			ABanSungOnlineCharacter* PlayerController = Cast<ABanSungOnlineCharacter>(PlayerCharacter->GetController());
+			ABanSungOnlineCharacter* PlayerController = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
 			if (PlayerController)
 			{
 				if (Health >=0 )
 				{
+					
+					
 					if (Timer >= 100)
 					{
+						
+
 						Timer = 0;
 						PlayerController->Health -=Damage;
-						//PlayerController->ShowHealth.Broadcast();
+						PlayerController->ShowHealth.Broadcast();
 					}
 				}
 				
@@ -104,9 +115,9 @@ void AEnemy::AttackCharacter()
 
 void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	/*// Kiểm tra nếu OtherActor là nhân vật
+	// Kiểm tra nếu OtherActor là nhân vật
 	ACharacter* PlayerCharacter = Cast<ACharacter>(OtherActor);
-	if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOFFLINE_CPlusCharacter::StaticClass()))
+	if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
 	{
 		// Chạy animation tấn công
 		if (AttackAnimation)
@@ -116,15 +127,45 @@ void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, 
 		}
 
 	}
-	AProjectiles *Projectiles = Cast<AProjectiles>(OtherActor);
+
+	AProjectitle *Projectiles = Cast<AProjectitle>(OtherActor);
 	if (IsValid(Projectiles))
 	{
-		CheckHealth();
+
 		if (Projectiles->Velocity.SquaredLength() > 0.1f)
 		{
-
 			Projectiles->Destroy();
 		}
-	}*/
+	}
 }
 
+void AEnemy::CheckHealth()
+{
+	if (Health <= 0 && !bIsDead)
+	{
+		UKismetSystemLibrary::PrintString(this,"CheckHealth");
+		bIsDead = true; 
+		PlayDeathAnimation(); 
+
+	}
+}
+
+void AEnemy::PlayDeathAnimation()
+{
+	
+	UKismetSystemLibrary::PrintString(this,"PlayDeathAnimation");
+
+	if (DeathAnimation)
+	{
+		GetMesh()->PlayAnimation(DeathAnimation, true); 
+	}
+
+	
+	FTimerHandle TimerHandle;
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AEnemy::OnDeathComplete, 2.0f, false); 
+}
+
+void AEnemy::OnDeathComplete()
+{
+	Destroy();
+}
