@@ -101,6 +101,8 @@ void ABanSungOnlinePlayerController::SetupInputComponent()
 		
 		EnhancedInputComponent->BindAction(Key_BoardPisol, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnKeyBoard_Pistol);
 		EnhancedInputComponent->BindAction(Key_BoardRifle, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnKeyBoard_Rifle);
+		EnhancedInputComponent->BindAction(keyBoardReloadAmmo, ETriggerEvent::Started, this, &ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo);
+
 		
 	}
 	else
@@ -294,4 +296,47 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& V
 		
 	}
 		
+}
+void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionValue& Value)
+{
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
+	if (MyCharacter)
+	{
+		// Lấy loại vũ khí hiện tại
+		TSubclassOf<AWeapon> CurrentWeaponClass = MyCharacter->GetCurrentWeaponClass();
+        
+		if (CurrentWeaponClass)
+		{
+			// Lặp qua từng vũ khí trong mảng Weapons
+			for (AWeapon* Weapon : MyCharacter->Weapons)
+			{
+				if (Weapon && Weapon->IsA(CurrentWeaponClass)) // Kiểm tra xem vũ khí có phải là loại hiện tại
+				{
+					// Kiểm tra nếu băng đạn cần nạp
+					if (Weapon->CurrentAmmo < Weapon->MaxAmmo && !isReloading)
+					{
+						isReloading = true;
+						// Tạo timer để delay 3 giây
+						FTimerHandle ReloadTimerHandle;
+						// Đặt thời gian trễ 3 giây rồi mới gọi hàm ReloadAmmo
+						GetWorld()->GetTimerManager().SetTimer(ReloadTimerHandle, [this](){ReloadGun();}, 1.0f, false); // 3.0f là thời gian trễ
+					}
+					else
+					{
+						//UKismetSystemLibrary::PrintString(this, TEXT("Băng đạn đã đầy cho vũ khí: ") + Weapon->GetClass()->GetName());
+					}
+				}
+			
+			}
+		}
+		else
+		{
+			//UKismetSystemLibrary::PrintString(this, TEXT("Không có vũ khí nào được hiện."));
+		}
+	}
+}
+void ABanSungOnlinePlayerController::ReloadGun()
+{
+	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ReLoadAmmo();
+	isReloading = false;
 }

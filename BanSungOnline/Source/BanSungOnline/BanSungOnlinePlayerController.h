@@ -58,8 +58,8 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
 	UInputAction* Key_BoardRifle;
 
-	/*UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
-	UInputAction* keyBoardReloadAmmo;*/
+	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Input,meta=(AllowPrivateAccess="true"))
+	UInputAction* keyBoardReloadAmmo;
 
 	UFUNCTION(Server, Unreliable)
 	void Server_Test(FVector MouseLocation);
@@ -98,13 +98,14 @@ protected:
 	void OnMoveAction(const FInputActionValue& Value);
 	void OnKeyBoard_Pistol(const FInputActionValue& Value);
 	void OnKeyBoard_Rifle(const FInputActionValue& Value);
-	//void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);
+	void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);
 
 	bool ShootOneByOne;
 	bool bCanFireRifle = true;
 	bool isReloading = false;
 	bool FireShooting = false;
-	
+
+	void ReloadGun();
 	
 	
 	FTimerHandle RifleFireTimerHandle;

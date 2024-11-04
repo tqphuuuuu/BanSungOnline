@@ -79,7 +79,7 @@ void AEnemy::AttackCharacter()
 		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn), 
 		false,
 		IgnoreActors,
-		EDrawDebugTrace::ForDuration,
+		EDrawDebugTrace::None,
 		HitResult,
 		true);
 	
@@ -98,8 +98,6 @@ void AEnemy::AttackCharacter()
 					
 					if (Timer >= 100)
 					{
-						
-
 						Timer = 0;
 						PlayerController->Health -=Damage;
 						PlayerController->ShowHealth.Broadcast();
