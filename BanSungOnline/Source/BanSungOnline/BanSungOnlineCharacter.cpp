@@ -67,6 +67,7 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlineCharacter, Mouse);
+	DOREPLIFETIME(ABanSungOnlineCharacter, CurrentWeapon);
 	//DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
 }
 
@@ -195,4 +196,10 @@ bool ABanSungOnlineCharacter::IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass)
 
 	// Nếu không tìm thấy vũ khí nào phù hợp, trả về false
 	return false;
+}
+
+void ABanSungOnlineCharacter::ChangeHealth()
+{
+	if (!HasAuthority())
+		ShowHealth.Broadcast();
 }

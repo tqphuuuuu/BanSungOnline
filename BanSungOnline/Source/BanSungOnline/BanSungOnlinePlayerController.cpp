@@ -164,6 +164,8 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 	{
 		if (SelectedWeapon->Type == 1 && !isReloading)  // Rifle
 		{
+			UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+
 			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
 			{
 				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
@@ -175,6 +177,8 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		}
 		else if (SelectedWeapon->Type == 0 && !isReloading )  // Pistol
 		{
+			UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+
 			if (!ShootOneByOne)
 			{
 				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
@@ -188,6 +192,20 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 	{
 		FireShooting = false;
 	}
+}
+
+void ABanSungOnlinePlayerController::ReloadGun_Implementation()
+{
+	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ReLoadAmmo();
+	isReloading = false;
+	UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+
+}
+
+void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWeapon)
+{
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
+	MyCharacter->CurrentWeapon = NewWeapon;
 }
 
 void ABanSungOnlinePlayerController::OnShooting()
@@ -263,7 +281,8 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Pistol(const FInputActionValue& 
 		{
 			if (Cast<AWeaponPistol>(i))
 			{
-				MyCharacter->CurrentWeapon = i;
+				//MyCharacter->CurrentWeapon = i;
+				ReplaceWeapon(i);
 				break;
 			}
 		}
@@ -289,7 +308,8 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& V
 		{
 			if (Cast<AWeaponRifle>(i))
 			{
-				MyCharacter->CurrentWeapon = i;
+				//MyCharacter->CurrentWeapon = i;
+				ReplaceWeapon(i);
 				break;
 			}
 		}
@@ -316,8 +336,11 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 					if (Weapon->CurrentAmmo < Weapon->MaxAmmo && !isReloading)
 					{
 						isReloading = true;
+						UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+
 						// Tạo timer để delay 3 giây
 						FTimerHandle ReloadTimerHandle;
+						//ReloadGun();
 						// Đặt thời gian trễ 3 giây rồi mới gọi hàm ReloadAmmo
 						GetWorld()->GetTimerManager().SetTimer(ReloadTimerHandle, [this](){ReloadGun();}, 1.0f, false); // 3.0f là thời gian trễ
 					}
@@ -334,9 +357,4 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 			//UKismetSystemLibrary::PrintString(this, TEXT("Không có vũ khí nào được hiện."));
 		}
 	}
-}
-void ABanSungOnlinePlayerController::ReloadGun()
-{
-	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ReLoadAmmo();
-	isReloading = false;
 }

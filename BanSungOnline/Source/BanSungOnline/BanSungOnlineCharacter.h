@@ -47,14 +47,15 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	bool IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass);
 
-	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Weapon");
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Weapon", Replicated);
 	AWeapon* CurrentWeapon;
 
 	// Biến hiện UI
 	UPROPERTY(BlueprintReadOnly)
 	int Cur_weapon = 0;
 
-
+	void ChangeHealth();
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", Replicated)
     float Health;
     

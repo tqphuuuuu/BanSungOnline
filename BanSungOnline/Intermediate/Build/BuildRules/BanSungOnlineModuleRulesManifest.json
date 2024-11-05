@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\TQPhuuuuu\\Desktop\\GameOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
-		"C:\\Users\\TQPhuuuuu\\Desktop\\GameOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
-		"C:\\Users\\TQPhuuuuu\\Desktop\\GameOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs"
+		"C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
+		"C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
+		"C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

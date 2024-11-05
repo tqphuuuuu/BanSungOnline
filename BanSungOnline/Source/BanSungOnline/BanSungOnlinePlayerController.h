@@ -104,9 +104,11 @@ protected:
 	bool bCanFireRifle = true;
 	bool isReloading = false;
 	bool FireShooting = false;
-
+	UFUNCTION(Server, Unreliable)
 	void ReloadGun();
-	
+
+	UFUNCTION(Server, Unreliable)
+	void ReplaceWeapon(AWeapon* NewWeapon);
 	
 	FTimerHandle RifleFireTimerHandle;
 	bool bIsShooting = false;

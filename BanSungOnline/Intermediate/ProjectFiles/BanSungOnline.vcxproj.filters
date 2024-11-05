@@ -61,6 +61,54 @@
     <ClInclude Include="..\..\Source\BanSungOnline\BanSungOnlinePlayerController.h">
       <Filter>Source\BanSungOnline</Filter>
     </ClInclude>
+    <Filter Include="Source\BanSungOnline\Enemy">
+      <UniqueIdentifier>{44A84243-0932-31CF-9C50-35A0D04D8506}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy.cpp">
+      <Filter>Source\BanSungOnline\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Enemy\Enemy.h">
+      <Filter>Source\BanSungOnline\Enemy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy_Boss.cpp">
+      <Filter>Source\BanSungOnline\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Enemy\Enemy_Boss.h">
+      <Filter>Source\BanSungOnline\Enemy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy_Zombie.cpp">
+      <Filter>Source\BanSungOnline\Enemy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\Enemy\Enemy_Zombie.h">
+      <Filter>Source\BanSungOnline\Enemy</Filter>
+    </ClInclude>
+    <Filter Include="Source\BanSungOnline\ItemPickUp">
+      <UniqueIdentifier>{ECD65306-B03D-34D5-846E-67AA439DD422}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.cpp">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.h">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.cpp">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.h">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.cpp">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.h">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.cpp">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.h">
+      <Filter>Source\BanSungOnline\ItemPickUp</Filter>
+    </ClInclude>
     <Filter Include="Source\BanSungOnline\Projectitle">
       <UniqueIdentifier>{48DA855F-9AD2-3EBA-99EB-90C6E3839828}</UniqueIdentifier>
     </Filter>

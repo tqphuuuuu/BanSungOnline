@@ -15,15 +15,15 @@ class AWeapon;
 #endif
 #define BANSUNGONLINE_BanSungOnlineCharacter_generated_h
 
-#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_9_DELEGATE \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_9_DELEGATE \
 BANSUNGONLINE_API void FShowHealth_DelegateWrapper(const FMulticastScriptDelegate& ShowHealth);
 
 
-#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execIsWeaponVisible);
 
 
-#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABanSungOnlineCharacter(); \
 	friend struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics; \
@@ -35,13 +35,14 @@ public: \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		Mouse=NETFIELD_REP_START, \
 		HiddenWeapon, \
+		CurrentWeapon, \
 		Health, \
 		MaxHealth, \
 		NETFIELD_REP_END=MaxHealth	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABanSungOnlineCharacter(ABanSungOnlineCharacter&&); \
@@ -53,13 +54,13 @@ public: \
 	NO_API virtual ~ABanSungOnlineCharacter();
 
 
-#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_PROLOG
-#define FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_GENERATED_BODY \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_12_PROLOG
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,7 +68,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class ABanSungOnlineCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_TQPhuuuuu_Desktop_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h
+#define CURRENT_FILE_ID FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -21,7 +21,7 @@ AEnemy::AEnemy()
 	PawnSensingComponent = CreateDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensingComponent"));
 	PawnSensingComponent->SightRadius = 2500.0f; // Adjust the range of sight
 	PawnSensingComponent->SetPeripheralVisionAngle(60.0f); // Set the field of view
-    
+    bReplicates = true;
 	/*
 	WidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("HealthWidget"));
 	WidgetComponent->SetupAttachment(RootComponent);
@@ -83,38 +83,29 @@ void AEnemy::AttackCharacter()
 		HitResult,
 		true);
 	
-	if (bHit)
-	{
+	if (bHit) {
 		// Kiểm tra đối tượng bị hit có phải là nhân vật không
-		ACharacter* PlayerCharacter = Cast<ACharacter>(HitResult.GetActor());
-		if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
+		ABanSungOnlineCharacter* PlayerController = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
+		if (IsValid(PlayerController))
 		{
-			ABanSungOnlineCharacter* PlayerController = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
-			if (PlayerController)
+			if (Health >= 0)
 			{
-				if (Health >=0 )
+				if (Timer >= 100)
 				{
-					
-					
-					if (Timer >= 100)
-					{
-						Timer = 0;
-						PlayerController->Health -=Damage;
-						PlayerController->ShowHealth.Broadcast();
-					}
+					Timer = 0;
+					UKismetSystemLibrary::PrintString(this,"hehe");
+					PlayerController->Health -= Damage;
+					PlayerController->ChangeHealth();
 				}
-				
 			}
-
 		}
-		
 	}
 }
 
 void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	// Kiểm tra nếu OtherActor là nhân vật
-	ACharacter* PlayerCharacter = Cast<ACharacter>(OtherActor);
+	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(OtherActor);
 	if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
 	{
 		// Chạy animation tấn công
@@ -123,7 +114,6 @@ void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, 
 			GetMesh()->PlayAnimation(AttackAnimation, true);
 				
 		}
-
 	}
 
 	AProjectitle *Projectiles = Cast<AProjectitle>(OtherActor);
