@@ -1,6 +1,6 @@
 /I "."
-/I "C:\Users\TQPhuuuuu\Desktop\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\UnrealEditor\Inc\BanSungOnline\UHT"
-/I "C:\Users\TQPhuuuuu\Desktop\GameOnline\BanSungOnline\BanSungOnline\Source"
+/I "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\UnrealEditor\Inc\BanSungOnline\UHT"
+/I "C:\CloneLai\BanSungOnline\BanSungOnline\Source"
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"

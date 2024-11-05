@@ -3,9 +3,11 @@
 
 #include "Weapon.h"
 
+#include "BanSungOnline/BanSungOnlinePlayerController.h"
 #include "BanSungOnline/Projectitle/Projectitle_Pistol.h"
 #include "BanSungOnline/Projectitle/Projectitle_Rifle.h"
 #include "Components/SphereComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Net/UnrealNetwork.h"
 
@@ -47,7 +49,7 @@ void AWeapon::ReLoadAmmo()
 	}
 
 	// Tính số đạn cần để nạp đầy băng đạn
-	int32 AmmoNeededToFillClip = MaxAmmo - CurrentAmmo;
+	int32 AmmoNeededToFillClip  = MaxAmmo - CurrentAmmo;
 
 	// Nếu đạn dự trữ đủ để nạp đầy băng
 	if (Ammo >= AmmoNeededToFillClip)

@@ -77,6 +77,8 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FDisplayWBBulletCount ShowWBCountBullet;
 
+	
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
@@ -99,10 +101,14 @@ protected:
 	void OnKeyBoard_Pistol(const FInputActionValue& Value);
 	void OnKeyBoard_Rifle(const FInputActionValue& Value);
 	void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);
-
-	bool ShootOneByOne;
+	UPROPERTY(Replicated)
+	bool isReloading = false;	bool ShootOneByOne;
 	bool bCanFireRifle = true;
-	bool isReloading = false;
+	
+	UFUNCTION(NetMulticast, Reliable)
+	void SetFalse ();
+	
+	
 	bool FireShooting = false;
 	UFUNCTION(Server, Unreliable)
 	void ReloadGun();

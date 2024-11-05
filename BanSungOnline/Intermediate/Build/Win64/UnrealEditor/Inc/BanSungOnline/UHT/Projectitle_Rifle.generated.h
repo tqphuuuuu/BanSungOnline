@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BANSUNGONLINE_Projectitle_Rifle_generated_h
 
-#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectitle_Rifle(); \
 	friend struct Z_Construct_UClass_AProjectitle_Rifle_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AProjectitle_Rifle)
 
 
-#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AProjectitle_Rifle(); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~AProjectitle_Rifle();
 
 
-#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_10_PROLOG
-#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_GENERATED_BODY \
+#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_10_PROLOG
+#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_INCLASS_NO_PURE_DECLS \
-	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_ENHANCED_CONSTRUCTORS \
+	FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_INCLASS_NO_PURE_DECLS \
+	FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class AProjectitle_Rifle>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h
+#define CURRENT_FILE_ID FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

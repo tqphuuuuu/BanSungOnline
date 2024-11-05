@@ -93,7 +93,6 @@ void AEnemy::AttackCharacter()
 				if (Timer >= 100)
 				{
 					Timer = 0;
-					UKismetSystemLibrary::PrintString(this,"hehe");
 					PlayerController->Health -= Damage;
 					PlayerController->ChangeHealth();
 				}

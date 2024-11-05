@@ -197,10 +197,16 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 void ABanSungOnlinePlayerController::ReloadGun_Implementation()
 {
 	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ReLoadAmmo();
-	isReloading = false;
-	UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+	SetFalse();
 
 }
+
+void ABanSungOnlinePlayerController::SetFalse_Implementation()
+{
+	isReloading = false;
+	UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+}
+
 
 void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWeapon)
 {
@@ -217,7 +223,7 @@ void ABanSungOnlinePlayerController::GetLifetimeReplicatedProps(TArray<class FLi
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlinePlayerController, CachedDestination);
-
+	DOREPLIFETIME(ABanSungOnlinePlayerController, isReloading);
 }
 
 
@@ -358,3 +364,4 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 		}
 	}
 }
+
