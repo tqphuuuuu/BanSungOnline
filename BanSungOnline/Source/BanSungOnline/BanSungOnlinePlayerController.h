@@ -76,6 +76,10 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FDisplayWBBulletCount ShowWBCountBullet;
+	
+	
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_ShowWeapon(int32 Type);
 
 	
 

@@ -110,8 +110,11 @@ void ABanSungOnlineCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
 			Weapons.Add(Weapon);  // Thêm Pistol vào mảng
 			Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, TEXT("Socket_Weapon"));
 			Weapon->IsAttached = true;
-			/*Weapon->SetActorHiddenInGame(true);
-			PrintAllWeaponsInArray();*/
+			Weapon->SetActorHiddenInGame(true);
+
+			// Kiểm tra xem đang chạy trên server hay client và in thông báo bằng UKismetSystemLibrary
+			
+			//PrintAllWeaponsInArray();*/
 		}
 	}
 }
@@ -139,15 +142,17 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 	{
 		return;
 	}
-	/*
+	
 	// Ẩn tất cả vũ khí trước khi hiển thị vũ khí mới
 	for (AWeapon* Weapon : Weapons)
 	{
 		if (Weapon)
 		{
 			Weapon->SetActorHiddenInGame(true);  // Ẩn vũ khí
+			FString HideMessage = HasAuthority() ? TEXT("Weapon hidden on SERVER.") : TEXT("Weapon hidden on CLIENT.");
+			UKismetSystemLibrary::PrintString(this, HideMessage, true, true, FColor::Red, 2.f);
 		}
-	}*/
+	}
 	// Hiển thị vũ khí theo Type
 	for (AWeapon* Weapon : Weapons)
 	{
@@ -157,11 +162,17 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 			{
 				
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
+				FString ShowMessage = FString::Printf(TEXT("Weapon of Type %d shown on %s."), Type, HasAuthority() ? TEXT("SERVER") : TEXT("CLIENT"));
+				FColor MessageColor = HasAuthority() ? FColor::Green : FColor::Blue;
+				UKismetSystemLibrary::PrintString(this, ShowMessage, true, true, MessageColor, 5.f);
 				
 			}
 			else if (Type == 1)
 			{
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
+				FString ShowMessage = FString::Printf(TEXT("Weapon of Type %d shown on %s."), Type, HasAuthority() ? TEXT("SERVER") : TEXT("CLIENT"));
+				FColor MessageColor = HasAuthority() ? FColor::Green : FColor::Blue;
+				UKismetSystemLibrary::PrintString(this, ShowMessage, true, true, MessageColor, 5.f);
 
 			}
 			return;  // Thoát vòng lặp sau khi tìm thấy và hiển thị vũ khí
@@ -182,6 +193,8 @@ TSubclassOf<AWeapon> ABanSungOnlineCharacter::GetCurrentWeaponClass()
 
 	return nullptr; // Nếu không có vũ khí nào, trả về nullptr
 }
+
+
 
 bool ABanSungOnlineCharacter::IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass)
 {

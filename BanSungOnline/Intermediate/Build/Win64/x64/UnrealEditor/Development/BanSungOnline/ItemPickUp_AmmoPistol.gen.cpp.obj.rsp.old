@@ -1,11 +1,11 @@
-"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\UnrealEditor\Inc\BanSungOnline\UHT\ItemPickUp_AmmoPistol.gen.cpp"
-/FI"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Definitions.BanSungOnline.h"
-/Yu"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\ItemPickUp_AmmoPistol.gen.cpp.obj"
-/sourceDependencies "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\ItemPickUp_AmmoPistol.gen.cpp.dep.json"
-@"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnline.Shared.rsp"
+"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\UnrealEditor\Inc\BanSungOnline\UHT\ItemPickUp_AmmoPistol.gen.cpp"
+/FI"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Definitions.BanSungOnline.h"
+/Yu"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\ItemPickUp_AmmoPistol.gen.cpp.obj"
+/sourceDependencies "E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\ItemPickUp_AmmoPistol.gen.cpp.dep.json"
+@"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnline.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

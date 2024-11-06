@@ -90,4 +90,6 @@ void AWeapon::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLif
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AWeapon,IsAttached);
 	DOREPLIFETIME(AWeapon,CurrentAmmo);
+	DOREPLIFETIME(AWeapon,Ammo);
+
 }

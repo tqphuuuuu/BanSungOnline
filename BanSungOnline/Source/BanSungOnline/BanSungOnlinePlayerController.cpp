@@ -76,6 +76,8 @@ void ABanSungOnlinePlayerController::WeaponFiring_Implementation(AWeapon* Weapon
 	Weapon->Fire(MouseLocation);
 }
 
+
+
 void ABanSungOnlinePlayerController::SetupInputComponent()
 {
 	// set up gameplay key bindings
@@ -164,7 +166,7 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 	{
 		if (SelectedWeapon->Type == 1 && !isReloading)  // Rifle
 		{
-			UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
+			
 
 			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
 			{
@@ -177,8 +179,6 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		}
 		else if (SelectedWeapon->Type == 0 && !isReloading )  // Pistol
 		{
-			UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
-
 			if (!ShootOneByOne)
 			{
 				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
@@ -204,7 +204,6 @@ void ABanSungOnlinePlayerController::ReloadGun_Implementation()
 void ABanSungOnlinePlayerController::SetFalse_Implementation()
 {
 	isReloading = false;
-	UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
 }
 
 
@@ -279,15 +278,14 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Pistol(const FInputActionValue& 
 	
 	if (MyCharacter)
 	{
-		MyCharacter->ShowWeapon(0);
-		ShowWBCountBullet.Broadcast();
 		//MyCharacter->Cur_weapon = 0;
 		auto Weapon_Array = MyCharacter->Weapons;
 		for (auto i:Weapon_Array)
 		{
 			if (Cast<AWeaponPistol>(i))
 			{
-				//MyCharacter->CurrentWeapon = i;
+				Server_ShowWeapon(0);
+				ShowWBCountBullet.Broadcast();
 				ReplaceWeapon(i);
 				break;
 			}
@@ -306,16 +304,16 @@ void ABanSungOnlinePlayerController::OnKeyBoard_Rifle(const FInputActionValue& V
 	
 	if (MyCharacter)
 	{
-		MyCharacter->ShowWeapon(1);
-		ShowWBCountBullet.Broadcast();
 		//MyCharacter->Cur_weapon = 1;
 		auto Weapon_Array = MyCharacter->Weapons;
 		for (auto i:Weapon_Array)
 		{
 			if (Cast<AWeaponRifle>(i))
 			{
-				//MyCharacter->CurrentWeapon = i;
+				Server_ShowWeapon(1);
+
 				ReplaceWeapon(i);
+				ShowWBCountBullet.Broadcast();
 				break;
 			}
 		}
@@ -342,8 +340,6 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 					if (Weapon->CurrentAmmo < Weapon->MaxAmmo && !isReloading)
 					{
 						isReloading = true;
-						UKismetSystemLibrary::PrintString(this, isReloading ? TEXT("true") : TEXT("false"));
-
 						// Tạo timer để delay 3 giây
 						FTimerHandle ReloadTimerHandle;
 						//ReloadGun();
@@ -363,5 +359,19 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 			//UKismetSystemLibrary::PrintString(this, TEXT("Không có vũ khí nào được hiện."));
 		}
 	}
+}
+
+void ABanSungOnlinePlayerController::Server_ShowWeapon_Implementation(int32 Type)
+{
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetCharacter());
+	if (MyCharacter)
+	{
+		MyCharacter->ShowWeapon(Type);
+	}
+}
+
+bool ABanSungOnlinePlayerController::Server_ShowWeapon_Validate(int32 Type)
+{
+	return true;
 }
 

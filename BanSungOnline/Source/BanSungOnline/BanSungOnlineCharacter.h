@@ -9,6 +9,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FShowHealth);
 
 
+
 UCLASS(Blueprintable)
 class ABanSungOnlineCharacter : public ACharacter
 {
@@ -42,6 +43,7 @@ public:
 
 	void ShowWeapon(int32 Type);
 	TSubclassOf<AWeapon> GetCurrentWeaponClass();
+
 
 	//Kiểm tra hiển thị của súng
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
