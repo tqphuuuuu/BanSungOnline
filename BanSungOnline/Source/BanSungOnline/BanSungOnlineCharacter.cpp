@@ -149,8 +149,6 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 		if (Weapon)
 		{
 			Weapon->SetActorHiddenInGame(true);  // Ẩn vũ khí
-			FString HideMessage = HasAuthority() ? TEXT("Weapon hidden on SERVER.") : TEXT("Weapon hidden on CLIENT.");
-			UKismetSystemLibrary::PrintString(this, HideMessage, true, true, FColor::Red, 2.f);
 		}
 	}
 	// Hiển thị vũ khí theo Type
@@ -162,17 +160,11 @@ void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 			{
 				
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
-				FString ShowMessage = FString::Printf(TEXT("Weapon of Type %d shown on %s."), Type, HasAuthority() ? TEXT("SERVER") : TEXT("CLIENT"));
-				FColor MessageColor = HasAuthority() ? FColor::Green : FColor::Blue;
-				UKismetSystemLibrary::PrintString(this, ShowMessage, true, true, MessageColor, 5.f);
 				
 			}
 			else if (Type == 1)
 			{
 				Weapon->SetActorHiddenInGame(false);  // Hiển thị vũ khí
-				FString ShowMessage = FString::Printf(TEXT("Weapon of Type %d shown on %s."), Type, HasAuthority() ? TEXT("SERVER") : TEXT("CLIENT"));
-				FColor MessageColor = HasAuthority() ? FColor::Green : FColor::Blue;
-				UKismetSystemLibrary::PrintString(this, ShowMessage, true, true, MessageColor, 5.f);
 
 			}
 			return;  // Thoát vòng lặp sau khi tìm thấy và hiển thị vũ khí
