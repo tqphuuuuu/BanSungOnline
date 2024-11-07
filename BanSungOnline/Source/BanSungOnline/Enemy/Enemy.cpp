@@ -69,6 +69,8 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
  
 void AEnemy::AttackCharacter()
 {
+	if (HasAuthority()) return; // Chỉ server mới thực hiện
+
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
 	FVector End = GetMesh()->GetSocketLocation(FName("B"));
 
@@ -95,6 +97,7 @@ void AEnemy::AttackCharacter()
 				{
 					Timer = 0;
 					PlayerController->Health -= Damage;
+					UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(PlayerController->Health));
 					PlayerController->ChangeHealth();
 				}
 			}

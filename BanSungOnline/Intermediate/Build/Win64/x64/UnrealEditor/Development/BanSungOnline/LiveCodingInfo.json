@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.BanSungOnline.cpp.obj": [
+			"BanSungOnline.init.gen.cpp.obj",
+			"BanSungOnlineCharacter.gen.cpp.obj",
 			"BanSungOnlineGameMode.gen.cpp.obj",
 			"BanSungOnlinePlayerController.gen.cpp.obj",
 			"Enemy.gen.cpp.obj",
@@ -32,8 +34,6 @@
 			"Weapon.cpp.obj",
 			"WeaponPistol.cpp.obj",
 			"WeaponRifle.cpp.obj",
-			"BanSungOnline.init.gen.cpp.obj",
-			"BanSungOnlineCharacter.gen.cpp.obj",
 			"BanSungOnlineCharacter.cpp.obj",
 			"Enemy.cpp.obj"
 		]

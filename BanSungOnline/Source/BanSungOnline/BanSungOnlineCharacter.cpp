@@ -73,6 +73,8 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ABanSungOnlineCharacter, Mouse);
 	DOREPLIFETIME(ABanSungOnlineCharacter, CurrentWeapon);
+	DOREPLIFETIME(ABanSungOnlineCharacter, Health);
+
 	//DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
 }
 
