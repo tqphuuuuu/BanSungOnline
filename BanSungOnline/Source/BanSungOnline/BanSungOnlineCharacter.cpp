@@ -57,14 +57,16 @@ ABanSungOnlineCharacter::ABanSungOnlineCharacter()
 void ABanSungOnlineCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
-    if (Health > 0)
-    {
-    	FVector Location = GetActorLocation();
-    	FRotator Temp =  UKismetMathLibrary::FindLookAtRotation(Location , Mouse);
-    	Temp.Roll = GetActorRotation().Roll;
-    	Temp.Pitch = GetActorRotation().Pitch;
-    	SetActorRotation(Temp);
-    }
+	
+		if (Health > 0)
+		{
+			FVector Location = GetActorLocation();
+			FRotator Temp =  UKismetMathLibrary::FindLookAtRotation(Location , Mouse);
+			Temp.Roll = GetActorRotation().Roll;
+			Temp.Pitch = GetActorRotation().Pitch;
+			SetActorRotation(Temp);
+		}
+    
 }
 void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {

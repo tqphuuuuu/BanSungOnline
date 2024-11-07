@@ -63,7 +63,7 @@ struct Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlineCharacter, nullptr, "ChangeHealth", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00220CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlineCharacter, nullptr, "ChangeHealth", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04220C40, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::Function_MetaDataParams) };
 UFunction* Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -97,7 +97,7 @@ struct Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlineCharacter, nullptr, "ChangeHealthClient", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01020CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlineCharacter, nullptr, "ChangeHealthClient", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01020C40, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::Function_MetaDataParams) };
 UFunction* Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -237,6 +237,9 @@ struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShowHealth_MetaData[] = {
 		{ "ModuleRelativePath", "BanSungOnlineCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bCanRotate_MetaData[] = {
+		{ "ModuleRelativePath", "BanSungOnlineCharacter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TopDownCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -270,13 +273,15 @@ struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_ShowHealth;
+	static void NewProp_bCanRotate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bCanRotate;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TopDownCameraComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth, "ChangeHealth" }, // 203675914
-		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient, "ChangeHealthClient" }, // 4215261789
+		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth, "ChangeHealth" }, // 1631405740
+		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient, "ChangeHealthClient" }, // 835651442
 		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_IsWeaponVisible, "IsWeaponVisible" }, // 1205703907
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -296,6 +301,11 @@ const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABanSungOnlineCha
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000025, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, Health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Health_MetaData), NewProp_Health_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000025, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, MaxHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxHealth_MetaData), NewProp_MaxHealth_MetaData) };
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_ShowHealth = { "ShowHealth", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, ShowHealth), Z_Construct_UDelegateFunction_BanSungOnline_ShowHealth__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShowHealth_MetaData), NewProp_ShowHealth_MetaData) }; // 1430727102
+void Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_bCanRotate_SetBit(void* Obj)
+{
+	((ABanSungOnlineCharacter*)Obj)->bCanRotate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_bCanRotate = { "bCanRotate", nullptr, (EPropertyFlags)0x0010000000000020, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ABanSungOnlineCharacter), &Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_bCanRotate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bCanRotate_MetaData), NewProp_bCanRotate_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TopDownCameraComponent_MetaData), NewProp_TopDownCameraComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABanSungOnlineCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraBoom_MetaData), NewProp_CameraBoom_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABanSungOnlineCharacter_Statics::PropPointers[] = {
@@ -306,6 +316,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABanSungO
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_Health,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_MaxHealth,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_ShowHealth,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_bCanRotate,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_TopDownCameraComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABanSungOnlineCharacter_Statics::NewProp_CameraBoom,
 };
@@ -349,12 +360,14 @@ void ABanSungOnlineCharacter::ValidateGeneratedRepEnums(const TArray<struct FRep
 	static const FName Name_CurrentWeapon(TEXT("CurrentWeapon"));
 	static const FName Name_Health(TEXT("Health"));
 	static const FName Name_MaxHealth(TEXT("MaxHealth"));
+	static const FName Name_bCanRotate(TEXT("bCanRotate"));
 	const bool bIsValid = true
 		&& Name_Mouse == ClassReps[(int32)ENetFields_Private::Mouse].Property->GetFName()
 		&& Name_HiddenWeapon == ClassReps[(int32)ENetFields_Private::HiddenWeapon].Property->GetFName()
 		&& Name_CurrentWeapon == ClassReps[(int32)ENetFields_Private::CurrentWeapon].Property->GetFName()
 		&& Name_Health == ClassReps[(int32)ENetFields_Private::Health].Property->GetFName()
-		&& Name_MaxHealth == ClassReps[(int32)ENetFields_Private::MaxHealth].Property->GetFName();
+		&& Name_MaxHealth == ClassReps[(int32)ENetFields_Private::MaxHealth].Property->GetFName()
+		&& Name_bCanRotate == ClassReps[(int32)ENetFields_Private::bCanRotate].Property->GetFName();
 	checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ABanSungOnlineCharacter"));
 }
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABanSungOnlineCharacter);
@@ -365,10 +378,10 @@ ABanSungOnlineCharacter::~ABanSungOnlineCharacter() {}
 struct Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 530046157U) },
+		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 3636465653U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_1271853775(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_117459054(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

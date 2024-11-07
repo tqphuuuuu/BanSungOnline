@@ -66,7 +66,7 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
 	DOREPLIFETIME(AEnemy,Health);
 }
 
-
+ 
 void AEnemy::AttackCharacter()
 {
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));

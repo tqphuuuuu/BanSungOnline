@@ -56,10 +56,10 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	int Cur_weapon = 0;
 
-	UFUNCTION(Server, Reliable)
+	UFUNCTION(BlueprintCallable, Server, Unreliable)
 	void ChangeHealth();
 
-	UFUNCTION(Client, Reliable)
+	UFUNCTION(Client, Unreliable)
 	void ChangeHealthClient();
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", Replicated)
@@ -70,6 +70,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FShowHealth ShowHealth;
+
+	UPROPERTY(Replicated)
+	bool bCanRotate;
 
 private:
 	/** Top down camera */

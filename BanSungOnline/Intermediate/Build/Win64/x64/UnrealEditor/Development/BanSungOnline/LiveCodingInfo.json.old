@@ -4,6 +4,9 @@
 		"Module.BanSungOnline.cpp.obj": [
 			"BanSungOnlineGameMode.gen.cpp.obj",
 			"BanSungOnlinePlayerController.gen.cpp.obj",
+			"Enemy.gen.cpp.obj",
+			"Enemy_Boss.gen.cpp.obj",
+			"Enemy_Zombie.gen.cpp.obj",
 			"ItemPickUp.gen.cpp.obj",
 			"ItemPickUp_AmmoPistol.gen.cpp.obj",
 			"ItemPickUp_AmmoRifle.gen.cpp.obj",
@@ -17,6 +20,7 @@
 			"BanSungOnline.cpp.obj",
 			"BanSungOnlineGameMode.cpp.obj",
 			"BanSungOnlinePlayerController.cpp.obj",
+			"Enemy.cpp.obj",
 			"Enemy_Boss.cpp.obj",
 			"Enemy_Zombie.cpp.obj",
 			"ItemPickUp.cpp.obj",
@@ -31,11 +35,7 @@
 			"WeaponRifle.cpp.obj",
 			"BanSungOnline.init.gen.cpp.obj",
 			"BanSungOnlineCharacter.gen.cpp.obj",
-			"Enemy.gen.cpp.obj",
-			"Enemy_Boss.gen.cpp.obj",
-			"Enemy_Zombie.gen.cpp.obj",
-			"BanSungOnlineCharacter.cpp.obj",
-			"Enemy.cpp.obj"
+			"BanSungOnlineCharacter.cpp.obj"
 		]
 	}
 }

@@ -43,7 +43,8 @@ public: \
 		CurrentWeapon, \
 		Health, \
 		MaxHealth, \
-		NETFIELD_REP_END=MaxHealth	}; \
+		bCanRotate, \
+		NETFIELD_REP_END=bCanRotate	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 

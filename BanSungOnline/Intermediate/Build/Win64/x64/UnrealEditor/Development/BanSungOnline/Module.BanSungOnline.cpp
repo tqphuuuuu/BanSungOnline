@@ -16,6 +16,7 @@
 #include "C:/CloneLai/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/UnrealEditor/Inc/BanSungOnline/UHT/WeaponRifle.gen.cpp"
 #include "C:/CloneLai/BanSungOnline/BanSungOnline/Source/BanSungOnline/BanSungOnline.cpp"
 #include "C:/CloneLai/BanSungOnline/BanSungOnline/Source/BanSungOnline/BanSungOnlineGameMode.cpp"
+#include "C:/CloneLai/BanSungOnline/BanSungOnline/Source/BanSungOnline/BanSungOnlinePlayerController.cpp"
 #include "C:/CloneLai/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy_Boss.cpp"
 #include "C:/CloneLai/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy_Zombie.cpp"
 #include "C:/CloneLai/BanSungOnline/BanSungOnline/Source/BanSungOnline/ItemPickUp/ItemPickUp.cpp"
