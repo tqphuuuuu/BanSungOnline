@@ -20,9 +20,14 @@ BANSUNGONLINE_API void FShowHealth_DelegateWrapper(const FMulticastScriptDelegat
 
 
 #define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ChangeHealthClient_Implementation(); \
+	virtual void ChangeHealth_Implementation(); \
+	DECLARE_FUNCTION(execChangeHealthClient); \
+	DECLARE_FUNCTION(execChangeHealth); \
 	DECLARE_FUNCTION(execIsWeaponVisible);
 
 
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_CALLBACK_WRAPPERS
 #define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABanSungOnlineCharacter(); \
@@ -59,6 +64,7 @@ public: \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_CALLBACK_WRAPPERS \
 	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_INCLASS_NO_PURE_DECLS \
 	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \

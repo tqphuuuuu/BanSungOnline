@@ -164,6 +164,7 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 
 	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1)
 	{
+		
 		if (SelectedWeapon->Type == 1 && !isReloading)  // Rifle
 		{
 			
@@ -252,23 +253,32 @@ void ABanSungOnlinePlayerController::OnTouchReleased()
 }
 void ABanSungOnlinePlayerController::OnMoveAction(const FInputActionValue& Value)
 {
+	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
 	const FVector2D MovementVector = Value.Get<FVector2D>();
-	if (this != nullptr)
+	if (MyCharacter)
 	{
-		// find out which way is forward
-		const FRotator Rotation = GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		if (MyCharacter->Health > 0)
+		{
+			if (this != nullptr)
+			{
+				// find out which way is forward
+				const FRotator Rotation = GetControlRotation();
+				const FRotator YawRotation(0, Rotation.Yaw, 0);
 
-		// get forward vector
-		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+				// get forward vector
+				const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 	
-		// get right vector .
-		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+				// get right vector .
+				const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		// add movement 
-		GetPawn()->AddMovementInput(ForwardDirection, MovementVector.Y);
-		GetPawn()->AddMovementInput(RightDirection, MovementVector.X);
+				// add movement 
+				GetPawn()->AddMovementInput(ForwardDirection, MovementVector.Y);
+				GetPawn()->AddMovementInput(RightDirection, MovementVector.X);
+			}
+		}
+		
 	}
+	
 }
 
 void ABanSungOnlinePlayerController::OnKeyBoard_Pistol(const FInputActionValue& Value)

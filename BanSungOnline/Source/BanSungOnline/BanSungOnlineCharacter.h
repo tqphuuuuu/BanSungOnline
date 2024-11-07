@@ -56,7 +56,11 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	int Cur_weapon = 0;
 
+	UFUNCTION(Server, Reliable)
 	void ChangeHealth();
+
+	UFUNCTION(Client, Reliable)
+	void ChangeHealthClient();
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", Replicated)
     float Health;

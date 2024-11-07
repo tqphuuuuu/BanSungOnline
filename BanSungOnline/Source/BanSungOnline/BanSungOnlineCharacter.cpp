@@ -57,11 +57,14 @@ ABanSungOnlineCharacter::ABanSungOnlineCharacter()
 void ABanSungOnlineCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
-	FVector Location = GetActorLocation();
-	FRotator Temp =  UKismetMathLibrary::FindLookAtRotation(Location , Mouse);
-	Temp.Roll = GetActorRotation().Roll;
-	Temp.Pitch = GetActorRotation().Pitch;
-	SetActorRotation(Temp);
+    if (Health > 0)
+    {
+    	FVector Location = GetActorLocation();
+    	FRotator Temp =  UKismetMathLibrary::FindLookAtRotation(Location , Mouse);
+    	Temp.Roll = GetActorRotation().Roll;
+    	Temp.Pitch = GetActorRotation().Pitch;
+    	SetActorRotation(Temp);
+    }
 }
 void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
@@ -203,8 +206,14 @@ bool ABanSungOnlineCharacter::IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass)
 	return false;
 }
 
-void ABanSungOnlineCharacter::ChangeHealth()
+void ABanSungOnlineCharacter::ChangeHealthClient_Implementation()
 {
 	if (!HasAuthority())
 		ShowHealth.Broadcast();
 }
+
+void ABanSungOnlineCharacter::ChangeHealth_Implementation()
+{
+	ChangeHealthClient();
+}
+

@@ -48,6 +48,74 @@ void FShowHealth_DelegateWrapper(const FMulticastScriptDelegate& ShowHealth)
 }
 // End Delegate FShowHealth
 
+// Begin Class ABanSungOnlineCharacter Function ChangeHealth
+static FName NAME_ABanSungOnlineCharacter_ChangeHealth = FName(TEXT("ChangeHealth"));
+void ABanSungOnlineCharacter::ChangeHealth()
+{
+	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlineCharacter_ChangeHealth),NULL);
+}
+struct Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BanSungOnlineCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlineCharacter, nullptr, "ChangeHealth", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00220CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABanSungOnlineCharacter::execChangeHealth)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ChangeHealth_Implementation();
+	P_NATIVE_END;
+}
+// End Class ABanSungOnlineCharacter Function ChangeHealth
+
+// Begin Class ABanSungOnlineCharacter Function ChangeHealthClient
+static FName NAME_ABanSungOnlineCharacter_ChangeHealthClient = FName(TEXT("ChangeHealthClient"));
+void ABanSungOnlineCharacter::ChangeHealthClient()
+{
+	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlineCharacter_ChangeHealthClient),NULL);
+}
+struct Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BanSungOnlineCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABanSungOnlineCharacter, nullptr, "ChangeHealthClient", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01020CC0, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABanSungOnlineCharacter::execChangeHealthClient)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ChangeHealthClient_Implementation();
+	P_NATIVE_END;
+}
+// End Class ABanSungOnlineCharacter Function ChangeHealthClient
+
 // Begin Class ABanSungOnlineCharacter Function IsWeaponVisible
 struct Z_Construct_UFunction_ABanSungOnlineCharacter_IsWeaponVisible_Statics
 {
@@ -111,6 +179,8 @@ void ABanSungOnlineCharacter::StaticRegisterNativesABanSungOnlineCharacter()
 {
 	UClass* Class = ABanSungOnlineCharacter::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "ChangeHealth", &ABanSungOnlineCharacter::execChangeHealth },
+		{ "ChangeHealthClient", &ABanSungOnlineCharacter::execChangeHealthClient },
 		{ "IsWeaponVisible", &ABanSungOnlineCharacter::execIsWeaponVisible },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -205,6 +275,8 @@ struct Z_Construct_UClass_ABanSungOnlineCharacter_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealth, "ChangeHealth" }, // 203675914
+		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_ChangeHealthClient, "ChangeHealthClient" }, // 4215261789
 		{ &Z_Construct_UFunction_ABanSungOnlineCharacter_IsWeaponVisible, "IsWeaponVisible" }, // 1205703907
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -293,10 +365,10 @@ ABanSungOnlineCharacter::~ABanSungOnlineCharacter() {}
 struct Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 338011448U) },
+		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 530046157U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_585037981(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_1271853775(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
