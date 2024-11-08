@@ -14,6 +14,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BANSUNGONLINE_Weapon_generated_h
 
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execFire);
+
+
 #define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
@@ -27,7 +31,8 @@ public: \
 		IsAttached=NETFIELD_REP_START, \
 		Ammo, \
 		CurrentAmmo, \
-		NETFIELD_REP_END=CurrentAmmo	}; \
+		Projectitle, \
+		NETFIELD_REP_END=Projectitle	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -47,6 +52,7 @@ public: \
 #define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
 	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
 private: \

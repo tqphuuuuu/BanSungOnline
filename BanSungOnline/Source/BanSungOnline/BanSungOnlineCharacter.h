@@ -35,37 +35,35 @@ public:
 	UPROPERTY(Replicated)
 	FVector Mouse;
 
+	UFUNCTION(Server, Unreliable)
+	void ServerSetHealth(float Damage);
+
 	UPROPERTY(Replicated)
 	bool HiddenWeapon = false;
 	void InitializeWeaponClasses();
 
-	void PrintAllWeaponsInArray();
-
 	void ShowWeapon(int32 Type);
 	TSubclassOf<AWeapon> GetCurrentWeaponClass();
-
-
-	//Kiểm tra hiển thị của súng
-	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	
+	UFUNCTION(BlueprintCallable)
 	bool IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass);
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Weapon", Replicated);
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Replicated);
 	AWeapon* CurrentWeapon;
 
 	// Biến hiện UI
 	UPROPERTY(BlueprintReadOnly)
 	int Cur_weapon = 0;
-
-	UFUNCTION(BlueprintCallable, Server, Unreliable)
-	void ChangeHealth();
-
-	UFUNCTION(Client, Unreliable)
-	void ChangeHealthClient();
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health", Replicated)
+	UFUNCTION()
+	void OnRep_ChangeHealth();
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, ReplicatedUsing = OnRep_ChangeHealth)
     float Health;
+
+	
     
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MaxHealth",Replicated)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated)
     float MaxHealth;
 
 	UPROPERTY(BlueprintAssignable)

@@ -91,5 +91,7 @@ void AWeapon::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLif
 	DOREPLIFETIME(AWeapon,IsAttached);
 	DOREPLIFETIME(AWeapon,CurrentAmmo);
 	DOREPLIFETIME(AWeapon,Ammo);
+	DOREPLIFETIME(AWeapon, Projectitle);
+
 
 }

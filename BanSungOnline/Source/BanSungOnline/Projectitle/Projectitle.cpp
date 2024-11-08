@@ -7,6 +7,7 @@
 
 #include "BanSungOnline/BanSungOnlineCharacter.h"
 #include "BanSungOnline/Enemy/Enemy.h"
+#include "BanSungOnline/Enemy/Enemy_Boss.h"
 #include "Components/SphereComponent.h"
 #include "Net/UnrealNetwork.h"
 
@@ -64,16 +65,7 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 	AEnemy* Enemy = Cast<AEnemy>(OtherActor);
 	if (IsValid(Enemy))
 	{
-		// Giảm máu của kẻ địch khi viên đạn va chạm
 		Enemy->Health -= Damage;
-		/*if (Enemy->Health <= 0)
-		{
-			Enemy->Destroy();
-		}*/
-		
-		// Optional: Phá hủy viên đạn sau khi va chạm
-		/*if (Velocity.SquaredLength() > 0.1f)
-			Destroy();*/
 	}
 }
 

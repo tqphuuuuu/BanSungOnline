@@ -50,7 +50,8 @@ void AEnemy::Tick(float DeltaTime)
 
 	}
 	Timer++;
-	AttackCharacter();
+	if (!HasAuthority())
+		AttackCharacter();
 	//UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Health));
 }
 
@@ -69,7 +70,7 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
  
 void AEnemy::AttackCharacter()
 {
-	if (HasAuthority()) return; // Chỉ server mới thực hiện
+	
 
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
 	FVector End = GetMesh()->GetSocketLocation(FName("B"));
@@ -88,17 +89,16 @@ void AEnemy::AttackCharacter()
 	
 	if (bHit) {
 		// Kiểm tra đối tượng bị hit có phải là nhân vật không
-		ABanSungOnlineCharacter* PlayerController = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
-		if (IsValid(PlayerController))
+		ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
+		if (IsValid(MyCharacter))
 		{
 			if (Health >= 0)
 			{
 				if (Timer >= 100)
 				{
 					Timer = 0;
-					PlayerController->Health -= Damage;
-					UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(PlayerController->Health));
-					PlayerController->ChangeHealth();
+					MyCharacter->ServerSetHealth(Damage);
+					
 				}
 			}
 		}

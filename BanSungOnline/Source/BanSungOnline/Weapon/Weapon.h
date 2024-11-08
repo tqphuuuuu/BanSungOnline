@@ -44,6 +44,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Type")
 	int Type;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Replicated);
+	AProjectitle* Projectitle;
+
 	
 
 protected:
@@ -55,7 +58,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void ReLoadAmmo();
-
+	UFUNCTION(BlueprintCallable)
 	virtual void Fire(FVector JerryPosition);
 	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 

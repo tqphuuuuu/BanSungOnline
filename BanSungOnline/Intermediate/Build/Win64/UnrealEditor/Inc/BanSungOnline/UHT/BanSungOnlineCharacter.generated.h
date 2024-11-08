@@ -20,11 +20,10 @@ BANSUNGONLINE_API void FShowHealth_DelegateWrapper(const FMulticastScriptDelegat
 
 
 #define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void ChangeHealthClient_Implementation(); \
-	virtual void ChangeHealth_Implementation(); \
-	DECLARE_FUNCTION(execChangeHealthClient); \
-	DECLARE_FUNCTION(execChangeHealth); \
-	DECLARE_FUNCTION(execIsWeaponVisible);
+	virtual void ServerSetHealth_Implementation(float Damage); \
+	DECLARE_FUNCTION(execOnRep_ChangeHealth); \
+	DECLARE_FUNCTION(execIsWeaponVisible); \
+	DECLARE_FUNCTION(execServerSetHealth);
 
 
 #define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_16_CALLBACK_WRAPPERS

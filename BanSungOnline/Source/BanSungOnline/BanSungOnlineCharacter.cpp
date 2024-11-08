@@ -57,16 +57,14 @@ ABanSungOnlineCharacter::ABanSungOnlineCharacter()
 void ABanSungOnlineCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
-	
-		if (Health > 0)
-		{
-			FVector Location = GetActorLocation();
-			FRotator Temp =  UKismetMathLibrary::FindLookAtRotation(Location , Mouse);
-			Temp.Roll = GetActorRotation().Roll;
-			Temp.Pitch = GetActorRotation().Pitch;
-			SetActorRotation(Temp);
-		}
-    
+	if (Health > 0)
+	{
+		FVector Location = GetActorLocation();
+		FRotator Temp =  UKismetMathLibrary::FindLookAtRotation(Location , Mouse);
+		Temp.Roll = GetActorRotation().Roll;
+		Temp.Pitch = GetActorRotation().Pitch;
+		SetActorRotation(Temp);
+	}
 }
 void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
@@ -74,8 +72,7 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 	DOREPLIFETIME(ABanSungOnlineCharacter, Mouse);
 	DOREPLIFETIME(ABanSungOnlineCharacter, CurrentWeapon);
 	DOREPLIFETIME(ABanSungOnlineCharacter, Health);
-
-	//DOREPLIFETIME(ABanSungOnlineCharacter, HiddenWeapon);	
+	DOREPLIFETIME(ABanSungOnlineCharacter, MaxHealth);
 }
 
 /// Kiểm tra xem có phải là vũ khí cần nhặt không
@@ -85,6 +82,7 @@ void ABanSungOnlineCharacter::InitializeWeaponClasses()
 	ValidWeaponClasses.Add(AWeaponPistol::StaticClass());  
 	ValidWeaponClasses.Add(AWeaponRifle::StaticClass());  
 }
+
 //// Add vũ khí vào hàm
 void ABanSungOnlineCharacter::AddWeapon(AWeapon* NewWeapon)  
 {  
@@ -95,13 +93,17 @@ void ABanSungOnlineCharacter::AddWeapon(AWeapon* NewWeapon)
 			if (NewWeapon->GetClass() == WeaponClass)  
 			{  
 				Weapons.Add(NewWeapon);
-				//UKismetSystemLibrary::PrintString(this, TEXT("Đã thêm vũ khí vào mảng."), true, true, FLinearColor::Green, 2.0f);
 				return;
 			}  
 		}  
 		UE_LOG(LogTemp, Warning, TEXT("Ko phai sung"));  
 	}  
-}  
+}
+
+void ABanSungOnlineCharacter::ServerSetHealth_Implementation(float Damage)
+{
+	Health -= Damage;
+}
 
 void ABanSungOnlineCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
 {
@@ -114,34 +116,14 @@ void ABanSungOnlineCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
 		if (IsValid(Weapon) && !Weapon->IsAttached)
 		{
 			Weapon->IsAttached = true;
-			Weapons.Add(Weapon);  // Thêm Pistol vào mảng
+			Weapons.Add(Weapon); 
 			Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, TEXT("Socket_Weapon"));
 			Weapon->IsAttached = true;
 			Weapon->SetActorHiddenInGame(true);
-
-			// Kiểm tra xem đang chạy trên server hay client và in thông báo bằng UKismetSystemLibrary
-			
-			//PrintAllWeaponsInArray();*/
 		}
 	}
 }
 
-void ABanSungOnlineCharacter::PrintAllWeaponsInArray()
-{
-	if (Weapons.Num() == 0)
-	{
-		return;
-	}
-	for (AWeapon* Weapon : Weapons) 
-	{
-		if (Weapon)
-		{
-			bool bIsHidden = Weapon->IsHidden();
-		}
-	}
-	int WeaponCount = Weapons.Num();
-
-}
 ///	Hàm Show Vũ khí
 void ABanSungOnlineCharacter::ShowWeapon(int32 Type)
 {
@@ -205,19 +187,11 @@ bool ABanSungOnlineCharacter::IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass)
 			return true;  // Nếu tìm thấy vũ khí phù hợp thì trả về true
 		}
 	}
-
-	// Nếu không tìm thấy vũ khí nào phù hợp, trả về false
 	return false;
 }
 
-void ABanSungOnlineCharacter::ChangeHealthClient_Implementation()
+void ABanSungOnlineCharacter::OnRep_ChangeHealth()
 {
-	if (!HasAuthority())
-		ShowHealth.Broadcast();
-}
-
-void ABanSungOnlineCharacter::ChangeHealth_Implementation()
-{
-	ChangeHealthClient();
+	ShowHealth.Broadcast();
 }
 

@@ -80,10 +80,10 @@ AProjectitle_Rifle::~AProjectitle_Rifle() {}
 struct Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProjectitle_Rifle, AProjectitle_Rifle::StaticClass, TEXT("AProjectitle_Rifle"), &Z_Registration_Info_UClass_AProjectitle_Rifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectitle_Rifle), 53958005U) },
+		{ Z_Construct_UClass_AProjectitle_Rifle, AProjectitle_Rifle::StaticClass, TEXT("AProjectitle_Rifle"), &Z_Registration_Info_UClass_AProjectitle_Rifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectitle_Rifle), 1041209801U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_3898053969(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_115609101(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_Rifle_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
