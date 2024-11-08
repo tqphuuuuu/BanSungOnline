@@ -17,5 +17,8 @@
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle.gen.cpp.obj"
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.obj"
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Rifle.gen.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Weapon.gen.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\WeaponPistol.gen.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\WeaponRifle.gen.cpp.obj"
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Default.rc2.res"
 /OUT:"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\UnrealEditor-BanSungOnline.lib"
