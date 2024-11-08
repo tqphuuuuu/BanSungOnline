@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/BanSungOnline/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
+				"E:/BanSungOnline/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
+				"E:/BanSungOnline/BanSungOnline/Content/UI/WBP_MenuGame.uasset",
+				"E:/BanSungOnline/BanSungOnline/Content/__ExternalActors__/TopDown/Maps/TopDownMap/C/JD/5BHFU0IH6WKMJJHSUWD35N.uasset",
+				"E:/BanSungOnline/BanSungOnline/Content/Enemy/EnemyBoss/BP_EnemyBoss.uasset",
+				"E:/BanSungOnline/BanSungOnline/Content/Enemy/EnemyZombie/BP_EnemyZombie.uasset",
 				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Projectitle/BP_Projectitle_Pistol.uasset",
 				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
 				"C:/Users/TQPhuuuuu/Desktop/GameOnline/BanSungOnline/BanSungOnline/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
