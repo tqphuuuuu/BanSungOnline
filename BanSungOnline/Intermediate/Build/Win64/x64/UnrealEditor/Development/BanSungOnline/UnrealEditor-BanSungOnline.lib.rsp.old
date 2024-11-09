@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-BanSungOnline.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Module.BanSungOnline.cpp.obj"
-"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Default.rc2.res"
-/OUT:"E:\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\UnrealEditor-BanSungOnline.lib"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Module.BanSungOnline.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Default.rc2.res"
+/OUT:"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\UnrealEditor-BanSungOnline.lib"

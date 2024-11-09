@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BANSUNGONLINE_Weapon_generated_h
 
-#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execFire);
 
 
-#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
 	friend struct Z_Construct_UClass_AWeapon_Statics; \
@@ -36,7 +36,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AWeapon(AWeapon&&); \
@@ -48,13 +48,13 @@ public: \
 	NO_API virtual ~AWeapon();
 
 
-#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_10_PROLOG
-#define FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_GENERATED_BODY \
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_10_PROLOG
+#define FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
-	FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_INCLASS_NO_PURE_DECLS \
+	FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,7 +62,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class AWeapon>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h
+#define CURRENT_FILE_ID FID_CloneLai_BanSungOnline_BanSungOnline_Source_BanSungOnline_Weapon_Weapon_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
