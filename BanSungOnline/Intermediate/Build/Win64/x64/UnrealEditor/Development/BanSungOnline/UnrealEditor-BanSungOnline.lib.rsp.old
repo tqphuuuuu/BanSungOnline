@@ -8,5 +8,10 @@
 /NODEFAULTLIB
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Module.BanSungOnline.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnlineCharacter.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Enemy.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\ItemPickUp_Health.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.cpp.obj"
+"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Rifle.cpp.obj"
 "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Default.rc2.res"
 /OUT:"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\UnrealEditor-BanSungOnline.lib"

@@ -21,7 +21,7 @@ void AProjectitle_Rifle::BeginPlay()
 	
 	bReplicates = true;
 	Damage = 15;
-	SpeedAmmo = 200;
+	SpeedAmmo = 100;
 	
 }
 

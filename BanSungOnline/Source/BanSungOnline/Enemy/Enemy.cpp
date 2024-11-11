@@ -134,7 +134,6 @@ void AEnemy::CheckHealth()
 {
 	if (Health <= 0 && !bIsDead)
 	{
-		UKismetSystemLibrary::PrintString(this,"CheckHealth");
 		bIsDead = true; 
 		PlayDeathAnimation(); 
 
@@ -143,9 +142,6 @@ void AEnemy::CheckHealth()
 
 void AEnemy::PlayDeathAnimation()
 {
-	
-	UKismetSystemLibrary::PrintString(this,"PlayDeathAnimation");
-
 	if (DeathAnimation)
 	{
 		GetMesh()->PlayAnimation(DeathAnimation, true); 

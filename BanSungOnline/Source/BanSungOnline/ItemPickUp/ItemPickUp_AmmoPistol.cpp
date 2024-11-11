@@ -43,7 +43,7 @@ void AItemPickUp_AmmoPistol::OnOverlap(UPrimitiveComponent* OverlappedComp, AAct
 			AWeaponPistol* Pistol = Cast<AWeaponPistol>(Weapon);
 			if (IsValid(Pistol))
 			{
-				if (Pistol->Ammo < 225)
+				if (Pistol->Ammo < 255 )
 				{
 					Pistol->Ammo += 15;
 
@@ -56,6 +56,7 @@ void AItemPickUp_AmmoPistol::OnOverlap(UPrimitiveComponent* OverlappedComp, AAct
 				}
 				else
 				{
+					Pistol->Ammo = 270;
 					//UKismetSystemLibrary::PrintString(this, TEXT("Số lượng đạn đã đầy."), true, true, FLinearColor::Yellow, 2.0f);
 				}
 				return; // Thoát hàm khi đã xử lý xong Pistol

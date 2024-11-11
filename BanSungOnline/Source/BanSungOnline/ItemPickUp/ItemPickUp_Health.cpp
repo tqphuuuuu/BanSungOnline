@@ -37,6 +37,10 @@ void AItemPickUp_Health::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* 
 	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(OtherActor);
 	if (IsValid(PlayerCharacter))
 	{
+		if (PlayerCharacter->Health >= PlayerCharacter->MaxHealth)
+		{
+			return;
+		}
 		
 			
 			if(PlayerCharacter->Health <= PlayerCharacter->MaxHealth -5)

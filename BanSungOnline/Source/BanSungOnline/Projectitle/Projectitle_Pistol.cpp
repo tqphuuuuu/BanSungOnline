@@ -20,7 +20,7 @@ void AProjectitle_Pistol::BeginPlay()
 	
 	bReplicates = true;
 	Damage = 10;
-	SpeedAmmo = 150;
+	SpeedAmmo = 80;
 	
 }
 

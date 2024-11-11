@@ -50,7 +50,7 @@ ABanSungOnlineCharacter::ABanSungOnlineCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
 
-	Health = 20.0f;
+	Health = 40.0f;
 	MaxHealth = 40.0f;
 }
 
