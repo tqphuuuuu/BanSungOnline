@@ -27,6 +27,8 @@ public:
 
 	UPROPERTY(Replicated)
 	bool IsAttached = false;
+	FTimerHandle RifleFireTimerHandle;
+
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage")
@@ -47,6 +49,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Replicated);
 	AProjectitle* Projectitle;
 
+	UPROPERTY(Replicated)
+	bool ShootOneByOne = false;
+
+	UPROPERTY(Replicated)
+	bool bCanFireRifle = true;
 	
 
 protected:

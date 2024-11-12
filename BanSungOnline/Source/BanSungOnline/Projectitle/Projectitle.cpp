@@ -69,6 +69,10 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 	}
 }
 
+// dùng để đại diện cho một thuộc tính sẽ được sao chép
+//chứa thông tin về thuộc tính cần sao chép
+
+//là một mảng tham chiếu chứa danh sách các thuộc tính cần sao chép
 void AProjectitle::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);

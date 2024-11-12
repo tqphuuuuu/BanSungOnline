@@ -32,7 +32,9 @@ public: \
 		Ammo, \
 		CurrentAmmo, \
 		Projectitle, \
-		NETFIELD_REP_END=Projectitle	}; \
+		ShootOneByOne, \
+		bCanFireRifle, \
+		NETFIELD_REP_END=bCanFireRifle	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 

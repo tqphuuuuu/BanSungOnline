@@ -106,8 +106,7 @@ protected:
 	void OnKeyBoard_Rifle(const FInputActionValue& Value);
 	void OnKeyBoard_ReloadAmmo(const FInputActionValue& Value);
 	UPROPERTY(Replicated)
-	bool isReloading = false;	bool ShootOneByOne;
-	bool bCanFireRifle = true;
+	bool isReloading = false;
 	
 	UFUNCTION(NetMulticast, Reliable)
 	void SetFalse ();

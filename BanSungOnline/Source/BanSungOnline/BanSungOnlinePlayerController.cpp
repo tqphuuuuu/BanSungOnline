@@ -160,39 +160,20 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 			break;
 		}
 	}
-
-	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1)
+	
+	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1 &&!isReloading)
 	{
-		
-		if (SelectedWeapon->Type == 1 && !isReloading)  // Rifle
-		{
-			
-
-			if (bCanFireRifle)  // Kiểm tra xem có thể bắn không
-			{
 				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
 				FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
 				WeaponFiring(SelectedWeapon, Temp);
-				bCanFireRifle = false;
-				GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this](){bCanFireRifle = true;}, 0.25f, false);
-			}
-		}
-		else if (SelectedWeapon->Type == 0 && !isReloading )  // Pistol
-		{
-			if (!ShootOneByOne)
-			{
-				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
-				FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
-				WeaponFiring(SelectedWeapon, Temp);
-				ShootOneByOne = true;
-			}
-		}
 	}
 	else
 	{
 		FireShooting = false;
 	}
 }
+
+
 
 void ABanSungOnlinePlayerController::ReloadGun_Implementation()
 {
@@ -215,7 +196,10 @@ void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWe
 
 void ABanSungOnlinePlayerController::OnShooting()
 {
-	ShootOneByOne = false;
+	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ShootOneByOne = false;
+	/*UKismetSystemLibrary::PrintString(GetWorld(), 	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ShootOneByOne
+ ? TEXT("true") : TEXT("false"), true, true, FLinearColor::Green, 2.0f);*/
+
 }
 
 void ABanSungOnlinePlayerController::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
@@ -349,7 +333,6 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 					if (Weapon->CurrentAmmo < Weapon->MaxAmmo && !isReloading)
 					{
 						isReloading = true;
-						// Tạo timer để delay 3 giây
 						FTimerHandle ReloadTimerHandle;
 						//ReloadGun();
 						// Đặt thời gian trễ 3 giây rồi mới gọi hàm ReloadAmmo
