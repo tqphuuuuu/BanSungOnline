@@ -76,6 +76,7 @@ void ABanSungOnlineCharacter::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 /// Kiểm tra xem có phải là vũ khí cần nhặt không
+/*
 TArray<UClass*> ValidWeaponClasses;  
 void ABanSungOnlineCharacter::InitializeWeaponClasses()  
 {  
@@ -99,6 +100,7 @@ void ABanSungOnlineCharacter::AddWeapon(AWeapon* NewWeapon)
 		UE_LOG(LogTemp, Warning, TEXT("Ko phai sung"));  
 	}  
 }
+*/
 
 void ABanSungOnlineCharacter::ServerSetHealth_Implementation(float Damage)
 {

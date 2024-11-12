@@ -56,7 +56,6 @@ void ABanSungOnlinePlayerController::Tick(float DeltaSeconds)
 		GetHitResultUnderCursorByChannel(ETraceTypeQuery::TraceTypeQuery1, false, HitResult);
 		FVector MouseLocation = HitResult.Location;
 
-		// Gọi Server_Test từ client và truyền MouseLocation vào
 		Server_Test(MouseLocation);
 	}
 
