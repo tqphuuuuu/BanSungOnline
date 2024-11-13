@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj": {}
+    "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj": {}
   },
   "projects": {
-    "C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj": {
+    "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
+        "projectUniqueName": "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
         "projectName": "BanSungOnlineModuleRules",
-        "projectPath": "C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
+        "projectPath": "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
         "packagesPath": "C:\\Users\\TQPhuuuuu\\.nuget\\packages\\",
-        "outputPath": "C:\\CloneLai\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\obj\\",
+        "outputPath": "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

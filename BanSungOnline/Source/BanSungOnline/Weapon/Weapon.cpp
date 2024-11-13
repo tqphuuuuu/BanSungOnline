@@ -33,7 +33,6 @@ AWeapon::AWeapon()
 void AWeapon::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 // Called every frame
@@ -68,37 +67,7 @@ void AWeapon::ReLoadAmmo()
 
 void AWeapon::Fire(FVector JerryPosition)
 {
-	if (Type == 0 )
-	{
-		if (!ShootOneByOne)
-		{
-			FTransform x = GunMesh->GetSocketTransform("Socket_Point");
-			AProjectitle_Pistol* Jerry = GetWorld()->SpawnActor<AProjectitle_Pistol>(ProjectitlesClass, x);
-			Jerry->ProjectitleFly(JerryPosition);
-			ShootOneByOne = true;
-			UKismetSystemLibrary::PrintString(GetWorld(), ShootOneByOne ? TEXT("true") : TEXT("false"), true, true, FLinearColor::Green, 2.0f);
-
-		}
-		
-	}
-	else
-	{
-		if (Type == 1)
-		{
-			if (bCanFireRifle)
-			{
-				FTransform x = GunMesh->GetSocketTransform("Socket_Point");
-				AProjectitle_Rifle* Jerry = GetWorld()->SpawnActor<AProjectitle_Rifle>(ProjectitlesClass, x);
-				Jerry->ProjectitleFly(JerryPosition);
-				bCanFireRifle = false;
-				GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this](){bCanFireRifle = true;}, 0.25f, false);
-			//	UKismetSystemLibrary::PrintString(GetWorld(), bCanFireRifle ? TEXT("true") : TEXT("false"), true, true, FLinearColor::Green, 2.0f);
-
-			}
-			
-		}
-	}
-	CurrentAmmo--;
+	
 }
 
 void AWeapon::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
@@ -108,8 +77,6 @@ void AWeapon::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLif
 	DOREPLIFETIME(AWeapon,CurrentAmmo);
 	DOREPLIFETIME(AWeapon,Ammo);
 	DOREPLIFETIME(AWeapon, Projectitle);
-	DOREPLIFETIME(AWeapon, ShootOneByOne);
-	DOREPLIFETIME(AWeapon, bCanFireRifle);
 
 
 }

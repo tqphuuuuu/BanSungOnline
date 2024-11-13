@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\clonelai\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponrifle.gen.cpp",
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponrifle.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\clonelai\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\clonelai\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h",
-            "c:\\clonelai\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weaponrifle.h",
-            "c:\\clonelai\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weapon.h",
-            "c:\\clonelai\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle.h",
-            "c:\\clonelai\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle.generated.h",
-            "c:\\clonelai\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h",
-            "c:\\clonelai\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponrifle.generated.h"
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h",
+            "c:\\github\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weaponrifle.h",
+            "c:\\github\\bansungonline\\bansungonline\\source\\bansungonline\\weapon\\weapon.h",
+            "c:\\github\\bansungonline\\bansungonline\\source\\bansungonline\\projectitle\\projectitle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\projectitle.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weapon.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\weaponrifle.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

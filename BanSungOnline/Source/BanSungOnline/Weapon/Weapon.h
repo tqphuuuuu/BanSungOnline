@@ -54,6 +54,9 @@ public:
 
 	UPROPERTY(Replicated)
 	bool bCanFireRifle = true;
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category ="Bullet Race")
+	float RaceBullet;
 	
 
 protected:

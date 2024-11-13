@@ -1,4 +1,4 @@
-"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.cpp"
+"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.cpp"
 /I "."
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT"
 /I "Runtime\Engine\Classes"
@@ -290,10 +290,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/Yc"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/Fp"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
-/Fo"C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-/sourceDependencies "C:\CloneLai\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.dep.json"
+/Yc"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/Fp"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
+/Fo"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+/sourceDependencies "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.dep.json"
 /Zc:inline
 /nologo
 /Oi

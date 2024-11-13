@@ -94,7 +94,7 @@ void ABanSungOnlinePlayerController::SetupInputComponent()
 		// Setup mouse input events
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnSetDestinationTriggered);
 		InputComponent->BindAction("Mouse Click", IE_Released, this, &ABanSungOnlinePlayerController::OnMouseButtonReleased);
-		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Started, this, &ABanSungOnlinePlayerController::OnShooting);
+		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &ABanSungOnlinePlayerController::OnShooting);
 
 		// Move W S A D
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &ABanSungOnlinePlayerController::OnMoveAction);
@@ -151,7 +151,7 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 
 	if (!MyCharacter) return;
 
-	AWeapon* SelectedWeapon = nullptr;
+	
 	for (AWeapon* Weapon : MyCharacter->Weapons)
 	{
 		if (Weapon && MyCharacter->IsWeaponVisible(Weapon->GetClass()))
@@ -163,9 +163,17 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 	
 	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1 &&!isReloading)
 	{
-				CachedDestination.Z = GetPawn()->GetActorLocation().Z;
-				FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
-				WeaponFiring(SelectedWeapon, Temp);
+		if (SelectedWeapon == nullptr)
+		{
+			return;
+		}
+		if (!MyCharacter->CurrentWeapon->ShootOneByOne)
+		{
+			CachedDestination.Z = GetPawn()->GetActorLocation().Z;
+			FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
+			WeaponFiring(SelectedWeapon, Temp);
+		}
+			
 	}
 	else
 	{
@@ -194,11 +202,21 @@ void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWe
 	MyCharacter->CurrentWeapon = NewWeapon;
 }
 
-void ABanSungOnlinePlayerController::OnShooting()
+/*void ABanSungOnlinePlayerController::OnShooting()
 {
 	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ShootOneByOne = false;
 	/*UKismetSystemLibrary::PrintString(GetWorld(), 	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ShootOneByOne
- ? TEXT("true") : TEXT("false"), true, true, FLinearColor::Green, 2.0f);*/
+ ? TEXT("true") : TEXT("false"), true, true, FLinearColor::Green, 2.0f);#1#
+
+}*/
+
+void ABanSungOnlinePlayerController::OnShooting_Implementation()
+{	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
+	if (PlayerCharacter->Weapons.Num() > 0)
+	{
+		PlayerCharacter->CurrentWeapon->ShootOneByOne = false;
+	}
+	
 
 }
 

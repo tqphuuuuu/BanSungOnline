@@ -3,6 +3,7 @@
 
 #include "WeaponPistol.h"
 
+#include "BanSungOnline/Projectitle/Projectitle_Pistol.h"
 #include "Kismet/KismetSystemLibrary.h"
 
 
@@ -30,5 +31,17 @@ void AWeaponPistol::BeginPlay()
 void AWeaponPistol::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AWeaponPistol::Fire(FVector JerryPosition)
+{
+	if (!ShootOneByOne)
+	{
+			FTransform x = GunMesh->GetSocketTransform("Socket_Point");
+			AProjectitle_Pistol* Jerry = GetWorld()->SpawnActor<AProjectitle_Pistol>(ProjectitlesClass, x);
+			Jerry->ProjectitleFly(JerryPosition);
+			ShootOneByOne = true;
+			CurrentAmmo--;
+	}
 }
 

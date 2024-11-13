@@ -3,6 +3,7 @@
 
 #include "WeaponRifle.h"
 
+#include "BanSungOnline/Projectitle/Projectitle_Rifle.h"
 #include "Kismet/KismetSystemLibrary.h"
 
 
@@ -17,6 +18,7 @@ AWeaponRifle::AWeaponRifle()
 	MaxAmmo = 40;
 	CurrentAmmo = 40;
 	Type =1;
+	RaceBullet = 0.25f;
 }
 
 // Called when the game starts or when spawned
@@ -30,6 +32,26 @@ void AWeaponRifle::BeginPlay()
 void AWeaponRifle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+}
+
+void AWeaponRifle::Fire(FVector JerryPosition)
+{
+	Super::Fire(JerryPosition);
+	
+	if (bCanFireRifle)
+	{
+		FTransform x = GunMesh->GetSocketTransform("Socket_Point");
+		AProjectitle_Rifle* Jerry = GetWorld()->SpawnActor<AProjectitle_Rifle>(ProjectitlesClass, x);
+			
+		if (Jerry) // Kiểm tra nếu viên đạn spawn thành công
+		{
+			Jerry->ProjectitleFly(JerryPosition);
+			bCanFireRifle = false; // Đặt cờ để ngăn bắn liên tục
+			CurrentAmmo--; // Trừ đạn khi đạn được spawn thành công
+			GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this]() { bCanFireRifle = true; }, RaceBullet, false);
+		}
+	}
 
 }
 

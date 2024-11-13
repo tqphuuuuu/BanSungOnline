@@ -121,7 +121,11 @@ protected:
 	
 	FTimerHandle RifleFireTimerHandle;
 	bool bIsShooting = false;
+	
+	UFUNCTION(Server, Unreliable)
 	void OnShooting ();
+
+	AWeapon* SelectedWeapon = nullptr;
 
 	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 

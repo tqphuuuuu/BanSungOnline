@@ -14,7 +14,7 @@ class BANSUNGONLINE_API AProjectitle_Rifle : public AProjectitle
 
 public:
 	// Sets default values for this actor's properties
-	//AProjectitle_Rifle();
+	AProjectitle_Rifle();
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,5 +22,5 @@ protected:
 
 public:
 	// Called every frame
-	//virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime) override;
 };
