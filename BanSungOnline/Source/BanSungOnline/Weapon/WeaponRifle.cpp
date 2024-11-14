@@ -47,8 +47,8 @@ void AWeaponRifle::Fire(FVector JerryPosition)
 		if (Jerry) // Kiểm tra nếu viên đạn spawn thành công
 		{
 			Jerry->ProjectitleFly(JerryPosition);
-			bCanFireRifle = false; // Đặt cờ để ngăn bắn liên tục
-			CurrentAmmo--; // Trừ đạn khi đạn được spawn thành công
+			bCanFireRifle = false;
+			CurrentAmmo--; 
 			GetWorld()->GetTimerManager().SetTimer(RifleFireTimerHandle, [this]() { bCanFireRifle = true; }, RaceBullet, false);
 		}
 	}

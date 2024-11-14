@@ -43,29 +43,23 @@ void AWeapon::Tick(float DeltaTime)
 
 void AWeapon::ReLoadAmmo()
 {
-	// Kiểm tra nếu đang trong trạng thái nạp đạn
 	if (isReloadAmmo)
 	{
-		return;  // Dừng lại nếu đang nạp đạn
+		return; 
 	}
 	
 	isReloadAmmo = true;
 
-	// Thêm độ trễ 1 giây trước khi bắt đầu nạp đạn
 	FTimerHandle DelayTimerHandle;
 	GetWorld()->GetTimerManager().SetTimer(DelayTimerHandle,[this]()
 		{
-			// Kiểm tra nếu băng đạn đã đầy
 			if (CurrentAmmo == MaxAmmo)
 			{
 				isReloadAmmo = false;
 				return;
 			}
-
-			// Tính toán đạn cần nạp
 			int32 AmmoNeededToFillClip = MaxAmmo - CurrentAmmo;
 
-			// Kiểm tra nếu có đủ đạn dự trữ
 			if (Ammo >= AmmoNeededToFillClip)
 			{
 				CurrentAmmo += AmmoNeededToFillClip;
@@ -78,7 +72,7 @@ void AWeapon::ReLoadAmmo()
 			}
 		isReloadAmmo = false;
 		},
-		RaceReloadAmmo,  // Độ trễ 1 giây trước khi bắt đầu nạp đạn
+		RaceReloadAmmo, 
 		false
 	);
 }
