@@ -347,19 +347,7 @@ void ABanSungOnlinePlayerController::OnKeyBoard_ReloadAmmo(const FInputActionVal
 			{
 				if (Weapon && Weapon->IsA(CurrentWeaponClass)) // Kiểm tra xem vũ khí có phải là loại hiện tại
 				{
-					// Kiểm tra nếu băng đạn cần nạp
-					if (Weapon->CurrentAmmo < Weapon->MaxAmmo && !isReloading)
-					{
-						isReloading = true;
-						FTimerHandle ReloadTimerHandle;
-						//ReloadGun();
-						// Đặt thời gian trễ 3 giây rồi mới gọi hàm ReloadAmmo
-						GetWorld()->GetTimerManager().SetTimer(ReloadTimerHandle, [this](){ReloadGun();}, 1.0f, false); // 3.0f là thời gian trễ
-					}
-					else
-					{
-						//UKismetSystemLibrary::PrintString(this, TEXT("Băng đạn đã đầy cho vũ khí: ") + Weapon->GetClass()->GetName());
-					}
+					ReloadGun();
 				}
 			
 			}

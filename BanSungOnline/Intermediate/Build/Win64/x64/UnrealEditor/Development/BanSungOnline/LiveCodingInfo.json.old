@@ -15,6 +15,7 @@
 			"Projectitle.cpp.obj",
 			"Projectitle_Pistol.cpp.obj",
 			"Projectitle_Rifle.cpp.obj",
+			"Weapon.cpp.obj",
 			"WeaponPistol.cpp.obj",
 			"WeaponRifle.cpp.obj",
 			"BanSungOnline.init.gen.cpp.obj",
@@ -34,8 +35,7 @@
 			"Weapon.gen.cpp.obj",
 			"WeaponPistol.gen.cpp.obj",
 			"WeaponRifle.gen.cpp.obj",
-			"BanSungOnlinePlayerController.cpp.obj",
-			"Weapon.cpp.obj"
+			"BanSungOnlinePlayerController.cpp.obj"
 		]
 	}
 }

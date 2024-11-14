@@ -57,6 +57,10 @@ public:
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly, Category ="Bullet Race")
 	float RaceBullet;
+
+	bool isReloadAmmo = false;
+	float RaceReloadAmmo = 1.0f;
+	
 	
 
 protected:

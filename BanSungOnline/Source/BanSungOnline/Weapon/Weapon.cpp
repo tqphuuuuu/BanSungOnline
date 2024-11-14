@@ -42,27 +42,48 @@ void AWeapon::Tick(float DeltaTime)
 }
 
 void AWeapon::ReLoadAmmo()
-{	
-	if (CurrentAmmo == MaxAmmo)  // Kiểm tra nếu băng đạn đã đầy
+{
+	// Kiểm tra nếu đang trong trạng thái nạp đạn
+	if (isReloadAmmo)
 	{
-		return;  // Không cần nạp đạn nếu băng đạn đã đầy
+		return;  // Dừng lại nếu đang nạp đạn
 	}
+	
+	isReloadAmmo = true;
 
-	// Tính số đạn cần để nạp đầy băng đạn
-	int32 AmmoNeededToFillClip  = MaxAmmo - CurrentAmmo;
+	// Thêm độ trễ 1 giây trước khi bắt đầu nạp đạn
+	FTimerHandle DelayTimerHandle;
+	GetWorld()->GetTimerManager().SetTimer(DelayTimerHandle,[this]()
+		{
+			// Kiểm tra nếu băng đạn đã đầy
+			if (CurrentAmmo == MaxAmmo)
+			{
+				isReloadAmmo = false;
+				return;
+			}
 
-	// Nếu đạn dự trữ đủ để nạp đầy băng
-	if (Ammo >= AmmoNeededToFillClip)
-	{
-		// Nạp đầy băng đạn và trừ đạn dự trữ
-		CurrentAmmo += AmmoNeededToFillClip;
-		Ammo -= AmmoNeededToFillClip;
-	} else {
-		// Nếu không đủ đạn dự trữ, nạp hết đạn còn lại
-		CurrentAmmo += Ammo;  
-		Ammo = 0; 
-	}
+			// Tính toán đạn cần nạp
+			int32 AmmoNeededToFillClip = MaxAmmo - CurrentAmmo;
+
+			// Kiểm tra nếu có đủ đạn dự trữ
+			if (Ammo >= AmmoNeededToFillClip)
+			{
+				CurrentAmmo += AmmoNeededToFillClip;
+				Ammo -= AmmoNeededToFillClip;
+			}
+			else
+			{
+				CurrentAmmo += Ammo;
+				Ammo = 0;
+			}
+		isReloadAmmo = false;
+		},
+		RaceReloadAmmo,  // Độ trễ 1 giây trước khi bắt đầu nạp đạn
+		false
+	);
 }
+
+
 
 
 void AWeapon::Fire(FVector JerryPosition)
