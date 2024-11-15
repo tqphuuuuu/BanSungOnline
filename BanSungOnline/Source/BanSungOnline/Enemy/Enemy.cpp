@@ -30,7 +30,8 @@ AEnemy::AEnemy()
     	
     	
 	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::OnOverlap);
-	
+	//SphereComponent->OnComponentEndOverlap.AddDynamic(this, &AEnemy::OnEndOverlap);
+
 }
 
 // Called when the game starts or when spawned
@@ -105,30 +106,68 @@ void AEnemy::AttackCharacter()
 	}
 }
 
+
 void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	// Kiểm tra nếu OtherActor là nhân vật
-	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(OtherActor);
-	if (PlayerCharacter && PlayerCharacter->IsA(ABanSungOnlineCharacter::StaticClass()))
+	/*ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(OtherActor);
+	if (PlayerCharacter && !bIsAttacking) // Chỉ thực hiện tấn công nếu chưa tấn công
 	{
-		// Chạy animation tấn công
-		if (AttackAnimation)
-		{
-			GetMesh()->PlayAnimation(AttackAnimation, true);
-				
-		}
-	}
+		// Đặt trạng thái tấn công
+		bIsAttacking = true;
 
-	AProjectitle *Projectiles = Cast<AProjectitle>(OtherActor);
+		// Tấn công ngẫu nhiên
+		int32 AttackType = FMath::RandRange(1, 3);
+
+		switch (AttackType)
+		{
+		case 1:
+			if (AttackAnimation)
+			{
+				GetMesh()->PlayAnimation(AttackAnimation, true);
+			}
+			break;
+
+		/*case 2:
+			if (JumpAttackAnimation)
+			{
+				FVector JumpDirection = (PlayerCharacter->GetActorLocation() - GetActorLocation()).GetSafeNormal();
+				LaunchCharacter(JumpDirection * 500.0f + FVector(0, 0, 300.0f), true, true);
+				GetMesh()->PlayAnimation(JumpAttackAnimation, true);
+			}
+			break;#1#
+
+		/*case 3:
+			// Tấn công tầm xa
+				if (RangedAttackProjectile)
+				{
+					FVector MuzzleLocation = GetActorLocation() + FVector(0, 0, 50.0f); // Vị trí phóng chiêu
+					FRotator MuzzleRotation = UKismetMathLibrary::FindLookAtRotation(MuzzleLocation, PlayerCharacter->GetActorLocation());
+				
+					// Spawn đạn hoặc chiêu tấn công từ xa
+					AProjectitle* Projectile = GetWorld()->SpawnActor<AProjectitle>(RangedAttackProjectile, MuzzleLocation, MuzzleRotation);
+					if (Projectile)
+					{
+						Projectile->SetOwner(this); // Đặt chủ sở hữu là enemy này
+					}
+				}
+			break;#1#
+
+		default:
+			break;
+		}
+	}*/
+
+	// Xử lý nếu OtherActor là đạn
+	AProjectitle* Projectiles = Cast<AProjectitle>(OtherActor);
 	if (IsValid(Projectiles))
 	{
-
 		if (Projectiles->Velocity.SquaredLength() > 0.1f)
 		{
 			Projectiles->Destroy();
 		}
 	}
 }
+
 
 void AEnemy::CheckHealth()
 {
@@ -156,3 +195,13 @@ void AEnemy::OnDeathComplete()
 {
 	Destroy();
 }
+
+/*void AEnemy::OnEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(OtherActor);
+	if (PlayerCharacter)
+	{
+		// Đặt lại trạng thái tấn công
+		bIsAttacking = false;
+	}
+}*/

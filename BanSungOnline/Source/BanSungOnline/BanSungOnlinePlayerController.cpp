@@ -212,6 +212,11 @@ void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWe
 
 void ABanSungOnlinePlayerController::OnShooting_Implementation()
 {	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
+
+	if (PlayerCharacter == nullptr)
+	{
+		return;
+	}
 	if (PlayerCharacter->Weapons.Num() > 0)
 	{
 		PlayerCharacter->CurrentWeapon->ShootOneByOne = false;

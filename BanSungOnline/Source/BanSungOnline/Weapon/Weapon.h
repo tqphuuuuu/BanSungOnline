@@ -60,6 +60,7 @@ public:
 
 	bool isReloadAmmo = false;
 	float RaceReloadAmmo = 1.0f;
+
 	
 	
 

@@ -195,5 +195,5 @@ bool ABanSungOnlineCharacter::IsWeaponVisible(TSubclassOf<AWeapon> WeaponClass)
 void ABanSungOnlineCharacter::OnRep_ChangeHealth()
 {
 	ShowHealth.Broadcast();
-}
+} 
 

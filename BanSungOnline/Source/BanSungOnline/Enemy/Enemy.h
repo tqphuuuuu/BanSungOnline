@@ -7,6 +7,7 @@
 #include "Components/SphereComponent.h"
 #include "Components/WidgetComponent.h"
 #include "Perception/PawnSensingComponent.h"
+
 #include "Enemy.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FHealth);
@@ -41,6 +42,12 @@ protected:
 	UFUNCTION()
 	void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 		int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	/*UFUNCTION()
+	void OnEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+		int32 OtherBodyIndex);*/
+
+	bool bIsAttacking = false;
+
 
 public:
 	// Called every frame
@@ -79,6 +86,16 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation")
 	class UAnimSequence* AttackAnimation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Attack")
+	UAnimationAsset* JumpAttackAnimation;  // Tấn công khi nhảy tới đối thủ
+
+	// Biến cho projectile để tấn công tầm xa
+	/*UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Attack")
+	TSubclassOf<class AProjectile> RangedAttackProjectile;*/
+
+	// Hàm để thực hiện tấn công ngẫu nhiên
+	void PerformRandomAttack(AActor* Target);
 
 
 
