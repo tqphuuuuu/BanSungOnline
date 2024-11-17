@@ -97,6 +97,10 @@ public:
 	// Hàm để thực hiện tấn công ngẫu nhiên
 	void PerformRandomAttack(AActor* Target);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Loot", meta = (AllowPrivateAccess = "true"))
+	TArray<TSubclassOf<AActor>> LootItems; 
+
+
 
 
 };

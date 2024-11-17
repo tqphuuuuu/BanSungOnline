@@ -45,4 +45,8 @@ public:
 		int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Effects", meta = (AllowPrivateAccess = "true"))
+	UParticleSystem* ExplosionEffect; // Hiệu ứng nổ
+
 };

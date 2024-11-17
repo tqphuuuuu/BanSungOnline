@@ -193,6 +193,18 @@ void AEnemy::PlayDeathAnimation()
 
 void AEnemy::OnDeathComplete()
 {
+	 // Spawn vật phẩm nếu đã được cấu hình
+	if (LootItems.Num() > 0)
+	{
+		int32 RandomIndex = FMath::RandRange(0, LootItems.Num() - 1); // Chọn ngẫu nhiên một vật phẩm
+		TSubclassOf<AActor> SelectedItemClass = LootItems[RandomIndex];
+
+		FVector SpawnLocation = GetActorLocation();
+		FRotator SpawnRotation = FRotator::ZeroRotator;
+
+		GetWorld()->SpawnActor<AActor>(SelectedItemClass, SpawnLocation, SpawnRotation);
+		
+	}
 	Destroy();
 }
 

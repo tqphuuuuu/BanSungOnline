@@ -16,6 +16,7 @@ BANSUNGONLINE_API UClass* Z_Construct_UClass_AProjectitle_NoRegister();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -146,12 +147,18 @@ struct Z_Construct_UClass_AProjectitle_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Velocity_MetaData[] = {
 		{ "ModuleRelativePath", "Projectitle/Projectitle.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExplosionEffect_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Effects" },
+		{ "ModuleRelativePath", "Projectitle/Projectitle.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Projectiles;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SphereComponent;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_SpeedAmmo;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Damage;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_Velocity;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ExplosionEffect;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -168,12 +175,14 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectitle_S
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectitle_Statics::NewProp_SpeedAmmo = { "SpeedAmmo", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectitle, SpeedAmmo), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpeedAmmo_MetaData), NewProp_SpeedAmmo_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AProjectitle_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectitle, Damage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Damage_MetaData), NewProp_Damage_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AProjectitle_Statics::NewProp_Velocity = { "Velocity", nullptr, (EPropertyFlags)0x0010000000000020, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectitle, Velocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Velocity_MetaData), NewProp_Velocity_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectitle_Statics::NewProp_ExplosionEffect = { "ExplosionEffect", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProjectitle, ExplosionEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExplosionEffect_MetaData), NewProp_ExplosionEffect_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectitle_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectitle_Statics::NewProp_Projectiles,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectitle_Statics::NewProp_SphereComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectitle_Statics::NewProp_SpeedAmmo,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectitle_Statics::NewProp_Damage,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectitle_Statics::NewProp_Velocity,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectitle_Statics::NewProp_ExplosionEffect,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AProjectitle_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AProjectitle_Statics::DependentSingletons[])() = {
@@ -220,14 +229,14 @@ AProjectitle::~AProjectitle() {}
 // End Class AProjectitle
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics
+struct Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProjectitle, AProjectitle::StaticClass, TEXT("AProjectitle"), &Z_Registration_Info_UClass_AProjectitle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectitle), 2640922863U) },
+		{ Z_Construct_UClass_AProjectitle, AProjectitle::StaticClass, TEXT("AProjectitle"), &Z_Registration_Info_UClass_AProjectitle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectitle), 3706158564U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_52684728(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_1305590129(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

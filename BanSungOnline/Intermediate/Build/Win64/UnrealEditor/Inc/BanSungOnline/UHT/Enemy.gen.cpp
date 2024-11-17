@@ -15,6 +15,7 @@ AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
 BANSUNGONLINE_API UClass* Z_Construct_UClass_AEnemy();
 BANSUNGONLINE_API UClass* Z_Construct_UClass_AEnemy_NoRegister();
 BANSUNGONLINE_API UFunction* Z_Construct_UDelegateFunction_BanSungOnline_Health__DelegateSignature();
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UAnimationAsset_NoRegister();
@@ -204,6 +205,11 @@ struct Z_Construct_UClass_AEnemy_Statics
 		{ "Category", "Attack" },
 		{ "ModuleRelativePath", "Enemy/Enemy.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LootItems_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Loot" },
+		{ "ModuleRelativePath", "Enemy/Enemy.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PawnSensingComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SphereComponent;
@@ -214,6 +220,8 @@ struct Z_Construct_UClass_AEnemy_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DeathAnimation;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttackAnimation;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAttackAnimation;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_LootItems_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_LootItems;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -234,6 +242,8 @@ const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AEnemy_Statics::N
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_DeathAnimation = { "DeathAnimation", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy, DeathAnimation), Z_Construct_UClass_UAnimationAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeathAnimation_MetaData), NewProp_DeathAnimation_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_AttackAnimation = { "AttackAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy, AttackAnimation), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttackAnimation_MetaData), NewProp_AttackAnimation_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_JumpAttackAnimation = { "JumpAttackAnimation", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy, JumpAttackAnimation), Z_Construct_UClass_UAnimationAsset_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAttackAnimation_MetaData), NewProp_JumpAttackAnimation_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_LootItems_Inner = { "LootItems", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEnemy_Statics::NewProp_LootItems = { "LootItems", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy, LootItems), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LootItems_MetaData), NewProp_LootItems_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemy_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_PawnSensingComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_SphereComponent,
@@ -244,6 +254,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemy_St
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_DeathAnimation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_AttackAnimation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_JumpAttackAnimation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_LootItems_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Statics::NewProp_LootItems,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AEnemy_Statics::DependentSingletons[])() = {
@@ -290,14 +302,14 @@ AEnemy::~AEnemy() {}
 // End Class AEnemy
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics
+struct Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy, AEnemy::StaticClass, TEXT("AEnemy"), &Z_Registration_Info_UClass_AEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy), 3578702878U) },
+		{ Z_Construct_UClass_AEnemy, AEnemy::StaticClass, TEXT("AEnemy"), &Z_Registration_Info_UClass_AEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy), 3335067786U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_1569884154(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_4277772129(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

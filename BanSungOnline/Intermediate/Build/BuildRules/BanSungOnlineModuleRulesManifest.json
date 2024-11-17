@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs"
+		"E:\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
+		"E:\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
+		"E:\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

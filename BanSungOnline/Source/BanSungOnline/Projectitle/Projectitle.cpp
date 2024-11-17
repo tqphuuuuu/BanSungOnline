@@ -8,6 +8,7 @@
 #include "BanSungOnline/BanSungOnlineCharacter.h"
 #include "BanSungOnline/Enemy/Enemy.h"
 #include "BanSungOnline/Enemy/Enemy_Boss.h"
+#include "BanSungOnline/Weapon/Weapon.h"
 #include "Components/SphereComponent.h"
 #include "Net/UnrealNetwork.h"
 
@@ -47,6 +48,7 @@ void AProjectitle::Tick(float DeltaTime)
 	FVector Temp = {1000.f, 1810.f, 92.f};
 	/*if ((GetActorLocation() - Temp).SquaredLength() > 1000000)
 		Destroy();*/
+	
 }
 
 void AProjectitle::ProjectitleFly(FVector& JerryPosition)
@@ -66,6 +68,24 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 	if (IsValid(Enemy))
 	{
 		Enemy->Health -= Damage;
+	}
+	else
+	{
+		// Debug thông tin về đối tượng va chạm
+		UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Va cham voi: %s"), *OtherActor->GetName()));
+
+		// Kiểm tra xem đối tượng có tag "Wall" không
+		if (OtherActor->ActorHasTag(TEXT("Wall"))) 
+		{
+			// Nếu đối tượng có tag "Wall", phát hiệu ứng nổ
+			UKismetSystemLibrary::PrintString(this, TEXT("Va cham voi tuong!"));
+			if (ExplosionEffect)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation());
+			}
+			// Hủy viên đạn
+			Destroy();
+		}
 	}
 }
 
