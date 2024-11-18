@@ -201,7 +201,6 @@ void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWe
 	ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
 	MyCharacter->CurrentWeapon = NewWeapon;
 }
-
 /*void ABanSungOnlinePlayerController::OnShooting()
 {
 	Cast<ABanSungOnlineCharacter>(GetPawn())->CurrentWeapon->ShootOneByOne = false;

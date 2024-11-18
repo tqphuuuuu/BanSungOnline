@@ -49,4 +49,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Effects", meta = (AllowPrivateAccess = "true"))
 	UParticleSystem* ExplosionEffect; // Hiệu ứng nổ
 
+	
+
 };
