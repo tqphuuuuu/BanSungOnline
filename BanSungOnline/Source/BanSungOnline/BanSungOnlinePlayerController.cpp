@@ -161,13 +161,13 @@ void ABanSungOnlinePlayerController::OnSetDestinationTriggered()
 		}
 	}
 	
-	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1 &&!isReloading)
+	if (SelectedWeapon && SelectedWeapon->CurrentAmmo >= 1 )
 	{
 		if (SelectedWeapon == nullptr)
 		{
 			return;
 		}
-		if (!MyCharacter->CurrentWeapon->ShootOneByOne)
+		if (MyCharacter->CurrentWeapon)
 		{
 			CachedDestination.Z = GetPawn()->GetActorLocation().Z;
 			FVector Temp = CachedDestination - GetPawn()->GetActorLocation();
@@ -212,18 +212,17 @@ void ABanSungOnlinePlayerController::ReplaceWeapon_Implementation(AWeapon* NewWe
 void ABanSungOnlinePlayerController::OnShooting_Implementation()
 {	ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(GetPawn());
 
-	if (PlayerCharacter == nullptr)
-	{
-		return;
-	}
-	if (PlayerCharacter->Weapons.Num() > 0)
-	{
-		PlayerCharacter->CurrentWeapon->ShootOneByOne = false;
-	}
-	
+	if (!PlayerCharacter) return; // Kiểm tra nếu không có nhân vật nào thì thoát.
 
+	if (PlayerCharacter->Weapons.Num() > 0 && PlayerCharacter->CurrentWeapon) // Kiểm tra có vũ khí nào hay không.
+	{
+		// Kiểm tra nếu vũ khí hiện tại là loại Pistol.
+		if (PlayerCharacter->CurrentWeapon->IsA(AWeaponPistol::StaticClass()))
+		{
+			PlayerCharacter->CurrentWeapon->ShootOneByOne = false;
+		}
+	}
 }
-
 void ABanSungOnlinePlayerController::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);

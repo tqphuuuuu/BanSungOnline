@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\bansungonline.init.gen.cpp",
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\bansungonline.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "e:\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h"
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

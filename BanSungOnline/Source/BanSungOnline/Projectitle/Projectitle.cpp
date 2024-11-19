@@ -71,18 +71,13 @@ void AProjectitle::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 	}
 	else
 	{
-		UKismetSystemLibrary::PrintString(this, FString::Printf(TEXT("Va cham voi: %s"), *OtherActor->GetName()));
 
 		// Kiểm tra xem đối tượng có tag "Wall" không
-		if (OtherActor->ActorHasTag(TEXT("Wall"))) 
+		if (OtherActor->ActorHasTag(TEXT("Wall")))
 		{
-			// Nếu đối tượng có tag "Wall", phát hiệu ứng nổ
-			UKismetSystemLibrary::PrintString(this, TEXT("Va cham voi tuong!"));
+		
 			if (ExplosionEffect)
 			{
-
-				UKismetSystemLibrary::PrintString(this, TEXT("No"));
-
 				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation());
 			}
 			Destroy();

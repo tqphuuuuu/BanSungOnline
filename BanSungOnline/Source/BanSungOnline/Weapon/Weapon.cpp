@@ -43,6 +43,7 @@ void AWeapon::Tick(float DeltaTime)
 
 void AWeapon::ReLoadAmmo()
 {
+	
 	if (isReloadAmmo)
 	{
 		return; 
