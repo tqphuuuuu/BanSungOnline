@@ -3,7 +3,17 @@
 		{
 			"Configuration": "DebugGame",
 			"Platform": "Win64",
-			"Target": "Editor"
+			"Target": "Client"
+		},
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Win64",
+			"Target": "Client"
 		},
 		{
 			"Configuration": "DebugGame",
@@ -18,7 +28,22 @@
 		{
 			"Configuration": "DebugGame",
 			"Platform": "Win64",
-			"Target": "Program"
+			"Target": "Editor"
+		},
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Win64",
+			"Target": "Server"
+		},
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Win64",
+			"Target": "Server"
+		},
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Win64",
+			"Target": "Server"
 		},
 		{
 			"Configuration": "DebugGame",
@@ -31,6 +56,26 @@
 			"Target": "Program"
 		},
 		{
+			"Configuration": "DebugGame",
+			"Platform": "Win64",
+			"Target": "Program"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
 			"Configuration": "Development",
 			"Platform": "Win64",
 			"Target": "Editor"
@@ -48,7 +93,17 @@
 		{
 			"Configuration": "Development",
 			"Platform": "Win64",
-			"Target": "Program"
+			"Target": "Server"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Win64",
+			"Target": "Server"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Win64",
+			"Target": "Server"
 		},
 		{
 			"Configuration": "Development",
@@ -59,6 +114,41 @@
 			"Configuration": "Development",
 			"Platform": "Win64",
 			"Target": "Program"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Win64",
+			"Target": "Program"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Win64",
+			"Target": "Client"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Win64",
+			"Target": "Server"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Win64",
+			"Target": "Server"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Win64",
+			"Target": "Server"
 		},
 		{
 			"Configuration": "Shipping",

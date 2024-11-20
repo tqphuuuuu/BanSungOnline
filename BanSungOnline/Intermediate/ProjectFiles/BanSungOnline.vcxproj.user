@@ -3,52 +3,124 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64_DebugGame|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_DebugGame|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64ec'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Client|x64'">
+    <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Client|arm64'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Client|arm64ec'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
     <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64_DebugGame_Editor|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'">
     <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_DebugGame_Editor|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64ec'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'">
+    <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|arm64'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|arm64ec'">
     <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64_Development|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_Development|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64ec'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Client|x64'">
+    <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Client|arm64'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Client|arm64ec'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
     <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64_Development_Editor|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'">
     <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_Development_Editor|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64ec'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'">
+    <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|arm64'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|arm64ec'">
     <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64_Shipping|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_Shipping|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64ec'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Client|x64'">
+    <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Client|arm64'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Client|arm64ec'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'">
+    <LocalDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|arm64'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|arm64ec'">
+    <RemoteDebuggerCommandArguments>"$(SolutionDir)BanSungOnline.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
