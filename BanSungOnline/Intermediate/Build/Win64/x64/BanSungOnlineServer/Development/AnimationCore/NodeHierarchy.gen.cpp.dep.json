@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\nodehierarchy.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\animationcore\\definitions.animationcore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animationcore\\public\\nodehierarchy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animationcore\\public\\constraint.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animationcore\\public\\commonanimtypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\commonanimtypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animationcore\\public\\eulertransform.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\eulertransform.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\constraint.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\nodehierarchy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\datasmithcontent\\uht\\datasmithcinecameraactortemplate.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\datasmithcontent\\definitions.datasmithcontent.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\enterprise\\datasmithcontent\\source\\datasmithcontent\\public\\objecttemplates\\datasmithcinecameraactortemplate.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\enterprise\\datasmithcontent\\source\\datasmithcontent\\public\\objecttemplates\\datasmithobjecttemplate.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\datasmithcontent\\uht\\datasmithobjecttemplate.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\cinematiccamera\\public\\cinecameraactor.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\camera\\cameraactor.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\cameraactor.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cinematiccamera\\uht\\cinecameraactor.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\datasmithcontent\\uht\\datasmithcinecameraactortemplate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

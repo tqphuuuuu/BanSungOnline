@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audioplatformconfiguration\\module.audioplatformconfiguration.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audioplatformconfiguration\\definitions.audioplatformconfiguration.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioplatformconfiguration\\private\\audiocompressionsettings.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioplatformconfiguration\\public\\audiocompressionsettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audioplatformconfiguration\\uht\\audiocompressionsettings.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiocompressionsettingsutils.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audioplatformconfiguration\\uht\\audiocompressionsettings.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioplatformconfiguration\\private\\audioplatformconfigurationmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioplatformconfiguration\\public\\audioplatformconfigurationmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioplatformconfiguration\\private\\audioresampler.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioplatformconfiguration\\public\\audioresampler.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\thirdparty\\libsamplerate\\public\\samplerate.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

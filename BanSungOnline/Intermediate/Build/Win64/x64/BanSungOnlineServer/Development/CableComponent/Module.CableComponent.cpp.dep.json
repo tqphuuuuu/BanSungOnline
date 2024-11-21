@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\cablecomponent\\module.cablecomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\cablecomponent\\definitions.cablecomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cableactor.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\classes\\cableactor.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cablecomponent\\uht\\cableactor.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\classes\\cablecomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cablecomponent\\uht\\cablecomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cablecomponent\\uht\\cableactor.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cablecomponent.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materialdomain.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialdomain.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\primitiveuniformshaderparametersbuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\shaders\\shared\\nanitedefinitions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialrenderproxy.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cablecomponentstats.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\dynamicmeshbuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\raytracinginstance.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cablecomponent\\uht\\cablecomponent.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cablecomponentplugin.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

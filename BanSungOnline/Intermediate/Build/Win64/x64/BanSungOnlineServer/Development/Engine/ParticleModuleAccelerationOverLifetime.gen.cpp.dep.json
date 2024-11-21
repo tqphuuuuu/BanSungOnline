@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleaccelerationoverlifetime.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\acceleration\\particlemoduleaccelerationoverlifetime.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distributionvector.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\distributions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distribution.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distribution.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distributionvector.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\acceleration\\particlemoduleaccelerationbase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\particlemodule.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodule.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleaccelerationbase.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleaccelerationoverlifetime.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialfunctionmateriallayerblend.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialfunctionmateriallayerblend.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialfunctioninstance.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialinstance.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialinstancebasepropertyoverrides.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialinstancebasepropertyoverrides.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialinstance.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialfunctioninstance.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialfunctionmateriallayerblend.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

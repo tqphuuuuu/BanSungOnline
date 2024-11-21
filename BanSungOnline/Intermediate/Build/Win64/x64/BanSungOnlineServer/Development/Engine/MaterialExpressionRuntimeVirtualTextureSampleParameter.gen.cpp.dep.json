@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialexpressionruntimevirtualtexturesampleparameter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialexpressionruntimevirtualtexturesampleparameter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialexpressionruntimevirtualtexturesample.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\vt\\runtimevirtualtexture.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\runtimevirtualtexture.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialexpressionruntimevirtualtexturesample.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialexpressionruntimevirtualtexturesampleparameter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

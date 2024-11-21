@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\custommeshcomponent\\module.custommeshcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\custommeshcomponent\\definitions.custommeshcomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\private\\custommeshcomponent.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\classes\\custommeshcomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\custommeshcomponent\\uht\\custommeshcomponent.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materialdomain.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialdomain.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialrenderproxy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\primitiveuniformshaderparametersbuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\shaders\\shared\\nanitedefinitions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\dynamicmeshbuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\private\\custommeshcomponentplugin.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\public\\icustommeshcomponentplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

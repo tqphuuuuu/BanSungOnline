@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiomixer\\uht\\audiobussubsystem.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiomixer\\definitions.audiomixer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\public\\audiobussubsystem.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\multithreadedpatching.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\subsystems\\audioenginesubsystem.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiodevicemanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiothread.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\audioenginesubsystem.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiomixer\\uht\\audiobussubsystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\externaldatalayermanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\datalayer\\externaldatalayermanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartition.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionlog.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionactordesc.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionhandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\actordesccontainerinstancecollection.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\actordesccontainerinstance.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionactordescinstance.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\actordesclist.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\actordesccontainerinstance.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\cook\\worldpartitioncookpackagegenerator.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\worldpartition.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionhelpers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionruntimecellinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\worldpartitionruntimecellinterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\datalayer\\worlddatalayersactordesc.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\datalayer\\externaldatalayerenginesubsystem.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\datalayer\\externaldatalayerinjectionpolicy.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\externaldatalayerinjectionpolicy.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\externaldatalayerenginesubsystem.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\externaldatalayermanager.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\archiveuobjectfromstructuredarchive.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

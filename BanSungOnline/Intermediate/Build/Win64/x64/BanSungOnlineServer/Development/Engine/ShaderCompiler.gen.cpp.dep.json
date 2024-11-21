@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\shadercompiler.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\shadercompiler.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\shadercompilerjobtypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\shaderpreprocesstypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\shadersource.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\gbufferinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\shadermaterial.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\iassetcompilingmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\containers\\deque.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\containers\\iteratoradapter.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\shadercompiler.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

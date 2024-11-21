@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\androidfileserver\\module.androidfileserver.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\androidfileserver\\definitions.androidfileserver.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\private\\androidfileserver.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\public\\androidfileserver.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\private\\androidfileserverbplibrary.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\classes\\androidfileserverbplibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\androidfileserver\\uht\\androidfileserverbplibrary.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\androidfileserver\\uht\\androidfileserverbplibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

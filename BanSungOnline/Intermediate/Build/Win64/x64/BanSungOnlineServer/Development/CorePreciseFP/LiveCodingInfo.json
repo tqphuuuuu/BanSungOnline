@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CorePreciseFP.cpp.obj": [
+			"PreciseFP.cpp.obj",
+			"VVMFloat.cpp.obj"
+		]
+	}
+}

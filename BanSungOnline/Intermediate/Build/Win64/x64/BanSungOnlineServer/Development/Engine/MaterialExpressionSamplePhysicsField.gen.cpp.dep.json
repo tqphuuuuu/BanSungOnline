@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialexpressionsamplephysicsfield.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\materials\\materialexpressionsamplephysicsfield.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\field\\fieldsystemtypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\managedarraycollection.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\managedarray.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\geometrycollectionsection.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\managedarraytypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\geometrycollectionbonenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\managedarraytypevalues.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\managedarraytypevalues.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\geometrycollection\\managedarraytypevalues.inl",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaos\\uht\\managedarraycollection.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaos\\uht\\fieldsystemtypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\materialexpressionsamplephysicsfield.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

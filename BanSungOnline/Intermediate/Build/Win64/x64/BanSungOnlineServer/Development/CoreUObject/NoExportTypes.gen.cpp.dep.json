@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\noexporttypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\pch.coreuobject.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetbundledata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetdatatagmap.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetidentifier.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\io\\iohash.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hash\\blake3.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\icursor.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\iinputinterface.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

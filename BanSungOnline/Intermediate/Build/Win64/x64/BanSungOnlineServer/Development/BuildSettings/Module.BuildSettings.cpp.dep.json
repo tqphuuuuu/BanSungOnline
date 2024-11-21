@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildsettings\\module.buildsettings.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildsettings\\definitions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\buildsettings\\private\\buildsettings.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\buildsettings\\public\\buildsettings.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coretypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\build.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\largeworldcoordinates.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\preprocessorhelpers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcompilerpresetup.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\msvc\\msvcplatformcompilerpresetup.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformcompilerpresetup.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatform.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\microsoft\\microsoftplatformcodeanalysis.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\windows\\windowsplatform.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\sal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\concurrencysal.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\msvc\\msvcplatform.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcodeanalysis.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcompilersetup.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\profilingdebugging\\umemorydefines.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\coremiscdefines.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\coredefines.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

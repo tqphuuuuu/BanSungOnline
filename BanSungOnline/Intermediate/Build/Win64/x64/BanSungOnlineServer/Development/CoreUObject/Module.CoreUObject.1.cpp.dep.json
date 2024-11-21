@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\module.coreuobject.1.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\pch.coreuobject.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\private\\assetregistry\\arfilter.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\compare.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\templates\\equalto.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\compactbinaryserialization.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\io\\iohash.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hash\\blake3.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\memory\\sharedbuffer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\compactbinary.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\memory\\compositebuffer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\compactbinarywriter.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

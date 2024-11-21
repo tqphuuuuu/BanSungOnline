@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaycameras\\uht\\cameraparameters.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\gameplaycameras\\definitions.gameplaycameras.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\cameras\\gameplaycameras\\source\\gameplaycameras\\public\\core\\cameraparameters.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\cameras\\gameplaycameras\\source\\gameplaycameras\\public\\core\\cameravariableassets.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\cameras\\gameplaycameras\\source\\gameplaycameras\\public\\core\\cameravariabletablefwd.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaycameras\\uht\\cameravariabletablefwd.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaycameras\\uht\\cameravariableassets.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaycameras\\uht\\cameraparameters.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

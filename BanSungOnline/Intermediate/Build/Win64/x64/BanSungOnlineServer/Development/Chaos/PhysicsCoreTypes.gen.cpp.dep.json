@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaos\\uht\\physicscoretypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\chaos\\definitions.chaos.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\physicscoretypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\real.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaos\\uht\\physicscoretypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\worldpartitioneditorloaderadapter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitioneditorloaderadapter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionactorloaderinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionhandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionactordesc.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\worldpartitionactorloaderinterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\worldpartitioneditorloaderadapter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

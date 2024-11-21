@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiocapture\\uht\\audiocapture.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapture\\definitions.audiocapture.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiocapture\\source\\audiocapture\\public\\audiocapture.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\delay.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\envelopefollower.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\floatarraymath.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\classes\\generators\\audiogenerator.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiomixer\\uht\\audiogenerator.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturedeviceinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiocapture\\uht\\audiocapture.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

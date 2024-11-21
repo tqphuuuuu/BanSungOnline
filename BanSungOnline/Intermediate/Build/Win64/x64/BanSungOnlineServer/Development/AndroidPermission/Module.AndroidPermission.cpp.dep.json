@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\androidpermission\\module.androidpermission.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\androidpermission\\definitions.androidpermission.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\private\\androidpermission.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\public\\androidpermission.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\classes\\androidpermissionfunctionlibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\androidpermission\\uht\\androidpermissionfunctionlibrary.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\classes\\androidpermissioncallbackproxy.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\androidpermission\\uht\\androidpermissioncallbackproxy.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\private\\androidpermissioncallbackproxy.cpp",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\androidpermission\\uht\\androidpermissioncallbackproxy.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\private\\androidpermissionfunctionlibrary.cpp",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\androidpermission\\uht\\androidpermissionfunctionlibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\automationutils\\module.automationutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\automationutils\\definitions.automationutils.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\automationutils\\source\\automationutils\\private\\automationutils.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\automationutils\\source\\automationutils\\private\\automationutilsblueprintlibrary.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\automationutils\\source\\automationutils\\public\\automationutilsblueprintlibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\automationutils\\uht\\automationutilsblueprintlibrary.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\assetcompilingmanager.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\assetcompilingmanager.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\sceneviewextension.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\sceneviewextensioncontext.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\sceneviewextensioncontext.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\scenetexturesconfig.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\gbufferinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\imageutils.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\hardwareinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\engine\\gameengine.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescenecapture\\public\\moviescenecapturehandle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\gameengine.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\automationutils\\uht\\automationutilsblueprintlibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

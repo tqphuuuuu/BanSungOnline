@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\saudiooscilloscopepanelwidget.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiowidgets\\definitions.audiowidgets.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\saudiooscilloscopepanelwidget.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiooscilloscopeenums.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiooscilloscopeenums.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiooscilloscopepanelstyle.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiowidgetsslatetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiowidgetsslatetypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\triggerthresholdlinestyle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\triggerthresholdlinestyle.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiooscilloscopepanelstyle.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiowidgetsenums.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiowidgetsenums.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiowidgetsstyle.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\ifixedsampledsequenceviewreceiver.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\fixedsampledsequenceview.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\sampledsequencedisplayunit.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\sampledsequencedrawingutils.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\ifixedsampledsequencegridservice.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\ssampledsequencevaluegridoverlay.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\striggerthresholdlinewidget.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\saudiooscilloscopepanelwidget.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

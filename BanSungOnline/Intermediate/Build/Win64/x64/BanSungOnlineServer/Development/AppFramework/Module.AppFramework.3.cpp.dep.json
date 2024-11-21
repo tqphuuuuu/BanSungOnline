@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\appframework\\module.appframework.3.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\appframework\\definitions.appframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\appframework\\private\\widgets\\workflow\\swizard.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\appframework\\public\\widgets\\workflow\\swizard.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\navigation\\sbreadcrumbtrail.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\suniformgridpanel.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\swidgetswitcher.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

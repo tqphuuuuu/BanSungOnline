@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioPlatformSupportWasapi.cpp.obj": [
+			"AudioPlatformSupportWasapiModule.cpp.obj",
+			"WasapiAudioFormat.cpp.obj",
+			"WasapiAudioUtils.cpp.obj"
+		]
+	}
+}

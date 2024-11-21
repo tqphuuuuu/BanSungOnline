@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodulelifetime_seeded.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\lifetime\\particlemodulelifetime_seeded.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\lifetime\\particlemodulelifetime.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distributionfloat.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\distributions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distribution.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distribution.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distributionfloat.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\lifetime\\particlemodulelifetimebase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\particlemodule.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodule.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodulelifetimebase.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodulelifetime.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodulelifetime_seeded.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\module.engine.1.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\attributecurve.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\attributetypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\attributeblendoperator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\attributeblenddata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\attributetraits.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\attributecurve.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

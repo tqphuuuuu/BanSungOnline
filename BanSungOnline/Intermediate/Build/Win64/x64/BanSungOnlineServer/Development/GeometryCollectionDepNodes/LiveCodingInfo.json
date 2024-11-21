@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCollectionDepNodes.cpp.obj": [
+			"GeometryCollectionDepNodesPlugin.cpp.obj",
+			"GeometryCollectionTransferVertexScalarAttributeDepNode.cpp.obj",
+			"SetVertexColorFromFloatArrayDepNode.cpp.obj",
+			"SetVertexColorFromVertexSelectionDepNode.cpp.obj",
+			"GeometryCollectionDepNodes.init.gen.cpp.obj"
+		]
+	}
+}

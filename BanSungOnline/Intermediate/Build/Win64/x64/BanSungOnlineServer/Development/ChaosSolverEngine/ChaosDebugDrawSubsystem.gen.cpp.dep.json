@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaossolverengine\\uht\\chaosdebugdrawsubsystem.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\chaossolverengine\\definitions.chaossolverengine.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaossolverengine\\public\\chaos\\chaosdebugdrawsubsystem.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\chaosdebugdraw\\chaosddcontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\chaosdebugdraw\\chaosddframe.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\chaos\\public\\chaos\\debugdrawcommand.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaossolverengine\\uht\\chaosdebugdrawsubsystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

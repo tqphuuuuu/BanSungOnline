@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\fullbodyik\\uht\\fbikconstraintoption.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\fullbodyik\\definitions.fullbodyik.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\fullbodyik\\source\\fullbodyik\\public\\fbikconstraintoption.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\controlrig\\source\\controlrig\\public\\rigs\\righierarchydefines.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animationcore\\public\\transformnoscale.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\transformnoscale.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animationcore\\public\\eulertransform.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationcore\\uht\\eulertransform.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\controlrig\\uht\\righierarchydefines.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\fullbodyik\\uht\\fbikconstraintoption.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

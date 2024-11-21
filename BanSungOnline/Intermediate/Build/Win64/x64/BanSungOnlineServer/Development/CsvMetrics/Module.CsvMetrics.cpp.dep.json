@@ -1,0 +1,32 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\csvmetrics\\module.csvmetrics.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\csvmetrics\\definitions.csvmetrics.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\csvmetrics\\private\\csvactorcountmetric.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\csvmetrics\\public\\csvactorcountmetric.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\worldmetricscore\\public\\worldmetricinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\worldmetricscore\\uht\\worldmetricinterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\worldmetricscore\\public\\worldmetricsactortrackersubscriber.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\worldmetricscore\\uht\\worldmetricsactortrackersubscriber.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\csvmetrics\\uht\\csvactorcountmetric.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\worldmetricscore\\public\\worldmetricsactortracker.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\worldmetricscore\\public\\worldmetricsextension.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\worldmetricscore\\uht\\worldmetricsextension.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\worldmetricscore\\uht\\worldmetricsactortracker.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\csvmetrics\\uht\\csvactorcountmetric.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\worldmetricscore\\public\\worldmetricssubsystem.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\worldmetricscore\\uht\\worldmetricssubsystem.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\csvmetrics\\private\\csvmetricsmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\csvmetrics\\private\\csvmetricssubsystem.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\worldmetrics\\source\\csvmetrics\\public\\csvmetricssubsystem.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\csvmetrics\\uht\\csvmetricssubsystem.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\csvmetrics\\uht\\csvmetricssubsystem.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\triggerthresholdlinestyle.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiowidgets\\definitions.audiowidgets.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\triggerthresholdlinestyle.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiowidgetsslatetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiowidgetsslatetypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\triggerthresholdlinestyle.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

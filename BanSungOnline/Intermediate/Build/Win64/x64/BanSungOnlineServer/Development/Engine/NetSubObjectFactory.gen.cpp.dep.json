@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\netsubobjectfactory.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\net\\iris\\replicationsystem\\netsubobjectfactory.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\netobjectfactory.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\netobjectfactoryregistry.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\replicationbridgetypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\netrefhandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\irisconfig.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\netobjectfactory.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\core\\netobjectreference.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettoken.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\netsubobjectfactory.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

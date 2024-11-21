@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\assetregistry\\uht\\assetregistryhelpers.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\assetregistry\\definitions.assetregistry.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistryhelpers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetbundledata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetdatatagmap.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\assetidentifier.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\io\\iohash.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hash\\blake3.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\assetregistry\\uht\\iassetregistry.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\assetregistry\\uht\\assetregistryhelpers.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

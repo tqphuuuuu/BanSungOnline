@@ -1,0 +1,42 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\module.coreuobject.16.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\pch.coreuobject.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\serialization\\referencecollectortest.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\uobject\\instancedataobjectutilstest.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\uobject\\instancedataobjectutilstest.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\instancedataobjectutilstest.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\uobject\\propertypathnametest.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\tests\\testharnessadapter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\lowleveltestadapter.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\sstream",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\istream",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\ostream",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\ios",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\xlocnum",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\streambuf",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\xiosbase",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\share.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\xlocale",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\xfacet",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\xlocinfo",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\__msvc_xlocinfo_types.hpp",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\cctype",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\clocale",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\locale.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\string",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\uobject\\propertypathnametreetest.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\internal\\uobject\\propertypathnametree.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\uobject\\propertytypenametest.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\formatters\\jsonarchiveinputformatter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\formatters\\jsonarchiveoutputformatter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\tests\\uobject\\weakfieldptrtest.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\weakfieldptr.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

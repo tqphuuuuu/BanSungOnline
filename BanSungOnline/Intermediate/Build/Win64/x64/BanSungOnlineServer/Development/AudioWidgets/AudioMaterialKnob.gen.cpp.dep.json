@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiomaterialknob.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiowidgets\\definitions.audiowidgets.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiomaterialslate\\audiomaterialknob.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiomaterialslate\\audiomaterialslatetypes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiowidgetsslatetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiowidgetsslatetypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiomaterialslatetypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\umg\\public\\components\\widget.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\umg\\public\\binding\\states\\widgetstatebitfield.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\umg\\uht\\widgetstatebitfield.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\fieldnotificationdeclaration.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\ifieldnotificationclassdescriptor.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\inotifyfieldvaluechanged.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\fieldnotification\\uht\\inotifyfieldvaluechanged.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\umg\\public\\components\\visual.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\umg\\uht\\visual.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\umg\\public\\components\\slatewrappertypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\umg\\uht\\slatewrappertypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\umg\\public\\slate\\widgettransform.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\umg\\uht\\widgettransform.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\umg\\public\\blueprint\\widgetnavigation.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\types\\navigationmetadata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\umg\\uht\\widgetnavigation.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\umg\\uht\\widget.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiomaterialknob.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioCaptureWasapi.cpp.obj": [
+			"AudioCaptureWasapi.cpp.obj",
+			"AudioCaptureWasapiModule.cpp.obj",
+			"WasapiCaptureThread.cpp.obj",
+			"WasapiDeviceEnumeration.cpp.obj",
+			"WasapiInputStream.cpp.obj",
+			"WasapiStreamManager.cpp.obj"
+		]
+	}
+}

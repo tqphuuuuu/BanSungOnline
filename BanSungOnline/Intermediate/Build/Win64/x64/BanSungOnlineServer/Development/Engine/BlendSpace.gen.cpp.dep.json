@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\blendspace.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\blendspace.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animationruntime.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\skeletonremapping.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animnodebase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\stats\\statshierarchical.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\animnodedata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\animnodedata.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\exposedvaluehandler.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\exposedvaluehandler.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animnodefunctionref.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\animnodefunctionref.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\animnodebase.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\bonesocketreference.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\bonesocketreference.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\blendspace.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\archiveuobjectfromstructuredarchive.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

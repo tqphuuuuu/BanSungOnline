@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\drawprimitivedebugger\\module.drawprimitivedebugger.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\drawprimitivedebugger\\definitions.drawprimitivedebugger.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\drawprimitivedebugger\\private\\drawprimitivedebuggerconfig.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\drawprimitivedebugger\\public\\drawprimitivedebuggerconfig.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\drawprimitivedebugger\\uht\\drawprimitivedebuggerconfig.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\drawprimitivedebugger\\uht\\drawprimitivedebuggerconfig.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\drawprimitivedebugger\\private\\drawprimitivedebuggermodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\drawprimitivedebugger\\public\\drawprimitivedebugger.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\drawprimitivedebugger\\private\\sdrawprimitivedebugger.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\input\\ssearchbox.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\viewdebug.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\primitivesceneinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\meshpassprocessor.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\meshdrawshaderbindings.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\meshmaterialshader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\materialshader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\psoprecachematerial.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\experimental\\containers\\robinhoodhashtable.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\renderer\\public\\raytracingmeshdrawcommands.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\drawprimitivedebugger\\private\\sdrawprimitivedebugger.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\components\\linebatchcomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\linebatchcomponent.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\fonts\\fontmeasure.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\input\\snumericentrybox.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\input\\sspinbox.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\colors\\scolorblock.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

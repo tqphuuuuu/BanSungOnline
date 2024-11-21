@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleparameterdynamic.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\parameter\\particlemoduleparameterdynamic.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\particlemodule.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemodule.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distributionfloatconstant.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distributionfloat.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\distributions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distribution.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distribution.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distributionfloat.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distributionfloatconstant.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\parameter\\particlemoduleparameterbase.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleparameterbase.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\particleemitterinstances.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\distributions\\distributionvector.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\distributionvector.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\orientation\\particlemoduleorientationaxislock.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\orientation\\particlemoduleorientationbase.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleorientationbase.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleorientationaxislock.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystemcomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlesystemcomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\particlemoduleparameterdynamic.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

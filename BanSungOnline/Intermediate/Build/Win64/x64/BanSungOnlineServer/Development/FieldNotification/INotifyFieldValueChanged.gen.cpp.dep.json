@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\fieldnotification\\uht\\inotifyfieldvaluechanged.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\fieldnotification\\definitions.fieldnotification.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\inotifyfieldvaluechanged.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\fieldnotificationid.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\fieldnotificationvariant.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\fieldnotification\\uht\\fieldnotificationid.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\fieldnotification\\public\\ifieldnotificationclassdescriptor.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\fieldnotification\\uht\\inotifyfieldvaluechanged.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

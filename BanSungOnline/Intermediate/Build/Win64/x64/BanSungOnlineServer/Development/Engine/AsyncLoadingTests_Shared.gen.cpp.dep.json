@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\asyncloadingtests_shared.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\private\\tests\\loading\\asyncloadingtests_shared.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\automationtest.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\async\\async.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\internationalization\\regex.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\feedbackcontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\slowtask.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\slowtaskstack.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\textfilterexpressionevaluator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\expressionparser.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\textfilterutils.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\asyncloadingtests_shared.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\archiveuobjectfromstructuredarchive.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

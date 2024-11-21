@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\controlrig\\uht\\controlrigassetuserdata.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\controlrig\\definitions.controlrig.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\controlrig\\source\\controlrig\\public\\controlrigassetuserdata.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\rigvm\\source\\rigvm\\public\\rigvmcore\\rigvmassetuserdata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\rigvm\\uht\\rigvmassetuserdata.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\controlrig\\source\\controlrig\\public\\controlriggizmolibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\controlrig\\uht\\controlriggizmolibrary.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\controlrig\\uht\\controlrigassetuserdata.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

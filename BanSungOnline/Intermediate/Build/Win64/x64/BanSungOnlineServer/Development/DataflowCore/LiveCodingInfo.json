@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowCore.cpp.obj": [
+			"DataflowConnection.cpp.obj",
+			"DataflowContextCachingFactory.cpp.obj",
+			"DataflowCoreModule.cpp.obj",
+			"DataflowCoreNodes.cpp.obj",
+			"DataflowGraph.cpp.obj",
+			"DataflowInputOutput.cpp.obj",
+			"DataflowMathNodes.cpp.obj",
+			"DataflowNode.cpp.obj",
+			"DataflowNodeColorsRegistry.cpp.obj",
+			"DataflowNodeFactory.cpp.obj",
+			"DataflowNodeParameters.cpp.obj",
+			"DataflowOverrideNode.cpp.obj",
+			"DataflowSelection.cpp.obj",
+			"DataflowSettings.cpp.obj",
+			"DataflowTerminalNode.cpp.obj",
+			"DataflowVectorNodes.cpp.obj",
+			"DataflowAnyType.gen.cpp.obj",
+			"DataflowCore.init.gen.cpp.obj",
+			"DataflowCoreNodes.gen.cpp.obj",
+			"DataflowMathNodes.gen.cpp.obj",
+			"DataflowVectorNodes.gen.cpp.obj"
+		]
+	}
+}

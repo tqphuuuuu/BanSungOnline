@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\builtinattributetypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\builtinattributetypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\attributetraits.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animationruntime.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\animation\\skeletonremapping.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\builtinattributetypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

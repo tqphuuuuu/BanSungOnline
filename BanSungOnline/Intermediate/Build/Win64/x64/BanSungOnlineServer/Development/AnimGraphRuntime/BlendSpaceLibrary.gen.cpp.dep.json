@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animgraphruntime\\uht\\blendspacelibrary.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\animgraphruntime\\definitions.animgraphruntime.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\animgraphruntime\\public\\blendspacelibrary.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animexecutioncontext.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\animexecutioncontext.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animnodereference.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\animnodereference.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animgraphruntime\\uht\\blendspacelibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

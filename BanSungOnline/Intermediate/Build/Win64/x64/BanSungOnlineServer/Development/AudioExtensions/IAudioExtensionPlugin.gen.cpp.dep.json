@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audioextensions\\uht\\iaudioextensionplugin.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audioextensions\\definitions.audioextensions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioextensions\\public\\iaudioextensionplugin.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioextensions\\public\\isoundfieldformat.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixercore\\public\\audiomixer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixercore\\public\\audiomixerlog.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixercore\\public\\audiomixernulldevice.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixercore\\public\\audiomixertypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\buffervectoroperations.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\alignedbuffer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\dsp.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\signalprocessingmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\paraminterpolator.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audioextensions\\uht\\isoundfieldformat.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixercore\\public\\audiodefines.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioextensions\\public\\iaudioproxyinitializer.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audioextensions\\uht\\iaudioextensionplugin.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\analytics\\module.analytics.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\analytics\\definitions.analytics.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\private\\analytics.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analytics.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsbuildtype.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsproviderconfigurationdelegate.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticstracer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticstracer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovidermodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\private\\analyticspropertystore.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticspropertystore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticspropertystore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\private\\analyticstracer.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\private\\tests\\analyticspropertystoretests.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

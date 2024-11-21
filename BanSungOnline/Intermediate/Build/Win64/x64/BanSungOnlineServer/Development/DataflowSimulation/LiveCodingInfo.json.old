@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowSimulation.cpp.obj": [
+			"DataflowCollisionObject.gen.cpp.obj",
+			"DataflowConstraintObject.gen.cpp.obj",
+			"DataflowInterfaceGeometryCachable.gen.cpp.obj",
+			"DataflowPhysicsObject.gen.cpp.obj",
+			"DataflowPhysicsSolver.gen.cpp.obj",
+			"DataflowSimulation.init.gen.cpp.obj",
+			"DataflowSimulationInterface.gen.cpp.obj",
+			"DataflowSimulationManager.gen.cpp.obj",
+			"DataflowSimulationProxy.gen.cpp.obj",
+			"DataflowSimulationContext.cpp.obj",
+			"DataflowSimulationInterface.cpp.obj",
+			"DataflowSimulationManager.cpp.obj",
+			"DataflowSimulationNodes.cpp.obj",
+			"DataflowSimulationPlugin.cpp.obj",
+			"DataflowSimulationProxy.cpp.obj",
+			"DataflowSimulationUtils.cpp.obj",
+			"DataflowCollisionObject.cpp.obj",
+			"DataflowConstraintObject.cpp.obj",
+			"DataflowPhysicsObject.cpp.obj",
+			"DataflowPhysicsSolver.cpp.obj"
+		]
+	}
+}

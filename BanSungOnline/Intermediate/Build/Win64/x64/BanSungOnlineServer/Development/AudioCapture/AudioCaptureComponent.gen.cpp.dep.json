@@ -1,0 +1,42 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiocapture\\uht\\audiocapturecomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapture\\definitions.audiocapture.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiocapture\\source\\audiocapture\\public\\audiocapturecomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiocapture\\source\\audiocapture\\public\\audiocapture.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\delay.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\envelopefollower.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\floatarraymath.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\classes\\generators\\audiogenerator.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiomixer\\uht\\audiogenerator.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturedeviceinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiocapture\\uht\\audiocapture.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\public\\components\\synthcomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\components\\audiocomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audio\\soundparametercontrollerinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\soundparametercontrollerinterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioextensions\\public\\iaudioparametertransmitter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\public\\quartz\\audiomixerquantizedcommands.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\public\\quartz\\audiomixerclock.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiomixer\\public\\quartz\\quartzmetronome.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\sound\\quartzsubscription.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\sound\\quartzsubscriptiontoken.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\sound\\quartzinterfaces.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\audiocomponent.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\sound\\soundwaveprocedural.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\soundwaveprocedural.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\sound\\soundgenerator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiodevicemanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiothread.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiomixer\\uht\\synthcomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiocapture\\uht\\audiocapturecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

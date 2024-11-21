@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaoscloth\\uht\\chaosweightmaptarget.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\chaoscloth\\definitions.chaoscloth.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\chaoscloth\\source\\chaoscloth\\private\\chaoscloth\\chaosweightmaptarget.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\clothingsystemruntimecommon\\public\\clothphysicalmeshdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\clothingsystemruntimecommon\\public\\clothtetherdata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\clothingsystemruntimecommon\\uht\\clothtetherdata.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\clothingsystemruntimeinterface\\public\\clothvertbonedata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\clothsysruntimeintrfc\\uht\\clothvertbonedata.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\clothingsystemruntimecommon\\public\\pointweightmap.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\clothingsystemruntimecommon\\uht\\pointweightmap.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\clothingsystemruntimecommon\\uht\\clothphysicalmeshdata.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\chaoscloth\\uht\\chaosweightmaptarget.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

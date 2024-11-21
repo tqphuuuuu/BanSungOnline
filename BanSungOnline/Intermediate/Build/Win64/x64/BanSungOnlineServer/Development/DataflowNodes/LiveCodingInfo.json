@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowNodes.cpp.obj": [
+			"DataflowCollectionAddScalarVertexPropertyNode.cpp.obj",
+			"DataflowCollectionAttributeKeyNodes.cpp.obj",
+			"DataflowContextOverridesNodes.cpp.obj",
+			"DataflowNodesPlugin.cpp.obj",
+			"DataflowSelectionNodes.cpp.obj",
+			"DataflowSkeletalMeshNodes.cpp.obj",
+			"DataflowStaticMeshNodes.cpp.obj",
+			"DataflowTools.cpp.obj",
+			"DataflowFunctionProperty.gen.cpp.obj",
+			"DataflowNodes.init.gen.cpp.obj"
+		]
+	}
+}

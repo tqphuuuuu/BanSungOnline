@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaytags\\uht\\internalgameplaytagcontainernetserializer.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\gameplaytags\\definitions.gameplaytags.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\gameplaytags\\private\\internalgameplaytagcontainernetserializer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaytags\\uht\\internalgameplaytagcontainernetserializer.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapturecore\\module.audiocapturecore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapturecore\\definitions.audiocapturecore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\private\\audiocapturecore.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturedeviceinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\delay.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\envelopefollower.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\floatarraymath.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\private\\audiocaptureinternal.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecorelog.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\private\\audiocapturecoremodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecoremodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiovectorscopepanelstyle.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiowidgets\\definitions.audiowidgets.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiovectorscopepanelstyle.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\audiowidgetsslatetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiowidgetsslatetypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\audiowidgets\\source\\audiowidgets\\public\\sampledsequencevectorviewerstyle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\sampledsequencevectorviewerstyle.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audiowidgets\\uht\\audiovectorscopepanelstyle.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

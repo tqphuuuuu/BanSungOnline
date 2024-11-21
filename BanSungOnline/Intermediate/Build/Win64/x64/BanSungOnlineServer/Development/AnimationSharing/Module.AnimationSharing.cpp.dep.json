@@ -1,0 +1,35 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\animationsharing\\module.animationsharing.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\animationsharing\\definitions.animationsharing.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\additiveanimationinstance.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\additiveanimationinstance.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharinginstances.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharinginstances.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingtypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharingtypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharingmanager.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharinginstances.cpp",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharinginstances.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharingmanager.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\transitionblendinstance.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\significancemanager\\source\\significancemanager\\public\\significancemanager.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\significancemanager\\uht\\significancemanager.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingsetup.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharingsetup.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharingmanager.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharingmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharingsetup.cpp",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\animationsharing\\uht\\animationsharingsetup.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\transitionblendinstance.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
