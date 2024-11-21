@@ -52,6 +52,36 @@ void FHealth_DelegateWrapper(const FMulticastScriptDelegate& Health)
 }
 // End Delegate FHealth
 
+// Begin Class AEnemy Function AttackCharacter
+struct Z_Construct_UFunction_AEnemy_AttackCharacter_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "Enemy/Enemy.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AEnemy_AttackCharacter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AEnemy, nullptr, "AttackCharacter", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AEnemy_AttackCharacter_Statics::Function_MetaDataParams), Z_Construct_UFunction_AEnemy_AttackCharacter_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AEnemy_AttackCharacter()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AEnemy_AttackCharacter_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AEnemy::execAttackCharacter)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->AttackCharacter();
+	P_NATIVE_END;
+}
+// End Class AEnemy Function AttackCharacter
+
 // Begin Class AEnemy Function OnOverlap
 struct Z_Construct_UFunction_AEnemy_OnOverlap_Statics
 {
@@ -144,6 +174,7 @@ void AEnemy::StaticRegisterNativesAEnemy()
 {
 	UClass* Class = AEnemy::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "AttackCharacter", &AEnemy::execAttackCharacter },
 		{ "OnOverlap", &AEnemy::execOnOverlap },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -225,6 +256,7 @@ struct Z_Construct_UClass_AEnemy_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AEnemy_AttackCharacter, "AttackCharacter" }, // 3481707547
 		{ &Z_Construct_UFunction_AEnemy_OnOverlap, "OnOverlap" }, // 2464592273
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -305,10 +337,10 @@ AEnemy::~AEnemy() {}
 struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy, AEnemy::StaticClass, TEXT("AEnemy"), &Z_Registration_Info_UClass_AEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy), 3335067786U) },
+		{ Z_Construct_UClass_AEnemy, AEnemy::StaticClass, TEXT("AEnemy"), &Z_Registration_Info_UClass_AEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy), 2685162471U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_4277772129(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_2536546447(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

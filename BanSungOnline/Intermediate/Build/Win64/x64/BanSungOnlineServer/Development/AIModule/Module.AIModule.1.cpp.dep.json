@@ -1,0 +1,41 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\aimodule\\module.aimodule.1.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\aimodule\\definitions.aimodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\private\\actions\\pawnaction.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\actions\\pawnaction.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\aitypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navigationsystem\\public\\navigationsystemtypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\ai\\navigation\\navagentselector.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\navagentselector.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\aitypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\braincomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\airesourceinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\airesourceinterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\braincomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\pawnaction.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\actions\\pawnactionscomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\pawnactionscomponent.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\gameplaytasks\\classes\\gameplaytaskownerinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\gameplaytasks\\public\\gameplaytasktypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaytasks\\uht\\gameplaytaskownerinterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\gameplaytasks\\classes\\gameplaytask.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaytasks\\uht\\gameplaytask.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\perception\\aiperceptionlistenerinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\aiperceptionlistenerinterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\aimodule\\classes\\genericteamagentinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\genericteamagentinterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\visuallogger\\visualloggerdebugsnapshotinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\visualloggerdebugsnapshotinterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\aicontroller.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\aimodule\\uht\\pawnaction.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -22,6 +22,7 @@ BANSUNGONLINE_API void FHealth_DelegateWrapper(const FMulticastScriptDelegate& H
 
 
 #define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAttackCharacter); \
 	DECLARE_FUNCTION(execOnOverlap);
 
 

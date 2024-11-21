@@ -133,12 +133,13 @@ struct BanSungOnlineCharacter_eventServerSetHealth_Parms
 {
 	float Damage;
 };
-static FName NAME_ABanSungOnlineCharacter_ServerSetHealth = FName(TEXT("ServerSetHealth"));
+static const FName NAME_ABanSungOnlineCharacter_ServerSetHealth = FName(TEXT("ServerSetHealth"));
 void ABanSungOnlineCharacter::ServerSetHealth(float Damage)
 {
 	BanSungOnlineCharacter_eventServerSetHealth_Parms Parms;
 	Parms.Damage=Damage;
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlineCharacter_ServerSetHealth),&Parms);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlineCharacter_ServerSetHealth);
+	ProcessEvent(Func,&Parms);
 }
 struct Z_Construct_UFunction_ABanSungOnlineCharacter_ServerSetHealth_Statics
 {
@@ -381,10 +382,10 @@ ABanSungOnlineCharacter::~ABanSungOnlineCharacter() {}
 struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 3723552411U) },
+		{ Z_Construct_UClass_ABanSungOnlineCharacter, ABanSungOnlineCharacter::StaticClass, TEXT("ABanSungOnlineCharacter"), &Z_Registration_Info_UClass_ABanSungOnlineCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlineCharacter), 3214623399U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_1698330654(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_3401974503(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

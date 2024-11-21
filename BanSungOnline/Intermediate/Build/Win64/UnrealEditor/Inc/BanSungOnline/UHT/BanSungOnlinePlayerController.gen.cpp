@@ -50,10 +50,11 @@ void FDisplayWBBulletCount_DelegateWrapper(const FMulticastScriptDelegate& Displ
 // End Delegate FDisplayWBBulletCount
 
 // Begin Class ABanSungOnlinePlayerController Function OnShooting
-static FName NAME_ABanSungOnlinePlayerController_OnShooting = FName(TEXT("OnShooting"));
+static const FName NAME_ABanSungOnlinePlayerController_OnShooting = FName(TEXT("OnShooting"));
 void ABanSungOnlinePlayerController::OnShooting()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_OnShooting),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_OnShooting);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_OnShooting_Statics
 {
@@ -84,10 +85,11 @@ DEFINE_FUNCTION(ABanSungOnlinePlayerController::execOnShooting)
 // End Class ABanSungOnlinePlayerController Function OnShooting
 
 // Begin Class ABanSungOnlinePlayerController Function ReloadGun
-static FName NAME_ABanSungOnlinePlayerController_ReloadGun = FName(TEXT("ReloadGun"));
+static const FName NAME_ABanSungOnlinePlayerController_ReloadGun = FName(TEXT("ReloadGun"));
 void ABanSungOnlinePlayerController::ReloadGun()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_ReloadGun),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_ReloadGun);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_ReloadGun_Statics
 {
@@ -122,12 +124,13 @@ struct BanSungOnlinePlayerController_eventReplaceWeapon_Parms
 {
 	AWeapon* NewWeapon;
 };
-static FName NAME_ABanSungOnlinePlayerController_ReplaceWeapon = FName(TEXT("ReplaceWeapon"));
+static const FName NAME_ABanSungOnlinePlayerController_ReplaceWeapon = FName(TEXT("ReplaceWeapon"));
 void ABanSungOnlinePlayerController::ReplaceWeapon(AWeapon* NewWeapon)
 {
 	BanSungOnlinePlayerController_eventReplaceWeapon_Parms Parms;
 	Parms.NewWeapon=NewWeapon;
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_ReplaceWeapon),&Parms);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_ReplaceWeapon);
+	ProcessEvent(Func,&Parms);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_ReplaceWeapon_Statics
 {
@@ -171,12 +174,13 @@ struct BanSungOnlinePlayerController_eventServer_ShowWeapon_Parms
 {
 	int32 Type;
 };
-static FName NAME_ABanSungOnlinePlayerController_Server_ShowWeapon = FName(TEXT("Server_ShowWeapon"));
+static const FName NAME_ABanSungOnlinePlayerController_Server_ShowWeapon = FName(TEXT("Server_ShowWeapon"));
 void ABanSungOnlinePlayerController::Server_ShowWeapon(int32 Type)
 {
 	BanSungOnlinePlayerController_eventServer_ShowWeapon_Parms Parms;
 	Parms.Type=Type;
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_Server_ShowWeapon),&Parms);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_Server_ShowWeapon);
+	ProcessEvent(Func,&Parms);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_ShowWeapon_Statics
 {
@@ -225,12 +229,13 @@ struct BanSungOnlinePlayerController_eventServer_Test_Parms
 {
 	FVector MouseLocation;
 };
-static FName NAME_ABanSungOnlinePlayerController_Server_Test = FName(TEXT("Server_Test"));
+static const FName NAME_ABanSungOnlinePlayerController_Server_Test = FName(TEXT("Server_Test"));
 void ABanSungOnlinePlayerController::Server_Test(FVector MouseLocation)
 {
 	BanSungOnlinePlayerController_eventServer_Test_Parms Parms;
 	Parms.MouseLocation=MouseLocation;
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_Server_Test),&Parms);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_Server_Test);
+	ProcessEvent(Func,&Parms);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_Server_Test_Statics
 {
@@ -270,10 +275,11 @@ DEFINE_FUNCTION(ABanSungOnlinePlayerController::execServer_Test)
 // End Class ABanSungOnlinePlayerController Function Server_Test
 
 // Begin Class ABanSungOnlinePlayerController Function SetFalse
-static FName NAME_ABanSungOnlinePlayerController_SetFalse = FName(TEXT("SetFalse"));
+static const FName NAME_ABanSungOnlinePlayerController_SetFalse = FName(TEXT("SetFalse"));
 void ABanSungOnlinePlayerController::SetFalse()
 {
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_SetFalse),NULL);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_SetFalse);
+	ProcessEvent(Func,NULL);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_SetFalse_Statics
 {
@@ -309,13 +315,14 @@ struct BanSungOnlinePlayerController_eventWeaponFiring_Parms
 	AWeapon* Weapon;
 	FVector MouseLocation;
 };
-static FName NAME_ABanSungOnlinePlayerController_WeaponFiring = FName(TEXT("WeaponFiring"));
+static const FName NAME_ABanSungOnlinePlayerController_WeaponFiring = FName(TEXT("WeaponFiring"));
 void ABanSungOnlinePlayerController::WeaponFiring(AWeapon* Weapon, FVector MouseLocation)
 {
 	BanSungOnlinePlayerController_eventWeaponFiring_Parms Parms;
 	Parms.Weapon=Weapon;
 	Parms.MouseLocation=MouseLocation;
-	ProcessEvent(FindFunctionChecked(NAME_ABanSungOnlinePlayerController_WeaponFiring),&Parms);
+	UFunction* Func = FindFunctionChecked(NAME_ABanSungOnlinePlayerController_WeaponFiring);
+	ProcessEvent(Func,&Parms);
 }
 struct Z_Construct_UFunction_ABanSungOnlinePlayerController_WeaponFiring_Statics
 {
@@ -597,10 +604,10 @@ ABanSungOnlinePlayerController::~ABanSungOnlinePlayerController() {}
 struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABanSungOnlinePlayerController, ABanSungOnlinePlayerController::StaticClass, TEXT("ABanSungOnlinePlayerController"), &Z_Registration_Info_UClass_ABanSungOnlinePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlinePlayerController), 1469295209U) },
+		{ Z_Construct_UClass_ABanSungOnlinePlayerController, ABanSungOnlinePlayerController::StaticClass, TEXT("ABanSungOnlinePlayerController"), &Z_Registration_Info_UClass_ABanSungOnlinePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABanSungOnlinePlayerController), 2629928462U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_2942320837(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_1684508834(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlinePlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

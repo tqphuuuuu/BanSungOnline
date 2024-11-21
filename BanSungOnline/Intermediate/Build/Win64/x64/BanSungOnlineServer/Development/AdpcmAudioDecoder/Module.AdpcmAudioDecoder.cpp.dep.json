@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\adpcmaudiodecoder\\module.adpcmaudiodecoder.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\adpcmaudiodecoder\\definitions.adpcmaudiodecoder.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\adpcmaudiodecoder\\module\\private\\adpcmaudioinfo.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\adpcmaudiodecoder\\module\\public\\decoders\\adpcmaudioinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\indexof.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

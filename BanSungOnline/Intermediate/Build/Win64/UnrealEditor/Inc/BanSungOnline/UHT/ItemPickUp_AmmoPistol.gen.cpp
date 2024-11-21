@@ -173,10 +173,10 @@ AItemPickUp_AmmoPistol::~AItemPickUp_AmmoPistol() {}
 struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_AmmoPistol_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AItemPickUp_AmmoPistol, AItemPickUp_AmmoPistol::StaticClass, TEXT("AItemPickUp_AmmoPistol"), &Z_Registration_Info_UClass_AItemPickUp_AmmoPistol, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AItemPickUp_AmmoPistol), 3634762172U) },
+		{ Z_Construct_UClass_AItemPickUp_AmmoPistol, AItemPickUp_AmmoPistol::StaticClass, TEXT("AItemPickUp_AmmoPistol"), &Z_Registration_Info_UClass_AItemPickUp_AmmoPistol, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AItemPickUp_AmmoPistol), 3747995447U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_AmmoPistol_h_19795267(TEXT("/Script/BanSungOnline"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_AmmoPistol_h_753011025(TEXT("/Script/BanSungOnline"),
 	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_AmmoPistol_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_AmmoPistol_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
