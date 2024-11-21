@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\unrealedmessages\\uht\\asseteditormessages.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\unrealedmessages\\definitions.unrealedmessages.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\editor\\unrealedmessages\\classes\\asseteditormessages.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\unrealedmessages\\uht\\asseteditormessages.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\toolwidgets\\uht\\toolwidgetsslatetypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\toolwidgets\\definitions.toolwidgets.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\toolwidgets\\public\\toolwidgetsslatetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\toolwidgets\\uht\\toolwidgetsslatetypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

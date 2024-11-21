@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\universalobjectlocator\\uht\\universalobjectlocatorfragment.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\universalobjectlocator\\definitions.universalobjectlocator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorfragment.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorfwd.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorfragmenttype.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\asciiset.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\containers\\pagedarray.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\containers\\iteratoradapter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorresolveparams.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorresolveparameterbuffer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorparametertypehandle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\universalobjectlocator\\uht\\universalobjectlocatorresolveparams.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorfragmentdebugging.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorfragmenttypehandle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\universalobjectlocator\\uht\\universalobjectlocatorfragment.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

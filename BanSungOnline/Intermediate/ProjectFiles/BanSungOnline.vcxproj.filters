@@ -17,6 +17,7 @@
     <None Include="..\..\Source\BanSungOnlineServer.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <None Include="..\..\BanSungOnline.sln.DotSettings.user" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -45,116 +46,116 @@
     <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnline.cpp">
       <Filter>Source\BanSungOnline</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\BanSungOnline.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnline.h">
       <Filter>Source\BanSungOnline</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnlineCharacter.cpp">
       <Filter>Source\BanSungOnline</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\BanSungOnlineCharacter.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnlineCharacter.h">
       <Filter>Source\BanSungOnline</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnlineGameMode.cpp">
       <Filter>Source\BanSungOnline</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\BanSungOnlineGameMode.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnlineGameMode.h">
       <Filter>Source\BanSungOnline</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnlinePlayerController.cpp">
       <Filter>Source\BanSungOnline</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\BanSungOnlinePlayerController.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\BanSungOnlinePlayerController.h">
       <Filter>Source\BanSungOnline</Filter>
-    </ClInclude>
+    </ClCompile>
     <Filter Include="Source\BanSungOnline\Enemy">
       <UniqueIdentifier>{44A84243-0932-31CF-9C50-35A0D04D8506}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy.cpp">
       <Filter>Source\BanSungOnline\Enemy</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Enemy\Enemy.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy.h">
       <Filter>Source\BanSungOnline\Enemy</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy_Boss.cpp">
       <Filter>Source\BanSungOnline\Enemy</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Enemy\Enemy_Boss.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy_Boss.h">
       <Filter>Source\BanSungOnline\Enemy</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy_Zombie.cpp">
       <Filter>Source\BanSungOnline\Enemy</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Enemy\Enemy_Zombie.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Enemy\Enemy_Zombie.h">
       <Filter>Source\BanSungOnline\Enemy</Filter>
-    </ClInclude>
+    </ClCompile>
     <Filter Include="Source\BanSungOnline\ItemPickUp">
       <UniqueIdentifier>{ECD65306-B03D-34D5-846E-67AA439DD422}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.cpp">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp.h">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.cpp">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoPistol.h">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.cpp">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_AmmoRifle.h">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.cpp">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\ItemPickUp\ItemPickUp_Health.h">
       <Filter>Source\BanSungOnline\ItemPickUp</Filter>
-    </ClInclude>
+    </ClCompile>
     <Filter Include="Source\BanSungOnline\Projectitle">
       <UniqueIdentifier>{48DA855F-9AD2-3EBA-99EB-90C6E3839828}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.cpp">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle.h">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.cpp">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Pistol.h">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.cpp">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Projectitle\Projectitle_Rifle.h">
       <Filter>Source\BanSungOnline\Projectitle</Filter>
-    </ClInclude>
+    </ClCompile>
     <Filter Include="Source\BanSungOnline\Weapon">
       <UniqueIdentifier>{4A489085-B748-3085-A4A0-754D4808EF7B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BanSungOnline\Weapon\Weapon.cpp">
       <Filter>Source\BanSungOnline\Weapon</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Weapon\Weapon.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Weapon\Weapon.h">
       <Filter>Source\BanSungOnline\Weapon</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponPistol.cpp">
       <Filter>Source\BanSungOnline\Weapon</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Weapon\WeaponPistol.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponPistol.h">
       <Filter>Source\BanSungOnline\Weapon</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponRifle.cpp">
       <Filter>Source\BanSungOnline\Weapon</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\BanSungOnline\Weapon\WeaponRifle.h">
+    <ClCompile Include="..\..\Source\BanSungOnline\Weapon\WeaponRifle.h">
       <Filter>Source\BanSungOnline\Weapon</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

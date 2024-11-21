@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\textureutilitiescommon\\module.textureutilitiescommon.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\textureutilitiescommon\\definitions.textureutilitiescommon.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\normalmapidentification.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\public\\normalmapidentification.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\textureimportsettings.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\public\\textureimportsettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\textureutilitiescommon\\uht\\textureimportsettings.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\imagecore\\public\\imagecoreutils.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\textureutilitiescommon\\uht\\textureimportsettings.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\textureimportusersettings.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\public\\textureimportusersettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\textureutilitiescommon\\uht\\textureimportusersettings.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\textureutilitiescommon\\uht\\textureimportusersettings.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\textureimportutils.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\public\\textureimportutils.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\texturesourcedatautils.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\public\\texturesourcedatautils.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\textureutilitiescommonmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\private\\udimutilities.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\textureutilitiescommon\\public\\udimutilities.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\udpmessaging\\uht\\udpmessagingsettings.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\udpmessaging\\definitions.udpmessaging.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\messaging\\udpmessaging\\source\\udpmessaging\\public\\shared\\udpmessagingsettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\udpmessaging\\uht\\udpmessagingsettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -3,7 +3,7 @@
     "Data": {
         "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\unrealeditor\\inc\\bansungonline\\uht\\bansungonline.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\ue5.4\\5.4\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
         "Includes": [
             "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bansungonline\\definitions.bansungonline.h"
         ],

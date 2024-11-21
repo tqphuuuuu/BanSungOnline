@@ -8,8 +8,8 @@ public class BanSungOnlineClientTarget : TargetRules
 	public BanSungOnlineClientTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Client;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.Add("BanSungOnline");
 	}
 }

@@ -51,8 +51,8 @@ void AEnemy::Tick(float DeltaTime)
 
 	}
 	Timer++;
-	if (!HasAuthority())
-		AttackCharacter();
+	/*if (!HasAuthority())
+		AttackCharacter();*/
 	//UKismetSystemLibrary::PrintString(this,FString::SanitizeFloat(Health));
 }
 
@@ -71,36 +71,37 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
  
 void AEnemy::AttackCharacter()
 {
-	
-
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
 	FVector End = GetMesh()->GetSocketLocation(FName("B"));
 
 	TArray<AActor*> IgnoreActors;
 	IgnoreActors.Add(this); 
-
+	UKismetSystemLibrary::PrintString(this,"hehe");
 	FHitResult HitResult;
 	bool bHit = UKismetSystemLibrary::LineTraceSingle(GetWorld(),Start,End,
 		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn), 
 		false,
 		IgnoreActors,
-		EDrawDebugTrace::None,
+		EDrawDebugTrace::ForDuration,
 		HitResult,
 		true);
-	
+
+	FString bhitString = bHit ? TEXT("true") : TEXT("false");  // Convert bool to FString
+	UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Red, 2.0f);
 	if (bHit) {
+		UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Yellow, 2.0f);
 		// Kiểm tra đối tượng bị hit có phải là nhân vật không
 		ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
 		if (IsValid(MyCharacter))
 		{
 			if (Health >= 0)
 			{
-				if (Timer >= 100)
+				/*if (Timer >= 100)
 				{
-					Timer = 0;
+					Timer = 0;*/
 					MyCharacter->ServerSetHealth(Damage);
 					
-				}
+				//}
 			}
 		}
 	}
@@ -109,55 +110,6 @@ void AEnemy::AttackCharacter()
 
 void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	/*ABanSungOnlineCharacter* PlayerCharacter = Cast<ABanSungOnlineCharacter>(OtherActor);
-	if (PlayerCharacter && !bIsAttacking) // Chỉ thực hiện tấn công nếu chưa tấn công
-	{
-		// Đặt trạng thái tấn công
-		bIsAttacking = true;
-
-		// Tấn công ngẫu nhiên
-		int32 AttackType = FMath::RandRange(1, 3);
-
-		switch (AttackType)
-		{
-		case 1:
-			if (AttackAnimation)
-			{
-				GetMesh()->PlayAnimation(AttackAnimation, true);
-			}
-			break;
-
-		/*case 2:
-			if (JumpAttackAnimation)
-			{
-				FVector JumpDirection = (PlayerCharacter->GetActorLocation() - GetActorLocation()).GetSafeNormal();
-				LaunchCharacter(JumpDirection * 500.0f + FVector(0, 0, 300.0f), true, true);
-				GetMesh()->PlayAnimation(JumpAttackAnimation, true);
-			}
-			break;#1#
-
-		/*case 3:
-			// Tấn công tầm xa
-				if (RangedAttackProjectile)
-				{
-					FVector MuzzleLocation = GetActorLocation() + FVector(0, 0, 50.0f); // Vị trí phóng chiêu
-					FRotator MuzzleRotation = UKismetMathLibrary::FindLookAtRotation(MuzzleLocation, PlayerCharacter->GetActorLocation());
-				
-					// Spawn đạn hoặc chiêu tấn công từ xa
-					AProjectitle* Projectile = GetWorld()->SpawnActor<AProjectitle>(RangedAttackProjectile, MuzzleLocation, MuzzleRotation);
-					if (Projectile)
-					{
-						Projectile->SetOwner(this); // Đặt chủ sở hữu là enemy này
-					}
-				}
-			break;#1#
-
-		default:
-			break;
-		}
-	}*/
-
-	// Xử lý nếu OtherActor là đạn
 	AProjectitle* Projectiles = Cast<AProjectitle>(OtherActor);
 	if (IsValid(Projectiles))
 	{

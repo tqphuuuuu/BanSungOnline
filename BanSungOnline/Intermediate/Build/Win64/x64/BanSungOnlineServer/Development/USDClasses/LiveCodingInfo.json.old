@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDClasses.cpp.obj": [
+			"USDAssetCache.gen.cpp.obj",
+			"USDAssetCache2.gen.cpp.obj",
+			"USDAssetCache3.gen.cpp.obj",
+			"USDAssetImportData.gen.cpp.obj",
+			"USDAssetUserData.gen.cpp.obj",
+			"USDClasses.init.gen.cpp.obj",
+			"USDDrawModeComponent.gen.cpp.obj",
+			"USDDuplicateType.gen.cpp.obj",
+			"USDMetadata.gen.cpp.obj",
+			"USDMetadataImportOptions.gen.cpp.obj",
+			"USDProjectSettings.gen.cpp.obj",
+			"USDReferenceOptions.gen.cpp.obj",
+			"USDStageOptions.gen.cpp.obj",
+			"USDUnrealAssetInfo.gen.cpp.obj",
+			"USDAssetCache.cpp.obj",
+			"USDAssetCache2.cpp.obj",
+			"USDAssetCache3.cpp.obj",
+			"USDClassesModule.cpp.obj",
+			"USDDrawModeComponent.cpp.obj",
+			"USDMaterialUtils.cpp.obj",
+			"USDMetadataImportOptions.cpp.obj",
+			"USDObjectUtils.cpp.obj",
+			"USDProjectSettings.cpp.obj",
+			"USDStageOptions.cpp.obj"
+		]
+	}
+}

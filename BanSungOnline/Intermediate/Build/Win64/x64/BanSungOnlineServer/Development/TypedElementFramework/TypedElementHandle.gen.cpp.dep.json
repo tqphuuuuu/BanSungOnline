@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementhandle.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\typedelementframework\\definitions.typedelementframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementhandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementid.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlimits.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementhandle.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

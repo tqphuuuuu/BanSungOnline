@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementrevisioncontrolcolumns.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\typedelementframework\\definitions.typedelementframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\columns\\typedelementrevisioncontrolcolumns.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementcommontypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementhandles.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementhandles.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementcommontypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementrevisioncontrolcolumns.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

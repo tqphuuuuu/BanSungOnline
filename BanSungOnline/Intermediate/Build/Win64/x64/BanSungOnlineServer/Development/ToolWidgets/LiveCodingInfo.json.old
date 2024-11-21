@@ -1,0 +1,45 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ToolWidgets.cpp.obj": [
+			"CustomTextFilters.gen.cpp.obj",
+			"SBasicFilterBar.gen.cpp.obj",
+			"SidebarButtonMenuContext.gen.cpp.obj",
+			"SidebarState.gen.cpp.obj",
+			"SlateDelegateColumns.gen.cpp.obj",
+			"ToolWidgets.init.gen.cpp.obj",
+			"ToolWidgetsSlateTypes.gen.cpp.obj",
+			"DialogUtils.cpp.obj",
+			"SCustomDialog.cpp.obj",
+			"SMessageDialog.cpp.obj",
+			"SCustomTextFilterDialog.cpp.obj",
+			"SFilterSearchBox.cpp.obj",
+			"SActionButton.cpp.obj",
+			"SAvatar.cpp.obj",
+			"SCheckBoxList.cpp.obj",
+			"SidebarState.cpp.obj",
+			"SSidebar.cpp.obj",
+			"SSidebarButton.cpp.obj",
+			"SSidebarButtonText.cpp.obj",
+			"SSidebarContainer.cpp.obj",
+			"SSidebarDrawer.cpp.obj",
+			"SSidebarDrawerContent.cpp.obj",
+			"SNegativeActionButton.cpp.obj",
+			"SPositiveActionButton.cpp.obj",
+			"SPrimaryButton.cpp.obj",
+			"SRichTextWarningOrErrorBox.cpp.obj",
+			"SSearchableComboBox.cpp.obj",
+			"SSearchToggleButton.cpp.obj",
+			"SSegmentedTimelineView.cpp.obj",
+			"SSimpleButton.cpp.obj",
+			"SSimpleComboButton.cpp.obj",
+			"SSimpleTimeSlider.cpp.obj",
+			"SWarningOrErrorBox.cpp.obj",
+			"SWidgetDrawer.cpp.obj",
+			"ToolWidgetsModule.cpp.obj",
+			"ToolWidgetsSlateTypes.cpp.obj",
+			"ToolWidgetsStyle.cpp.obj",
+			"ToolWidgetsUtilitiesPrivate.cpp.obj"
+		]
+	}
+}

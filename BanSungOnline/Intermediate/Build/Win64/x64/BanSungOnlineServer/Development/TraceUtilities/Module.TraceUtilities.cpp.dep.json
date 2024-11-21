@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\traceutilities\\module.traceutilities.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\traceutilities\\definitions.traceutilities.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\traceutilities\\source\\traceutilities\\private\\traceutillibrary.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\traceutilities\\source\\traceutilities\\public\\traceutillibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\traceutilities\\uht\\traceutillibrary.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\profilingdebugging\\tracescreenshot.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\traceutilities\\uht\\traceutillibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

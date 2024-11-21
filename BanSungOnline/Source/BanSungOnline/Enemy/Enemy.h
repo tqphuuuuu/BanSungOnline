@@ -74,6 +74,7 @@ public:
 
 	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 
+	UFUNCTION(BlueprintCallable, Category = "Combat")
 	virtual void AttackCharacter();
 	int32 Timer = 0;
 

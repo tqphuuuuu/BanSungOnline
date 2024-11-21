@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementlabelcolumns.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\typedelementframework\\definitions.typedelementframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\columns\\typedelementlabelcolumns.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\interfaces\\typedelementdatastorageinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementcommontypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementhandles.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementhandles.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementcommontypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementqueryconditions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementquerydescription.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\common\\typedelementquerytypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\interfaces\\typedelementquerystorageinterfaces.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementmetadata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementmetadata.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementcolumnutils.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementlabelcolumns.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

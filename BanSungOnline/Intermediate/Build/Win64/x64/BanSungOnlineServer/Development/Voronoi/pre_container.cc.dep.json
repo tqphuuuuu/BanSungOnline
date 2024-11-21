@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\pre_container.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\voronoi\\definitions.voronoi.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\config.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\pre_container.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\c_loops.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\container.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\common.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\v_base.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\worklist.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\cell.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\v_compute.hh",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\rad_option.hh"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

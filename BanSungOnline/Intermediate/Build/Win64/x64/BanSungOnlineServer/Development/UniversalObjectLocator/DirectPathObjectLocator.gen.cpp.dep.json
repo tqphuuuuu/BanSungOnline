@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\universalobjectlocator\\uht\\directpathobjectlocator.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\universalobjectlocator\\definitions.universalobjectlocator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\directpathobjectlocator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\universalobjectlocator\\public\\universalobjectlocatorfwd.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\universalobjectlocator\\uht\\directpathobjectlocator.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

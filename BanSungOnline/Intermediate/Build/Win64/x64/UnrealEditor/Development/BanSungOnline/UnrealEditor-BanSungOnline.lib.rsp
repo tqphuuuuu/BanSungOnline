@@ -6,8 +6,10 @@
 /NAME:"UnrealEditor-BanSungOnline.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h.obj"
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Module.BanSungOnline.cpp.obj"
+"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Enemy.cpp.obj"
+"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\PerModuleInline.gen.cpp.obj"
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnline.init.gen.cpp.obj"
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnlineCharacter.gen.cpp.obj"
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnlineGameMode.gen.cpp.obj"
@@ -25,5 +27,5 @@
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Weapon.gen.cpp.obj"
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\WeaponPistol.gen.cpp.obj"
 "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\WeaponRifle.gen.cpp.obj"
-"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Default.rc2.res"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
 /OUT:"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\UnrealEditor-BanSungOnline.lib"
