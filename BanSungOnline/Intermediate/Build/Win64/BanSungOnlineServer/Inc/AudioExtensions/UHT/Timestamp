@@ -1,0 +1,12 @@
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\AudioParameter.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\AudioParameterControllerInterface.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\AudioPropertiesSheetAssetBase.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\IAudioEndpoint.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\IAudioExtensionPlugin.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\IAudioModulation.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\IAudioPropertiesSheet.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\ISoundfieldEndpoint.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\ISoundfieldFormat.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\ISoundWaveCloudStreaming.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\SoundGeneratorOutput.h
+C:\UE5.4\5.4\Engine\Source\Runtime\AudioExtensions\Public\IWaveformTransformation.h
