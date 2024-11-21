@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\storageserverclientdebug\\module.storageserverclientdebug.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\storageserverclientdebug\\definitions.storageserverclientdebug.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclientdebug\\private\\storageserverconnectiondebug.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclientdebug\\private\\storageserverconnectiondebug.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\engine\\canvas.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\canvasitem.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\engine\\font.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\engine\\fontimportoptions.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\fontimportoptions.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\fonts\\fontproviderinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\fontproviderinterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\font.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\canvastypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\canvastypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\canvas.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclient\\internal\\istorageserverplatformfile.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\debug\\debugdrawservice.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\debugdrawservice.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\engine\\gameengine.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescenecapture\\public\\moviescenecapturehandle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\gameengine.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\profilingdebugging\\counterstrace.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclient\\internal\\storageserverclientmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\meshdescriptionprovider.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interactivetoolsframework\\definitions.interactivetoolsframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\targetinterfaces\\meshdescriptionprovider.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\targetinterfaces\\meshtargetinterfacetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\meshdescriptionprovider.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

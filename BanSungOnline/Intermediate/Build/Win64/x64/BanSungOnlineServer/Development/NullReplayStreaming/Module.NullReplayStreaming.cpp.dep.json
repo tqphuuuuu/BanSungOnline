@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\nullreplaystreaming\\module.nullreplaystreaming.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\nullreplaystreaming\\definitions.nullreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\nullnetworkreplaystreaming\\private\\nullnetworkreplaystreaming.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\nullnetworkreplaystreaming\\public\\nullnetworkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\nullnetworkreplaystreaming\\private\\nullnetworkreplaystreamingmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

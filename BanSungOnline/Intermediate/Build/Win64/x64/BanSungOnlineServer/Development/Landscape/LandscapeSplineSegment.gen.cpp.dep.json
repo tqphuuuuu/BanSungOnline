@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\landscape\\uht\\landscapesplinesegment.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\landscape\\definitions.landscape.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\landscape\\classes\\landscapesplinesegment.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\components\\splinemeshcomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\shaders\\shared\\splinemeshshaderparams.h",
+            "c:\\ue5.4\\5.4\\engine\\shaders\\shared\\hlsltypealiases.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\splinemeshcomponent.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\landscape\\classes\\landscapesplinescomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\landscape\\classes\\landscapeinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\landscape\\classes\\ilandscapesplineinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\landscape\\uht\\ilandscapesplineinterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\landscape\\uht\\landscapeinfo.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\components\\splinecomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\splinecomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\landscape\\uht\\landscapesplinescomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\landscape\\uht\\landscapesplinesegment.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangeengine\\uht\\interchangeblueprintpipelinebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangeengine\\definitions.interchangeengine.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\engine\\public\\interchangeblueprintpipelinebase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\interchangepipelinebase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\interchangeresultscontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\interchangeresult.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangeresult.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangeresultscontainer.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\interchangesourcedata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangesourcedata.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenodecontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangefactorybasenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenodeutilities.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\types\\attributestorage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\assetregistrytagscontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\cookenums.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangebasenode.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangefactorybasenode.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangebasenodecontainer.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangepipelinebase.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangeengine\\uht\\interchangeblueprintpipelinebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

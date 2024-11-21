@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HairStrandsDeformer.cpp.obj": [
+			"DeformerDataInterfaceGroom.cpp.obj",
+			"DeformerDataInterfaceGroomExec.cpp.obj",
+			"DeformerDataInterfaceGroomGuide.cpp.obj",
+			"DeformerDataInterfaceGroomWrite.cpp.obj",
+			"DeformerGroomComponentSource.cpp.obj",
+			"HairStrandsDeformerModule.cpp.obj",
+			"DeformerDataInterfaceGroom.gen.cpp.obj",
+			"DeformerDataInterfaceGroomExec.gen.cpp.obj",
+			"DeformerDataInterfaceGroomGuide.gen.cpp.obj",
+			"DeformerDataInterfaceGroomWrite.gen.cpp.obj",
+			"DeformerGroomComponentSource.gen.cpp.obj",
+			"HairStrandsDeformer.init.gen.cpp.obj"
+		]
+	}
+}

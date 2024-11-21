@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\mediaassets\\uht\\mediatexture.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\mediaassets\\definitions.mediaassets.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\mediaassets\\public\\mediatexture.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\mediautils\\public\\mediasamplequeue.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediasamples.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediatimesource.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\mediautils\\public\\mediasamplesink.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediatracks.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\mediautils\\public\\mediasamplesource.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediaaudiosample.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediatexturesample.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\hdrhelper.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\colormanagement\\colormanagementdefines.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\colormanagement\\colorspace.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\mediashaders.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\shaderparameterstruct.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\rendergraphresources.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rhi\\public\\rhitransientresourceallocator.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\rendergraphparameter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rendercore\\public\\rendergraphresources.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediabinarysample.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\media\\public\\imediaoverlaysample.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\mediaassets\\uht\\mediatexture.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

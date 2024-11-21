@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\netserializer.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\iriscore\\definitions.iriscore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netserializer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netserializationcontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\neterrorcontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\netrefhandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\irisconfig.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netenums.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\netcore\\uht\\netenums.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\profilingdebugging\\csvprofilerconfig.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netjournal.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\trace\\netdebugname.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netserializerconfig.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\netserializerconfig.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netserializerbuilder.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netbitstreamreader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\netbitstreamwriter.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

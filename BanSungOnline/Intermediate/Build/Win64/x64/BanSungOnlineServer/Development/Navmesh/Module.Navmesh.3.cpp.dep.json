@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\navmesh\\module.navmesh.3.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\navmesh\\definitions.navmesh.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastfilter.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recast.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recastlargeworldcoordinates.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recastassert.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastlayers.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recastalloc.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastmesh.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastmeshdetail.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastrasterization.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\consolemanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastregion.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

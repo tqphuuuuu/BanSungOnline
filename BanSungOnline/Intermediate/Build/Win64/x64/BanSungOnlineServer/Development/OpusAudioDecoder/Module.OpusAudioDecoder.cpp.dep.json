@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\opusaudiodecoder\\module.opusaudiodecoder.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\opusaudiodecoder\\definitions.opusaudiodecoder.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\opusaudiodecoder\\module\\private\\opusaudioinfo.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\opusaudiodecoder\\module\\public\\decoders\\opusaudioinfo.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\indexof.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\thirdparty\\libopus\\opus-1.3.1-12\\include\\opus_defines.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\thirdparty\\libopus\\opus-1.3.1-12\\include\\opus_types.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\thirdparty\\libopus\\opus-1.3.1-12\\include\\opus_multistream.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\thirdparty\\libopus\\opus-1.3.1-12\\include\\opus.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

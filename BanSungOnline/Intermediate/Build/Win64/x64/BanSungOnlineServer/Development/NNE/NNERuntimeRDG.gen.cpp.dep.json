@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nne\\uht\\nneruntimerdg.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\nne\\definitions.nne.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\nne\\public\\nneruntimerdg.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\nne\\public\\nnestatus.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\nne\\public\\nnetypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nne\\uht\\nnetypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nne\\uht\\nneruntimerdg.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

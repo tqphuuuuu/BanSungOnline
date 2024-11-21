@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangemessages\\module.interchangemessages.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangemessages\\definitions.interchangemessages.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\messages\\private\\fbx\\interchangefbxmessages.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\messages\\public\\fbx\\interchangefbxmessages.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\interchangeresult.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangeresult.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangemessages\\uht\\interchangefbxmessages.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangemessages\\uht\\interchangefbxmessages.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\messages\\private\\fbx\\interchangemessagesmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

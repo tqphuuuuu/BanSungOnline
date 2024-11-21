@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\httpreplaystreaming\\module.httpreplaystreaming.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\httpreplaystreaming\\definitions.httpreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\httpnetworkreplaystreaming\\private\\httpnetworkreplaystreaming.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\httpnetworkreplaystreaming\\public\\httpnetworkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\httpreplaystreaming\\uht\\httpnetworkreplaystreaming.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\genericplatform\\genericplatformhttp.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\profilingdebugging\\scopedtimers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\httpmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\http\\public\\httppackage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\urlrequestfilter.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\httpreplaystreaming\\uht\\httpnetworkreplaystreaming.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

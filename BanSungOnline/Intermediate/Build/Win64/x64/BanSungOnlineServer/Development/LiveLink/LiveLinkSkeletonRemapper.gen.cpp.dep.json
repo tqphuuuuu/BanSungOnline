@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelink\\uht\\livelinkskeletonremapper.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livelink\\definitions.livelink.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\livelink\\source\\livelink\\public\\remapper\\livelinkskeletonremapper.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinksubjectremapper.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkrole.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinktypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkrefskeleton.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkrefskeleton.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinktypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkrole.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinksubjectremapper.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\livelink\\source\\livelink\\public\\livelinkclient.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\ilivelinkclient.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkpresettypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkpresettypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\ilivelinkclient.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\roles\\livelinkanimationrole.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkframeinterpolationprocessor.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkframeinterpolationprocessor.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkframetranslator.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkframetranslator.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\roles\\livelinkanimationtypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkanimationtypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\roles\\livelinkbasicrole.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkbasicrole.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkanimationrole.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelink\\uht\\livelinkskeletonremapper.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

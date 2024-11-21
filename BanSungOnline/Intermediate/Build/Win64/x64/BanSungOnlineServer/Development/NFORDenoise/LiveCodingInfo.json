@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NFORDenoise.cpp.obj": [
+			"NFORDenoise.cpp.obj",
+			"NFORDenoiseCS.cpp.obj",
+			"NFORRegressionCPUSolver.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RHICore.cpp.obj": [
+			"DXGIUtilities.cpp.obj",
+			"RHICore.cpp.obj",
+			"RHICoreNvidiaAftermath.cpp.obj",
+			"RHICoreShader.cpp.obj",
+			"RHICoreTransientResourceAllocator.cpp.obj",
+			"RHIDescriptorAllocator.cpp.obj",
+			"RHIDiagnosticBuffer.cpp.obj",
+			"RHIPoolAllocator.cpp.obj"
+		]
+	}
+}

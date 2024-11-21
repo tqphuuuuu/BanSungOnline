@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenecondition.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\moviescene\\definitions.moviescene.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\conditions\\moviescenecondition.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenesequenceid.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviescenecomponentdebug.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenefwd.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenefwd.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviesceneentitysystemtypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviesceneentityids.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\inlinevalue.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenesequenceid.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenesignedobject.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\eventhandlers\\isignedobjecteventhandler.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\eventhandlers\\moviescenedataeventcontainer.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenesignedobject.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenebindingproxy.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenebindingproxy.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenecondition.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\reliablehcomp\\module.reliablehcomp.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\reliablehcomp\\definitions.reliablehcomp.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\packethandlers\\reliabilityhandlercomponent\\private\\reliabilityhandlercomponent.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\packethandlers\\reliabilityhandlercomponent\\public\\reliabilityhandlercomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\common\\public\\net\\common\\packets\\packettraits.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\packethandlers\\packethandler\\public\\packethandler.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\public\\ipaddress.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\public\\sockettypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\common\\public\\net\\common\\packets\\packetview.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\common\\public\\net\\common\\sockets\\socketerrors.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\misc\\packetaudit.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkmessagebusframework\\uht\\livelinkmessages.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livelinkmessagebusframework\\definitions.livelinkmessagebusframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkmessagebusframework\\public\\livelinkmessages.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkrefskeleton.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkrefskeleton.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinktypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinktypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkmessagebusframework\\uht\\livelinkmessages.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

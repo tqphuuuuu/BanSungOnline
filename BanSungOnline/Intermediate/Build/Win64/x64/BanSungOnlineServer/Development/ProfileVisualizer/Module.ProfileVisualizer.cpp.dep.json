@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\profilevisualizer\\module.profilevisualizer.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\profilevisualizer\\definitions.profilevisualizer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\profilevisualizermodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\public\\profilevisualizermodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\public\\visualizerevents.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\sprofilevisualizer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\profilevisualizerstyle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\profilevisualizerstyle.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestylemacros.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\sbarvisualizer.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\public\\sbarvisualizer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\input\\sslider.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\public\\sgraphbar.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\public\\stimeline.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\seventstree.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\public\\seventstree.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\input\\ssearchbox.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\sgraphbar.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\sprofilevisualizer.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\framework\\notifications\\notificationmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\coreasynctasknotificationimpl.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\asynctasknotification.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\notifications\\snotificationlist.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\framework\\commands\\genericcommands.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\stimeline.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\fonts\\fontmeasure.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\profilevisualizer\\private\\visualizerevents.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

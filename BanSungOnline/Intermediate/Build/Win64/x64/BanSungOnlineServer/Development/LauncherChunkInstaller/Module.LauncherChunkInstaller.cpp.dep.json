@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\launcherchunkinstaller\\module.launcherchunkinstaller.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\launcherchunkinstaller\\definitions.launcherchunkinstaller.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\portal\\launcherchunkinstaller\\source\\launcherchunkinstaller\\private\\launcherchunkinstaller.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\portal\\launcherchunkinstaller\\source\\launcherchunkinstaller\\public\\launcherchunkinstaller.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformchunkinstall.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\pakfile\\public\\iplatformfilepak.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\io\\iocontainerid.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\math\\bigint.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\ienginecrypto.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\rsa\\public\\rsa.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

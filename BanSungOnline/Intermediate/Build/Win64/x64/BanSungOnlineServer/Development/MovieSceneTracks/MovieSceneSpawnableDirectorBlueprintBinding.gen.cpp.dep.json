@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescenetracks\\uht\\moviescenespawnabledirectorblueprintbinding.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\moviescenetracks\\definitions.moviescenetracks.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescenetracks\\public\\bindings\\moviescenespawnabledirectorblueprintbinding.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\bindings\\moviescenespawnablebinding.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\bindings\\moviescenecustombinding.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenesequenceid.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviescenecomponentdebug.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenefwd.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenefwd.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviesceneentitysystemtypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviesceneentityids.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\inlinevalue.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenesequenceid.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenebindingproxy.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenebindingproxy.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenecustombinding.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenespawnable.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenedynamicbinding.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\moviescenesequenceinstancehandle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenedynamicbinding.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenespawnable.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenespawnablebinding.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenespawnregister.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\imoviesceneplaybackcapability.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\imoviesceneobjectspawner.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescenetracks\\uht\\moviescenespawnabledirectorblueprintbinding.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

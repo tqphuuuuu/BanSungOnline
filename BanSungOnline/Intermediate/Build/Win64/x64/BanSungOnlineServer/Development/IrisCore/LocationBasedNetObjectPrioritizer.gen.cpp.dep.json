@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\locationbasednetobjectprioritizer.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\iriscore\\definitions.iriscore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\prioritization\\locationbasednetobjectprioritizer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\prioritization\\netobjectprioritizer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\core\\netchunkedarray.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\replicationview.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nethandle\\nethandle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\netobjectprioritizer.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\netbitarray.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\locationbasednetobjectprioritizer.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

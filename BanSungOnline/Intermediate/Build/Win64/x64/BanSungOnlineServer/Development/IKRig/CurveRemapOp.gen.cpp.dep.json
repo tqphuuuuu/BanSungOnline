@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\curveremapop.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\ikrig\\definitions.ikrig.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\retargeter\\retargetops\\curveremapop.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\retargeter\\ikretargetops.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\retargeter\\ikretargetprocessor.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\retargeter\\ikretargeter.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\retargeter\\ikretargetprofile.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\retargeter\\ikretargetsettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikretargetsettings.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikretargetprofile.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\rig\\ikrigdefinition.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\ikriglogger.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\rig\\ikrigskeleton.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikrigskeleton.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikrigdefinition.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikretargeter.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikretargetprocessor.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikretargetops.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\curveremapop.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

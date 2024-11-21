@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\networkreplaystreaming\\module.networkreplaystreaming.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\networkreplaystreaming\\definitions.networkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\private\\networkreplaystreaming.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresult.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializermacros.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\policies\\prettyjsonprintpolicy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\policies\\jsonprintpolicy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\policies\\condensedjsonprintpolicy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsondatabag.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializable.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\dom\\jsonobject.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\dom\\jsonvalue.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\jsonglobals.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonwriter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonreader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializerreader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializerbase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializerwriter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\consolemanager.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

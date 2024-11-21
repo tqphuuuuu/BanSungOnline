@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\datastreamdefinitions.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\iriscore\\definitions.iriscore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\private\\iris\\datastream\\datastreamdefinitions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\datastream\\datastream.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\datastream.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\iriscore\\uht\\datastreamdefinitions.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

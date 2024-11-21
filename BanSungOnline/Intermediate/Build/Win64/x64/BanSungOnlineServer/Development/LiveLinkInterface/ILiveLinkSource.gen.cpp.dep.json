@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\ilivelinksource.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livelinkinterface\\definitions.livelinkinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\ilivelinksource.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinksourcesettings.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinksourcefactory.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinksourcefactory.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinktypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\livelinkinterface\\public\\livelinkrefskeleton.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinkrefskeleton.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinktypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\livelinksourcesettings.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livelinkinterface\\uht\\ilivelinksource.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

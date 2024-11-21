@@ -1,0 +1,42 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metasoundfrontend\\uht\\metasounddocumentinterface.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\metasoundfrontend\\definitions.metasoundfrontend.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundfrontend\\public\\metasounddocumentinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundbuilderinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasounddatareference.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundenvironment.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundnodeinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasounddatafactory.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundliteral.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundoperatorsettings.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundoperatorinterface.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasounddatareferencecollection.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundvertex.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundrendercost.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundvertexdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\allof.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasoundlog.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundfrontend\\public\\metasoundfrontenddocument.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundfrontend\\public\\metasoundaccessptr.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundfrontend\\public\\metasoundfrontendliteral.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metasoundfrontend\\uht\\metasoundfrontendliteral.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metasoundfrontend\\uht\\metasoundfrontenddocument.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundfrontend\\public\\metasoundfrontenddocumentmodifydelegates.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metasoundfrontend\\uht\\metasounddocumentinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

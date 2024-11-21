@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\sequencerscripting\\uht\\sequencerscriptingrange.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sequencerscripting\\definitions.sequencerscripting.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\moviescene\\sequencerscripting\\source\\sequencerscripting\\public\\sequencerscriptingrange.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenetimehelpers.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\sequencerscripting\\uht\\sequencerscriptingrange.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\modelingoperators\\uht\\recomputeuvsproperties.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\modelingoperators\\definitions.modelingoperators.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\meshmodelingtoolset\\source\\modelingoperators\\public\\properties\\recomputeuvsproperties.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\interactivetool.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\inputbehaviorset.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\inputbehavior.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\inputstate.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\inputstate.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\inputbehavior.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\inputbehaviorset.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\interactivetoolactionset.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\toolcontextinterfaces.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\componentsourceinterfaces.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementselectionset.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementhandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementdata.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementid.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlimits.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementhandle.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementinterfacecustomization.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlist.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementcounter.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementcounter.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementlistobjectutil.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\interfaces\\typedelementselectioninterface.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlistproxy.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementframework\\uht\\typedelementlistproxy.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementruntime\\uht\\typedelementselectioninterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\typedelementruntime\\uht\\typedelementselectionset.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\toolcontextinterfaces.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\interactivetool.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\modelingoperators\\uht\\recomputeuvsproperties.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

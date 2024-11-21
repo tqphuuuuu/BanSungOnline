@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\settings\\module.settings.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\settings\\definitions.settings.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingscategory.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingscategory.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingscategory.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingssection.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\namepermissionlist.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\internal\\containers\\directorytree.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingssection.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingscontainer.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingscontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingscontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingsmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingsviewer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\reload.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingssection.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\configcontext.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

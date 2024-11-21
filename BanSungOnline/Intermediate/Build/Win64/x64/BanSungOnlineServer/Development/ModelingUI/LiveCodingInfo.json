@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelingUI.cpp.obj": [
+			"ModelingUIModule.cpp.obj",
+			"SDraggableBox.cpp.obj"
+		]
+	}
+}

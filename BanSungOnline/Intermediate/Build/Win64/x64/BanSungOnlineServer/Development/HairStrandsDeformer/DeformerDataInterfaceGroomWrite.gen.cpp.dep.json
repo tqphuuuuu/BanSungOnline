@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\hairstrandsdeformer\\uht\\deformerdatainterfacegroomwrite.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\hairstrandsdeformer\\definitions.hairstrandsdeformer.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\hairstrands\\source\\hairstrandsdeformer\\private\\deformerdatainterfacegroomwrite.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimuscomputedatainterface.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimusdatatype.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\shaderparamtypedefinition.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\shaderparamtypedefinition.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimusdatatype.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\computedatainterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\computedatainterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimuscomputedatainterface.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\computedataprovider.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\computedataprovider.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\hairstrandsdeformer\\uht\\deformerdatainterfacegroomwrite.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

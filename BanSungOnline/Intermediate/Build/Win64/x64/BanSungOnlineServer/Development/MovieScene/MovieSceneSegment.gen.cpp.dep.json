@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenesegment.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\moviescene\\definitions.moviescene.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenesegment.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\uobject\\sequencerobjectversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviesceneframemigration.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenefwd.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenefwd.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviesceneframemigration.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenesegment.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

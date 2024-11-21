@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizablemessageblueprint\\module.localizablemessageblueprint.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizablemessageblueprint\\definitions.localizablemessageblueprint.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessageblueprint\\private\\localizablemessageblueprintmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessageblueprint\\private\\localizablemessagelibrary.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessageblueprint\\public\\localizablemessagelibrary.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\localizablemessageblueprint\\uht\\localizablemessagelibrary.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessage\\public\\ilocalizablemessagemodule.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessage\\public\\localizablemessage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\instancedstruct.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\structutils.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\instancedstruct.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\localizablemessage\\uht\\localizablemessage.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessage\\public\\localizablemessageprocessor.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\localizablemessage\\source\\localizablemessage\\public\\localizationcontext.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

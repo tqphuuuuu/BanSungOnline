@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviesceneevaltemplatebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\moviescene\\definitions.moviescene.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviesceneevaltemplatebase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviesceneplayback.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenesequencetransform.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenefwd.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenefwd.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenetimetransform.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenetimetransform.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenetimewarping.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenetimewarping.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\variants\\moviescenetimewarpvariant.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\variants\\moviescenenumericvariant.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenenumericvariant.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenetimewarpvariant.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviescenesequencetransform.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\moviescene\\public\\moviescenetimehelpers.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\moviescene\\uht\\moviesceneevaltemplatebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

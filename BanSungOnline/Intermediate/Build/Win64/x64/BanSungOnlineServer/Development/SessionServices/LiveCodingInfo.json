@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SessionServices.cpp.obj": [
+			"SessionInfo.cpp.obj",
+			"SessionInstanceInfo.cpp.obj",
+			"SessionManager.cpp.obj",
+			"SessionService.cpp.obj",
+			"SessionServicesModule.cpp.obj",
+			"TraceController.cpp.obj",
+			"TraceControllerCommands.cpp.obj"
+		]
+	}
+}

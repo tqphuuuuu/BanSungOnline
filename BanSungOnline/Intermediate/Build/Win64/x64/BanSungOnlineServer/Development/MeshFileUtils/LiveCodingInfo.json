@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshFileUtils.cpp.obj": [
+			"MeshFileUtilsModule.cpp.obj",
+			"OBJMeshUtil.cpp.obj"
+		]
+	}
+}

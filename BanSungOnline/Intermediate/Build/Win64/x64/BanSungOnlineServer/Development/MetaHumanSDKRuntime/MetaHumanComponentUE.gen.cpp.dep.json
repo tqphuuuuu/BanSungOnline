@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metahumansdkruntime\\uht\\metahumancomponentue.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\metahumansdkruntime\\definitions.metahumansdkruntime.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\metahuman\\metahumansdk\\source\\metahumansdkruntime\\public\\metahumancomponentue.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\metahuman\\metahumansdk\\source\\metahumansdkruntime\\public\\metahumancomponentbase.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\experimental\\metahuman\\metahumansdk\\source\\metahumansdkruntime\\public\\metahumanbodytype.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metahumansdkruntime\\uht\\metahumanbodytype.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metahumansdkruntime\\uht\\metahumancomponentbase.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metahumansdkruntime\\uht\\metahumancomponentue.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

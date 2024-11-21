@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangefactorynodes\\uht\\interchangecamerafactorynode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangefactorynodes\\definitions.interchangefactorynodes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\factorynodes\\public\\interchangecamerafactorynode.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\factorynodes\\public\\interchangeactorfactorynode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangefactorybasenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenodeutilities.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\types\\attributestorage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\assetregistrytagscontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\cookenums.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangebasenode.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangefactorybasenode.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangefactorynodes\\uht\\interchangeactorfactorynode.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\cinematiccamera\\public\\cinecameracomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\cinematiccamera\\public\\cinecamerasettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cinematiccamera\\uht\\cinecamerasettings.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\cinematiccamera\\uht\\cinecameracomponent.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangefactorynodes\\uht\\interchangecamerafactorynode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

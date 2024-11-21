@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\lfnrs\\module.lfnrs.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\lfnrs\\definitions.lfnrs.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\localfilenetworkreplaystreaming\\private\\localfilenetworkreplaystreaming.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\localfilenetworkreplaystreaming\\public\\localfilenetworkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\arrayreader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\arraywriter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\bufferarchive.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\lfnrs\\uht\\localfilenetworkreplaystreaming.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\profilingdebugging\\scopedtimers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\archivecountmem.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\largememoryreader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemanagedstoragewrapper.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\indexof.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\lfnrs\\uht\\localfilenetworkreplaystreaming.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

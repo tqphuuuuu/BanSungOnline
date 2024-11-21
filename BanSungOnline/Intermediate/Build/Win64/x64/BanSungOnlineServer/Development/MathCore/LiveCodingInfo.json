@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MathCore.cpp.obj": [
+			"DirectedGraphUtils.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\mobilepatchingutils\\uht\\mobilepatchinglibrary.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\mobilepatchingutils\\definitions.mobilepatchingutils.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\mobilepatchingutils\\source\\mobilepatchingutils\\private\\mobilepatchinglibrary.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\public\\interfaces\\ibuildinstaller.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\public\\buildpatchstate.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\public\\buildpatchmessage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\public\\interfaces\\ibuildmanifest.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\mobilepatchingutils\\uht\\mobilepatchinglibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

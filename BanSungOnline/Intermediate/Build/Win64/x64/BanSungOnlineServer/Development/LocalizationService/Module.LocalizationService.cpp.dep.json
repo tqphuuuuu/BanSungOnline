@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizationservice\\module.localizationservice.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizationservice\\definitions.localizationservice.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\defaultlocalizationserviceprovider.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\defaultlocalizationserviceprovider.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\ilocalizationserviceoperation.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\ilocalizationservicestate.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\ilocalizationserviceprovider.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\localizationserviceoperations.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\localizationservicehelpers.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\localizationservicehelpers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\configcontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\ilocalizationservicemodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\localizationservicemodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\localizationservicemodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\localizationservicesettings.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\messagelog\\public\\messagelogmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\messagelog\\public\\messageloginitializationoptions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\localizationservicesettings.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\scopedlocalizationserviceprogress.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\scopedlocalizationserviceprogress.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\suniformgridpanel.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\images\\sthrobber.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

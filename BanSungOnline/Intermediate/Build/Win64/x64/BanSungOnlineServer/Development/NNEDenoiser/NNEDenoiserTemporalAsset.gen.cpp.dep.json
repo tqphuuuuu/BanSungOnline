@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nnedenoiser\\uht\\nnedenoisertemporalasset.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\nnedenoiser\\definitions.nnedenoiser.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\nne\\nnedenoiser\\source\\nnedenoiser\\public\\nnedenoisertemporalasset.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\nne\\nnedenoiser\\source\\nnedenoiser\\public\\nnedenoisertilingconfig.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nnedenoiser\\uht\\nnedenoisertilingconfig.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\nne\\public\\nnemodeldata.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nne\\uht\\nnemodeldata.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nnedenoiser\\uht\\nnedenoisertemporalasset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

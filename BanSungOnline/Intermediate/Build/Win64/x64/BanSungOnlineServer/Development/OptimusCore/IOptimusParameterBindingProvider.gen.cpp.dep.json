@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\ioptimusparameterbindingprovider.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\optimuscore\\definitions.optimuscore.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\ioptimusparameterbindingprovider.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimusbindingtypes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimusdatadomain.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimusdatadomain.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimusdatatype.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\shaderparamtypedefinition.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\shaderparamtypedefinition.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimusdatatype.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimusvalidatedname.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimusvalidatedname.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimusbindingtypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\ioptimusparameterbindingprovider.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

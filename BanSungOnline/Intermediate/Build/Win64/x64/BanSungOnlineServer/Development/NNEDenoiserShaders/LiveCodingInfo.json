@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNEDenoiserShaders.cpp.obj": [
+			"NNEDenoiserShadersAutoExposureCS.cpp.obj",
+			"NNEDenoiserShadersDefaultIOProcessCS.cpp.obj",
+			"NNEDenoiserShadersMappedCopyCS.cpp.obj",
+			"NNEDenoiserShadersModule.cpp.obj",
+			"NNEDenoiserShadersTransferFunctionOidnCS.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\streamingfile\\module.streamingfile.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\streamingfile\\definitions.streamingfile.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\streamingfile\\private\\streamingnetworkplatformfile.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\streamingfile\\public\\streamingnetworkplatformfile.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\public\\networkmessage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\arrayreader.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\bufferarchive.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\networkfile\\public\\networkplatformfile.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\containers\\spscqueue.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\public\\servertoc.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

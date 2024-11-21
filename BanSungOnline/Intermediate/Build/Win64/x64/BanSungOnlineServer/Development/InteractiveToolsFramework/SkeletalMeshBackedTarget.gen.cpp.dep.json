@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\skeletalmeshbackedtarget.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interactivetoolsframework\\definitions.interactivetoolsframework.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\targetinterfaces\\skeletalmeshbackedtarget.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\targetinterfaces\\assetbackedtarget.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interactivetoolsframework\\public\\tooltargets\\tooltarget.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\tooltarget.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\assetbackedtarget.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interactivetoolsframework\\uht\\skeletalmeshbackedtarget.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

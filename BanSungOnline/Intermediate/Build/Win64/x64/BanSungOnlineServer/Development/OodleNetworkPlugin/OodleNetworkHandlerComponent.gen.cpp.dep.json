@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\oodlenetworkplugin\\uht\\oodlenetworkhandlercomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\oodlenetworkplugin\\definitions.oodlenetworkplugin.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\compression\\oodlenetwork\\source\\public\\oodlenetworkhandlercomponent.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\compression\\oodlenetwork\\source\\public\\oodlenetworkarchives.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\compression\\oodlenetwork\\source\\public\\oodlenetworkfaulthandler.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\oodlenetworkplugin\\uht\\oodlenetworkfaulthandler.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\compression\\oodlenetwork\\sdks\\2.9.12\\include\\oodle2net.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\compression\\oodlenetwork\\sdks\\2.9.12\\include\\oodle2base.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\oodlenetworkplugin\\uht\\oodlenetworkhandlercomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

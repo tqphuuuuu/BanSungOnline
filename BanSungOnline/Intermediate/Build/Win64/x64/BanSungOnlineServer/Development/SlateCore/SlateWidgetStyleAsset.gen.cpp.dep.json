@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\slatewidgetstyleasset.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slatecore\\definitions.slatecore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\slatewidgetstyleasset.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\slatewidgetstyle.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\slatewidgetstyle.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\slatewidgetstylecontainerbase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\slatewidgetstylecontainerinterface.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\slatewidgetstylecontainerinterface.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\slatewidgetstylecontainerbase.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\slatewidgetstyleasset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

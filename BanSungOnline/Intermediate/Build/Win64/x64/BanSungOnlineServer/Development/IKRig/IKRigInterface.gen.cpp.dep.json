@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikriginterface.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\ikrig\\definitions.ikrig.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\actorcomponents\\ikriginterface.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\rig\\ikrigdatatypes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\rig\\ikrigdefinition.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\ikriglogger.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\ikrig\\source\\ikrig\\public\\rig\\ikrigskeleton.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikrigskeleton.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikrigdefinition.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikrigdatatypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\ikrig\\uht\\ikriginterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

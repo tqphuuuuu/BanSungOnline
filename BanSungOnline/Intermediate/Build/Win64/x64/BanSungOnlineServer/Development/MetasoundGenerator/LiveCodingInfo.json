@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetasoundGenerator.cpp.obj": [
+			"MetasoundGenerator.cpp.obj",
+			"MetasoundGeneratorBuilder.cpp.obj",
+			"MetasoundGeneratorModule.cpp.obj",
+			"MetasoundInstanceCounter.cpp.obj",
+			"MetasoundOperatorCache.cpp.obj",
+			"MetasoundOperatorCacheStatTracker.cpp.obj"
+		]
+	}
+}

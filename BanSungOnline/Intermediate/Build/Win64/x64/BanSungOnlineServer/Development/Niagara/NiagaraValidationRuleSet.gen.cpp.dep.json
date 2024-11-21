@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\niagara\\uht\\niagaravalidationruleset.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\niagara\\definitions.niagara.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\fx\\niagara\\source\\niagara\\classes\\niagaravalidationruleset.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\fx\\niagara\\source\\niagara\\classes\\niagaravalidationrule.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\niagara\\uht\\niagaravalidationrule.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\niagara\\uht\\niagaravalidationruleset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

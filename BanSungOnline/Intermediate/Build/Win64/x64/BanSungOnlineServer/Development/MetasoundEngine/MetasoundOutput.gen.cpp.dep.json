@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metasoundengine\\uht\\metasoundoutput.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\metasoundengine\\definitions.metasoundengine.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundengine\\public\\metasoundoutput.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundfrontend\\public\\metasoundoutputstorage.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\metasound\\source\\metasoundgraphcore\\public\\metasounddatareference.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audioextensions\\public\\soundgeneratoroutput.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\audioextensions\\uht\\soundgeneratoroutput.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\metasoundengine\\uht\\metasoundoutput.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

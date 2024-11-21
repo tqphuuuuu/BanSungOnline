@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangenodes\\uht\\interchangemeshdefinitions.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangenodes\\definitions.interchangenodes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\nodes\\public\\interchangemeshdefinitions.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\types\\attributestorage.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangenodes\\uht\\interchangemeshdefinitions.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

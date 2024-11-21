@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreelinker.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\statetreemodule\\definitions.statetreemodule.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\statetree\\source\\statetreemodule\\public\\statetreelinker.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\statetree\\source\\statetreemodule\\public\\statetreeschema.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreeschema.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\statetree\\source\\statetreemodule\\public\\statetreeexecutiontypes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\statetree\\source\\statetreemodule\\public\\statetreetypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\propertybag.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\structview.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\instancedstruct.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\structutils.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\instancedstruct.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\sharedstruct.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\structutils\\structutilstypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\sharedstruct.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\propertybag.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\statetree\\source\\statetreemodule\\public\\statetreeindextypes.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreeindextypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreetypes.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\statetree\\source\\statetreemodule\\public\\statetreeevents.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreeevents.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreeexecutiontypes.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\statetreemodule\\uht\\statetreelinker.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

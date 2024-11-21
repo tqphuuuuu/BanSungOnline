@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StorageServerClientDebug.cpp.obj": [
+			"StorageServerConnectionDebug.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sqlitecore\\module.sqlitecore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sqlitecore\\definitions.sqlitecore.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\sqlitecore.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\sqlitecore.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\includesqlite.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlite\\sqlite3.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\sqlitedatabase.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitedatabase.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitepreparedstatement.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitetypes.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\sqliteembeddedplatform.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlite\\sqlite3.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\sqlitepreparedstatement.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\tests\\sqlitetest.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

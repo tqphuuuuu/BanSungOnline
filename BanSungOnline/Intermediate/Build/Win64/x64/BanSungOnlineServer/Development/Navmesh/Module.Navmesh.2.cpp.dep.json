@@ -1,0 +1,42 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\navmesh\\module.navmesh.2.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\navmesh\\definitions.navmesh.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detouralloc.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detouralloc.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detourassert.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detourcommon.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detourcommon.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detourlargeworldcoordinates.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detournavlinkbuilder.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detournavlinkbuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detournavlinkbuilderconfig.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detourtilecache\\detourtilecachebuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detourstatus.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recast.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recastlargeworldcoordinates.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detournavlinkbuilderconfig.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detournavmesh.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detournavmesh.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detournavmeshbuilder.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detournavmeshbuilder.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detournavmeshquery.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detournavmeshquery.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\detour\\detournode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\detour\\detournode.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\navmeshmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recast.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recastalloc.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\public\\recast\\recastassert.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastalloc.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastarea.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\navmesh\\private\\recast\\recastcontour.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

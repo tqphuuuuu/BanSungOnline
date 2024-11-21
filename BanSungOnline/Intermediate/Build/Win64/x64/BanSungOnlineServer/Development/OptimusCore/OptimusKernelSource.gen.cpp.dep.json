@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimuskernelsource.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\optimuscore\\definitions.optimuscore.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\deformergraph\\source\\optimuscore\\public\\optimuskernelsource.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\computekernelsource.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\computekernelpermutationset.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\computekernelpermutationset.generated.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\shaderparamtypedefinition.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\shaderparamtypedefinition.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\computeframework\\uht\\computekernelsource.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\optimuscore\\uht\\optimuskernelsource.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

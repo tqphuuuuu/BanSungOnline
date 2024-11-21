@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\perfcounters\\module.perfcounters.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\perfcounters\\definitions.perfcounters.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\perfcounters\\private\\perfcounters.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\perfcounters\\private\\perfcounters.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\perfcounters\\public\\perfcountersmodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httpresultcallback.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverresponse.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverconstants.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverhttpversion.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httppath.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httprequesthandler.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httproutehandle.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverrequest.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\platformoutputdevices.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformoutputdevices.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformoutputdevices.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\platformmemoryhelpers.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsonwriter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\policies\\prettyjsonprintpolicy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\json\\public\\policies\\jsonprintpolicy.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\perfcounters\\private\\zeroload.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\httpservermodule.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\httpserver\\public\\ihttprouter.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\perfcounters\\private\\perfcountersmodule.cpp",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\perfcounters\\private\\zeroload.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangewriterbase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangecore\\definitions.interchangecore.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\interchangewriterbase.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenodecontainer.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangefactorybasenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenode.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\nodes\\interchangebasenodeutilities.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\interchange\\core\\public\\types\\attributestorage.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\assetregistrytagscontext.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\cookenums.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangebasenode.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangefactorybasenode.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangebasenodecontainer.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecore\\uht\\interchangewriterbase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

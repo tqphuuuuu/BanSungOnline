@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetaHumanSDKRuntime.cpp.obj": [
+			"MetaHumanComponentBase.cpp.obj",
+			"MetaHumanComponentUE.cpp.obj",
+			"MetaHumanSDKRuntime.cpp.obj",
+			"MetaHumanBodyType.gen.cpp.obj",
+			"MetaHumanComponentBase.gen.cpp.obj",
+			"MetaHumanComponentUE.gen.cpp.obj",
+			"MetaHumanSDKRuntime.init.gen.cpp.obj"
+		]
+	}
+}

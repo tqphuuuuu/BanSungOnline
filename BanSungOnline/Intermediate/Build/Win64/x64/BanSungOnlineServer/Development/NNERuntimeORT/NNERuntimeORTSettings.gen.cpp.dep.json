@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nneruntimeort\\uht\\nneruntimeortsettings.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\nneruntimeort\\definitions.nneruntimeort.h",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\nne\\nneruntimeort\\source\\nneruntimeort\\private\\nneruntimeortsettings.h",
+            "c:\\ue5.4\\5.4\\engine\\source\\runtime\\developersettings\\public\\engine\\developersettings.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\developersettings\\uht\\developersettings.generated.h",
+            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\nneruntimeort\\uht\\nneruntimeortsettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
