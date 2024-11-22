@@ -3,7 +3,6 @@
 #include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/BanSungOnlineCharacter.cpp"
 #include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/BanSungOnlineGameMode.cpp"
 #include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/BanSungOnlinePlayerController.cpp"
-#include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
 #include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy_Boss.cpp"
 #include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy_Zombie.cpp"
 #include "C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/ItemPickUp/ItemPickUp.cpp"

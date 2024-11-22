@@ -10,17 +10,162 @@
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
+                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
                                 },
                                 "region": {
                                     "startLine": 30,
                                     "startColumn": 2
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                },
+                                "region": {
+                                    "startLine": 21,
+                                    "startColumn": 48
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'UPawnSensingComponent::SightRadius': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                },
+                                "region": {
+                                    "startLine": 22,
+                                    "startColumn": 22
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'UPawnSensingComponent::SetPeripheralVisionAngle': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                },
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 24
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+                                },
+                                "region": {
+                                    "startLine": 150,
+                                    "startColumn": 24
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+                                },
+                                "region": {
+                                    "startLine": 150,
+                                    "startColumn": 24
+                                }
+                            },
+                            "message": {
+                                "text": "the template instantiation context (the oldest one first) is"
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                },
+                                "region": {
+                                    "startLine": 21,
+                                    "startColumn": 25
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to function template instantiation 'TReturnType *UObject::CreateDefaultSubobject<UPawnSensingComponent>(FName,bool)' being compiled\n        with\n        [\n            TReturnType=UPawnSensingComponent\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'UPawnSensingComponent::StaticClass': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+                                },
+                                "region": {
+                                    "startLine": 150,
+                                    "startColumn": 37
                                 }
                             }
                         }

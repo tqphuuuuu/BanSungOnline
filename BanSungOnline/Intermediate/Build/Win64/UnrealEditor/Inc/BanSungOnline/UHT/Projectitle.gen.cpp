@@ -229,14 +229,14 @@ AProjectitle::~AProjectitle() {}
 // End Class AProjectitle
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics
+struct Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AProjectitle, AProjectitle::StaticClass, TEXT("AProjectitle"), &Z_Registration_Info_UClass_AProjectitle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProjectitle), 1865897276U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_104201586(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_104201586(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Projectitle_Projectitle_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

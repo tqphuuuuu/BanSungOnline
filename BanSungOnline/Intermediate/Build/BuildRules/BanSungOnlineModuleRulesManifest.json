@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineClient.Target.cs",
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs",
-		"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineServer.Target.cs"
+		"D:\\BanSungOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline\\BanSungOnline.Build.cs",
+		"D:\\BanSungOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnline.Target.cs",
+		"D:\\BanSungOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineClient.Target.cs",
+		"D:\\BanSungOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineEditor.Target.cs",
+		"D:\\BanSungOnline\\BanSungOnline\\BanSungOnline\\Source\\BanSungOnlineServer.Target.cs"
 	],
 	"EngineVersion": "5.5.0"
 }
