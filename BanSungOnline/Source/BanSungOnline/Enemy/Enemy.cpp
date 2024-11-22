@@ -3,6 +3,7 @@
 
 #include "Enemy.h"
 
+#include "EngineUtils.h"
 #include "BanSungOnline/BanSungOnlineCharacter.h"
 #include "BanSungOnline/BanSungOnlinePlayerController.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -72,19 +73,40 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
 void AEnemy::AttackCharacter()
 {
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
-	FVector End = GetMesh()->GetSocketLocation(FName("B"));
+	FVector End = Start + GetActorForwardVector() * 300.0f;
 
 	TArray<AActor*> IgnoreActors;
-	IgnoreActors.Add(this); 
+
+	// Lấy tất cả zombie trong thế giới và thêm vào IgnoreActors
+	for (TActorIterator<AEnemy> It(GetWorld()); It; ++It)
+	{
+		AEnemy* Zombie = *It;
+		if (Zombie && Zombie != this) // Bỏ qua zombie hiện tại
+		{
+			IgnoreActors.Add(Zombie);
+		}
+	}
+
+	// Debug: In số lượng zombie được thêm vào IgnoreActors
+	int32 NumActors = IgnoreActors.Num();
+	FString NumActorsString = FString::Printf(TEXT("Number of zombies in IgnoreActors: %d"), NumActors);
+	UKismetSystemLibrary::PrintString(this, NumActorsString, true, true, FLinearColor::Blue, 2.0f);
+
 	UKismetSystemLibrary::PrintString(this,"hehe");
 	FHitResult HitResult;
-	bool bHit = UKismetSystemLibrary::LineTraceSingle(GetWorld(),Start,End,
-		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn), 
-		false,
-		IgnoreActors,
-		EDrawDebugTrace::ForDuration,
-		HitResult,
-		true);
+	bool bHit = UKismetSystemLibrary::SphereTraceSingle(
+	GetWorld(),
+	Start,
+	End,
+	50.0f, // Bán kính hình cầu
+	static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn),
+	false,
+	IgnoreActors,
+	EDrawDebugTrace::ForDuration,
+	HitResult,
+	true
+	);
+	
 
 	FString bhitString = bHit ? TEXT("true") : TEXT("false");  // Convert bool to FString
 	UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Red, 2.0f);
@@ -94,8 +116,12 @@ void AEnemy::AttackCharacter()
 		ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
 		if (IsValid(MyCharacter))
 		{
+			UKismetSystemLibrary::PrintString(this, "MyCharacter");
+
 			if (Health >= 0)
 			{
+				UKismetSystemLibrary::PrintString(this, "Health >= 0");
+
 				/*if (Timer >= 100)
 				{
 					Timer = 0;*/
@@ -103,6 +129,10 @@ void AEnemy::AttackCharacter()
 					
 				//}
 			}
+		}
+		else
+		{
+			UKismetSystemLibrary::PrintString(this, HitResult.GetActor()->GetName());
 		}
 	}
 }

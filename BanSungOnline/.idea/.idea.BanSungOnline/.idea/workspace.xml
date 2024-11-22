@@ -11,18 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4de54ee4-9e52-4522-93b9-72b199c37ea4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BanSungOnline/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BanSungOnline/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BanSungOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BanSungOnline/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BanSungOnline.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/BanSungOnline.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BanSungOnline.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/BanSungOnline.uproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/BanSungOnlineEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/BanSungOnlineEditor.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/ShaderCompileWorker.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/ShaderCompileWorker.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BanSungOnline.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BanSungOnline.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BanSungOnline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-BanSungOnline.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/AI/BTS_CheckDistanceToPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/AI/BTS_CheckDistanceToPlayer.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/AI_New/BTT_CanAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/AI_New/BTT_CanAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/AI_New/BTT_ChasePlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/AI_New/BTT_ChasePlayer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/Animation_Boss/AnimationBoss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/Animation_Boss/AnimationBoss.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/BP_EnemyBoss.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/BP_EnemyBoss.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/Mutant.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/Mutant.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/Mutant_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyBoss/Mutant_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyZombie/Animation_Zombie/BS_EnemyZombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyZombie/Animation_Zombie/BS_EnemyZombie.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Enemy/EnemyZombie/BP_EnemyZombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemy/EnemyZombie/BP_EnemyZombie.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/TopDown/Maps/TopDownMap/1/VK/G87PJLTO6KCOGS8PX72WZ1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/TopDown/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/TopDown/Input/IMC_Default.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/TopDown/Maps/TopDownMap/4/MS/4PILS8VF6N0WZC51X3HLUL.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BanSungOnlineModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BanSungOnlineModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BanSungOnlineModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/BanSungOnlineModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/BanSungOnlineModuleRules/obj/BanSungOnlineModuleRules.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/BanSungOnlineModuleRules/obj/BanSungOnlineModuleRules.csproj.nuget.dgspec.json" afterDir="false" />
@@ -81,17 +89,19 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/BanSungOnlineEditor/Development/EngineMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/BanSungOnlineEditor/Development/EngineMetadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/BanSungOnlineEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/BanSungOnlineEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/BanSungOnlineEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/BanSungOnlineEditor/Development/TargetMetadata.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/EngineMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/EngineMetadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/PostBuild-1.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/PostBuild-1.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/ShaderCompileWorker/Development/TargetMetadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/BanSungOnline.Shared.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/BanSungOnline.Shared.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/BanSungOnline.Shared.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/BanSungOnline.Shared.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/LiveCodingInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/LiveCodingInfo.json.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/LiveCodingInfo.json.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.dep.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.obj.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.obj.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.sarif" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/Module.BanSungOnline.cpp.sarif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/UnrealEditor-BanSungOnline.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/BanSungOnline/UnrealEditor-BanSungOnline.dll.rsp" afterDir="false" />
@@ -158,6 +168,7 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DerivedDataTool.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DerivedDataTool.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DiffAssetBulkData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DiffAssetBulkData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DotNetPerforceLib.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DotNetPerforceLib.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DsymExporter.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DumpSyms.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/DumpSyms.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/EpicWebHelper.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/EpicWebHelper.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/EventLoopUnitTests.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/EventLoopUnitTests.json" afterDir="false" />
@@ -203,8 +214,11 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaTestApp.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaTestApp.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaVisualizer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UbaVisualizer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UninstallHelper.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UninstallHelper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealAtoS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealEditorServices.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealFrontend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealFrontend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealInsights.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealInsights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealLaunchDaemon.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealLightmass.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealLightmass.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealMultiUserServer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealMultiUserServer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealMultiUserSlateServer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Program/UnrealMultiUserSlateServer.json" afterDir="false" />
@@ -224,18 +238,46 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj.filters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/1/VK/G87PJLTO6KCOGS8PX72WZ1_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/1/VK/G87PJLTO6KCOGS8PX72WZ1_Auto1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/1/VK/G87PJLTO6KCOGS8PX72WZ1_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/TopDown/Maps/TopDownMap/1/VK/G87PJLTO6KCOGS8PX72WZ1_Auto2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-38359B5F4AC04BB6C273B18BE668A1E1/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F2CFB08D4C01B50668AB128D2EFA8630/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Enemy/EnemyBoss/BP_EnemyBoss_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Enemy/EnemyBoss/BP_EnemyBoss_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Enemy/EnemyBoss/BP_EnemyBoss_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Enemy/EnemyBoss/BP_EnemyBoss_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Enemy/EnemyBoss/BP_EnemyBoss_Auto3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Enemy/EnemyBoss/BP_EnemyBoss_Auto3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0822E5EF46D373E9F5ED19A27324DE7A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0B130776456950806EACE39AB9A52F63/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-316F2C5A46AC1E282E47919D005DE380/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-4969CB254F3DA7EF20A7C9AA80910F72/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-515FC5934D83B42E6C2AE8B3BB9B27A1/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5FC07FE146391FCDE65EC98BA325318C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-816772F140E65FE1D334BA9BAE225BAE/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-978AE4A84F2438AD6E825CB9DF4C22CD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A610CCD54D2DE7DA6BA44793EB30EC7F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-AA696ED149705595FED6C7B4D6A5B3D3/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-AF83606B4A8D4175832B6690A7A29121/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-B8BBBC5543B4EB30CB8BB39EDDD6C2CB/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-BFE83B9F49BAD0C6A56C5BA64F95B4FD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C5CD4630419E01BF0D531A8B81BA2967/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E77B81A34EF53A49FED268B41BE5F5DC/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-ED058FDE4DF7900DCEDF6A88A783ACC2/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EEDC0CAB48AFA0C061024A979E86A9C6/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F0DCB80940D81CD55C59BFBF4AFD4F17/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F39604B148960A30FCDBF98FBD472508/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-02.19.12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-02.20.25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-04.06.33.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-04.18.31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-07.10.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-08.05.20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-08.12.16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-09.25.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline-backup-2024.11.21-09.52.44.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/BanSungOnline.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/BanSungOnline.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/ShaderDebugInfo/PCD3D_SM6/WorldGridMaterial_a9bf6e49ae11c7da/Default/DDCKey-Editor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/ShaderDebugInfo/PCD3D_SM6/WorldGridMaterial_a9bf6e49ae11c7da/Default/DDCKey-Editor.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BanSungOnline/BanSungOnlineCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BanSungOnline/BanSungOnlineCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BanSungOnline/Enemy/Enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BanSungOnline/Enemy/Enemy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/BanSungOnline/Projectitle/Projectitle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/BanSungOnline/Projectitle/Projectitle.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,12 +288,16 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../UE5.4/5.4" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://14" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://15" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -262,19 +308,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.BanSungOnline.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "release",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.BanSungOnline.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.BanSungOnline">
     <configuration name="BanSungOnline" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -1633,6 +1679,8 @@
       <updated>1732155634131</updated>
       <workItem from="1732155635518" duration="18193000" />
       <workItem from="1732194256560" duration="3192000" />
+      <workItem from="1732237819595" duration="7472000" />
+      <workItem from="1732250739187" duration="12385000" />
     </task>
     <servers />
   </component>

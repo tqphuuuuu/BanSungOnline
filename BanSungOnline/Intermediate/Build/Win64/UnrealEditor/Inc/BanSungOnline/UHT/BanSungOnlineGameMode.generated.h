@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BANSUNGONLINE_BanSungOnlineGameMode_generated_h
 
-#define FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABanSungOnlineGameMode(); \
 	friend struct Z_Construct_UClass_ABanSungOnlineGameMode_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ABanSungOnlineGameMode)
 
 
-#define FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABanSungOnlineGameMode(ABanSungOnlineGameMode&&); \
@@ -35,12 +35,12 @@ public: \
 	BANSUNGONLINE_API virtual ~ABanSungOnlineGameMode();
 
 
-#define FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_9_PROLOG
-#define FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_GENERATED_BODY \
+#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_9_PROLOG
+#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class ABanSungOnlineGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BanSungOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h
+#define CURRENT_FILE_ID FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_BanSungOnlineGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

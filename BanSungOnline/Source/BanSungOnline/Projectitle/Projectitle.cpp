@@ -53,7 +53,7 @@ void AProjectitle::Tick(float DeltaTime)
 
 void AProjectitle::ProjectitleFly(FVector& JerryPosition)
 {
-	// FVector Temp = (JerryPosition - GetActorLocation());
+	FVector Temp = (JerryPosition - GetActorLocation());
 	JerryPosition.Normalize();
 	Velocity = JerryPosition * SpeedAmmo;
 	Velocity.Z = 0.0f;
