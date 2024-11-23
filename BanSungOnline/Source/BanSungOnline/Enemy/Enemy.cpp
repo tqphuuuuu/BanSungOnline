@@ -73,6 +73,8 @@ void AEnemy::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLife
 void AEnemy::AttackCharacter()
 {
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
+	FVector Offset = GetActorForwardVector() * 50.0f; 
+	Start += Offset;
 	FVector End = Start + GetActorForwardVector() * 300.0f;
 
 	TArray<AActor*> IgnoreActors;
@@ -89,10 +91,8 @@ void AEnemy::AttackCharacter()
 
 	// Debug: In số lượng zombie được thêm vào IgnoreActors
 	int32 NumActors = IgnoreActors.Num();
-	FString NumActorsString = FString::Printf(TEXT("Number of zombies in IgnoreActors: %d"), NumActors);
-	UKismetSystemLibrary::PrintString(this, NumActorsString, true, true, FLinearColor::Blue, 2.0f);
-
-	UKismetSystemLibrary::PrintString(this,"hehe");
+	/*FString NumActorsString = FString::Printf(TEXT("Number of zombies in IgnoreActors: %d"), NumActors);
+	UKismetSystemLibrary::PrintString(this, NumActorsString, true, true, FLinearColor::Blue, 2.0f);*/
 	FHitResult HitResult;
 	bool bHit = UKismetSystemLibrary::SphereTraceSingle(
 	GetWorld(),
@@ -108,19 +108,19 @@ void AEnemy::AttackCharacter()
 	);
 	
 
-	FString bhitString = bHit ? TEXT("true") : TEXT("false");  // Convert bool to FString
-	UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Red, 2.0f);
+	//FString bhitString = bHit ? TEXT("true") : TEXT("false");  // Convert bool to FString
+	//UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Red, 2.0f);
 	if (bHit) {
-		UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Yellow, 2.0f);
+		//UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Yellow, 2.0f);
 		// Kiểm tra đối tượng bị hit có phải là nhân vật không
 		ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
 		if (IsValid(MyCharacter))
 		{
-			UKismetSystemLibrary::PrintString(this, "MyCharacter");
+		//	UKismetSystemLibrary::PrintString(this, "MyCharacter");
 
 			if (Health >= 0)
 			{
-				UKismetSystemLibrary::PrintString(this, "Health >= 0");
+			//	UKismetSystemLibrary::PrintString(this, "Health >= 0");
 
 				/*if (Timer >= 100)
 				{
