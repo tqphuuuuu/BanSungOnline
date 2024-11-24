@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanSungOnlineModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7801b587038b90582ee3c586eff4d971cfec2be7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7a87bb3dbf3ba25e03e214436a5e3521079728c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanSungOnlineModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanSungOnlineModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

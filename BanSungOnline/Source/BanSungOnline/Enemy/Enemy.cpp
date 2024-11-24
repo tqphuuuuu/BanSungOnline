@@ -75,11 +75,11 @@ void AEnemy::AttackCharacter()
 	FVector Start = GetMesh()->GetSocketLocation(FName("A"));
 	FVector Offset = GetActorForwardVector() * 50.0f; 
 	Start += Offset;
-	FVector End = Start + GetActorForwardVector() * 300.0f;
+	FVector End = Start + GetActorForwardVector() * 100.0f;
 
 	TArray<AActor*> IgnoreActors;
 
-	// Lấy tất cả zombie trong thế giới và thêm vào IgnoreActors
+	// Thêm tất cả zombie vào IgnoreActors
 	for (TActorIterator<AEnemy> It(GetWorld()); It; ++It)
 	{
 		AEnemy* Zombie = *It;
@@ -88,46 +88,31 @@ void AEnemy::AttackCharacter()
 			IgnoreActors.Add(Zombie);
 		}
 	}
+	// Bỏ qua chính enemy này
+	IgnoreActors.Add(this);
 
-	// Debug: In số lượng zombie được thêm vào IgnoreActors
-	int32 NumActors = IgnoreActors.Num();
-	/*FString NumActorsString = FString::Printf(TEXT("Number of zombies in IgnoreActors: %d"), NumActors);
-	UKismetSystemLibrary::PrintString(this, NumActorsString, true, true, FLinearColor::Blue, 2.0f);*/
 	FHitResult HitResult;
 	bool bHit = UKismetSystemLibrary::SphereTraceSingle(
-	GetWorld(),
-	Start,
-	End,
-	50.0f, // Bán kính hình cầu
-	static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn),
-	false,
-	IgnoreActors,
-	EDrawDebugTrace::ForDuration,
-	HitResult,
-	true
+		GetWorld(),
+		Start,
+		End,
+		50.0f, // Bán kính hình cầu
+		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn),
+		false,
+		IgnoreActors,
+		EDrawDebugTrace::ForDuration,
+		HitResult,
+		true
 	);
-	
 
-	//FString bhitString = bHit ? TEXT("true") : TEXT("false");  // Convert bool to FString
-	//UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Red, 2.0f);
-	if (bHit) {
-		//UKismetSystemLibrary::PrintString(this, bhitString, true, true, FLinearColor::Yellow, 2.0f);
-		// Kiểm tra đối tượng bị hit có phải là nhân vật không
+	if (bHit)
+	{
 		ABanSungOnlineCharacter* MyCharacter = Cast<ABanSungOnlineCharacter>(HitResult.GetActor());
 		if (IsValid(MyCharacter))
 		{
-		//	UKismetSystemLibrary::PrintString(this, "MyCharacter");
-
 			if (Health >= 0)
 			{
-			//	UKismetSystemLibrary::PrintString(this, "Health >= 0");
-
-				/*if (Timer >= 100)
-				{
-					Timer = 0;*/
-					MyCharacter->ServerSetHealth(Damage);
-					
-				//}
+				MyCharacter->ServerSetHealth(Damage);
 			}
 		}
 		else
