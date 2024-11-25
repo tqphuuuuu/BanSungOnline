@@ -6,6 +6,7 @@
 #include "EngineUtils.h"
 #include "BanSungOnline/BanSungOnlineCharacter.h"
 #include "BanSungOnline/BanSungOnlinePlayerController.h"
+#include "Engine/TriggerVolume.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Net/UnrealNetwork.h"
 
@@ -78,6 +79,8 @@ void AEnemy::AttackCharacter()
 	FVector End = Start + GetActorForwardVector() * 100.0f;
 
 	TArray<AActor*> IgnoreActors;
+	IgnoreActors.Empty(); 
+	IgnoreActors.Add(this); 
 
 	// Thêm tất cả zombie vào IgnoreActors
 	for (TActorIterator<AEnemy> It(GetWorld()); It; ++It)
@@ -88,8 +91,14 @@ void AEnemy::AttackCharacter()
 			IgnoreActors.Add(Zombie);
 		}
 	}
-	// Bỏ qua chính enemy này
-	IgnoreActors.Add(this);
+	for (TActorIterator<ATriggerVolume> It(GetWorld()); It; ++It)
+	{
+		ATriggerVolume* Trigger = *It;
+		if (Trigger)
+		{
+			IgnoreActors.Add(Trigger);
+		}
+	}
 
 	FHitResult HitResult;
 	bool bHit = UKismetSystemLibrary::SphereTraceSingle(

@@ -10,13 +10,13 @@
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
+                                    "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
                                 },
                                 "region": {
                                     "startLine": 30,
@@ -32,16 +32,16 @@
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
-                                    "startLine": 22,
+                                    "startLine": 23,
                                     "startColumn": 48
                                 }
                             }
@@ -54,35 +54,13 @@
                         "text": "'UPawnSensingComponent::SightRadius': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
-                                },
-                                "region": {
-                                    "startLine": 23,
-                                    "startColumn": 22
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "ruleId": "C4996",
-                    "message": {
-                        "text": "'UPawnSensingComponent::SetPeripheralVisionAngle': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
-                    },
-                    "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
                                     "startLine": 24,
@@ -95,10 +73,32 @@
                 {
                     "ruleId": "C4996",
                     "message": {
+                        "text": "'UPawnSensingComponent::SetPeripheralVisionAngle': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                },
+                                "region": {
+                                    "startLine": 25,
+                                    "startColumn": 22
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
@@ -133,10 +133,10 @@
                             "id": 1,
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
-                                    "startLine": 22,
+                                    "startLine": 23,
                                     "startColumn": 25
                                 }
                             },
@@ -155,7 +155,7 @@
                         "text": "'UPawnSensingComponent::StaticClass': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {

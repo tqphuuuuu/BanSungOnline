@@ -5970,11 +5970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
+      "projectUniqueName": "C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
       "projectName": "BanSungOnlineModuleRules",
-      "projectPath": "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
+      "projectPath": "C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\BanSungOnlineModuleRules.csproj",
       "packagesPath": "C:\\Users\\TQPhuuuuu\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\obj\\",
+      "outputPath": "C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\BuildRulesProjects\\BanSungOnlineModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
