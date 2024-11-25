@@ -35,7 +35,7 @@ void AWeaponPistol::Tick(float DeltaTime)
 
 void AWeaponPistol::Fire(FVector JerryPosition)
 {
-	if (!ShootOneByOne)
+	if (!ShootOneByOne && !isReloadAmmo)
 	{
 			FTransform x = GunMesh->GetSocketTransform("Socket_Point");
 			AProjectitle_Pistol* Jerry = GetWorld()->SpawnActor<AProjectitle_Pistol>(ProjectitlesClass, x);

@@ -100,7 +100,7 @@ void AEnemy::AttackCharacter()
 		static_cast<ETraceTypeQuery>(ECollisionChannel::ECC_Pawn),
 		false,
 		IgnoreActors,
-		EDrawDebugTrace::ForDuration,
+		EDrawDebugTrace::None,
 		HitResult,
 		true
 	);
@@ -117,7 +117,7 @@ void AEnemy::AttackCharacter()
 		}
 		else
 		{
-			UKismetSystemLibrary::PrintString(this, HitResult.GetActor()->GetName());
+			//UKismetSystemLibrary::PrintString(this, HitResult.GetActor()->GetName());
 		}
 	}
 }
@@ -153,9 +153,10 @@ void AEnemy::PlayDeathAnimation()
 		GetMesh()->PlayAnimation(DeathAnimation, true); 
 	}
 
+	OnDeathComplete();
 	
-	FTimerHandle TimerHandle;
-	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AEnemy::OnDeathComplete, 2.0f, false); 
+	/*FTimerHandle TimerHandle;
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AEnemy::OnDeathComplete, 2.0f, false); */
 }
 
 void AEnemy::OnDeathComplete()
@@ -171,9 +172,17 @@ void AEnemy::OnDeathComplete()
 
 		GetWorld()->SpawnActor<AActor>(SelectedItemClass, SpawnLocation, SpawnRotation);
 		
+		FTimerHandle TimerHandle;
+		GetWorldTimerManager().SetTimer(TimerHandle, this, &AEnemy::DestroyEnemy, 2.0f, false);
 	}
-	Destroy();
+
+
 }
+
+void AEnemy::DestroyEnemy()
+{
+	Destroy();
+} 
 
 /*void AEnemy::OnEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {

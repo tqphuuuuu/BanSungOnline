@@ -99,7 +99,10 @@ public:
 	void PerformRandomAttack(AActor* Target);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Loot", meta = (AllowPrivateAccess = "true"))
-	TArray<TSubclassOf<AActor>> LootItems; 
+	TArray<TSubclassOf<AActor>> LootItems;
+
+	UFUNCTION()
+	void DestroyEnemy();
 
 
 

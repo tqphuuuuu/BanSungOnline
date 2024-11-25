@@ -1,12 +1,12 @@
-"D:\BanSungOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\UnrealEditor\Inc\BanSungOnline\UHT\Projectitle_Pistol.gen.cpp"
+"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\UnrealEditor\Inc\BanSungOnline\UHT\Projectitle_Pistol.gen.cpp"
 /FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h"
-/FI"D:\BanSungOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Definitions.BanSungOnline.h"
+/FI"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Definitions.BanSungOnline.h"
 /Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h"
 /Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_4.h.pch"
-/Fo"D:\BanSungOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.obj"
-/experimental:log "D:\BanSungOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.sarif"
-/sourceDependencies "D:\BanSungOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.dep.json"
-@"D:\BanSungOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnline.Shared.rsp"
+/Fo"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.obj"
+/experimental:log "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.sarif"
+/sourceDependencies "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\Projectitle_Pistol.gen.cpp.dep.json"
+@"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\UnrealEditor\Development\BanSungOnline\BanSungOnline.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

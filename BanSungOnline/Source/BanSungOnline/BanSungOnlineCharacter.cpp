@@ -104,7 +104,6 @@ void ABanSungOnlineCharacter::AddWeapon(AWeapon* NewWeapon)
 
 void ABanSungOnlineCharacter::ServerSetHealth_Implementation(float Damage)
 {
-	UKismetSystemLibrary::PrintString(this, "Health -= Damage");
 
 	Health -= Damage;
 }

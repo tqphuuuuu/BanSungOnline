@@ -10,13 +10,13 @@
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
+                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
                                 },
                                 "region": {
                                     "startLine": 30,
@@ -32,13 +32,13 @@
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
                                     "startLine": 22,
@@ -54,13 +54,13 @@
                         "text": "'UPawnSensingComponent::SightRadius': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
                                     "startLine": 23,
@@ -76,17 +76,17 @@
                         "text": "'UPawnSensingComponent::SetPeripheralVisionAngle': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
                                     "startLine": 24,
-                                    "startColumn": 24
+                                    "startColumn": 22
                                 }
                             }
                         }
@@ -98,13 +98,13 @@
                         "text": "'UPawnSensingComponent': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+                                    "uri": "file:///C:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
                                 },
                                 "region": {
                                     "startLine": 150,
@@ -118,7 +118,7 @@
                             "id": 0,
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+                                    "uri": "file:///C:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
                                 },
                                 "region": {
                                     "startLine": 150,
@@ -133,7 +133,7 @@
                             "id": 1,
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                                 },
                                 "region": {
                                     "startLine": 22,
@@ -155,13 +155,13 @@
                         "text": "'UPawnSensingComponent::StaticClass': Pawn sensing is deprecated. AI Perception should be used instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///D:/BanSungOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
+                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+                                    "uri": "file:///C:/UE5.4/5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
                                 },
                                 "region": {
                                     "startLine": 150,

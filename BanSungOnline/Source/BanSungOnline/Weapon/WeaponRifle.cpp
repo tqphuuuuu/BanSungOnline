@@ -39,7 +39,7 @@ void AWeaponRifle::Fire(FVector JerryPosition)
 {
 	Super::Fire(JerryPosition);
 	
-	if (bCanFireRifle)
+	if (bCanFireRifle && !isReloadAmmo)
 	{
 		FTransform x = GunMesh->GetSocketTransform("Socket_Point");
 		AProjectitle_Rifle* Jerry = GetWorld()->SpawnActor<AProjectitle_Rifle>(ProjectitlesClass, x);
