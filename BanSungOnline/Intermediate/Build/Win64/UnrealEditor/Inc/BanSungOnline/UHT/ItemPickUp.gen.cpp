@@ -107,14 +107,14 @@ AItemPickUp::~AItemPickUp() {}
 // End Class AItemPickUp
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_Statics
+struct Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AItemPickUp, AItemPickUp::StaticClass, TEXT("AItemPickUp"), &Z_Registration_Info_UClass_AItemPickUp, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AItemPickUp), 384786640U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_823227736(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_823227736(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_ItemPickUp_ItemPickUp_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
