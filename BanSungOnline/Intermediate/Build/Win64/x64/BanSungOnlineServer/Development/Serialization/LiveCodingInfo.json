@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Serialization.cpp.obj": [
+			"Serialization.init.gen.cpp.obj",
+			"StructSerializerTestTypes.gen.cpp.obj",
 			"CborStructDeserializerBackend.cpp.obj",
 			"CborStructSerializerBackend.cpp.obj",
 			"JsonStructDeserializerBackend.cpp.obj",
@@ -9,9 +11,7 @@
 			"SerializationModule.cpp.obj",
 			"StructDeserializer.cpp.obj",
 			"StructSerializer.cpp.obj",
-			"StructSerializerTest.cpp.obj",
-			"Serialization.init.gen.cpp.obj",
-			"StructSerializerTestTypes.gen.cpp.obj"
+			"StructSerializerTest.cpp.obj"
 		]
 	}
 }

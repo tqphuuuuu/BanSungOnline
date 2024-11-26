@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.OnlineSubsystem.cpp.obj": [
+			"OnlineStoreInterfaceV2.gen.cpp.obj",
+			"OnlineSubsystem.init.gen.cpp.obj",
+			"OnlineTurnBasedInterface.gen.cpp.obj",
 			"NamedInterfaces.cpp.obj",
 			"OnlineAsyncTaskManager.cpp.obj",
 			"OnlineError.cpp.obj",
@@ -31,10 +34,7 @@
 			"OnlineLeaderboard.spec.cpp.obj",
 			"OnlineMessage.spec.cpp.obj",
 			"OnlinePresence.spec.cpp.obj",
-			"OnlineTestCommon.cpp.obj",
-			"OnlineStoreInterfaceV2.gen.cpp.obj",
-			"OnlineSubsystem.init.gen.cpp.obj",
-			"OnlineTurnBasedInterface.gen.cpp.obj"
+			"OnlineTestCommon.cpp.obj"
 		]
 	}
 }

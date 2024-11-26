@@ -2,15 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Slate.1.cpp.obj": [
-			"AnimatedAttributeManager.cpp.obj",
-			"AttributeInterpolator.cpp.obj",
-			"AnalogCursor.cpp.obj",
-			"GestureDetector.cpp.obj",
-			"IPlatformTextField.cpp.obj",
-			"Menu.cpp.obj",
-			"MenuStack.cpp.obj",
-			"NavigationConfig.cpp.obj",
-			"SlateApplication.cpp.obj",
 			"Anchors.gen.cpp.obj",
 			"CharRangeList.gen.cpp.obj",
 			"ISlateEditableTextWidget.gen.cpp.obj",
@@ -20,7 +11,16 @@
 			"Slate.init.gen.cpp.obj",
 			"SlateApplication.gen.cpp.obj",
 			"SScrollBox.gen.cpp.obj",
-			"ToolMenuBase.gen.cpp.obj"
+			"ToolMenuBase.gen.cpp.obj",
+			"AnimatedAttributeManager.cpp.obj",
+			"AttributeInterpolator.cpp.obj",
+			"AnalogCursor.cpp.obj",
+			"GestureDetector.cpp.obj",
+			"IPlatformTextField.cpp.obj",
+			"Menu.cpp.obj",
+			"MenuStack.cpp.obj",
+			"NavigationConfig.cpp.obj",
+			"SlateApplication.cpp.obj"
 		],
 		"Module.Slate.2.cpp.obj": [
 			"SlateSettings.cpp.obj",

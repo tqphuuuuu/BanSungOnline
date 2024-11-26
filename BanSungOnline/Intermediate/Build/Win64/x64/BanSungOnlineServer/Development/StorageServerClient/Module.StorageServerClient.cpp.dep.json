@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\storageserverclient\\module.storageserverclient.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\storageserverclient\\module.storageserverclient.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\storageserverclient\\definitions.storageserverclient.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\storageserverclient\\definitions.storageserverclient.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclient\\private\\builtinhttpclient\\builtinhttpclient.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclient\\private\\builtinhttpclient\\builtinhttpclient.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\storageserverclient\\private\\storageserverhttpclient.h",

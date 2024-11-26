@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.FunctionalTesting.cpp.obj": [
+			"AutomationScreenshotOptions.gen.cpp.obj",
+			"AutomationViewSettings.gen.cpp.obj",
+			"FunctionalTesting.init.gen.cpp.obj",
 			"AutomationBlueprintFunctionLibrary.cpp.obj",
 			"DelayForFramesLatentAction.cpp.obj",
 			"FuncTestRenderingComponent.cpp.obj",
@@ -21,10 +24,7 @@
 			"TakeScreenshotAfterTimeLatentAction.cpp.obj",
 			"TestPhaseComponent.cpp.obj",
 			"ClientFuncTestPerforming.cpp.obj",
-			"TraceQueryTestResults.cpp.obj",
-			"AutomationScreenshotOptions.gen.cpp.obj",
-			"AutomationViewSettings.gen.cpp.obj",
-			"FunctionalTesting.init.gen.cpp.obj"
+			"TraceQueryTestResults.cpp.obj"
 		]
 	}
 }

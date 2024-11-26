@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\settings\\module.settings.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\settings\\module.settings.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\settings\\definitions.settings.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\settings\\definitions.settings.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingscategory.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\private\\settingscategory.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingscategory.h",

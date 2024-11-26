@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.NetCore.cpp.obj": [
+			"NetCore.init.gen.cpp.obj",
+			"NetEnums.gen.cpp.obj",
+			"PushModel.gen.cpp.obj",
 			"NetAnalytics.cpp.obj",
 			"NetAnalyticsAggregatorConfig.cpp.obj",
 			"NetStatsUtils.cpp.obj",
@@ -32,10 +35,7 @@
 			"NetTraceInternal.cpp.obj",
 			"PersistentNetDebugNames.cpp.obj",
 			"NetTraceReporter.cpp.obj",
-			"FastArraySerializer.cpp.obj",
-			"NetCore.init.gen.cpp.obj",
-			"NetEnums.gen.cpp.obj",
-			"PushModel.gen.cpp.obj"
+			"FastArraySerializer.cpp.obj"
 		]
 	}
 }

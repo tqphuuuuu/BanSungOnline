@@ -2,9 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ImgMediaFactory.cpp.obj": [
+			"ImgMediaFactory.init.gen.cpp.obj",
 			"ImgMediaFactoryModule.cpp.obj",
-			"ImgMediaSettings.cpp.obj",
-			"ImgMediaFactory.init.gen.cpp.obj"
+			"ImgMediaSettings.cpp.obj"
 		]
 	}
 }

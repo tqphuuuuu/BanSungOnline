@@ -2,9 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.NNE.cpp.obj": [
-			"NNE.cpp.obj",
-			"NNEModelData.cpp.obj",
-			"NNETypes.cpp.obj",
 			"NNE.init.gen.cpp.obj",
 			"NNEAttributeDataType.gen.cpp.obj",
 			"NNEAttributeValue.gen.cpp.obj",
@@ -15,7 +12,10 @@
 			"NNERuntimeGPU.gen.cpp.obj",
 			"NNERuntimeNPU.gen.cpp.obj",
 			"NNERuntimeRDG.gen.cpp.obj",
-			"NNETypes.gen.cpp.obj"
+			"NNETypes.gen.cpp.obj",
+			"NNE.cpp.obj",
+			"NNEModelData.cpp.obj",
+			"NNETypes.cpp.obj"
 		]
 	}
 }

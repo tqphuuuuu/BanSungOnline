@@ -2,6 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MetasoundFrontend.1.cpp.obj": [
+			"MetasoundDocumentInterface.gen.cpp.obj",
+			"MetasoundFrontend.init.gen.cpp.obj",
+			"MetasoundFrontendNodeTemplateRegistry.gen.cpp.obj",
+			"MetasoundParameterPack.gen.cpp.obj",
 			"MetasoundFrontendAnalyzerAddress.cpp.obj",
 			"MetasoundFrontendAnalyzerRegistry.cpp.obj",
 			"MetasoundFrontendAnalyzerView.cpp.obj",
@@ -24,11 +28,7 @@
 			"MetasoundFrontend.cpp.obj",
 			"MetasoundFrontendController.cpp.obj",
 			"MetasoundFrontendDataTypeRegistry.cpp.obj",
-			"MetasoundFrontendDocument.cpp.obj",
-			"MetasoundDocumentInterface.gen.cpp.obj",
-			"MetasoundFrontend.init.gen.cpp.obj",
-			"MetasoundFrontendNodeTemplateRegistry.gen.cpp.obj",
-			"MetasoundParameterPack.gen.cpp.obj"
+			"MetasoundFrontendDocument.cpp.obj"
 		],
 		"Module.MetasoundFrontend.2.cpp.obj": [
 			"MetasoundFrontendDocumentAccessPtr.cpp.obj",

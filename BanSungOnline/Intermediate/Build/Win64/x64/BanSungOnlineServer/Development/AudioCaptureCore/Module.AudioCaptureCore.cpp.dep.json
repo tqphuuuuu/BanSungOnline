@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapturecore\\module.audiocapturecore.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapturecore\\module.audiocapturecore.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapturecore\\definitions.audiocapturecore.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\audiocapturecore\\definitions.audiocapturecore.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\private\\audiocapturecore.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecore.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturedeviceinterface.h",

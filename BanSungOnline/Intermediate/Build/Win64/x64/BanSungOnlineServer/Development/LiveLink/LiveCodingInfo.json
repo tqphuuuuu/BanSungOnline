@@ -2,6 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.LiveLink.cpp.obj": [
+			"LiveLink.init.gen.cpp.obj",
+			"LiveLinkCustomTimeStep.gen.cpp.obj",
+			"LiveLinkDeadbandPreProcessor.gen.cpp.obj",
+			"LiveLinkRetargetAssetReference.gen.cpp.obj",
+			"LiveLinkSkeletonRemapper.gen.cpp.obj",
+			"LiveLinkVirtualSubjectBoneAttachment.gen.cpp.obj",
 			"ClockOffsetEstimatorRamp.cpp.obj",
 			"LiveLinkAnimationFrameInterpolateProcessor.cpp.obj",
 			"LiveLinkBasicFrameInterpolateProcessor.cpp.obj",
@@ -36,13 +42,7 @@
 			"SLiveLinkMessageBusSourceFactory.cpp.obj",
 			"LiveLinkAnimationRoleToTransform.cpp.obj",
 			"LiveLinkTransformRoleToAnimation.cpp.obj",
-			"LiveLinkBlueprintVirtualSubject.cpp.obj",
-			"LiveLink.init.gen.cpp.obj",
-			"LiveLinkCustomTimeStep.gen.cpp.obj",
-			"LiveLinkDeadbandPreProcessor.gen.cpp.obj",
-			"LiveLinkRetargetAssetReference.gen.cpp.obj",
-			"LiveLinkSkeletonRemapper.gen.cpp.obj",
-			"LiveLinkVirtualSubjectBoneAttachment.gen.cpp.obj"
+			"LiveLinkBlueprintVirtualSubject.cpp.obj"
 		]
 	}
 }

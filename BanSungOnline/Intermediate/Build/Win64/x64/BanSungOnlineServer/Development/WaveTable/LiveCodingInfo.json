@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.WaveTable.cpp.obj": [
+			"WaveTable.init.gen.cpp.obj",
 			"WaveTable.cpp.obj",
 			"WaveTableBank.cpp.obj",
 			"WaveTableImporter.cpp.obj",
@@ -9,8 +10,7 @@
 			"WaveTableModule.cpp.obj",
 			"WaveTableSampler.cpp.obj",
 			"WaveTableSettings.cpp.obj",
-			"WaveTableTransform.cpp.obj",
-			"WaveTable.init.gen.cpp.obj"
+			"WaveTableTransform.cpp.obj"
 		]
 	}
 }

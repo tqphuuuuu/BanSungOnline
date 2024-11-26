@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Renderer.1.cpp.obj": [
+			"Renderer.init.gen.cpp.obj",
+			"SparseVolumeTextureViewerComponent.gen.cpp.obj",
 			"AnisotropyRendering.cpp.obj",
 			"BasePassRendering.cpp.obj",
 			"BlueNoise.cpp.obj",
@@ -11,9 +13,7 @@
 			"PostProcessAmbient.cpp.obj",
 			"PostProcessAmbientOcclusion.cpp.obj",
 			"PostProcessDeferredDecals.cpp.obj",
-			"PostProcessMeshDecals.cpp.obj",
-			"Renderer.init.gen.cpp.obj",
-			"SparseVolumeTextureViewerComponent.gen.cpp.obj"
+			"PostProcessMeshDecals.cpp.obj"
 		],
 		"Module.Renderer.2.cpp.obj": [
 			"ComputeSystemInterface.cpp.obj",

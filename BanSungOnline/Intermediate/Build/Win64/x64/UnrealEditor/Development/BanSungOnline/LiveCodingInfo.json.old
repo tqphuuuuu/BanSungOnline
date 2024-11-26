@@ -2,6 +2,23 @@
 	"RemapUnityFiles": 
 	{
 		"Module.BanSungOnline.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"BanSungOnline.cpp.obj",
+			"BanSungOnlineCharacter.cpp.obj",
+			"BanSungOnlineGameMode.cpp.obj",
+			"BanSungOnlinePlayerController.cpp.obj",
+			"Enemy_Boss.cpp.obj",
+			"Enemy_Zombie.cpp.obj",
+			"ItemPickUp.cpp.obj",
+			"ItemPickUp_AmmoPistol.cpp.obj",
+			"ItemPickUp_AmmoRifle.cpp.obj",
+			"ItemPickUp_Health.cpp.obj",
+			"Projectitle.cpp.obj",
+			"Projectitle_Pistol.cpp.obj",
+			"Projectitle_Rifle.cpp.obj",
+			"Weapon.cpp.obj",
+			"WeaponPistol.cpp.obj",
+			"WeaponRifle.cpp.obj",
 			"BanSungOnline.init.gen.cpp.obj",
 			"BanSungOnlineCharacter.gen.cpp.obj",
 			"BanSungOnlineGameMode.gen.cpp.obj",
@@ -19,24 +36,7 @@
 			"Weapon.gen.cpp.obj",
 			"WeaponPistol.gen.cpp.obj",
 			"WeaponRifle.gen.cpp.obj",
-			"PerModuleInline.gen.cpp.obj",
-			"BanSungOnline.cpp.obj",
-			"BanSungOnlineCharacter.cpp.obj",
-			"BanSungOnlineGameMode.cpp.obj",
-			"BanSungOnlinePlayerController.cpp.obj",
-			"Enemy.cpp.obj",
-			"Enemy_Boss.cpp.obj",
-			"Enemy_Zombie.cpp.obj",
-			"ItemPickUp.cpp.obj",
-			"ItemPickUp_AmmoPistol.cpp.obj",
-			"ItemPickUp_AmmoRifle.cpp.obj",
-			"ItemPickUp_Health.cpp.obj",
-			"Projectitle.cpp.obj",
-			"Projectitle_Pistol.cpp.obj",
-			"Projectitle_Rifle.cpp.obj",
-			"Weapon.cpp.obj",
-			"WeaponPistol.cpp.obj",
-			"WeaponRifle.cpp.obj"
+			"Enemy.cpp.obj"
 		]
 	}
 }

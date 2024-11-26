@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\xmlparser\\module.xmlparser.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\xmlparser\\module.xmlparser.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\xmlparser\\definitions.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\xmlparser\\definitions.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\xmlparser\\private\\fastxml.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\xmlparser\\public\\fastxml.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coreminimal.h",

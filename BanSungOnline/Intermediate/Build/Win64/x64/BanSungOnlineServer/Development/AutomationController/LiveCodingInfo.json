@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AutomationController.cpp.obj": [
+			"AutomationController.init.gen.cpp.obj",
+			"IAutomationReport.gen.cpp.obj",
 			"AutomationCommandline.cpp.obj",
 			"AutomationControllerManager.cpp.obj",
 			"AutomationControllerModule.cpp.obj",
@@ -9,9 +11,7 @@
 			"AutomationDeviceClusterManager.cpp.obj",
 			"AutomationReport.cpp.obj",
 			"AutomationReportManager.cpp.obj",
-			"AutomationTelemetry.cpp.obj",
-			"AutomationController.init.gen.cpp.obj",
-			"IAutomationReport.gen.cpp.obj"
+			"AutomationTelemetry.cpp.obj"
 		]
 	}
 }

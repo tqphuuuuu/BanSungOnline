@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.UnrealUSDWrapper.cpp.obj": [
+			"UnrealUSDWrapper.gen.cpp.obj",
+			"UnrealUSDWrapper.init.gen.cpp.obj",
 			"UnrealUSDWrapper.cpp.obj",
 			"USDListener.cpp.obj",
 			"USDMemory.cpp.obj",
@@ -29,9 +31,7 @@
 			"UsdStage.cpp.obj",
 			"UsdTyped.cpp.obj",
 			"UsdVariantSets.cpp.obj",
-			"VtValue.cpp.obj",
-			"UnrealUSDWrapper.gen.cpp.obj",
-			"UnrealUSDWrapper.init.gen.cpp.obj"
+			"VtValue.cpp.obj"
 		]
 	}
 }

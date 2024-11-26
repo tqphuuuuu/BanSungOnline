@@ -1,11 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\module.buildpatchservices.1.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\module.buildpatchservices.1.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\definitions.buildpatchservices.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\definitions.buildpatchservices.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\buildpatchservices\\uht\\buildpatchservices.init.gen.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\private\\buildpatchdelta.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\public\\buildpatchdelta.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\public\\interfaces\\ibuildmanifest.h",

@@ -2,15 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Chaos.1.cpp.obj": [
-			"ChaosDDContext.cpp.obj",
-			"ChaosDDScene.cpp.obj",
-			"ChaosLog.cpp.obj",
-			"ChaosModule.cpp.obj",
-			"ChaosSolverConfiguration.cpp.obj",
-			"ChaosSolversModule.cpp.obj",
-			"ChaosStats.cpp.obj",
-			"ChaosVDContextProvider.cpp.obj",
-			"ChaosVDDataWrapperUtils.cpp.obj",
 			"Chaos.init.gen.cpp.obj",
 			"ChaosDeformableSolverProxy.gen.cpp.obj",
 			"FieldSystemTypes.gen.cpp.obj",
@@ -19,7 +10,16 @@
 			"GeometryCollectionSimulationTypes.gen.cpp.obj",
 			"PhysicsCoreTypes.gen.cpp.obj",
 			"PhysicsObjectInterface.gen.cpp.obj",
-			"SoftsSimulationSpace.gen.cpp.obj"
+			"SoftsSimulationSpace.gen.cpp.obj",
+			"ChaosDDContext.cpp.obj",
+			"ChaosDDScene.cpp.obj",
+			"ChaosLog.cpp.obj",
+			"ChaosModule.cpp.obj",
+			"ChaosSolverConfiguration.cpp.obj",
+			"ChaosSolversModule.cpp.obj",
+			"ChaosStats.cpp.obj",
+			"ChaosVDContextProvider.cpp.obj",
+			"ChaosVDDataWrapperUtils.cpp.obj"
 		],
 		"Module.Chaos.2.cpp.obj": [
 			"ChaosVDMemWriterReader.cpp.obj",

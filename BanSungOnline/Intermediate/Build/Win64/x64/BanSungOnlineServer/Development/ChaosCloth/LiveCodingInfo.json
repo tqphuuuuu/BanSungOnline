@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ChaosCloth.cpp.obj": [
+			"ChaosCloth.init.gen.cpp.obj",
+			"ChaosWeightMapTarget.gen.cpp.obj",
 			"ChaosClothConfig.cpp.obj",
 			"ChaosClothConfigCustomVersion.cpp.obj",
 			"ChaosClothConstraints.cpp.obj",
@@ -20,9 +22,7 @@
 			"ChaosClothSharedConfigCustomVersion.cpp.obj",
 			"ChaosClothVisualization.cpp.obj",
 			"IspcTestChaosClothingSimulationSolver.cpp.obj",
-			"SkeletalMeshComponentCacheAdapter.cpp.obj",
-			"ChaosCloth.init.gen.cpp.obj",
-			"ChaosWeightMapTarget.gen.cpp.obj"
+			"SkeletalMeshComponentCacheAdapter.cpp.obj"
 		]
 	}
 }

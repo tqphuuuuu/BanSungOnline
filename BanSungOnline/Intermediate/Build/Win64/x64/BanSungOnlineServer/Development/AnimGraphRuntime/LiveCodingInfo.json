@@ -2,6 +2,17 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AnimGraphRuntime.1.cpp.obj": [
+			"AnimGraphRuntime.init.gen.cpp.obj",
+			"AnimNode_BlendSpaceGraph.gen.cpp.obj",
+			"AnimNode_BlendSpaceSampleResult.gen.cpp.obj",
+			"AnimNode_ModifyBone.gen.cpp.obj",
+			"AnimNode_RefPose.gen.cpp.obj",
+			"AnimNode_RigidBody_Library.gen.cpp.obj",
+			"AnimNode_RotationMultiplier.gen.cpp.obj",
+			"BlendSpaceLibrary.gen.cpp.obj",
+			"CommonAnimationTypes.gen.cpp.obj",
+			"KismetAnimationTypes.gen.cpp.obj",
+			"SequencerAnimationOverride.gen.cpp.obj",
 			"AnimationCustomVersion.cpp.obj",
 			"AnimationStateMachineLibrary.cpp.obj",
 			"AnimCustomInstanceHelper.cpp.obj",
@@ -42,18 +53,7 @@
 			"AnimNode_TwoWayBlend.cpp.obj",
 			"AnimNotify_PlayMontageNotify.cpp.obj",
 			"AnimSequencerInstance.cpp.obj",
-			"AnimSequencerInstanceProxy.cpp.obj",
-			"AnimGraphRuntime.init.gen.cpp.obj",
-			"AnimNode_BlendSpaceGraph.gen.cpp.obj",
-			"AnimNode_BlendSpaceSampleResult.gen.cpp.obj",
-			"AnimNode_ModifyBone.gen.cpp.obj",
-			"AnimNode_RefPose.gen.cpp.obj",
-			"AnimNode_RigidBody_Library.gen.cpp.obj",
-			"AnimNode_RotationMultiplier.gen.cpp.obj",
-			"BlendSpaceLibrary.gen.cpp.obj",
-			"CommonAnimationTypes.gen.cpp.obj",
-			"KismetAnimationTypes.gen.cpp.obj",
-			"SequencerAnimationOverride.gen.cpp.obj"
+			"AnimSequencerInstanceProxy.cpp.obj"
 		],
 		"Module.AnimGraphRuntime.2.cpp.obj": [
 			"BlendListBaseLibrary.cpp.obj",

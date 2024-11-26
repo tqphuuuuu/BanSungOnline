@@ -17,15 +17,17 @@ struct FHitResult;
 #endif
 #define BANSUNGONLINE_Enemy_generated_h
 
-#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_13_DELEGATE \
+#define FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_13_DELEGATE \
 BANSUNGONLINE_API void FHealth_DelegateWrapper(const FMulticastScriptDelegate& Health);
 
 
-#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execDestroyEnemy); \
+	DECLARE_FUNCTION(execAttackCharacter); \
 	DECLARE_FUNCTION(execOnOverlap);
 
 
-#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemy(); \
 	friend struct Z_Construct_UClass_AEnemy_Statics; \
@@ -40,7 +42,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AEnemy(AEnemy&&); \
@@ -52,13 +54,13 @@ public: \
 	NO_API virtual ~AEnemy();
 
 
-#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_16_PROLOG
-#define FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_GENERATED_BODY \
+#define FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_16_PROLOG
+#define FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_INCLASS_NO_PURE_DECLS \
-	FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_ENHANCED_CONSTRUCTORS \
+	FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_INCLASS_NO_PURE_DECLS \
+	FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,7 +68,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BANSUNGONLINE_API UClass* StaticClass<class AEnemy>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h
+#define CURRENT_FILE_ID FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

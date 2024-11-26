@@ -2,19 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.RigVM.1.cpp.obj": [
-			"RigVMBlueprintGeneratedClass.cpp.obj",
-			"RigVM.cpp.obj",
-			"RigVMAssetUserData.cpp.obj",
-			"RigVMByteCode.cpp.obj",
-			"RigVMDebugInfo.cpp.obj",
-			"RigVMDispatchFactory.cpp.obj",
-			"RigVMDrawContainer.cpp.obj",
-			"RigVMDrawInstruction.cpp.obj",
-			"RigVMDrawInterface.cpp.obj",
-			"RigVMExecuteContext.cpp.obj",
-			"RigVMExternalVariable.cpp.obj",
-			"RigVMFunction.cpp.obj",
-			"RigVMGraphFunctionDefinition.cpp.obj",
 			"RigVM.init.gen.cpp.obj",
 			"RigVMDispatch_CastEnum.gen.cpp.obj",
 			"RigVMDispatch_CastObject.gen.cpp.obj",
@@ -31,7 +18,20 @@
 			"RigVMMemoryStorageStruct.gen.cpp.obj",
 			"RigVMStatistics.gen.cpp.obj",
 			"RigVMTrait.gen.cpp.obj",
-			"RigVMVariant.gen.cpp.obj"
+			"RigVMVariant.gen.cpp.obj",
+			"RigVMBlueprintGeneratedClass.cpp.obj",
+			"RigVM.cpp.obj",
+			"RigVMAssetUserData.cpp.obj",
+			"RigVMByteCode.cpp.obj",
+			"RigVMDebugInfo.cpp.obj",
+			"RigVMDispatchFactory.cpp.obj",
+			"RigVMDrawContainer.cpp.obj",
+			"RigVMDrawInstruction.cpp.obj",
+			"RigVMDrawInterface.cpp.obj",
+			"RigVMExecuteContext.cpp.obj",
+			"RigVMExternalVariable.cpp.obj",
+			"RigVMFunction.cpp.obj",
+			"RigVMGraphFunctionDefinition.cpp.obj"
 		],
 		"Module.RigVM.2.cpp.obj": [
 			"RigVMGraphFunctionHost.cpp.obj",

@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\geometrycore\\module.geometrycore.1.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\geometrycore\\module.geometrycore.1.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\geometrycore\\definitions.geometrycore.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\geometrycore\\definitions.geometrycore.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\geometrycore\\private\\clustering\\facenormalclustering.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\geometrycore\\public\\clustering\\facenormalclustering.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\geometrycore\\public\\mathutil.h",

@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GameplayTags.cpp.obj": [
+			"GameplayTags.init.gen.cpp.obj",
+			"InternalGameplayTagContainerNetSerializer.gen.cpp.obj",
 			"BlueprintGameplayTagLibrary.cpp.obj",
 			"GameplayTagAssetInterface.cpp.obj",
 			"GameplayTagContainer.cpp.obj",
@@ -14,9 +16,7 @@
 			"GameplayTagTokenStore.cpp.obj",
 			"NativeGameplayTags.cpp.obj",
 			"GameplayTagQueryTests.cpp.obj",
-			"GameplayTagTests.cpp.obj",
-			"GameplayTags.init.gen.cpp.obj",
-			"InternalGameplayTagContainerNetSerializer.gen.cpp.obj"
+			"GameplayTagTests.cpp.obj"
 		]
 	}
 }

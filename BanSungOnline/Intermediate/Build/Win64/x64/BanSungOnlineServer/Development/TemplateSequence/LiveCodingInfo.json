@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.TemplateSequence.cpp.obj": [
+			"TemplateSequence.init.gen.cpp.obj",
 			"CameraAnimationSequence.cpp.obj",
 			"CameraAnimationSequencePlayer.cpp.obj",
 			"CameraAnimationSequenceSubsystem.cpp.obj",
@@ -15,8 +16,7 @@
 			"TemplateSequencePlayer.cpp.obj",
 			"TemplateSequenceSpawnRegister.cpp.obj",
 			"SequenceCameraShakeTestUtil.cpp.obj",
-			"TemplateSequenceTrack.cpp.obj",
-			"TemplateSequence.init.gen.cpp.obj"
+			"TemplateSequenceTrack.cpp.obj"
 		]
 	}
 }

@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GeometryCache.cpp.obj": [
+			"GeometryCache.init.gen.cpp.obj",
 			"CodecV1.cpp.obj",
 			"FloatCompression.cpp.obj",
 			"GeometryCache.cpp.obj",
@@ -25,8 +26,7 @@
 			"NiagaraGeometryCacheRendererProperties.cpp.obj",
 			"NiagaraRendererGeometryCache.cpp.obj",
 			"NormalCompression.cpp.obj",
-			"StreamingGeometryCacheData.cpp.obj",
-			"GeometryCache.init.gen.cpp.obj"
+			"StreamingGeometryCacheData.cpp.obj"
 		]
 	}
 }

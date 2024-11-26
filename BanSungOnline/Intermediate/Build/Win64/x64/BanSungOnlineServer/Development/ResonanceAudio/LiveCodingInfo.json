@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ResonanceAudio.cpp.obj": [
+			"ResonanceAudio.init.gen.cpp.obj",
+			"ResonanceAudioEnums.gen.cpp.obj",
 			"ResonanceAudioAmbisonics.cpp.obj",
 			"ResonanceAudioAmbisonicsSettings.cpp.obj",
 			"ResonanceAudioBlueprintFunctionLibrary.cpp.obj",
@@ -14,9 +16,7 @@
 			"ResonanceAudioReverb.cpp.obj",
 			"ResonanceAudioSettings.cpp.obj",
 			"ResonanceAudioSpatialization.cpp.obj",
-			"ResonanceAudioSpatializationSourceSettings.cpp.obj",
-			"ResonanceAudio.init.gen.cpp.obj",
-			"ResonanceAudioEnums.gen.cpp.obj"
+			"ResonanceAudioSpatializationSourceSettings.cpp.obj"
 		]
 	}
 }

@@ -1,9 +1,9 @@
-C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Animations\CameraAnimationCameraModifier.h
-C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\LegacyCameraShake.h
-C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\CompositeCameraShakePattern.h
-C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\WaveOscillatorCameraShakePattern.h
-C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\PerlinNoiseCameraShakePattern.h
-C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\SimpleCameraShakePattern.h
 C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\EngineCamerasSubsystem.h
+C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\CompositeCameraShakePattern.h
 C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\DefaultCameraShakeBase.h
+C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Animations\CameraAnimationCameraModifier.h
+C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\PerlinNoiseCameraShakePattern.h
+C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\WaveOscillatorCameraShakePattern.h
+C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\SimpleCameraShakePattern.h
+C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Public\Shakes\LegacyCameraShake.h
 C:\UE5.4\5.4\Engine\Plugins\Cameras\EngineCameras\Source\EngineCameras\Private\Tests\CameraShakeTestObjects.h

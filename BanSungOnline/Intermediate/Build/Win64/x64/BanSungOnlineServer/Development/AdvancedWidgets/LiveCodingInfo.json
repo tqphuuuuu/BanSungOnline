@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AdvancedWidgets.cpp.obj": [
+			"AdvancedWidgets.init.gen.cpp.obj",
+			"ColorGradingSpinBoxStyle.gen.cpp.obj",
 			"AdvancedWidgetsModule.cpp.obj",
 			"RadialSlider.cpp.obj",
 			"FieldIconFinder.cpp.obj",
@@ -25,9 +27,7 @@
 			"SNumericPropertyValue.cpp.obj",
 			"SPropertyViewer.cpp.obj",
 			"SPropertyViewerImpl.cpp.obj",
-			"SStringPropertyValue.cpp.obj",
-			"AdvancedWidgets.init.gen.cpp.obj",
-			"ColorGradingSpinBoxStyle.gen.cpp.obj"
+			"SStringPropertyValue.cpp.obj"
 		]
 	}
 }

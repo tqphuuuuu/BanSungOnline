@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\shareddefinitions.coreuobject.cpp20.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\shareddefinitions.coreuobject.cpp20.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\coreuobjectsharedpch.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coresharedpch.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\reverse.h",
@@ -718,7 +718,7 @@
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\templates\\subclassof.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\corenet.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\corenettypes.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\corenettypes.generated.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\corenettypes.generated.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\templates\\isuenumclass.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\generatedcppincludes.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\metadata.h",

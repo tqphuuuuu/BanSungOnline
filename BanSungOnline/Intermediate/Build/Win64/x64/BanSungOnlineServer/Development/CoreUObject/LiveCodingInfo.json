@@ -2,12 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.CoreUObject.1.cpp.obj": [
-			"ARFilter.cpp.obj",
 			"CoreNetTypes.gen.cpp.obj",
 			"CoreUObject.init.gen.cpp.obj",
 			"DataValidation.gen.cpp.obj",
 			"InstanceDataObjectUtilsTest.gen.cpp.obj",
-			"NoExportTypes.gen.cpp.obj",
+			"NoExportTypes.gen.cpp.obj"
+		],
+		"Module.CoreUObject.2.cpp.obj": [
 			"OptionalPropertyTestObject.gen.cpp.obj",
 			"OverriddenPropertySet.gen.cpp.obj",
 			"PropertyHelper.gen.cpp.obj",
@@ -16,9 +17,8 @@
 			"UserDefinedStructEditorUtils.gen.cpp.obj",
 			"VVMPackageTypes.gen.cpp.obj",
 			"VVMVerseEnum.gen.cpp.obj",
-			"VVMVerseStruct.gen.cpp.obj"
-		],
-		"Module.CoreUObject.2.cpp.obj": [
+			"VVMVerseStruct.gen.cpp.obj",
+			"ARFilter.cpp.obj",
 			"AssetBundleData.cpp.obj",
 			"AssetData.cpp.obj",
 			"AssetDataTagMap.cpp.obj",
@@ -26,7 +26,9 @@
 			"BlueprintSupport.cpp.obj",
 			"CookDependency.cpp.obj",
 			"MPCollector.cpp.obj",
-			"InstancedReferenceSubobjectHelper.cpp.obj",
+			"InstancedReferenceSubobjectHelper.cpp.obj"
+		],
+		"Module.CoreUObject.3.cpp.obj": [
 			"PackageLocalizationCache.cpp.obj",
 			"PackageLocalizationManager.cpp.obj",
 			"PackageLocalizationUtil.cpp.obj",
@@ -43,9 +45,7 @@
 			"NotifyHook.cpp.obj",
 			"PackageAccessTracking.cpp.obj",
 			"PackageAccessTrackingOps.cpp.obj",
-			"PackageName.cpp.obj"
-		],
-		"Module.CoreUObject.3.cpp.obj": [
+			"PackageName.cpp.obj",
 			"PackagePath.cpp.obj",
 			"PackagePathTest.cpp.obj",
 			"RedirectCollector.cpp.obj",
@@ -63,16 +63,16 @@
 			"ArchiveObjectCrc32.cpp.obj",
 			"ArchiveShowReferences.cpp.obj",
 			"ArchiveStackTrace.cpp.obj",
-			"ArchiveUObject.cpp.obj",
-			"ArchiveUObjectFromStructuredArchive.cpp.obj",
-			"AsyncLoading.cpp.obj"
+			"ArchiveUObject.cpp.obj"
 		],
 		"Module.CoreUObject.4.cpp.obj": [
-			"AsyncLoading2.cpp.obj",
-			"AsyncLoadingFlushContext.cpp.obj",
-			"AsyncPackageLoader.cpp.obj"
+			"ArchiveUObjectFromStructuredArchive.cpp.obj",
+			"AsyncLoading.cpp.obj",
+			"AsyncLoading2.cpp.obj"
 		],
 		"Module.CoreUObject.5.cpp.obj": [
+			"AsyncLoadingFlushContext.cpp.obj",
+			"AsyncPackageLoader.cpp.obj",
 			"BulkData.cpp.obj",
 			"BulkDataRegistry.cpp.obj",
 			"BulkDataStreaming.cpp.obj",
@@ -92,12 +92,12 @@
 			"PropertyLocalizationDataGathering.cpp.obj",
 			"StructuredArchiveTest.cpp.obj",
 			"TextReferenceCollector.cpp.obj",
-			"UnversionedPropertySerialization.cpp.obj",
-			"UnversionedPropertySerializationTest.cpp.obj",
-			"Zenaphore.cpp.obj",
-			"ZenPackageHeader.cpp.obj"
+			"UnversionedPropertySerialization.cpp.obj"
 		],
 		"Module.CoreUObject.6.cpp.obj": [
+			"UnversionedPropertySerializationTest.cpp.obj",
+			"Zenaphore.cpp.obj",
+			"ZenPackageHeader.cpp.obj",
 			"InstancedStruct.cpp.obj",
 			"InstancedStructContainer.cpp.obj",
 			"PropertyBag.cpp.obj",

@@ -2,18 +2,18 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ControlRig.1.cpp.obj": [
-			"AnimNode_ControlRig.cpp.obj",
 			"ControlRig.init.gen.cpp.obj",
 			"ControlRigAssetUserData.gen.cpp.obj",
 			"ModularRig.gen.cpp.obj",
 			"MovieSceneControlRigInstanceData.gen.cpp.obj",
-			"RigHierarchy.gen.cpp.obj",
+			"RigHierarchy.gen.cpp.obj"
+		],
+		"Module.ControlRig.2.cpp.obj": [
 			"RigHierarchyElements.gen.cpp.obj",
 			"RigUnit_DebugBase.gen.cpp.obj",
 			"RigUnit_HighlevelBase.gen.cpp.obj",
-			"StructReference.gen.cpp.obj"
-		],
-		"Module.ControlRig.2.cpp.obj": [
+			"StructReference.gen.cpp.obj",
+			"AnimNode_ControlRig.cpp.obj",
 			"AnimNode_ControlRigBase.cpp.obj",
 			"AnimNode_ControlRig_ExternalSource.cpp.obj",
 			"AnimNode_ControlRig_Library.cpp.obj",
@@ -42,7 +42,9 @@
 			"CRSimSoftCollision.cpp.obj",
 			"CRSimUtils.cpp.obj",
 			"ModularRig.cpp.obj",
-			"ModularRigController.cpp.obj",
+			"ModularRigController.cpp.obj"
+		],
+		"Module.ControlRig.3.cpp.obj": [
 			"ModularRigModel.cpp.obj",
 			"ModularRigRuleManager.cpp.obj",
 			"AdditiveControlRig.cpp.obj",
@@ -52,9 +54,7 @@
 			"RigConnectionRules.cpp.obj",
 			"RigControlHierarchy.cpp.obj",
 			"RigCurveContainer.cpp.obj",
-			"RigHierarchy.cpp.obj"
-		],
-		"Module.ControlRig.3.cpp.obj": [
+			"RigHierarchy.cpp.obj",
 			"RigHierarchyCache.cpp.obj",
 			"RigHierarchyContainer.cpp.obj",
 			"RigHierarchyController.cpp.obj",
@@ -71,7 +71,9 @@
 			"ControlRigLayerInstanceProxy.cpp.obj",
 			"ControlRigSequenceObjectReference.cpp.obj",
 			"ControlRigSequencerHelpers.cpp.obj",
-			"MovieSceneControlRigParameterSection.cpp.obj",
+			"MovieSceneControlRigParameterSection.cpp.obj"
+		],
+		"Module.ControlRig.4.cpp.obj": [
 			"MovieSceneControlRigParameterTemplate.cpp.obj",
 			"MovieSceneControlRigParameterTrack.cpp.obj",
 			"MovieSceneControlRigSpaceChannel.cpp.obj",
@@ -106,9 +108,7 @@
 			"RigUnit_TwoBoneIKFK.cpp.obj",
 			"RigUnit_DrawContainer.cpp.obj",
 			"RigUnit_BeginExecution.cpp.obj",
-			"RigUnit_Collection.cpp.obj"
-		],
-		"Module.ControlRig.4.cpp.obj": [
+			"RigUnit_Collection.cpp.obj",
 			"RigUnit_DynamicHierarchy.cpp.obj",
 			"RigUnit_Hierarchy.cpp.obj",
 			"RigUnit_InteractionExecution.cpp.obj",
@@ -169,7 +169,9 @@
 			"RigUnit_SlideChain.cpp.obj",
 			"RigUnit_SphericalPoseReader.cpp.obj",
 			"RigUnit_SpringIK.cpp.obj",
-			"RigUnit_TransformConstraint.cpp.obj",
+			"RigUnit_TransformConstraint.cpp.obj"
+		],
+		"Module.ControlRig.5.cpp.obj": [
 			"RigUnit_TwistBones.cpp.obj",
 			"RigUnit_TwoBoneIKSimple.cpp.obj",
 			"RigUnit_ConnectionCandidates.cpp.obj",

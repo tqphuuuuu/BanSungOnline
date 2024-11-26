@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\messagelog\\module.messagelog.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\messagelog\\module.messagelog.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\messagelog\\definitions.messagelog.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\messagelog\\definitions.messagelog.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\messagelog\\private\\messagefilter.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\messagelog\\private\\messagefilter.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\messagelog\\private\\messagelogmodule.cpp",
@@ -38,7 +38,7 @@
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\applicationcore\\public\\windows\\windowsplatformapplicationmisc.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\genericplatformapplicationmisc.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slatecore\\public\\styling\\stylecolors.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\stylecolors.generated.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\slatecore\\uht\\stylecolors.generated.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\messagelog\\private\\userinterface\\smessagelogmessagelistrow.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\uobjecttoken.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\slate\\public\\widgets\\input\\shyperlink.h",

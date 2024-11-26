@@ -1,11 +1,11 @@
-C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\CameraAnimationSequence.h
-C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\TemplateSequenceActor.h
-C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\TemplateSequence.h
-C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\Sections\TemplateSequenceSection.h
+C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\CameraAnimationSequencePlayer.h
 C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\CameraAnimationSequenceSubsystem.h
+C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\CameraAnimationSequence.h
+C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\TemplateSequence.h
+C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\TemplateSequenceActor.h
 C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\TemplateSequencePlayer.h
 C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\SequenceCameraShake.h
 C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\Tracks\TemplateSequenceTrack.h
-C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\CameraAnimationSequencePlayer.h
-C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Private\Tests\SequenceCameraShakeTestUtil.h
+C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public\Sections\TemplateSequenceSection.h
 C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Private\Systems\TemplateSequenceSystem.h
+C:\UE5.4\5.4\Engine\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Private\Tests\SequenceCameraShakeTestUtil.h

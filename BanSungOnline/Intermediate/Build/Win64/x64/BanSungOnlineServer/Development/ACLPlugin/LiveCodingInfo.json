@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ACLPlugin.cpp.obj": [
+			"ACLImpl.gen.cpp.obj",
+			"ACLPlugin.init.gen.cpp.obj",
 			"ACLImpl.cpp.obj",
 			"ACLPluginModule.cpp.obj",
 			"AnimationCompressionLibraryDatabase.cpp.obj",
@@ -11,9 +13,7 @@
 			"AnimBoneCompressionCodec_ACLDatabase.cpp.obj",
 			"AnimBoneCompressionCodec_ACLSafe.cpp.obj",
 			"AnimCurveCompressionCodec_ACL.cpp.obj",
-			"EditorDatabaseMonitor.cpp.obj",
-			"ACLImpl.gen.cpp.obj",
-			"ACLPlugin.init.gen.cpp.obj"
+			"EditorDatabaseMonitor.cpp.obj"
 		]
 	}
 }

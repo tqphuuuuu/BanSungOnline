@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.LiveCoding.cpp.obj": [
+			"LiveCoding.init.gen.cpp.obj",
 			"LC_API.cpp.obj",
 			"LC_Atomic_Windows.cpp.obj",
 			"LC_ClientCommandActions.cpp.obj",
@@ -39,8 +40,7 @@
 			"LC_WindowsInternalFunctions.cpp.obj",
 			"LiveCodingLog.cpp.obj",
 			"LiveCodingModule.cpp.obj",
-			"LiveCodingSettings.cpp.obj",
-			"LiveCoding.init.gen.cpp.obj"
+			"LiveCodingSettings.cpp.obj"
 		]
 	}
 }

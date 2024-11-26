@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MassEntityTestSuite.cpp.obj": [
+			"MassEntityTestSuite.init.gen.cpp.obj",
+			"MassEntityTestTypes.gen.cpp.obj",
 			"MassChunkCollectionTest.cpp.obj",
 			"MassCommandsTest.cpp.obj",
 			"MassComplexTest.cpp.obj",
@@ -23,9 +25,7 @@
 			"MassSharedFragmentsTest.cpp.obj",
 			"MassSystemRequirementTest.cpp.obj",
 			"MassTestTypes.cpp.obj",
-			"MassUtilsTest.cpp.obj",
-			"MassEntityTestSuite.init.gen.cpp.obj",
-			"MassEntityTestTypes.gen.cpp.obj"
+			"MassUtilsTest.cpp.obj"
 		]
 	}
 }

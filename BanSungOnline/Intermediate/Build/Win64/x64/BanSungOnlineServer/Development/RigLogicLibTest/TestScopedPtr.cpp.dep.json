@@ -3,9 +3,9 @@
     "Data": {
         "Source": "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\riglogic\\source\\riglogiclibtest\\private\\pmatests\\testscopedptr.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\riglogiclibtest\\definitions.riglogiclibtest.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\riglogiclibtest\\definitions.riglogiclibtest.h",
             "c:\\ue5.4\\5.4\\engine\\plugins\\animation\\riglogic\\source\\riglogiclibtest\\private\\pmatests\\defs.h",
             "c:\\ue5.4\\5.4\\engine\\source\\thirdparty\\googletest\\include\\gtest\\gtest.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\ostream",

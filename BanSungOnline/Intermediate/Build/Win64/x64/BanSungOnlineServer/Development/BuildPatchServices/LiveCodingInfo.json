@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.BuildPatchServices.1.cpp.obj": [
+			"BuildPatchServices.init.gen.cpp.obj",
 			"BuildPatchDelta.cpp.obj",
 			"BuildPatchFeatureLevel.cpp.obj",
 			"BuildPatchFileConstructor.cpp.obj",
@@ -26,8 +27,7 @@
 			"StatsCollector.cpp.obj",
 			"PatchDataCompactifier.cpp.obj",
 			"BlockStructure.cpp.obj",
-			"ChunkData.cpp.obj",
-			"BuildPatchServices.init.gen.cpp.obj"
+			"ChunkData.cpp.obj"
 		],
 		"Module.BuildPatchServices.2.cpp.obj": [
 			"ManifestData.cpp.obj",

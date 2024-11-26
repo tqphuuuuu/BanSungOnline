@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sessionservices\\module.sessionservices.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sessionservices\\module.sessionservices.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sessionservices\\definitions.sessionservices.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sessionservices\\definitions.sessionservices.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\private\\sessioninfo.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\private\\sessioninfo.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\messaging\\public\\imessagecontext.h",
@@ -14,9 +14,9 @@
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\public\\isessioninfo.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\public\\sessionlogmessage.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\enginemessages\\public\\engineservicemessages.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\enginemessages\\uht\\engineservicemessages.generated.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\enginemessages\\uht\\engineservicemessages.generated.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionmessages\\public\\sessionservicemessages.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\sessionmessages\\uht\\sessionservicemessages.generated.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\sessionmessages\\uht\\sessionservicemessages.generated.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\private\\sessioninstanceinfo.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\messagingcommon\\public\\messageendpoint.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\containers\\arraybuilder.h",
@@ -42,7 +42,7 @@
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\public\\itracecontrollercommands.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\private\\tracecontrollercommands.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\enginemessages\\public\\tracecontrolmessages.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\enginemessages\\uht\\tracecontrolmessages.generated.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\enginemessages\\uht\\tracecontrolmessages.generated.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\private\\tracecontroller.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sessionservices\\private\\tracecontrollercommands.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hash\\xxhash.h"

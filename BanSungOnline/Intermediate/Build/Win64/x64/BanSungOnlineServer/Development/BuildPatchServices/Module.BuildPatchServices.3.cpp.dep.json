@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\module.buildpatchservices.3.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\module.buildpatchservices.3.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\definitions.buildpatchservices.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildpatchservices\\definitions.buildpatchservices.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\private\\installer\\diskchunkstore.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\private\\installer\\diskchunkstore.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\online\\buildpatchservices\\private\\installer\\chunkstore.h",

@@ -2,11 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.StateTreeModule.1.cpp.obj": [
-			"StateTreeConditionBlueprintBase.cpp.obj",
-			"StateTreeConsiderationBlueprintBase.cpp.obj",
-			"StateTreeEvaluatorBlueprintBase.cpp.obj",
-			"StateTreeNodeBlueprintBase.cpp.obj",
-			"StateTreeTaskBlueprintBase.cpp.obj",
 			"IStateTreeSchemaProvider.gen.cpp.obj",
 			"StateTreeAnyEnum.gen.cpp.obj",
 			"StateTreeBooleanAlgebraPropertyFunctions.gen.cpp.obj",
@@ -22,7 +17,12 @@
 			"StateTreePropertyRef.gen.cpp.obj",
 			"StateTreeRunParallelStateTreeTask.gen.cpp.obj",
 			"StateTreeSettings.gen.cpp.obj",
-			"StateTreeTraceTypes.gen.cpp.obj"
+			"StateTreeTraceTypes.gen.cpp.obj",
+			"StateTreeConditionBlueprintBase.cpp.obj",
+			"StateTreeConsiderationBlueprintBase.cpp.obj",
+			"StateTreeEvaluatorBlueprintBase.cpp.obj",
+			"StateTreeNodeBlueprintBase.cpp.obj",
+			"StateTreeTaskBlueprintBase.cpp.obj"
 		],
 		"Module.StateTreeModule.2.cpp.obj": [
 			"StateTreeCommonConditions.cpp.obj",

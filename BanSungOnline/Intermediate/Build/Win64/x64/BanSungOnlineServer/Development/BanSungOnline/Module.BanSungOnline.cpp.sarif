@@ -11,13 +11,13 @@
                         "text": "Cannot open include file: 'Components/WidgetComponent.h': No such file or directory"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/BanSungOnlineServer/Development/BanSungOnline/Module.BanSungOnline.cpp"
+                        "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Intermediate/Build/Win64/x64/BanSungOnlineServer/Development/BanSungOnline/Module.BanSungOnline.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
+                                    "uri": "file:///C:/GameOnline/BanSungOnline/BanSungOnline/Source/BanSungOnline/Enemy/Enemy.h"
                                 },
                                 "region": {
                                     "startLine": 8,

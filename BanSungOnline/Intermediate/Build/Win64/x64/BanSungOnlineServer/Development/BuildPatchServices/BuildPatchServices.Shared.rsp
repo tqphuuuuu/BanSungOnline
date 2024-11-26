@@ -1,7 +1,7 @@
 /I "."
 /I "Runtime\Online\BuildPatchServices\Private"
-/I "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\UHT"
-/I "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\VerseVMBytecode"
+/I "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\UHT"
+/I "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\VerseVMBytecode"
 /I "Runtime\CoreUObject\Public"
 /I "Runtime\CoreUObject\Internal"
 /I "Runtime\Core\Public"
@@ -15,7 +15,7 @@
 /I "Runtime\Online\HTTP\Internal"
 /I "Runtime\Json\Public"
 /I "Runtime\VirtualFileCache\Public"
-/I "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\BuildPatchServices\UHT"
+/I "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\BuildPatchServices\UHT"
 /I "Runtime\Online\BuildPatchServices\Public"
 /external:W0
 /external:I "ThirdParty\GuidelinesSupportLibrary\GSL-1144\include"

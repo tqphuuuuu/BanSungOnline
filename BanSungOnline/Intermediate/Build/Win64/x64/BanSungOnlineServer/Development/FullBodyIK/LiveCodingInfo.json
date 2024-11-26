@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.FullBodyIK.cpp.obj": [
+			"FBIKConstraintOption.gen.cpp.obj",
+			"FBIKDebugOption.gen.cpp.obj",
+			"FullBodyIK.init.gen.cpp.obj",
 			"FBIKConstraint.cpp.obj",
 			"FBIKConstraintLib.cpp.obj",
 			"FBIKShared.cpp.obj",
@@ -9,10 +12,7 @@
 			"FullBodyIK.cpp.obj",
 			"JacobianIK.cpp.obj",
 			"JacobianSolver.cpp.obj",
-			"RigUnit_FullbodyIK.cpp.obj",
-			"FBIKConstraintOption.gen.cpp.obj",
-			"FBIKDebugOption.gen.cpp.obj",
-			"FullBodyIK.init.gen.cpp.obj"
+			"RigUnit_FullbodyIK.cpp.obj"
 		]
 	}
 }

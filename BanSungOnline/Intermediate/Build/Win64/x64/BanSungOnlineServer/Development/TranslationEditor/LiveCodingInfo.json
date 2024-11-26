@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.TranslationEditor.cpp.obj": [
+			"TranslationEditor.init.gen.cpp.obj",
+			"TranslationPickerEditWindow.gen.cpp.obj",
+			"TranslationUnit.gen.cpp.obj",
 			"CustomFontColumn.cpp.obj",
 			"ITranslationEditor.cpp.obj",
 			"TranslationDataManager.cpp.obj",
@@ -11,10 +14,7 @@
 			"TranslationPickerEditWindow.cpp.obj",
 			"TranslationPickerFloatingWindow.cpp.obj",
 			"TranslationPickerWidget.cpp.obj",
-			"TranslationUnit.cpp.obj",
-			"TranslationEditor.init.gen.cpp.obj",
-			"TranslationPickerEditWindow.gen.cpp.obj",
-			"TranslationUnit.gen.cpp.obj"
+			"TranslationUnit.cpp.obj"
 		]
 	}
 }

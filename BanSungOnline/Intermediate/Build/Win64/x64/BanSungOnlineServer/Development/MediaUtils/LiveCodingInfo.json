@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MediaUtils.cpp.obj": [
+			"MediaPlayerOptions.gen.cpp.obj",
+			"MediaUtils.init.gen.cpp.obj",
 			"AppMediaTimeSource.cpp.obj",
 			"MediaAudioResampler.cpp.obj",
 			"MediaCaptureSupport.cpp.obj",
@@ -11,9 +13,7 @@
 			"MediaRecorder.cpp.obj",
 			"MediaSampleCache.cpp.obj",
 			"MediaSamples.cpp.obj",
-			"MediaUtilsModule.cpp.obj",
-			"MediaPlayerOptions.gen.cpp.obj",
-			"MediaUtils.init.gen.cpp.obj"
+			"MediaUtilsModule.cpp.obj"
 		]
 	}
 }

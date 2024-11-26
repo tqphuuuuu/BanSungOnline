@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\desktopplatform\\module.desktopplatform.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\desktopplatform\\module.desktopplatform.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\desktopplatform\\definitions.desktopplatform.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\desktopplatform\\definitions.desktopplatform.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\desktopplatform\\private\\desktopplatformbase.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\desktopplatform\\private\\desktopplatformbase.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\desktopplatform\\public\\idesktopplatform.h",

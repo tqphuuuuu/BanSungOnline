@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\msquicruntime\\module.msquicruntime.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\msquicruntime\\module.msquicruntime.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\msquicruntime\\definitions.msquicruntime.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\msquicruntime\\definitions.msquicruntime.h",
             "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\msquic\\source\\private\\msquicruntimemodule.cpp",
             "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\msquic\\source\\public\\msquicruntimemodule.h",
             "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\msquic\\source\\private\\msquicruntimeprivate.h"

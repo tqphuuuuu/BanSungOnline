@@ -2,6 +2,11 @@
 	"RemapUnityFiles": 
 	{
 		"Module.FractureEngine.cpp.obj": [
+			"FractureEngine.init.gen.cpp.obj",
+			"FractureEngineConvex.gen.cpp.obj",
+			"FractureEngineFracturing.gen.cpp.obj",
+			"FractureEngineSampling.gen.cpp.obj",
+			"FractureEngineUtility.gen.cpp.obj",
 			"FractureEngineClustering.cpp.obj",
 			"FractureEngineConvex.cpp.obj",
 			"FractureEngineEdit.cpp.obj",
@@ -11,12 +16,7 @@
 			"FractureEnginePlugin.cpp.obj",
 			"FractureEngineSampling.cpp.obj",
 			"FractureEngineSelection.cpp.obj",
-			"FractureEngineUtility.cpp.obj",
-			"FractureEngine.init.gen.cpp.obj",
-			"FractureEngineConvex.gen.cpp.obj",
-			"FractureEngineFracturing.gen.cpp.obj",
-			"FractureEngineSampling.gen.cpp.obj",
-			"FractureEngineUtility.gen.cpp.obj"
+			"FractureEngineUtility.cpp.obj"
 		]
 	}
 }

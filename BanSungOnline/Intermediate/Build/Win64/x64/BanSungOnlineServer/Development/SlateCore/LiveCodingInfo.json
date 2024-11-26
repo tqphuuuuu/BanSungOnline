@@ -2,6 +2,18 @@
 	"RemapUnityFiles": 
 	{
 		"Module.SlateCore.1.cpp.obj": [
+			"FontRasterizationMode.gen.cpp.obj",
+			"FontSdfSettings.gen.cpp.obj",
+			"Margin.gen.cpp.obj",
+			"NavigationReply.gen.cpp.obj",
+			"RenderingCommon.gen.cpp.obj",
+			"SlateCore.init.gen.cpp.obj",
+			"SlateEnums.gen.cpp.obj",
+			"SlateRendererTypes.gen.cpp.obj",
+			"SlateVector2.gen.cpp.obj",
+			"SlateWidgetStyle.gen.cpp.obj",
+			"SlateWidgetStyleAsset.gen.cpp.obj",
+			"WidgetPixelSnapping.gen.cpp.obj",
 			"CurveHandle.cpp.obj",
 			"CurveSequence.cpp.obj",
 			"ActiveTimerHandle.cpp.obj",
@@ -22,19 +34,7 @@
 			"SlateInvalidationRoot.cpp.obj",
 			"SlateInvalidationWidgetHeap.cpp.obj",
 			"SlateInvalidationWidgetIndex.cpp.obj",
-			"SlateInvalidationWidgetList.cpp.obj",
-			"FontRasterizationMode.gen.cpp.obj",
-			"FontSdfSettings.gen.cpp.obj",
-			"Margin.gen.cpp.obj",
-			"NavigationReply.gen.cpp.obj",
-			"RenderingCommon.gen.cpp.obj",
-			"SlateCore.init.gen.cpp.obj",
-			"SlateEnums.gen.cpp.obj",
-			"SlateRendererTypes.gen.cpp.obj",
-			"SlateVector2.gen.cpp.obj",
-			"SlateWidgetStyle.gen.cpp.obj",
-			"SlateWidgetStyleAsset.gen.cpp.obj",
-			"WidgetPixelSnapping.gen.cpp.obj"
+			"SlateInvalidationWidgetList.cpp.obj"
 		],
 		"Module.SlateCore.2.cpp.obj": [
 			"SlateInvalidationWidgetSortOrder.cpp.obj",

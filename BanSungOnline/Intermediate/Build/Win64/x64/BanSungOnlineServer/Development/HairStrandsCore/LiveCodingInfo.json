@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.HairStrandsCore.1.cpp.obj": [
+			"GroomCacheImportOptions.gen.cpp.obj",
+			"GroomDesc.gen.cpp.obj",
+			"HairStrandsCore.init.gen.cpp.obj",
 			"GroomActor.cpp.obj",
 			"GroomAsset.cpp.obj",
 			"GroomAssetCards.cpp.obj",
@@ -12,10 +15,7 @@
 			"GroomAssetRendering.cpp.obj",
 			"GroomBindingAsset.cpp.obj",
 			"GroomBindingBuilder.cpp.obj",
-			"GroomBindingCompiler.cpp.obj",
-			"GroomCacheImportOptions.gen.cpp.obj",
-			"GroomDesc.gen.cpp.obj",
-			"HairStrandsCore.init.gen.cpp.obj"
+			"GroomBindingCompiler.cpp.obj"
 		],
 		"Module.HairStrandsCore.2.cpp.obj": [
 			"GroomBlueprintLibrary.cpp.obj",

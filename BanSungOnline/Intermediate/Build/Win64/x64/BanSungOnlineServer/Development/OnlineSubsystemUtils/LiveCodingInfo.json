@@ -2,6 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.OnlineSubsystemUtils.1.cpp.obj": [
+			"InAppPurchaseDataTypes.gen.cpp.obj",
+			"OnlineAccountStoredCredentials.gen.cpp.obj",
+			"OnlineBeaconReservation.gen.cpp.obj",
+			"OnlineSubsystemUtils.init.gen.cpp.obj",
 			"AchievementBlueprintLibrary.cpp.obj",
 			"AchievementQueryCallbackProxy.cpp.obj",
 			"AchievementWriteCallbackProxy.cpp.obj",
@@ -36,11 +40,7 @@
 			"OnlineServicesEngineInterfaceImpl.cpp.obj",
 			"OnlineServicesEngineUtilsImpl.cpp.obj",
 			"OnlineSessionClient.cpp.obj",
-			"OnlineSubsystemUtils.cpp.obj",
-			"InAppPurchaseDataTypes.gen.cpp.obj",
-			"OnlineAccountStoredCredentials.gen.cpp.obj",
-			"OnlineBeaconReservation.gen.cpp.obj",
-			"OnlineSubsystemUtils.init.gen.cpp.obj"
+			"OnlineSubsystemUtils.cpp.obj"
 		],
 		"Module.OnlineSubsystemUtils.2.cpp.obj": [
 			"OnlineSubsystemUtilsModule.cpp.obj",

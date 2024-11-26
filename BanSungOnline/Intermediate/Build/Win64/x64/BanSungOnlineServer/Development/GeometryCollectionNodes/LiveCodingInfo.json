@@ -2,21 +2,23 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GeometryCollectionNodes.1.cpp.obj": [
-			"CreateColorArrayFromFloatArrayNode.cpp.obj",
 			"GeometryCollectionArrayNodes.gen.cpp.obj",
 			"GeometryCollectionAssetNodes.gen.cpp.obj",
-			"GeometryCollectionFieldNodes.gen.cpp.obj",
+			"GeometryCollectionFieldNodes.gen.cpp.obj"
+		],
+		"Module.GeometryCollectionNodes.2.cpp.obj": [
 			"GeometryCollectionMaterialNodes.gen.cpp.obj",
 			"GeometryCollectionNodes.init.gen.cpp.obj",
 			"GeometryCollectionProcessingNodes.gen.cpp.obj",
 			"GeometryCollectionSkeletalMeshToCollectionNode.gen.cpp.obj",
 			"GeometryCollectionSkeletonToCollectionNode.gen.cpp.obj",
 			"GeometryCollectionStaticMeshToCollectionNode.gen.cpp.obj",
-			"GeometryCollectionUtilityNodes.gen.cpp.obj"
-		],
-		"Module.GeometryCollectionNodes.2.cpp.obj": [
+			"GeometryCollectionUtilityNodes.gen.cpp.obj",
+			"CreateColorArrayFromFloatArrayNode.cpp.obj",
 			"GeometryCollectionArrayNodes.cpp.obj",
-			"GeometryCollectionAssetNodes.cpp.obj",
+			"GeometryCollectionAssetNodes.cpp.obj"
+		],
+		"Module.GeometryCollectionNodes.3.cpp.obj": [
 			"GeometryCollectionClusteringNodes.cpp.obj",
 			"GeometryCollectionConversionNodes.cpp.obj",
 			"GeometryCollectionDebugNodes.cpp.obj",
@@ -37,11 +39,11 @@
 			"GeometryCollectionSkeletalMeshToCollectionNode.cpp.obj",
 			"GeometryCollectionSkeletonToCollectionNode.cpp.obj",
 			"GeometryCollectionStaticMeshToCollectionNode.cpp.obj",
-			"GeometryCollectionTransferVertexAttributeNode.cpp.obj"
-		],
-		"Module.GeometryCollectionNodes.3.cpp.obj": [
+			"GeometryCollectionTransferVertexAttributeNode.cpp.obj",
 			"GeometryCollectionTriangleBoundaryIndicesNode.cpp.obj",
-			"GeometryCollectionUtilityNodes.cpp.obj",
+			"GeometryCollectionUtilityNodes.cpp.obj"
+		],
+		"Module.GeometryCollectionNodes.4.cpp.obj": [
 			"GeometryCollectionVertexScalarToVertexIndicesNode.cpp.obj",
 			"GeometryCollectionVerticesNodes.cpp.obj",
 			"SetVertexColorFromFloatArrayNode.cpp.obj",

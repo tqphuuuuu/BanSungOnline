@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MovieScene.1.cpp.obj": [
-			"MovieSceneCustomBinding.cpp.obj",
 			"ActorForWorldTransforms.gen.cpp.obj",
 			"IMovieSceneBlenderSystemSupport.gen.cpp.obj",
 			"IMovieSceneBoundObjectProxy.gen.cpp.obj",
@@ -39,7 +38,9 @@
 			"MovieSceneSectionTimingParameters.gen.cpp.obj",
 			"MovieSceneSegment.gen.cpp.obj",
 			"MovieSceneSequenceID.gen.cpp.obj",
-			"MovieSceneSequencePlaybackSettings.gen.cpp.obj",
+			"MovieSceneSequencePlaybackSettings.gen.cpp.obj"
+		],
+		"Module.MovieScene.2.cpp.obj": [
 			"MovieSceneSequenceTickManagerClient.gen.cpp.obj",
 			"MovieSceneSpawnableBinding.gen.cpp.obj",
 			"MovieSceneTimeTransform.gen.cpp.obj",
@@ -51,9 +52,8 @@
 			"MovieSceneTimeWarpTrack.gen.cpp.obj",
 			"MovieSceneTimeWarpVariant.gen.cpp.obj",
 			"MovieSceneTimeWarpVariantPayloads.gen.cpp.obj",
-			"MovieSceneTrackIdentifier.gen.cpp.obj"
-		],
-		"Module.MovieScene.2.cpp.obj": [
+			"MovieSceneTrackIdentifier.gen.cpp.obj",
+			"MovieSceneCustomBinding.cpp.obj",
 			"MovieSceneReplaceableBinding.cpp.obj",
 			"MovieSceneSpawnableBinding.cpp.obj",
 			"MovieSceneAudioTriggerChannel.cpp.obj",
@@ -78,7 +78,9 @@
 			"IMovieSceneTrackTemplateProducer.cpp.obj",
 			"MovieSceneCompiledDataManager.cpp.obj",
 			"MovieSceneCompiledVolatilityManager.cpp.obj",
-			"MovieSceneCompilerRules.cpp.obj",
+			"MovieSceneCompilerRules.cpp.obj"
+		],
+		"Module.MovieScene.3.cpp.obj": [
 			"MovieSceneEvaluationTreePopulationRules.cpp.obj",
 			"MovieSceneSegmentCompiler.cpp.obj",
 			"MovieSceneCondition.cpp.obj",
@@ -99,9 +101,7 @@
 			"MovieSceneEntityFactory.cpp.obj",
 			"MovieSceneEntityGroupingSystem.cpp.obj",
 			"MovieSceneEntityIDs.cpp.obj",
-			"MovieSceneEntityInstantiatorSystem.cpp.obj"
-		],
-		"Module.MovieScene.3.cpp.obj": [
+			"MovieSceneEntityInstantiatorSystem.cpp.obj",
 			"MovieSceneEntityLedger.cpp.obj",
 			"MovieSceneEntityManager.cpp.obj",
 			"MovieSceneEntityMutations.cpp.obj",
@@ -116,7 +116,9 @@
 			"MovieSceneInitialValueCache.cpp.obj",
 			"MovieSceneInstanceRegistry.cpp.obj",
 			"MovieScenePreAnimatedStateSystem.cpp.obj",
-			"MovieScenePropertyRegistry.cpp.obj",
+			"MovieScenePropertyRegistry.cpp.obj"
+		],
+		"Module.MovieScene.4.cpp.obj": [
 			"MovieScenePropertySystemTypes.cpp.obj",
 			"MovieSceneRootInstantiatorSystem.cpp.obj",
 			"MovieSceneSequenceInstance.cpp.obj",
@@ -124,9 +126,7 @@
 			"MovieSceneSharedPlaybackState.cpp.obj",
 			"MovieSceneSpawnablesSystem.cpp.obj",
 			"MovieSceneSystemTaskDependencies.cpp.obj",
-			"MovieSceneTaskScheduler.cpp.obj"
-		],
-		"Module.MovieScene.4.cpp.obj": [
+			"MovieSceneTaskScheduler.cpp.obj",
 			"MovieSceneTrackInstance.cpp.obj",
 			"MovieSceneTrackInstanceSystem.cpp.obj",
 			"MovieSceneAccumulatedBlendState.cpp.obj",
@@ -168,7 +168,9 @@
 			"MovieScenePreAnimatedObjectStorage.cpp.obj",
 			"MovieScenePreAnimatedObjectTokenStorage.cpp.obj",
 			"MovieScenePreAnimatedRootTokenStorage.cpp.obj",
-			"MovieScenePreAnimatedStateExtension.cpp.obj",
+			"MovieScenePreAnimatedStateExtension.cpp.obj"
+		],
+		"Module.MovieScene.5.cpp.obj": [
 			"MovieScenePreAnimatedStateStorage.cpp.obj",
 			"MovieSceneRestoreStateParams.cpp.obj",
 			"SequenceDirectorPlaybackCapability.cpp.obj",
@@ -184,9 +186,7 @@
 			"MovieSceneBindingProxy.cpp.obj",
 			"MovieSceneBindingReferences.cpp.obj",
 			"MovieSceneClipboard.cpp.obj",
-			"MovieSceneCommonHelpers.cpp.obj"
-		],
-		"Module.MovieScene.5.cpp.obj": [
+			"MovieSceneCommonHelpers.cpp.obj",
 			"MovieSceneDynamicBinding.cpp.obj",
 			"MovieSceneDynamicBindingInvoker.cpp.obj",
 			"MovieSceneFolder.cpp.obj",
@@ -210,7 +210,9 @@
 			"MovieSceneSignedObject.cpp.obj",
 			"MovieSceneSpawnable.cpp.obj",
 			"MovieSceneSpawnableAnnotation.cpp.obj",
-			"MovieSceneSpawnRegister.cpp.obj",
+			"MovieSceneSpawnRegister.cpp.obj"
+		],
+		"Module.MovieScene.6.cpp.obj": [
 			"MovieSceneTemplateInterrogation.cpp.obj",
 			"MovieSceneTimeController.cpp.obj",
 			"MovieSceneTimeHelpers.cpp.obj",
@@ -227,9 +229,7 @@
 			"MovieSceneBlendingTests.cpp.obj",
 			"MovieSceneCompilerTests.cpp.obj",
 			"MovieSceneCustomSchedulerTests.cpp.obj",
-			"MovieSceneEntitySystemTypesTests.cpp.obj"
-		],
-		"Module.MovieScene.6.cpp.obj": [
+			"MovieSceneEntitySystemTypesTests.cpp.obj",
 			"MovieScenePlaybackCapabilitiesTests.cpp.obj",
 			"MovieScenePreAnimatedStateTests.cpp.obj",
 			"MovieSceneSegmentCompilerTests.cpp.obj",

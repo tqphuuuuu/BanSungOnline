@@ -1,9 +1,9 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\module.core.9.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\module.core.9.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.h.pch",
         "Includes": [
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\private\\misc\\configcontext.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\configcontext.h",

@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MeshModelingTools.cpp.obj": [
+			"MeshModelingTools.init.gen.cpp.obj",
+			"PolyEditActivityContext.gen.cpp.obj",
+			"PolyEditExtrudeEdgeActivity.gen.cpp.obj",
 			"AddPrimitiveTool.cpp.obj",
 			"CombineMeshesTool.cpp.obj",
 			"DeleteGeometrySelectionCommand.cpp.obj",
@@ -29,10 +32,7 @@
 			"PolyEditInsetOutsetActivity.cpp.obj",
 			"PolyEditPlanarProjectionUVActivity.cpp.obj",
 			"UVLayoutTool.cpp.obj",
-			"UVProjectionTool.cpp.obj",
-			"MeshModelingTools.init.gen.cpp.obj",
-			"PolyEditActivityContext.gen.cpp.obj",
-			"PolyEditExtrudeEdgeActivity.gen.cpp.obj"
+			"UVProjectionTool.cpp.obj"
 		]
 	}
 }

@@ -2,14 +2,14 @@
 	"RemapUnityFiles": 
 	{
 		"Module.HoldoutComposite.cpp.obj": [
+			"HoldoutComposite.init.gen.cpp.obj",
+			"HoldoutCompositeComponent.gen.cpp.obj",
+			"HoldoutCompositeSubsystem.gen.cpp.obj",
 			"HoldoutCompositeComponent.cpp.obj",
 			"HoldoutCompositeModule.cpp.obj",
 			"HoldoutCompositeSceneViewExtension.cpp.obj",
 			"HoldoutCompositeSettings.cpp.obj",
-			"HoldoutCompositeSubsystem.cpp.obj",
-			"HoldoutComposite.init.gen.cpp.obj",
-			"HoldoutCompositeComponent.gen.cpp.obj",
-			"HoldoutCompositeSubsystem.gen.cpp.obj"
+			"HoldoutCompositeSubsystem.cpp.obj"
 		]
 	}
 }

@@ -1,9 +1,9 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\module.coreuobject.14.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\module.coreuobject.14.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\pch.coreuobject.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\pch.coreuobject.h.pch",
         "Includes": [
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\private\\uobject\\uobjecthash.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\asciiset.h",
@@ -68,7 +68,7 @@
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\private\\versevm\\vvmnames.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\versevm\\vvmnames.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\coreuobject\\public\\versevm\\vvmpackagetypes.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\vvmpackagetypes.generated.h"
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\coreuobject\\uht\\vvmpackagetypes.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

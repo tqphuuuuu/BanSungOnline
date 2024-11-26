@@ -2,6 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.UniversalObjectLocator.cpp.obj": [
+			"DirectPathObjectLocator.gen.cpp.obj",
+			"SubObjectLocator.gen.cpp.obj",
+			"UniversalObjectLocator.gen.cpp.obj",
+			"UniversalObjectLocator.init.gen.cpp.obj",
+			"UniversalObjectLocatorFragment.gen.cpp.obj",
+			"UniversalObjectLocatorResolveParams.gen.cpp.obj",
 			"DirectPathObjectLocator.cpp.obj",
 			"SubObjectLocator.cpp.obj",
 			"UniversalObjectLocator.cpp.obj",
@@ -12,13 +18,7 @@
 			"UniversalObjectLocatorRegistry.cpp.obj",
 			"UniversalObjectLocatorResolveParams.cpp.obj",
 			"UniversalObjectLocatorStringParams.cpp.obj",
-			"UniversalObjectLocatorStringUtils.cpp.obj",
-			"DirectPathObjectLocator.gen.cpp.obj",
-			"SubObjectLocator.gen.cpp.obj",
-			"UniversalObjectLocator.gen.cpp.obj",
-			"UniversalObjectLocator.init.gen.cpp.obj",
-			"UniversalObjectLocatorFragment.gen.cpp.obj",
-			"UniversalObjectLocatorResolveParams.gen.cpp.obj"
+			"UniversalObjectLocatorStringUtils.cpp.obj"
 		]
 	}
 }

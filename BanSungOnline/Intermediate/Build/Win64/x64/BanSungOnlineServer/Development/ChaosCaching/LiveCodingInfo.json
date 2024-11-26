@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ChaosCaching.cpp.obj": [
+			"ChaosCacheInterpolationMode.gen.cpp.obj",
+			"ChaosCaching.init.gen.cpp.obj",
+			"MovieSceneSpawnableChaosCacheBinding.gen.cpp.obj",
 			"CacheAdapter.cpp.obj",
 			"GeometryCollectionComponentCacheAdapter.cpp.obj",
 			"StaticMeshComponentCacheAdapter.cpp.obj",
@@ -14,10 +17,7 @@
 			"MovieSceneChaosCacheSection.cpp.obj",
 			"MovieSceneChaosCacheTemplate.cpp.obj",
 			"MovieSceneChaosCacheTrack.cpp.obj",
-			"MovieSceneSpawnableChaosCacheBinding.cpp.obj",
-			"ChaosCacheInterpolationMode.gen.cpp.obj",
-			"ChaosCaching.init.gen.cpp.obj",
-			"MovieSceneSpawnableChaosCacheBinding.gen.cpp.obj"
+			"MovieSceneSpawnableChaosCacheBinding.cpp.obj"
 		]
 	}
 }

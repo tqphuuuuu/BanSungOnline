@@ -2,6 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GeometryCollectionEngine.1.cpp.obj": [
+			"GeometryCollectionBlueprintLibrary.gen.cpp.obj",
+			"GeometryCollectionDamagePropagationData.gen.cpp.obj",
+			"GeometryCollectionEngine.init.gen.cpp.obj",
+			"GeometryCollectionEngineTypes.gen.cpp.obj",
+			"GeometryCollectionExternalRenderInterface.gen.cpp.obj",
+			"GeometryCollectionISMPoolSubSystem.gen.cpp.obj",
 			"ChaosBlueprint.cpp.obj",
 			"ChaosBreakingEventFilter.cpp.obj",
 			"ChaosCollisionEventFilter.cpp.obj",
@@ -15,13 +21,7 @@
 			"GeometryCollectionComponent.cpp.obj",
 			"GeometryCollectionComponentPlugin.cpp.obj",
 			"GeometryCollectionCreationParameters.cpp.obj",
-			"GeometryCollectionDebugDraw.cpp.obj",
-			"GeometryCollectionBlueprintLibrary.gen.cpp.obj",
-			"GeometryCollectionDamagePropagationData.gen.cpp.obj",
-			"GeometryCollectionEngine.init.gen.cpp.obj",
-			"GeometryCollectionEngineTypes.gen.cpp.obj",
-			"GeometryCollectionExternalRenderInterface.gen.cpp.obj",
-			"GeometryCollectionISMPoolSubSystem.gen.cpp.obj"
+			"GeometryCollectionDebugDraw.cpp.obj"
 		],
 		"Module.GeometryCollectionEngine.2.cpp.obj": [
 			"GeometryCollectionDebugDrawActor.cpp.obj",

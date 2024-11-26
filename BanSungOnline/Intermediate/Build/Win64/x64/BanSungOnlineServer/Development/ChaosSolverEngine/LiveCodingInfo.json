@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ChaosSolverEngine.cpp.obj": [
+			"ChaosDebugDrawSubsystem.gen.cpp.obj",
+			"ChaosSolverEngine.init.gen.cpp.obj",
 			"ChaosDebugDrawComponent.cpp.obj",
 			"ChaosDebugDrawSubsystem.cpp.obj",
 			"ChaosEventListenerComponent.cpp.obj",
@@ -11,9 +13,7 @@
 			"ChaosSolverActor.cpp.obj",
 			"ChaosSolverEnginePlugin.cpp.obj",
 			"ChaosSolverSettings.cpp.obj",
-			"ChaosVDRecordingStateScreenMessageHandler.cpp.obj",
-			"ChaosDebugDrawSubsystem.gen.cpp.obj",
-			"ChaosSolverEngine.init.gen.cpp.obj"
+			"ChaosVDRecordingStateScreenMessageHandler.cpp.obj"
 		]
 	}
 }

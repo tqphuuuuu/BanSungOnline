@@ -1,9 +1,9 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\module.core.18.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\module.core.18.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.h.pch",
         "Includes": [
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\tests\\serialization\\compactbinaryserializationtest.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\serialization\\compactbinaryserialization.h",

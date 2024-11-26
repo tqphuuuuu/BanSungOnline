@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\eosshared\\module.eosshared.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\eosshared\\module.eosshared.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\slate\\sharedpch.slate.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\eosshared\\definitions.eosshared.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\eosshared\\definitions.eosshared.h",
             "c:\\ue5.4\\5.4\\engine\\plugins\\online\\eosshared\\source\\eosshared\\private\\eossdkmanager.cpp",
             "c:\\ue5.4\\5.4\\engine\\plugins\\online\\eosshared\\source\\eosshared\\private\\eossdkmanager.h",
             "c:\\ue5.4\\5.4\\engine\\plugins\\online\\eosshared\\source\\eosshared\\public\\ieossdkmanager.h",

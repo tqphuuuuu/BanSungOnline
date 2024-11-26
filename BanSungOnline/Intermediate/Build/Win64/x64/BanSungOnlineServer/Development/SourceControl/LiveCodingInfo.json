@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.SourceControl.cpp.obj": [
+			"SourceControl.init.gen.cpp.obj",
 			"DefaultSourceControlProvider.cpp.obj",
 			"ISourceControlProvider.cpp.obj",
 			"RevisionControlStyle.cpp.obj",
@@ -18,8 +19,7 @@
 			"SourceControlSettings.cpp.obj",
 			"SSourceControlControls.cpp.obj",
 			"SSourceControlLogin.cpp.obj",
-			"SSourceControlPicker.cpp.obj",
-			"SourceControl.init.gen.cpp.obj"
+			"SSourceControlPicker.cpp.obj"
 		]
 	}
 }

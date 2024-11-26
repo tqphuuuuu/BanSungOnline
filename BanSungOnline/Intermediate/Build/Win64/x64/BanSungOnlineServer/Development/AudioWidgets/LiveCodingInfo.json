@@ -2,8 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AudioWidgets.1.cpp.obj": [
-			"AudioColorMapper.cpp.obj",
-			"AudioMaterialButton.cpp.obj",
 			"AudioColorMapper.gen.cpp.obj",
 			"AudioMaterialButton.gen.cpp.obj",
 			"AudioMaterialEnvelope.gen.cpp.obj",
@@ -25,7 +23,9 @@
 			"SAudioOscilloscopePanelWidget.gen.cpp.obj",
 			"SAudioRadialSlider.gen.cpp.obj",
 			"SAudioSpectrumPlot.gen.cpp.obj",
-			"TriggerThresholdLineStyle.gen.cpp.obj"
+			"TriggerThresholdLineStyle.gen.cpp.obj",
+			"AudioColorMapper.cpp.obj",
+			"AudioMaterialButton.cpp.obj"
 		],
 		"Module.AudioWidgets.2.cpp.obj": [
 			"AudioMaterialEnvelope.cpp.obj",

@@ -2,6 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MetasoundEngine.1.cpp.obj": [
+			"MetasoundEngine.init.gen.cpp.obj",
+			"MetasoundFrontendLiteralBlueprintAccess.gen.cpp.obj",
+			"MetasoundGeneratorHandle.gen.cpp.obj",
+			"MetasoundOperatorCacheSubsystem.gen.cpp.obj",
+			"MetasoundOutput.gen.cpp.obj",
+			"MetasoundOutputSubsystem.gen.cpp.obj",
+			"MetasoundSettings.gen.cpp.obj",
 			"MetasoundVertexAnalyzerAudioBusWriter.cpp.obj",
 			"MetasoundDeprecatedInterfaces.cpp.obj",
 			"MetasoundInputFormatInterfaces.cpp.obj",
@@ -9,14 +16,7 @@
 			"MetasoundInterfaceBindings.cpp.obj",
 			"MetasoundOutputFormatInterfaces.cpp.obj",
 			"Metasound.cpp.obj",
-			"MetasoundAssetSubsystem.cpp.obj",
-			"MetasoundEngine.init.gen.cpp.obj",
-			"MetasoundFrontendLiteralBlueprintAccess.gen.cpp.obj",
-			"MetasoundGeneratorHandle.gen.cpp.obj",
-			"MetasoundOperatorCacheSubsystem.gen.cpp.obj",
-			"MetasoundOutput.gen.cpp.obj",
-			"MetasoundOutputSubsystem.gen.cpp.obj",
-			"MetasoundSettings.gen.cpp.obj"
+			"MetasoundAssetSubsystem.cpp.obj"
 		],
 		"Module.MetasoundEngine.2.cpp.obj": [
 			"MetasoundAudioBus.cpp.obj",

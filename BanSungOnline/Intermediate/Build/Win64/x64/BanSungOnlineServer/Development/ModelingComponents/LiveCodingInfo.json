@@ -2,6 +2,20 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ModelingComponents.1.cpp.obj": [
+			"AxisFilterPropertyType.gen.cpp.obj",
+			"BakingTypes.gen.cpp.obj",
+			"BoundarySelectionMechanic.gen.cpp.obj",
+			"ColorChannelFilterPropertyType.gen.cpp.obj",
+			"DynamicMeshCommitter.gen.cpp.obj",
+			"DynamicMeshProvider.gen.cpp.obj",
+			"DynamicMeshSource.gen.cpp.obj",
+			"GeometrySelectionVisualizationProperties.gen.cpp.obj",
+			"InteractiveToolActivity.gen.cpp.obj",
+			"MeshTopologySelectionMechanic.gen.cpp.obj",
+			"ModelingComponents.init.gen.cpp.obj",
+			"SelectionEditInteractiveCommand.gen.cpp.obj",
+			"ToolHostCustomizationAPI.gen.cpp.obj",
+			"VoxelProperties.gen.cpp.obj",
 			"MeshDescriptionUtil.cpp.obj",
 			"StaticMeshMaterialUtil.cpp.obj",
 			"Texture2DBuilder.cpp.obj",
@@ -24,21 +38,7 @@
 			"SkinnedMeshToDynamicMesh.cpp.obj",
 			"SplineComponentDeformDynamicMesh.cpp.obj",
 			"VolumeToDynamicMesh.cpp.obj",
-			"LineSetComponent.cpp.obj",
-			"AxisFilterPropertyType.gen.cpp.obj",
-			"BakingTypes.gen.cpp.obj",
-			"BoundarySelectionMechanic.gen.cpp.obj",
-			"ColorChannelFilterPropertyType.gen.cpp.obj",
-			"DynamicMeshCommitter.gen.cpp.obj",
-			"DynamicMeshProvider.gen.cpp.obj",
-			"DynamicMeshSource.gen.cpp.obj",
-			"GeometrySelectionVisualizationProperties.gen.cpp.obj",
-			"InteractiveToolActivity.gen.cpp.obj",
-			"MeshTopologySelectionMechanic.gen.cpp.obj",
-			"ModelingComponents.init.gen.cpp.obj",
-			"SelectionEditInteractiveCommand.gen.cpp.obj",
-			"ToolHostCustomizationAPI.gen.cpp.obj",
-			"VoxelProperties.gen.cpp.obj"
+			"LineSetComponent.cpp.obj"
 		],
 		"Module.ModelingComponents.2.cpp.obj": [
 			"MeshDebugDrawing.cpp.obj",

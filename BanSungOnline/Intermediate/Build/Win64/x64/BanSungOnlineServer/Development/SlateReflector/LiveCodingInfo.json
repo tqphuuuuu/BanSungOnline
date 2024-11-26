@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.SlateReflector.cpp.obj": [
+			"SlateReflector.init.gen.cpp.obj",
+			"WidgetSnapshotMessages.gen.cpp.obj",
 			"InputEventVisualizer.cpp.obj",
 			"NavigationSimulationNode.cpp.obj",
 			"WidgetReflectorNode.cpp.obj",
@@ -20,9 +22,7 @@
 			"SWidgetReflector.cpp.obj",
 			"SWidgetReflectorToolTipWidget.cpp.obj",
 			"SWidgetReflectorTreeWidgetItem.cpp.obj",
-			"SWidgetSnapshotVisualizer.cpp.obj",
-			"SlateReflector.init.gen.cpp.obj",
-			"WidgetSnapshotMessages.gen.cpp.obj"
+			"SWidgetSnapshotVisualizer.cpp.obj"
 		]
 	}
 }

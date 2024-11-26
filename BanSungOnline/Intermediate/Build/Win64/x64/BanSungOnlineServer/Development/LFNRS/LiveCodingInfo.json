@@ -2,8 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.LFNRS.cpp.obj": [
-			"LocalFileNetworkReplayStreaming.cpp.obj",
-			"LocalFileNetworkReplayStreaming.init.gen.cpp.obj"
+			"LocalFileNetworkReplayStreaming.init.gen.cpp.obj",
+			"LocalFileNetworkReplayStreaming.cpp.obj"
 		]
 	}
 }

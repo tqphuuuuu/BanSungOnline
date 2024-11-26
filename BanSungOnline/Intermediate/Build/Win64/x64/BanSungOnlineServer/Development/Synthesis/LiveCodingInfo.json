@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Synthesis.cpp.obj": [
+			"EpicSynth1Types.gen.cpp.obj",
+			"Synthesis.init.gen.cpp.obj",
 			"ConvolutionReverb.cpp.obj",
 			"EffectConvolutionReverb.cpp.obj",
 			"EpicSynth1.cpp.obj",
@@ -46,9 +48,7 @@
 			"Synth2DSliderStyle.cpp.obj",
 			"SynthKnob.cpp.obj",
 			"SynthKnobStyle.cpp.obj",
-			"SynthSlateStyle.cpp.obj",
-			"EpicSynth1Types.gen.cpp.obj",
-			"Synthesis.init.gen.cpp.obj"
+			"SynthSlateStyle.cpp.obj"
 		]
 	}
 }

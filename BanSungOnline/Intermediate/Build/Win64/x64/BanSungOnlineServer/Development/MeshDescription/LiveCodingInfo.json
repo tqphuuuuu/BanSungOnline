@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MeshDescription.cpp.obj": [
+			"MeshDescription.init.gen.cpp.obj",
 			"MeshAttributeArray.cpp.obj",
 			"MeshAttributes.cpp.obj",
 			"MeshDescription.cpp.obj",
@@ -11,8 +12,7 @@
 			"MeshElementContainer.cpp.obj",
 			"MeshElementIndexer.cpp.obj",
 			"MeshTypes.cpp.obj",
-			"MeshElementArrayTests.cpp.obj",
-			"MeshDescription.init.gen.cpp.obj"
+			"MeshElementArrayTests.cpp.obj"
 		]
 	}
 }

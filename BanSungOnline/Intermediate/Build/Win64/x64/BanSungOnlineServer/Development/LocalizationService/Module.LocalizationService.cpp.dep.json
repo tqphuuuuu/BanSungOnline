@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizationservice\\module.localizationservice.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizationservice\\module.localizationservice.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizationservice\\definitions.localizationservice.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\localizationservice\\definitions.localizationservice.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\defaultlocalizationserviceprovider.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\private\\defaultlocalizationserviceprovider.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\localizationservice\\public\\ilocalizationserviceoperation.h",

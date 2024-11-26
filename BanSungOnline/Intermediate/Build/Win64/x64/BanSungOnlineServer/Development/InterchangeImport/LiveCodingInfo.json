@@ -2,13 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.InterchangeImport.1.cpp.obj": [
-			"InterchangeAnimSequenceFactory.cpp.obj",
-			"InterchangeLevelSequenceFactory.cpp.obj",
-			"InterchangeLevelSequenceHelper.cpp.obj",
-			"InterchangeFbxTranslator.cpp.obj",
-			"InterchangeGltfAnimation.cpp.obj",
-			"InterchangeGLTFMaterial.cpp.obj",
-			"InterchangeGltfMesh.cpp.obj",
 			"InterchangeAnimationPayloadInterface.gen.cpp.obj",
 			"InterchangeAssetUserData.gen.cpp.obj",
 			"InterchangeBlockedTexturePayloadInterface.gen.cpp.obj",
@@ -24,7 +17,14 @@
 			"InterchangeTextureLightProfilePayloadInterface.gen.cpp.obj",
 			"InterchangeTexturePayloadInterface.gen.cpp.obj",
 			"InterchangeVariantSetPayloadInterface.gen.cpp.obj",
-			"MaterialExpressionRamp4.gen.cpp.obj"
+			"MaterialExpressionRamp4.gen.cpp.obj",
+			"InterchangeAnimSequenceFactory.cpp.obj",
+			"InterchangeLevelSequenceFactory.cpp.obj",
+			"InterchangeLevelSequenceHelper.cpp.obj",
+			"InterchangeFbxTranslator.cpp.obj",
+			"InterchangeGltfAnimation.cpp.obj",
+			"InterchangeGLTFMaterial.cpp.obj",
+			"InterchangeGltfMesh.cpp.obj"
 		],
 		"Module.InterchangeImport.2.cpp.obj": [
 			"InterchangeGltfTranslator.cpp.obj",

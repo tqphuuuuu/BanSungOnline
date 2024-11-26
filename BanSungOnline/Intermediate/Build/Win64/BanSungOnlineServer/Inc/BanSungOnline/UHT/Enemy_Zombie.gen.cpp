@@ -77,14 +77,14 @@ AEnemy_Zombie::~AEnemy_Zombie() {}
 // End Class AEnemy_Zombie
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics
+struct Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy_Zombie, AEnemy_Zombie::StaticClass, TEXT("AEnemy_Zombie"), &Z_Registration_Info_UClass_AEnemy_Zombie, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_Zombie), 3850477763U) },
+		{ Z_Construct_UClass_AEnemy_Zombie, AEnemy_Zombie::StaticClass, TEXT("AEnemy_Zombie"), &Z_Registration_Info_UClass_AEnemy_Zombie, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_Zombie), 495261760U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_2147785836(TEXT("/Script/BanSungOnline"),
-	Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_3066463037(TEXT("/Script/BanSungOnline"),
+	Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameOnline_BanSungOnline_BanSungOnline_Source_BanSungOnline_Enemy_Enemy_Zombie_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

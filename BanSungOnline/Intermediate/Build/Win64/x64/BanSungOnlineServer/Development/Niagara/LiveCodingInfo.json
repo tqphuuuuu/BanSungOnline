@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Niagara.1.cpp.obj": [
-			"NiagaraSimCacheCapture.cpp.obj",
 			"NDIRenderTargetVolumeSimCacheData.gen.cpp.obj",
 			"Niagara.init.gen.cpp.obj",
 			"NiagaraAssetTagDefinitions.gen.cpp.obj",
@@ -12,7 +11,9 @@
 			"NiagaraCompileHashVisitor.gen.cpp.obj",
 			"NiagaraComponentPoolMethodEnum.gen.cpp.obj",
 			"NiagaraConvertInPlaceUtilityBase.gen.cpp.obj",
-			"NiagaraDataChannelAccessor.gen.cpp.obj",
+			"NiagaraDataChannelAccessor.gen.cpp.obj"
+		],
+		"Module.Niagara.2.cpp.obj": [
 			"NiagaraDataChannelHandler.gen.cpp.obj",
 			"NiagaraDataChannelPublic.gen.cpp.obj",
 			"NiagaraDataChannel_Global.gen.cpp.obj",
@@ -36,7 +37,9 @@
 			"NiagaraSimStageExecutionData.gen.cpp.obj",
 			"NiagaraStackSection.gen.cpp.obj",
 			"NiagaraStatelessCommon.gen.cpp.obj",
-			"NiagaraStatelessDistribution.gen.cpp.obj",
+			"NiagaraStatelessDistribution.gen.cpp.obj"
+		],
+		"Module.Niagara.3.cpp.obj": [
 			"NiagaraStatelessEmitter.gen.cpp.obj",
 			"NiagaraStatelessEmitterTemplate.gen.cpp.obj",
 			"NiagaraStatelessModule.gen.cpp.obj",
@@ -69,7 +72,8 @@
 			"NiagaraValidationRuleSet.gen.cpp.obj",
 			"NiagaraVariableMetaData.gen.cpp.obj"
 		],
-		"Module.Niagara.2.cpp.obj": [
+		"Module.Niagara.4.cpp.obj": [
+			"NiagaraSimCacheCapture.cpp.obj",
 			"NiagaraAnalytics.cpp.obj",
 			"NiagaraDataInterfaceActorComponent.cpp.obj",
 			"NiagaraDataInterfaceAsyncGpuTrace.cpp.obj",
@@ -80,7 +84,7 @@
 			"NiagaraDataInterfaceDebugDraw.cpp.obj",
 			"NiagaraDataInterfaceDynamicMesh.cpp.obj"
 		],
-		"Module.Niagara.3.cpp.obj": [
+		"Module.Niagara.5.cpp.obj": [
 			"NiagaraDataInterfaceEmitterProperties.cpp.obj",
 			"NiagaraDataInterfaceGBuffer.cpp.obj",
 			"NiagaraDataInterfaceMemoryBuffer.cpp.obj",
@@ -91,7 +95,7 @@
 			"NiagaraDataInterfaceSocketReader.cpp.obj",
 			"NiagaraDataInterfaceStaticMesh.cpp.obj"
 		],
-		"Module.Niagara.4.cpp.obj": [
+		"Module.Niagara.6.cpp.obj": [
 			"NiagaraDataInterfaceUObjectPropertyReader.cpp.obj",
 			"NiagaraDataInterfaceUtilities.cpp.obj",
 			"NiagaraDataInterfaceVirtualTexture.cpp.obj",
@@ -131,7 +135,7 @@
 			"NiagaraCommon.cpp.obj",
 			"NiagaraCompilationTypes.cpp.obj"
 		],
-		"Module.Niagara.5.cpp.obj": [
+		"Module.Niagara.7.cpp.obj": [
 			"NiagaraCompileHashVisitor.cpp.obj",
 			"NiagaraComponent.cpp.obj",
 			"NiagaraComponentLeakDetector.cpp.obj",
@@ -161,7 +165,7 @@
 			"NiagaraDataInterfaceAudioOscilloscope.cpp.obj",
 			"NiagaraDataInterfaceAudioPlayer.cpp.obj"
 		],
-		"Module.Niagara.6.cpp.obj": [
+		"Module.Niagara.8.cpp.obj": [
 			"NiagaraDataInterfaceAudioSpectrum.cpp.obj",
 			"NiagaraDataInterfaceBindingInstance.cpp.obj",
 			"NiagaraDataInterfaceCamera.cpp.obj",
@@ -177,7 +181,7 @@
 			"NiagaraDataInterfaceGrid2DCollectionReader.cpp.obj",
 			"NiagaraDataInterfaceGrid3DCollection.cpp.obj"
 		],
-		"Module.Niagara.7.cpp.obj": [
+		"Module.Niagara.9.cpp.obj": [
 			"NiagaraDataInterfaceGrid3DCollectionReader.cpp.obj",
 			"NiagaraDataInterfaceGrid3DCollectionUtils.cpp.obj",
 			"NiagaraDataInterfaceIntRenderTarget2D.cpp.obj",
@@ -194,7 +198,7 @@
 			"NiagaraDataInterfaceRenderTargetCommon.cpp.obj",
 			"NiagaraDataInterfaceRenderTargetCube.cpp.obj"
 		],
-		"Module.Niagara.8.cpp.obj": [
+		"Module.Niagara.10.cpp.obj": [
 			"NiagaraDataInterfaceRenderTargetVolume.cpp.obj",
 			"NiagaraDataInterfaceRigidMeshCollisionQuery.cpp.obj",
 			"NiagaraDataInterfaceRW.cpp.obj",
@@ -207,7 +211,7 @@
 			"NiagaraDataInterfaceStaticMeshUvMapping.cpp.obj",
 			"NiagaraDataInterfaceTexture.cpp.obj"
 		],
-		"Module.Niagara.9.cpp.obj": [
+		"Module.Niagara.11.cpp.obj": [
 			"NiagaraDataInterfaceVector2DCurve.cpp.obj",
 			"NiagaraDataInterfaceVector4Curve.cpp.obj",
 			"NiagaraDataInterfaceVectorCurve.cpp.obj",
@@ -225,7 +229,7 @@
 			"NiagaraEffectType.cpp.obj",
 			"NiagaraEmitter.cpp.obj"
 		],
-		"Module.Niagara.10.cpp.obj": [
+		"Module.Niagara.12.cpp.obj": [
 			"NiagaraEmitterHandle.cpp.obj",
 			"NiagaraEmitterInstance.cpp.obj",
 			"NiagaraEmitterInstanceImpl.cpp.obj",
@@ -248,7 +252,7 @@
 			"NiagaraMessageStore.cpp.obj",
 			"NiagaraModule.cpp.obj"
 		],
-		"Module.Niagara.11.cpp.obj": [
+		"Module.Niagara.13.cpp.obj": [
 			"NiagaraParameterBinding.cpp.obj",
 			"NiagaraParameterCollection.cpp.obj",
 			"NiagaraParameterDefinitionsSubscriber.cpp.obj",
@@ -266,7 +270,7 @@
 			"NiagaraRendererProperties.cpp.obj",
 			"NiagaraRendererRibbons.cpp.obj"
 		],
-		"Module.Niagara.12.cpp.obj": [
+		"Module.Niagara.14.cpp.obj": [
 			"NiagaraRendererSprites.cpp.obj",
 			"NiagaraRendererVolumes.cpp.obj",
 			"NiagaraRenderGraphUtils.cpp.obj",
@@ -287,7 +291,7 @@
 			"NiagaraSimCacheGpuResource.cpp.obj",
 			"NiagaraSimCacheJson.cpp.obj"
 		],
-		"Module.Niagara.13.cpp.obj": [
+		"Module.Niagara.15.cpp.obj": [
 			"NiagaraSimStageExecutionData.cpp.obj",
 			"NiagaraSimulationStageBase.cpp.obj",
 			"NiagaraSimulationTaskPriority.cpp.obj",
@@ -304,7 +308,7 @@
 			"NiagaraTrace.cpp.obj",
 			"NiagaraTypes.cpp.obj"
 		],
-		"Module.Niagara.14.cpp.obj": [
+		"Module.Niagara.16.cpp.obj": [
 			"NiagaraUserRedirectionParameterStore.cpp.obj",
 			"NiagaraUvQuadTree.cpp.obj",
 			"NiagaraValidationRule.cpp.obj",

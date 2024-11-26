@@ -1,11 +1,15 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangecommon\\module.interchangecommon.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangecommon\\module.interchangecommon.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\coreuobject\\sharedpch.coreuobject.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangecommon\\definitions.interchangecommon.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\interchangecommon\\definitions.interchangecommon.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecommon\\uht\\interchangecommon.init.gen.cpp",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecommon\\uht\\interchangematerialxdefinitions.gen.cpp",
+            "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\common\\public\\materialx\\interchangematerialxdefinitions.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\interchangecommon\\uht\\interchangematerialxdefinitions.generated.h",
             "c:\\ue5.4\\5.4\\engine\\plugins\\interchange\\runtime\\source\\common\\private\\interchangecommonmodule.cpp"
         ],
         "ImportedModules": [],

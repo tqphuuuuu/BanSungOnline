@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.exceptions.cpp20.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.exceptions.cpp20.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.exceptions.cpp20.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\shareddefinitions.core.exceptions.cpp20.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.exceptions.cpp20.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\shareddefinitions.core.exceptions.cpp20.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coresharedpch.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\reverse.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coretypes.h",

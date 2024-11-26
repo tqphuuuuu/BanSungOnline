@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\definitions.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\definitions.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\pch.core.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\private\\coreprivatepch.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coresharedpch.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\algo\\reverse.h",

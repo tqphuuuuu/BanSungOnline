@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.NiagaraShader.cpp.obj": [
+			"NiagaraShader.init.gen.cpp.obj",
 			"NiagaraAsyncGpuTraceProvider.cpp.obj",
 			"NiagaraAsyncGpuTraceProviderGsdf.cpp.obj",
 			"NiagaraAsyncGpuTraceProviderHwrt.cpp.obj",
@@ -20,8 +21,7 @@
 			"NiagaraShared.cpp.obj",
 			"NiagaraSVTShaders.cpp.obj",
 			"NiagaraStatelessEmitterShaders.cpp.obj",
-			"NiagaraStatelessSimulationShader.cpp.obj",
-			"NiagaraShader.init.gen.cpp.obj"
+			"NiagaraStatelessSimulationShader.cpp.obj"
 		]
 	}
 }

@@ -2,6 +2,11 @@
 	"RemapUnityFiles": 
 	{
 		"Module.PhysicsCore.cpp.obj": [
+			"BodySetupEnums.gen.cpp.obj",
+			"ChaosEngineInterface.gen.cpp.obj",
+			"PhysicalMaterialPropertyBase.gen.cpp.obj",
+			"PhysicsCore.init.gen.cpp.obj",
+			"PhysicsSettingsEnums.gen.cpp.obj",
 			"BodyInstanceCore.cpp.obj",
 			"BodySetupCore.cpp.obj",
 			"ChaosConstraintSettings.cpp.obj",
@@ -22,12 +27,7 @@
 			"PhysXSupportCore.cpp.obj",
 			"SQAccelerator.cpp.obj",
 			"SQCapture.cpp.obj",
-			"SQVisitor.cpp.obj",
-			"BodySetupEnums.gen.cpp.obj",
-			"ChaosEngineInterface.gen.cpp.obj",
-			"PhysicalMaterialPropertyBase.gen.cpp.obj",
-			"PhysicsCore.init.gen.cpp.obj",
-			"PhysicsSettingsEnums.gen.cpp.obj"
+			"SQVisitor.cpp.obj"
 		]
 	}
 }

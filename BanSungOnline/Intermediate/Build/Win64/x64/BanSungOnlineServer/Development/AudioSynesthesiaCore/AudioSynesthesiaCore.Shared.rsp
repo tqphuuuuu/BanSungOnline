@@ -7,7 +7,7 @@
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"
-/I "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\AudioAnalyzer\UHT"
+/I "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\AudioAnalyzer\UHT"
 /I "Runtime\AudioAnalyzer\Classes"
 /I "Runtime\AudioAnalyzer\Public"
 /external:W0

@@ -1,5 +1,5 @@
 "Runtime\\SignalProcessing\\Private\\FloatArrayMath.ispc"
--o "C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\x64\\BanSungOnlineServer\\Development\\SignalProcessing\\FloatArrayMath.ispc.obj"
+-o "C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\x64\\BanSungOnlineServer\\Development\\SignalProcessing\\FloatArrayMath.ispc.obj"
 --target-os=windows
 --arch=x86-64
 --target=avx512skx-i32x8,avx2,avx,sse4
@@ -14,12 +14,12 @@
 -I"ThirdParty\\libSampleRate\\Public"
 -I"Developer\\TargetPlatform\\Public"
 -I"Developer\\TextureFormat\\Public"
--I"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\DeveloperSettings\\UHT"
+-I"C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\DeveloperSettings\\UHT"
 -I"Runtime\\DeveloperSettings\\Public"
--I"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\AudioPlatformConfiguration\\UHT"
+-I"C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\AudioPlatformConfiguration\\UHT"
 -I"Runtime\\AudioPlatformConfiguration\\Public"
--I"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\CoreUObject\\UHT"
--I"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\CoreUObject\\VerseVMBytecode"
+-I"C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\CoreUObject\\UHT"
+-I"C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\BanSungOnlineServer\\Inc\\CoreUObject\\VerseVMBytecode"
 -I"Runtime\\CoreUObject\\Public"
 -I"Runtime\\CoreUObject\\Internal"
 -I"Runtime\\CorePreciseFP\\Public"
@@ -30,7 +30,7 @@
 -I"Runtime\\RHI\\Public"
 -I"Runtime\\AudioMixerCore\\Public"
 -I"Runtime\\SignalProcessing\\Public"
--I"C:\\GitHub\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\x64\\BanSungOnlineServer\\Development\\SignalProcessing"
+-I"C:\\GameOnline\\BanSungOnline\\BanSungOnline\\Intermediate\\Build\\Win64\\x64\\BanSungOnlineServer\\Development\\SignalProcessing"
 -I"ThirdParty\\GuidelinesSupportLibrary\\GSL-1144\\include"
 -I"ThirdParty\\Ogg\\libogg-1.2.2\\include"
 -I"ThirdParty\\Vorbis\\libvorbis-1.3.2\\include"

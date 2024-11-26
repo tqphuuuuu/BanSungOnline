@@ -3,7 +3,7 @@
     "Data": {
         "Source": "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\vorbis_stream_encoder.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
         "Includes": [
             "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\vorbis_stream_encoder.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\fstream",

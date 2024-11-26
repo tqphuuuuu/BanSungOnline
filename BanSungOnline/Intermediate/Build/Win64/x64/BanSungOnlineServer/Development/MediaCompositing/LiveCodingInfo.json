@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MediaCompositing.cpp.obj": [
+			"MediaCompositing.init.gen.cpp.obj",
 			"MediaCompositing.cpp.obj",
 			"MovieSceneMediaData.cpp.obj",
 			"MovieSceneMediaPlayerPropertySection.cpp.obj",
@@ -9,8 +10,7 @@
 			"MovieSceneMediaPlayerPropertyTrack.cpp.obj",
 			"MovieSceneMediaSection.cpp.obj",
 			"MovieSceneMediaTemplate.cpp.obj",
-			"MovieSceneMediaTrack.cpp.obj",
-			"MediaCompositing.init.gen.cpp.obj"
+			"MovieSceneMediaTrack.cpp.obj"
 		]
 	}
 }

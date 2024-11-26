@@ -2,6 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ModelingOperators.cpp.obj": [
+			"ModelingOperators.init.gen.cpp.obj",
+			"RecomputeUVsProperties.gen.cpp.obj",
+			"TriangulateCurvesOp.gen.cpp.obj",
+			"UVLayoutProperties.gen.cpp.obj",
 			"SimpleMeshProcessingBaseOp.cpp.obj",
 			"VoxelBaseOp.cpp.obj",
 			"EditNormalsOp.cpp.obj",
@@ -36,11 +40,7 @@
 			"SkinBindingOp.cpp.obj",
 			"CotanSmoothingOp.cpp.obj",
 			"IterativeSmoothingOp.cpp.obj",
-			"SmoothingOpBase.cpp.obj",
-			"ModelingOperators.init.gen.cpp.obj",
-			"RecomputeUVsProperties.gen.cpp.obj",
-			"TriangulateCurvesOp.gen.cpp.obj",
-			"UVLayoutProperties.gen.cpp.obj"
+			"SmoothingOpBase.cpp.obj"
 		]
 	}
 }

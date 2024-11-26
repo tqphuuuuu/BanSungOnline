@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ClothingSystemRuntimeNv.cpp.obj": [
+			"ClothingSystemRuntimeNv.init.gen.cpp.obj",
 			"ClothConfigNv.cpp.obj",
 			"ClothConfigNvCustomVersion.cpp.obj",
 			"ClothingSimulationFactoryNv.cpp.obj",
@@ -9,8 +10,7 @@
 			"ClothingSimulationNv.cpp.obj",
 			"ClothingSystemRuntimeModuleNv.cpp.obj",
 			"ClothPhysicalMeshDataNv_Legacy.cpp.obj",
-			"NvClothSupport.cpp.obj",
-			"ClothingSystemRuntimeNv.init.gen.cpp.obj"
+			"NvClothSupport.cpp.obj"
 		]
 	}
 }

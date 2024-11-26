@@ -2,10 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.UnrealEdMessages.cpp.obj": [
-			"UnrealEdMessagesModule.cpp.obj",
 			"AssetEditorMessages.gen.cpp.obj",
 			"FileServerMessages.gen.cpp.obj",
-			"UnrealEdMessages.init.gen.cpp.obj"
+			"UnrealEdMessages.init.gen.cpp.obj",
+			"UnrealEdMessagesModule.cpp.obj"
 		]
 	}
 }

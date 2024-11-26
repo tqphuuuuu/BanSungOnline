@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AIModule.1.cpp.obj": [
-			"PawnAction.cpp.obj",
 			"AIAsyncTaskBlueprintProxy.gen.cpp.obj",
 			"AIModule.init.gen.cpp.obj",
 			"AIResourceInterface.gen.cpp.obj",
@@ -30,6 +29,7 @@
 			"ValueOrBBKeyBlueprintUtility.gen.cpp.obj"
 		],
 		"Module.AIModule.2.cpp.obj": [
+			"PawnAction.cpp.obj",
 			"PawnActionsComponent.cpp.obj",
 			"PawnAction_BlueprintBase.cpp.obj",
 			"PawnAction_Move.cpp.obj",
@@ -67,10 +67,10 @@
 			"BlackboardKeyType_String.cpp.obj",
 			"BlackboardKeyType_Struct.cpp.obj",
 			"BlackboardKeyType_Vector.cpp.obj",
-			"BlueprintNodeHelpers.cpp.obj",
-			"BTAuxiliaryNode.cpp.obj"
+			"BlueprintNodeHelpers.cpp.obj"
 		],
 		"Module.AIModule.3.cpp.obj": [
+			"BTAuxiliaryNode.cpp.obj",
 			"BTCompositeNode.cpp.obj",
 			"BTDecorator.cpp.obj",
 			"BTFunctionLibrary.cpp.obj",

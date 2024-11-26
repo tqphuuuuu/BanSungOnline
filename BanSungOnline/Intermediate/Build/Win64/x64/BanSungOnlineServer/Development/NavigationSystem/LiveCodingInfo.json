@@ -2,6 +2,19 @@
 	"RemapUnityFiles": 
 	{
 		"Module.NavigationSystem.1.cpp.obj": [
+			"BaseGeneratedNavLinksProxy.gen.cpp.obj",
+			"CrowdManagerBase.gen.cpp.obj",
+			"LinkGenerationConfig.gen.cpp.obj",
+			"LinkGenerationDebugFlags.gen.cpp.obj",
+			"NavigationGraphNode.gen.cpp.obj",
+			"NavigationGraphNodeComponent.gen.cpp.obj",
+			"NavigationObjectRepository.gen.cpp.obj",
+			"NavigationPathGenerator.gen.cpp.obj",
+			"NavigationSystem.init.gen.cpp.obj",
+			"NavLinkCustomInterface.gen.cpp.obj",
+			"NavLinkHostInterface.gen.cpp.obj",
+			"NavLinkTrivial.gen.cpp.obj",
+			"NavNodeInterface.gen.cpp.obj",
 			"AbstractNavData.cpp.obj",
 			"BaseGeneratedNavLinksProxy.cpp.obj",
 			"NavArea.cpp.obj",
@@ -25,20 +38,7 @@
 			"NavigationOctree.cpp.obj",
 			"NavigationOctreeController.cpp.obj",
 			"NavigationPath.cpp.obj",
-			"NavigationSystem.cpp.obj",
-			"BaseGeneratedNavLinksProxy.gen.cpp.obj",
-			"CrowdManagerBase.gen.cpp.obj",
-			"LinkGenerationConfig.gen.cpp.obj",
-			"LinkGenerationDebugFlags.gen.cpp.obj",
-			"NavigationGraphNode.gen.cpp.obj",
-			"NavigationGraphNodeComponent.gen.cpp.obj",
-			"NavigationObjectRepository.gen.cpp.obj",
-			"NavigationPathGenerator.gen.cpp.obj",
-			"NavigationSystem.init.gen.cpp.obj",
-			"NavLinkCustomInterface.gen.cpp.obj",
-			"NavLinkHostInterface.gen.cpp.obj",
-			"NavLinkTrivial.gen.cpp.obj",
-			"NavNodeInterface.gen.cpp.obj"
+			"NavigationSystem.cpp.obj"
 		],
 		"Module.NavigationSystem.2.cpp.obj": [
 			"NavigationSystemModule.cpp.obj",

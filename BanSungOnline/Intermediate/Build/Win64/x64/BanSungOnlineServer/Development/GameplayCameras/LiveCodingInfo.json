@@ -2,16 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GameplayCameras.1.cpp.obj": [
-			"BlendCameraNode.cpp.obj",
-			"BlendStackCameraNode.cpp.obj",
-			"BlendStackRootCameraNode.cpp.obj",
-			"BuiltInCameraVariables.cpp.obj",
-			"CameraAsset.cpp.obj",
-			"CameraAssetBuilder.cpp.obj",
-			"CameraBuildLog.cpp.obj",
-			"CameraDirector.cpp.obj",
-			"CameraDirectorEvaluator.cpp.obj",
-			"CameraEvaluationContext.cpp.obj",
 			"BuiltInCameraVariables.gen.cpp.obj",
 			"CameraBuildStatus.gen.cpp.obj",
 			"CameraFramingZone.gen.cpp.obj",
@@ -30,7 +20,17 @@
 			"GameplayCameraSystemHost.gen.cpp.obj",
 			"InputAxisBinding2DCameraNode.gen.cpp.obj",
 			"ObjectTreeGraphObject.gen.cpp.obj",
-			"ObjectTreeGraphRootObject.gen.cpp.obj"
+			"ObjectTreeGraphRootObject.gen.cpp.obj",
+			"BlendCameraNode.cpp.obj",
+			"BlendStackCameraNode.cpp.obj",
+			"BlendStackRootCameraNode.cpp.obj",
+			"BuiltInCameraVariables.cpp.obj",
+			"CameraAsset.cpp.obj",
+			"CameraAssetBuilder.cpp.obj",
+			"CameraBuildLog.cpp.obj",
+			"CameraDirector.cpp.obj",
+			"CameraDirectorEvaluator.cpp.obj",
+			"CameraEvaluationContext.cpp.obj"
 		],
 		"Module.GameplayCameras.2.cpp.obj": [
 			"CameraEvaluationContextStack.cpp.obj",

@@ -2,6 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AudioMixer.1.cpp.obj": [
+			"AudioBusSubsystem.gen.cpp.obj",
+			"AudioMixer.init.gen.cpp.obj",
+			"AudioMixerDevice.gen.cpp.obj",
+			"AudioMixerSourceManager.gen.cpp.obj",
 			"AudioBusSubsystem.cpp.obj",
 			"AudioDeviceNotificationSubsystem.cpp.obj",
 			"AudioMixerBlueprintLibrary.cpp.obj",
@@ -14,11 +18,7 @@
 			"AudioMixerSource.cpp.obj",
 			"AudioMixerSourceBuffer.cpp.obj",
 			"AudioMixerSourceDecode.cpp.obj",
-			"AudioMixerSourceManager.cpp.obj",
-			"AudioBusSubsystem.gen.cpp.obj",
-			"AudioMixer.init.gen.cpp.obj",
-			"AudioMixerDevice.gen.cpp.obj",
-			"AudioMixerSourceManager.gen.cpp.obj"
+			"AudioMixerSourceManager.cpp.obj"
 		],
 		"Module.AudioMixer.2.cpp.obj": [
 			"AudioMixerSourceOutputBuffer.cpp.obj",

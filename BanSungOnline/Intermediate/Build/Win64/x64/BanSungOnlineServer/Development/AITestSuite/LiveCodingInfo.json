@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AITestSuite.cpp.obj": [
+			"AITestSuite.init.gen.cpp.obj",
+			"TestBTStopAction.gen.cpp.obj",
 			"AITestSuite.cpp.obj",
 			"TestBTDecorator_Blackboard.cpp.obj",
 			"TestBTDecorator_Blueprint.cpp.obj",
@@ -25,9 +27,7 @@
 			"BBTest.cpp.obj",
 			"BTTest.cpp.obj",
 			"GameplayTasksTest.cpp.obj",
-			"ResourceIdTest.cpp.obj",
-			"AITestSuite.init.gen.cpp.obj",
-			"TestBTStopAction.gen.cpp.obj"
+			"ResourceIdTest.cpp.obj"
 		]
 	}
 }

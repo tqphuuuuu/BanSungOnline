@@ -4,7 +4,7 @@
         "Source": "c:\\ue5.4\\5.4\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\private\\sqliteembedded.c",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sqlitecore\\definitions.c.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sqlitecore\\definitions.c.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcodeanalysis.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\microsoft\\microsoftplatformcodeanalysis.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\hal\\preprocessorhelpers.h",

@@ -2,6 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Paper2D.cpp.obj": [
+			"IntMargin.gen.cpp.obj",
+			"Paper2D.init.gen.cpp.obj",
+			"SpriteDrawCall.gen.cpp.obj",
+			"SpriteEditorOnlyTypes.gen.cpp.obj",
 			"GroupedSpriteSceneProxy.cpp.obj",
 			"Paper2DModule.cpp.obj",
 			"PaperCharacter.cpp.obj",
@@ -32,11 +36,7 @@
 			"PaperTerrainComponent.cpp.obj",
 			"PaperTerrainMaterial.cpp.obj",
 			"PaperTerrainSplineComponent.cpp.obj",
-			"TileMapBlueprintLibrary.cpp.obj",
-			"IntMargin.gen.cpp.obj",
-			"Paper2D.init.gen.cpp.obj",
-			"SpriteDrawCall.gen.cpp.obj",
-			"SpriteEditorOnlyTypes.gen.cpp.obj"
+			"TileMapBlueprintLibrary.cpp.obj"
 		]
 	}
 }

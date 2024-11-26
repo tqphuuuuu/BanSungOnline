@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildsettings\\module.buildsettings.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildsettings\\module.buildsettings.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildsettings\\definitions.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\buildsettings\\definitions.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\buildsettings\\private\\buildsettings.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\buildsettings\\public\\buildsettings.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\coretypes.h",

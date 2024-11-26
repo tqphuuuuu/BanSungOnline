@@ -2,6 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GLTFExporter.cpp.obj": [
+			"GLTFExporter.init.gen.cpp.obj",
+			"GLTFExportOptions.gen.cpp.obj",
 			"GLTFProxyAssetActions.cpp.obj",
 			"GLTFAnalyticsBuilder.cpp.obj",
 			"GLTFBufferBuilder.cpp.obj",
@@ -94,9 +96,7 @@
 			"GLTFCoreUtilities.cpp.obj",
 			"GLTFJsonUtilities.cpp.obj",
 			"GLTFLandscapeComponentDataInterface.cpp.obj",
-			"GLTFProxyMaterialUtilities.cpp.obj",
-			"GLTFExporter.init.gen.cpp.obj",
-			"GLTFExportOptions.gen.cpp.obj"
+			"GLTFProxyMaterialUtilities.cpp.obj"
 		]
 	}
 }

@@ -2,6 +2,9 @@
 	"RemapUnityFiles": 
 	{
 		"Module.HeadMountedDisplay.cpp.obj": [
+			"HeadMountedDisplay.init.gen.cpp.obj",
+			"HeadMountedDisplayTypes.gen.cpp.obj",
+			"IMotionController.gen.cpp.obj",
 			"HeadMountedDisplayModule.cpp.obj",
 			"HeadMountedDisplayTypes.cpp.obj",
 			"HeadMountedDisplayVulkanExtensions.cpp.obj",
@@ -15,10 +18,7 @@
 			"IXRTrackingSystem.cpp.obj",
 			"LateUpdateManager.cpp.obj",
 			"MotionControllerComponent.cpp.obj",
-			"MotionDelayBuffer.cpp.obj",
-			"HeadMountedDisplay.init.gen.cpp.obj",
-			"HeadMountedDisplayTypes.gen.cpp.obj",
-			"IMotionController.gen.cpp.obj"
+			"MotionDelayBuffer.cpp.obj"
 		]
 	}
 }

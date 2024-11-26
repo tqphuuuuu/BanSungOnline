@@ -1,7 +1,7 @@
-"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.cpp"
+"C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.cpp"
 /I "."
-/I "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\UHT"
-/I "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\VerseVMBytecode"
+/I "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\UHT"
+/I "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\BanSungOnlineServer\Inc\CoreUObject\VerseVMBytecode"
 /I "Runtime\CoreUObject\Public"
 /I "Runtime\CoreUObject\Internal"
 /I "Runtime\Core\Public"
@@ -17,10 +17,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
 /Yc"SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h"
-/Fp"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.pch"
-/Fo"C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.obj"
-/experimental:log "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.sarif"
-/sourceDependencies "C:\GitHub\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.dep.json"
+/Fp"C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.pch"
+/Fo"C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.obj"
+/experimental:log "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.sarif"
+/sourceDependencies "C:\GameOnline\BanSungOnline\BanSungOnline\Intermediate\Build\Win64\x64\BanSungOnlineServer\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Exceptions.Cpp20.h.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

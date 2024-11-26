@@ -2,13 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.NiagaraCore.cpp.obj": [
+			"NiagaraCore.gen.cpp.obj",
+			"NiagaraCore.init.gen.cpp.obj",
+			"NiagaraDataInterfaceBase.gen.cpp.obj",
 			"NiagaraCompileHash.cpp.obj",
 			"NiagaraCoreModule.cpp.obj",
 			"NiagaraCustomVersion.cpp.obj",
-			"NiagaraMergeable.cpp.obj",
-			"NiagaraCore.gen.cpp.obj",
-			"NiagaraCore.init.gen.cpp.obj",
-			"NiagaraDataInterfaceBase.gen.cpp.obj"
+			"NiagaraMergeable.cpp.obj"
 		]
 	}
 }

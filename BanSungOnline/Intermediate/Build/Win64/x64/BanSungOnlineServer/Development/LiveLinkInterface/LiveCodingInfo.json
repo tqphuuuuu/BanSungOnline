@@ -2,6 +2,23 @@
 	"RemapUnityFiles": 
 	{
 		"Module.LiveLinkInterface.cpp.obj": [
+			"ILiveLinkClient.gen.cpp.obj",
+			"ILiveLinkSource.gen.cpp.obj",
+			"LiveLinkAnimationTypes.gen.cpp.obj",
+			"LiveLinkBasicTypes.gen.cpp.obj",
+			"LiveLinkCameraTypes.gen.cpp.obj",
+			"LiveLinkController.gen.cpp.obj",
+			"LiveLinkFrameInterpolationProcessor.gen.cpp.obj",
+			"LiveLinkFramePreProcessor.gen.cpp.obj",
+			"LiveLinkInputDeviceRole.gen.cpp.obj",
+			"LiveLinkInputDeviceTypes.gen.cpp.obj",
+			"LiveLinkInterface.init.gen.cpp.obj",
+			"LiveLinkLightTypes.gen.cpp.obj",
+			"LiveLinkPresetTypes.gen.cpp.obj",
+			"LiveLinkRefSkeleton.gen.cpp.obj",
+			"LiveLinkRole.gen.cpp.obj",
+			"LiveLinkSubjectRemapper.gen.cpp.obj",
+			"LiveLinkTransformTypes.gen.cpp.obj",
 			"ILiveLinkSubject.cpp.obj",
 			"LiveLinkCurveRemapSettings.cpp.obj",
 			"LiveLinkCustomVersion.cpp.obj",
@@ -21,24 +38,7 @@
 			"LiveLinkInputDeviceRole.cpp.obj",
 			"LiveLinkInputDeviceTypes.cpp.obj",
 			"LiveLinkLightRole.cpp.obj",
-			"LiveLinkTransformRole.cpp.obj",
-			"ILiveLinkClient.gen.cpp.obj",
-			"ILiveLinkSource.gen.cpp.obj",
-			"LiveLinkAnimationTypes.gen.cpp.obj",
-			"LiveLinkBasicTypes.gen.cpp.obj",
-			"LiveLinkCameraTypes.gen.cpp.obj",
-			"LiveLinkController.gen.cpp.obj",
-			"LiveLinkFrameInterpolationProcessor.gen.cpp.obj",
-			"LiveLinkFramePreProcessor.gen.cpp.obj",
-			"LiveLinkInputDeviceRole.gen.cpp.obj",
-			"LiveLinkInputDeviceTypes.gen.cpp.obj",
-			"LiveLinkInterface.init.gen.cpp.obj",
-			"LiveLinkLightTypes.gen.cpp.obj",
-			"LiveLinkPresetTypes.gen.cpp.obj",
-			"LiveLinkRefSkeleton.gen.cpp.obj",
-			"LiveLinkRole.gen.cpp.obj",
-			"LiveLinkSubjectRemapper.gen.cpp.obj",
-			"LiveLinkTransformTypes.gen.cpp.obj"
+			"LiveLinkTransformRole.cpp.obj"
 		]
 	}
 }

@@ -2,6 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ToolWidgets.cpp.obj": [
+			"CustomTextFilters.gen.cpp.obj",
+			"SBasicFilterBar.gen.cpp.obj",
+			"SidebarButtonMenuContext.gen.cpp.obj",
+			"SidebarState.gen.cpp.obj",
+			"SlateDelegateColumns.gen.cpp.obj",
+			"ToolWidgets.init.gen.cpp.obj",
+			"ToolWidgetsSlateTypes.gen.cpp.obj",
 			"DialogUtils.cpp.obj",
 			"SCustomDialog.cpp.obj",
 			"SMessageDialog.cpp.obj",
@@ -32,14 +39,7 @@
 			"ToolWidgetsModule.cpp.obj",
 			"ToolWidgetsSlateTypes.cpp.obj",
 			"ToolWidgetsStyle.cpp.obj",
-			"ToolWidgetsUtilitiesPrivate.cpp.obj",
-			"CustomTextFilters.gen.cpp.obj",
-			"SBasicFilterBar.gen.cpp.obj",
-			"SidebarButtonMenuContext.gen.cpp.obj",
-			"SidebarState.gen.cpp.obj",
-			"SlateDelegateColumns.gen.cpp.obj",
-			"ToolWidgets.init.gen.cpp.obj",
-			"ToolWidgetsSlateTypes.gen.cpp.obj"
+			"ToolWidgetsUtilitiesPrivate.cpp.obj"
 		]
 	}
 }

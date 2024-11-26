@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.GameplayDebugger.cpp.obj": [
+			"GameplayDebugger.init.gen.cpp.obj",
 			"GameplayDebuggerAddonBase.cpp.obj",
 			"GameplayDebuggerAddonManager.cpp.obj",
 			"GameplayDebuggerCategory.cpp.obj",
@@ -14,8 +15,7 @@
 			"GameplayDebuggerModule.cpp.obj",
 			"GameplayDebuggerPlayerManager.cpp.obj",
 			"GameplayDebuggerRenderingComponent.cpp.obj",
-			"GameplayDebuggerTypes.cpp.obj",
-			"GameplayDebugger.init.gen.cpp.obj"
+			"GameplayDebuggerTypes.cpp.obj"
 		]
 	}
 }

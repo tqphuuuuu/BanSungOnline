@@ -2,13 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AssetRegistry.1.cpp.obj": [
+			"AssetRegistry.init.gen.cpp.obj",
+			"AssetRegistryHelpers.gen.cpp.obj",
 			"AssetDataGatherer.cpp.obj",
 			"AssetDataGathererDiscoveryCache.cpp.obj",
 			"AssetDataMap.cpp.obj",
 			"AssetDependencyGatherer.cpp.obj",
-			"AssetRegistry.cpp.obj",
-			"AssetRegistry.init.gen.cpp.obj",
-			"AssetRegistryHelpers.gen.cpp.obj"
+			"AssetRegistry.cpp.obj"
 		],
 		"Module.AssetRegistry.2.cpp.obj": [
 			"AssetRegistryArchive.cpp.obj",

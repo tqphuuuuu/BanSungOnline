@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.IrisCore.1.cpp.obj": [
-			"IrisDebugging.cpp.obj",
 			"DataStream.gen.cpp.obj",
 			"DataStreamDefinitions.gen.cpp.obj",
 			"DataStreamManager.gen.cpp.obj",
@@ -36,7 +35,9 @@
 			"NetSerializers.gen.cpp.obj",
 			"NetTokenDataStream.gen.cpp.obj",
 			"NopNetObjectFilter.gen.cpp.obj",
-			"ObjectNetSerializer.gen.cpp.obj",
+			"ObjectNetSerializer.gen.cpp.obj"
+		],
+		"Module.IrisCore.2.cpp.obj": [
 			"ObjectReplicationBridge.gen.cpp.obj",
 			"ObjectReplicationBridgeConfig.gen.cpp.obj",
 			"PackedIntNetSerializers.gen.cpp.obj",
@@ -56,9 +57,8 @@
 			"StringNetSerializers.gen.cpp.obj",
 			"UintNetSerializers.gen.cpp.obj",
 			"UintRangeNetSerializers.gen.cpp.obj",
-			"VectorNetSerializers.gen.cpp.obj"
-		],
-		"Module.IrisCore.2.cpp.obj": [
+			"VectorNetSerializers.gen.cpp.obj",
+			"IrisDebugging.cpp.obj",
 			"IrisDelegates.cpp.obj",
 			"IrisLog.cpp.obj",
 			"IrisMemoryTracker.cpp.obj",
@@ -72,7 +72,9 @@
 			"EnumPropertyNetSerializerInfo.cpp.obj",
 			"InternalPropertyReplicationState.cpp.obj",
 			"IrisFastArraySerializer.cpp.obj",
-			"PropertyNetSerializerInfoRegistry.cpp.obj",
+			"PropertyNetSerializerInfoRegistry.cpp.obj"
+		],
+		"Module.IrisCore.3.cpp.obj": [
 			"PropertyReplicationState.cpp.obj",
 			"ReplicationStateDescriptor.cpp.obj",
 			"ReplicationStateDescriptorBuilder.cpp.obj",
@@ -84,9 +86,7 @@
 			"ReplicationConditionals.cpp.obj",
 			"DeltaCompressionBaseline.cpp.obj",
 			"DeltaCompressionBaselineInvalidationTracker.cpp.obj",
-			"DeltaCompressionBaselineManager.cpp.obj"
-		],
-		"Module.IrisCore.3.cpp.obj": [
+			"DeltaCompressionBaselineManager.cpp.obj",
 			"DeltaCompressionBaselineStorage.cpp.obj",
 			"DequantizeAndApplyHelper.cpp.obj",
 			"DirtyNetObjectTracker.cpp.obj",
@@ -97,7 +97,9 @@
 			"NetObjectGridFilter.cpp.obj",
 			"NetObjectGroups.cpp.obj",
 			"NopNetObjectFilter.cpp.obj",
-			"ObjectScopeHysteresisUpdater.cpp.obj",
+			"ObjectScopeHysteresisUpdater.cpp.obj"
+		],
+		"Module.IrisCore.4.cpp.obj": [
 			"ReplicationFiltering.cpp.obj",
 			"SharedConnectionFilterStatus.cpp.obj",
 			"LegacyPushModel.cpp.obj",
@@ -123,13 +125,13 @@
 			"NetObjectFactory.cpp.obj",
 			"NetObjectFactoryRegistry.cpp.obj",
 			"NetRefHandle.cpp.obj",
-			"NetRefHandleManager.cpp.obj"
-		],
-		"Module.IrisCore.4.cpp.obj": [
+			"NetRefHandleManager.cpp.obj",
 			"NetTokenDataStream.cpp.obj",
 			"NetTokenStore.cpp.obj",
 			"ObjectPollFrequencyLimiter.cpp.obj",
-			"ObjectReferenceCache.cpp.obj",
+			"ObjectReferenceCache.cpp.obj"
+		],
+		"Module.IrisCore.5.cpp.obj": [
 			"ObjectReplicationBridge.cpp.obj",
 			"ObjectReplicationBridgeConfig.cpp.obj",
 			"ObjectReplicationBridgeDebugging.cpp.obj",
@@ -144,25 +146,25 @@
 			"SphereNetObjectPrioritizer.cpp.obj",
 			"SphereWithOwnerBoostNetObjectPrioritizer.cpp.obj",
 			"PropertyReplicationFragment.cpp.obj",
-			"ReplicationBridge.cpp.obj"
-		],
-		"Module.IrisCore.5.cpp.obj": [
+			"ReplicationBridge.cpp.obj",
 			"ReplicationBridgeTypes.cpp.obj",
 			"ReplicationConnections.cpp.obj",
 			"ReplicationDataStream.cpp.obj",
 			"ReplicationFragmentUtil.cpp.obj",
 			"ReplicationOperations.cpp.obj",
-			"ReplicationOperationsInternal.cpp.obj",
+			"ReplicationOperationsInternal.cpp.obj"
+		],
+		"Module.IrisCore.6.cpp.obj": [
 			"ReplicationProtocol.cpp.obj",
 			"ReplicationProtocolManager.cpp.obj",
 			"ReplicationReader.cpp.obj",
 			"ReplicationSystem.cpp.obj",
 			"ReplicationTypes.cpp.obj",
-			"ReplicationWriter.cpp.obj"
-		],
-		"Module.IrisCore.6.cpp.obj": [
+			"ReplicationWriter.cpp.obj",
 			"RepTag.cpp.obj",
-			"StringTokenStore.cpp.obj",
+			"StringTokenStore.cpp.obj"
+		],
+		"Module.IrisCore.7.cpp.obj": [
 			"WorldLocations.cpp.obj",
 			"ArrayPropertyNetSerializer.cpp.obj",
 			"BitfieldNetSerializer.cpp.obj",

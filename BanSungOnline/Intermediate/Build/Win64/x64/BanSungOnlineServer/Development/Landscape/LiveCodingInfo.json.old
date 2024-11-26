@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Landscape.1.cpp.obj": [
+			"ControlPointMeshActor.cpp.obj",
 			"ControlPointMeshComponent.gen.cpp.obj",
 			"GlobalMergeLegacySupportUtil.gen.cpp.obj",
 			"ILandscapeSplineInterface.gen.cpp.obj",
@@ -15,9 +16,7 @@
 			"LandscapeEditTypes.gen.cpp.obj",
 			"LandscapeGizmoActiveActor.gen.cpp.obj",
 			"LandscapeGizmoRenderComponent.gen.cpp.obj",
-			"LandscapeGrassType.gen.cpp.obj"
-		],
-		"Module.Landscape.2.cpp.obj": [
+			"LandscapeGrassType.gen.cpp.obj",
 			"LandscapeHeightfieldCollisionComponent.gen.cpp.obj",
 			"LandscapeLayerInfoObject.gen.cpp.obj",
 			"LandscapeMaterialInstanceConstant.gen.cpp.obj",
@@ -32,32 +31,31 @@
 			"LandscapeWeightmapUsage.gen.cpp.obj",
 			"MaterialExpressionLandscapeGrassOutput.gen.cpp.obj",
 			"MaterialExpressionLandscapeLayerBlend.gen.cpp.obj",
-			"MaterialExpressionLandscapeLayerCoords.gen.cpp.obj",
-			"ControlPointMeshActor.cpp.obj",
-			"GlobalMergeLegacySupportUtil.cpp.obj"
+			"MaterialExpressionLandscapeLayerCoords.gen.cpp.obj"
 		],
-		"Module.Landscape.3.cpp.obj": [
+		"Module.Landscape.2.cpp.obj": [
+			"GlobalMergeLegacySupportUtil.cpp.obj",
 			"Landscape.cpp.obj",
 			"LandscapeAsyncTextureReadback.cpp.obj",
 			"LandscapeBlueprintBrushBase.cpp.obj",
 			"LandscapeBlueprintSupport.cpp.obj",
 			"LandscapeCollision.cpp.obj"
 		],
-		"Module.Landscape.4.cpp.obj": [
+		"Module.Landscape.3.cpp.obj": [
 			"LandscapeComponent.cpp.obj",
 			"LandscapeConfigHelper.cpp.obj",
 			"LandscapeCulling.cpp.obj",
 			"LandscapeDataAccess.cpp.obj",
 			"LandscapeEdit.cpp.obj"
 		],
-		"Module.Landscape.5.cpp.obj": [
+		"Module.Landscape.4.cpp.obj": [
 			"LandscapeEditInterface.cpp.obj",
 			"LandscapeEditLayer.cpp.obj",
 			"LandscapeEditLayerRenderer.cpp.obj",
 			"LandscapeEditLayerRendererPrivate.cpp.obj",
 			"LandscapeEditLayers.cpp.obj"
 		],
-		"Module.Landscape.6.cpp.obj": [
+		"Module.Landscape.5.cpp.obj": [
 			"LandscapeEditReadback.cpp.obj",
 			"LandscapeEditResources.cpp.obj",
 			"LandscapeEditResourcesSubsystem.cpp.obj",
@@ -74,7 +72,7 @@
 			"LandscapeNotification.cpp.obj",
 			"LandscapePhysicalMaterial.cpp.obj"
 		],
-		"Module.Landscape.7.cpp.obj": [
+		"Module.Landscape.6.cpp.obj": [
 			"LandscapeProxy.cpp.obj",
 			"LandscapeRender.cpp.obj",
 			"LandscapeSettings.cpp.obj",
@@ -84,7 +82,7 @@
 			"LandscapeSplineRaster.cpp.obj",
 			"LandscapeSplines.cpp.obj"
 		],
-		"Module.Landscape.8.cpp.obj": [
+		"Module.Landscape.7.cpp.obj": [
 			"LandscapeSubsystem.cpp.obj",
 			"LandscapeTextureStorageProvider.cpp.obj",
 			"LandscapeTextureStreamingManager.cpp.obj",

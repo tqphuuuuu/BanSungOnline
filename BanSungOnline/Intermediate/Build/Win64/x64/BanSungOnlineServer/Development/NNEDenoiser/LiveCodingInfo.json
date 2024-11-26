@@ -2,6 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.NNEDenoiser.cpp.obj": [
+			"NNEDenoiser.init.gen.cpp.obj",
+			"NNEDenoiserAsset.gen.cpp.obj",
+			"NNEDenoiserIOMappingData.gen.cpp.obj",
+			"NNEDenoiserResourceName.gen.cpp.obj",
+			"NNEDenoiserTemporalAsset.gen.cpp.obj",
+			"NNEDenoiserTilingConfig.gen.cpp.obj",
 			"NNEDenoise.cpp.obj",
 			"NNEDenoiserAutoExposure.cpp.obj",
 			"NNEDenoiserGenericDenoiser.cpp.obj",
@@ -18,13 +24,7 @@
 			"NNEDenoiserTransferFunctionOidn.cpp.obj",
 			"NNEDenoiserUnitTestOidn.cpp.obj",
 			"NNEDenoiserUnitTests.cpp.obj",
-			"NNEDenoiserViewExtension.cpp.obj",
-			"NNEDenoiser.init.gen.cpp.obj",
-			"NNEDenoiserAsset.gen.cpp.obj",
-			"NNEDenoiserIOMappingData.gen.cpp.obj",
-			"NNEDenoiserResourceName.gen.cpp.obj",
-			"NNEDenoiserTemporalAsset.gen.cpp.obj",
-			"NNEDenoiserTilingConfig.gen.cpp.obj"
+			"NNEDenoiserViewExtension.cpp.obj"
 		]
 	}
 }

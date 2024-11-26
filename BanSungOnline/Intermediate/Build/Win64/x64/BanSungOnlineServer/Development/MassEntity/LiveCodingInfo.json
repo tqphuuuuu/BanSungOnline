@@ -2,6 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MassEntity.cpp.obj": [
+			"MassCommands.gen.cpp.obj",
+			"MassDebugger.gen.cpp.obj",
+			"MassEntity.init.gen.cpp.obj",
+			"MassSubsystemBase.gen.cpp.obj",
 			"MassArchetypeData.cpp.obj",
 			"MassArchetypeTypes.cpp.obj",
 			"MassCommandBuffer.cpp.obj",
@@ -28,11 +32,7 @@
 			"MassRequirements.cpp.obj",
 			"MassSettings.cpp.obj",
 			"MassSubsystemAccess.cpp.obj",
-			"MassSubsystemBase.cpp.obj",
-			"MassCommands.gen.cpp.obj",
-			"MassDebugger.gen.cpp.obj",
-			"MassEntity.init.gen.cpp.obj",
-			"MassSubsystemBase.gen.cpp.obj"
+			"MassSubsystemBase.cpp.obj"
 		]
 	}
 }

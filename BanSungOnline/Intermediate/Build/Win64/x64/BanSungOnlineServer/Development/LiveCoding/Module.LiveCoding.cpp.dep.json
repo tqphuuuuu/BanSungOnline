@@ -1,11 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livecoding\\module.livecoding.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livecoding\\module.livecoding.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livecoding\\definitions.livecoding.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\livecoding\\definitions.livecoding.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livecoding\\uht\\livecoding.init.gen.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\private\\external\\lc_api.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\private\\external\\lc_api.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\private\\external\\lpp_api.h",
@@ -219,7 +220,7 @@
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\private\\livecodingmodule.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\public\\ilivecodingmodule.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\private\\livecodingsettings.h",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livecoding\\uht\\livecodingsettings.generated.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livecoding\\uht\\livecodingsettings.generated.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\core\\public\\misc\\scopedslowtask.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\settings\\public\\isettingssection.h",
@@ -229,7 +230,7 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\shared\\pshpack4.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\shared\\poppack.h",
             "c:\\ue5.4\\5.4\\engine\\source\\developer\\windows\\livecoding\\private\\livecodingsettings.cpp",
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livecoding\\uht\\livecodingsettings.gen.cpp"
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\bansungonlineserver\\inc\\livecoding\\uht\\livecodingsettings.gen.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

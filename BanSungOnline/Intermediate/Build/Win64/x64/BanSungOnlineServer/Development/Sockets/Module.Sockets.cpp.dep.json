@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sockets\\module.sockets.cpp",
+        "Source": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sockets\\module.sockets.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
+        "PCH": "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\core\\sharedpch.core.cpp20.h.pch",
         "Includes": [
-            "c:\\github\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sockets\\definitions.sockets.h",
+            "c:\\gameonline\\bansungonline\\bansungonline\\intermediate\\build\\win64\\x64\\bansungonlineserver\\development\\sockets\\definitions.sockets.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\private\\bsdsockets\\ipaddressbsd.cpp",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\private\\bsdsockets\\ipaddressbsd.h",
             "c:\\ue5.4\\5.4\\engine\\source\\runtime\\sockets\\private\\bsdsockets\\socketsubsystembsdprivate.h",

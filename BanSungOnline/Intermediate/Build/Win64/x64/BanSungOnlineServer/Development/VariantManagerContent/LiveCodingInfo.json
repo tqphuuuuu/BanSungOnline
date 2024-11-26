@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.VariantManagerContent.cpp.obj": [
+			"VariantManagerContent.init.gen.cpp.obj",
 			"FunctionCaller.cpp.obj",
 			"LevelVariantSets.cpp.obj",
 			"LevelVariantSetsActor.cpp.obj",
@@ -17,8 +18,7 @@
 			"VariantManagerContentModule.cpp.obj",
 			"VariantManagerObjectVersion.cpp.obj",
 			"VariantObjectBinding.cpp.obj",
-			"VariantSet.cpp.obj",
-			"VariantManagerContent.init.gen.cpp.obj"
+			"VariantSet.cpp.obj"
 		]
 	}
 }
